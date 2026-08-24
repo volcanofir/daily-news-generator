@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at": null,
+  "updated_at": "2026-08-25T00:59:52.352433+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "instant": {
@@ -17,8 +17,83 @@
     }
   },
   "categories": {
-    "instant": [],
-    "finance": [],
-    "housing": []
+    "instant": [
+      {
+        "id": "9711740",
+        "title": "影／指南宮大火 凌霄寶殿1、2樓全燒毀 火勢近2小時才控制",
+        "published_at": "2026-08-25T00:10:00+08:00",
+        "time": "00:10",
+        "url": "https://money.udn.com/money/story/5648/9711740?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5648/9711740",
+        "summary": "台北市文山區指南宮凌霄寶殿今天晚間發生火警，消防隊8時48分獲報趕往搶救，9時7分抵達現場，發現1、2樓起火燃燒，火勢直到約深夜11時才得以控制。在地里長指出，初步看起來受損情況嚴重，1、2樓均被燒毀，由於深夜時段廟裡已沒有人，詳細起火原因仍有待釐清。"
+      },
+      {
+        "id": "9711797",
+        "title": "台中統籌分配款人均2.87萬六都倒數第2 市府籲中央考量「這兩點」",
+        "published_at": "2026-08-25T00:10:00+08:00",
+        "time": "00:10",
+        "url": "https://money.udn.com/money/story/7307/9711797?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/7307/9711797",
+        "summary": "財政部今（24）日公布116年度中央普通統籌分配稅款，台中市獲配824億元，較115年度752.35億元增加71.65億元、年增9.5%；不過，以人口計算後，台中市人均獲配約2.87萬元，在六都中排名倒數第2，僅高於新北市。"
+      },
+      {
+        "id": "9711733",
+        "title": "豪雨致災農損破千萬 嘉南高屏農產全品項辦理現金救助",
+        "published_at": "2026-08-25T00:10:00+08:00",
+        "time": "00:10",
+        "url": "https://money.udn.com/money/story/7307/9711733?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/7307/9711733",
+        "summary": "受西南風偏強與低壓帶影響，嘉南高屏等地區連日降下豪大雨，農產業災損已破千萬元。農業部於今晚依據災情掌握情形，主動公告嘉義縣、嘉義市、台南市、高雄市及屏東縣農產業全品項辦理現金救助與低利貸款，加速辦理救助，協助農民災後盡速復耕復建。"
+      }
+    ],
+    "finance": [
+      {
+        "id": "9711451",
+        "title": "明年統籌稅款 雙北獲配千億",
+        "published_at": "2026-08-25T00:57:00+08:00",
+        "time": "00:57",
+        "url": "https://money.udn.com/money/story/6710/9711451?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/6710/9711451",
+        "summary": "財政部公布，明年度中央普通統籌分配稅款編列9,336億元，持續創新高，較今年成長約一成，觀察各縣市獲配情況，台北市、新北市雙雙破千億，分別將獲配1,264億元、1,075億元普通統籌分配稅款。"
+      },
+      {
+        "id": "9711456",
+        "title": "贈與境外股權 要課稅",
+        "published_at": "2026-08-25T00:55:00+08:00",
+        "time": "00:55",
+        "url": "https://money.udn.com/money/story/6710/9711456?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/6710/9711456",
+        "summary": "財政部高雄國稅局表示，只要是經常居住我國境內的國民，無論贈與的是境內或境外財產，只要同一年度贈與財產總額超過當年度免稅額，就須申報贈與稅，常見納稅人忽略境外股權贈與亦屬課稅範圍，導致漏報，提醒納稅人留意。"
+      },
+      {
+        "id": "9711457",
+        "title": "土增稅「一生一次」優惠 有條件",
+        "published_at": "2026-08-25T00:55:00+08:00",
+        "time": "00:55",
+        "url": "https://money.udn.com/money/story/6710/9711457?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/6710/9711457",
+        "summary": "土增稅有「一生一次」的自用住宅用地10%優惠稅率。台中市稅務局表示，這項優惠須符合一定條件，除了自住要件，土地也必須是因買賣移轉才適用，若透過贈與移轉，就不在適用範圍，須按一般用地稅率課徵土增稅。"
+      },
+      {
+        "id": "9711460",
+        "title": "自住兼營業 地價稅按比率計",
+        "published_at": "2026-08-25T00:54:00+08:00",
+        "time": "00:54",
+        "url": "https://money.udn.com/money/story/6710/9711460?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/6710/9711460",
+        "summary": "花蓮縣稅務局表示，若房屋同時做自住及營業使用，且兩者範圍可明確劃分，地價稅仍可依房屋實際使用比率，計算適用自住稅率面積，不過都市土地適用優稅最多仍以300平方公尺為限。"
+      }
+    ],
+    "housing": [
+      {
+        "id": "9711617",
+        "title": "幼兒園房地 建商搶手貨",
+        "published_at": "2026-08-25T00:58:00+08:00",
+        "time": "00:58",
+        "url": "https://money.udn.com/money/story/5621/9711617?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5621/9711617",
+        "summary": "ه¹¼ه…’هœ’é€€ه ´ه¾Œç•™ن¸‹وˆ؟هœ°وˆگه»؛ه•†وگ¶و‰‹è²¨ï¼›و“ڑه¯¦هƒ¹ç™»éŒ„وœ€و–°وڈ­éœ²ï¼Œن»ٹه¹´1وœˆو،ƒهœ’هœ¨هœ°ç‡ںé€ ه» و£®و‹“ç‡ںé€ ن»¥è‡ھç„¶ن؛؛هگچç¾©ï¼Œن»…"
+      }
+    ]
   }
 }
