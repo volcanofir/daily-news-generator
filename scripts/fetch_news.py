@@ -54,6 +54,8 @@ SOURCES = {
             {
                 "name": "udn房地產",
                 "url": "https://house.udn.com/house/index",
+                "resolve_missing_dates": True,
+                "max_candidates": 24,
             },
         ],
     },
@@ -227,10 +229,46 @@ def looks_mojibake(text: str) -> bool:
     return any(token in (text or "") for token in suspicious)
 
 
-def fetch_article_summary(url: str, title: str) -> str:
+def extract_article_datetime(soup: BeautifulSoup, html: str) -> datetime | None:
+    meta_keys = (
+        ("property", "article:published_time"),
+        ("name", "article:published_time"),
+        ("name", "date"),
+        ("name", "pubdate"),
+        ("itemprop", "datePublished"),
+    )
+    for attr, value in meta_keys:
+        el = soup.find(attrs={attr: value})
+        if el:
+            candidate = el.get("content") or el.get("datetime") or el.get_text(" ", strip=True)
+            dt = parse_datetime(str(candidate or ""))
+            if dt:
+                return dt
+
+    for time_el in soup.find_all("time"):
+        for value in (time_el.get("datetime"), time_el.get_text(" ", strip=True)):
+            dt = parse_datetime(str(value or ""))
+            if dt:
+                return dt
+
+    # UDN properties commonly expose datePublished in JSON-LD.
+    match = re.search(
+        r'"datePublished"\s*:\s*"(20\d{2}-\d{1,2}-\d{1,2}[T ]\d{1,2}:\d{2}(?::\d{2})?[^\"]*)"',
+        html,
+    )
+    if match:
+        dt = parse_datetime(match.group(1))
+        if dt:
+            return dt
+
+    return None
+
+
+def fetch_article_details(url: str, title: str) -> tuple[str, datetime | None]:
     try:
         html = fetch(url)
         soup = BeautifulSoup(html, "html.parser")
+        published = extract_article_datetime(soup, html)
 
         for attrs in (
             {"property": "og:description"},
@@ -241,7 +279,7 @@ def fetch_article_summary(url: str, title: str) -> str:
             if meta and meta.get("content"):
                 summary = clean_summary(meta["content"], title)
                 if len(summary) >= 25:
-                    return summary
+                    return summary, published
 
         paragraphs = []
         for selector in (
@@ -260,10 +298,15 @@ def fetch_article_summary(url: str, title: str) -> str:
                     break
             if paragraphs:
                 break
-        return clean_summary("".join(paragraphs[:2]), title)
+        return clean_summary("".join(paragraphs[:2]), title), published
     except Exception as exc:
-        print(f"[summary] {url}: {exc}")
-        return ""
+        print(f"[article] {url}: {exc}")
+        return "", None
+
+
+def fetch_article_summary(url: str, title: str) -> str:
+    summary, _ = fetch_article_details(url, title)
+    return summary
 
 
 def load_previous() -> dict[str, dict]:
@@ -304,21 +347,36 @@ def main() -> None:
             try:
                 html = fetch(feed["url"])
                 candidates = extract_candidates(html, feed["url"])
+                max_candidates = int(feed.get("max_candidates", 0) or 0)
+                if max_candidates:
+                    candidates = candidates[:max_candidates]
             except Exception as exc:
                 print(f"[source-error] {key} / {feed['name']}: {exc}")
                 continue
 
             for candidate in candidates:
-                published = candidate.get("published_at")
-                if not published or published.astimezone(TZ).date() != today:
-                    continue
                 if not candidate.get("title"):
                     continue
 
                 canonical = candidate["url"]
+                published = candidate.get("published_at")
+                preloaded_summary = ""
+
+                # The udn house homepage lists current articles without a
+                # visible timestamp. Resolve those dates from the article page
+                # before deciding whether the story belongs to today.
+                if not published and feed.get("resolve_missing_dates"):
+                    preloaded_summary, published = fetch_article_details(
+                        canonical, candidate["title"]
+                    )
+                    time.sleep(0.18)
+
+                if not published or published.astimezone(TZ).date() != today:
+                    continue
+
                 item_id = story_id(canonical)
                 old = previous.get(canonical) or previous.get(f"id:{item_id}") or {}
-                summary = old.get("summary", "")
+                summary = preloaded_summary or old.get("summary", "")
                 if looks_mojibake(summary):
                     summary = ""
                 if not summary:
