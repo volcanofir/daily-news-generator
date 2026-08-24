@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at": "2026-08-25T01:25:32.854520+08:00",
+  "updated_at": "2026-08-25T01:39:54.273464+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "instant": {
@@ -48,26 +48,37 @@
   "categories": {
     "instant": [
       {
-        "id": "9711845",
-        "title": "文化場館為何淪蚊子館？審計部揪選址漏洞 專家：「人才」才是致命傷",
-        "published_at": "2026-08-25T01:16:00+08:00",
-        "time": "01:16",
-        "url": "https://udn.com/news/story/7266/9711845",
-        "canonical_url": "https://udn.com/news/story/7266/9711845",
-        "summary": "台灣近年興建大量美術館等文化場館，啟用後卻也常引發觀眾少、使用率低的「蚊子館」爭議，選址遭質疑為是「政治決定」而非「需求決定」。審計部公布的總決算審核報告指出，台灣的文化場館選址缺乏需求評估、導致部分場館與鄰近文化設施資源重疊， 文化部則表示正研議建立「文化設施需求評估指標模型」，將人口結構…",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
         "id": "9711844",
         "title": "朕也會筆誤！ 康熙勇奪「錯別字大王」 雍正大方「校正回歸」",
-        "published_at": "2026-08-25T01:15:00+08:00",
-        "time": "01:15",
-        "url": "https://udn.com/news/story/7266/9711844",
-        "canonical_url": "https://udn.com/news/story/7266/9711844",
+        "published_at": "2026-08-25T01:37:00+08:00",
+        "time": "01:37",
+        "url": "https://money.udn.com/money/story/5648/9711844?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5648/9711844",
         "summary": "人非聖賢、誰能無錯字，而即使是聖賢也會寫錯字。故宮南院展出中的「錯字書法特展」，展出唐代至清代出現「錯字」的書法、奏摺。而故宮南院副處長鄭永昌進一步研究發現，康熙是清代皇帝中的「錯字大王」；而被認為是史上最過勞、在位13年批閱了4萬多件奏摺的雍正，錯字不多且勇於認錯，甚至要求臣子要幫他「挑錯字」。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711845",
+        "title": "文化場館為何淪蚊子館？審計部揪選址漏洞 專家：「人才」才是致命傷",
+        "published_at": "2026-08-25T01:36:00+08:00",
+        "time": "01:36",
+        "url": "https://money.udn.com/money/story/7307/9711845?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/7307/9711845",
+        "summary": "台灣近年興建大量美術館等文化場館，啟用後卻也常引發觀眾少、使用率低的「蚊子館」爭議，選址遭質疑為是「政治決定」而非「需求決定」。審計部公布的總決算審核報告指出，台灣的文化場館選址缺乏需求評估、導致部分場館與鄰近文化設施資源重疊， 文化部則表示正研議建立「文化設施需求評估指標模型」，將人口結構…",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711832",
+        "title": "台北指南宮全面燃燒3小時撲滅 60年歷史凌霄寶殿焚毀",
+        "published_at": "2026-08-25T01:36:00+08:00",
+        "time": "01:36",
+        "url": "https://money.udn.com/money/story/5648/9711832?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5648/9711832",
+        "summary": "台北指南宮的凌霄寶殿昨天晚間發生火災，建物陷入火海，消防隊趕往搶救，約3小時撲滅火勢，沒有傷亡，凌霄寶殿1、2樓遭燒毀，消防局火災調查人員鑑識釐清起火原因。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
       },
       {
         "id": "9711843",
@@ -79,17 +90,6 @@
         "summary": "美國即將公布要向伊朗施加巨大經濟壓力以結束中東戰爭的計畫細節，投資人靜待消息之際，歐洲股市主要指數今天收盤普遍下跌",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
-      },
-      {
-        "id": "9711832",
-        "title": "台北指南宮全面燃燒3小時撲滅 60年歷史凌霄寶殿焚毀",
-        "published_at": "2026-08-25T00:29:00+08:00",
-        "time": "00:29",
-        "url": "https://udn.com/news/story/7320/9711832",
-        "canonical_url": "https://udn.com/news/story/7320/9711832",
-        "summary": "台北指南宮的凌霄寶殿昨天晚間發生火災，建物陷入火海，消防隊趕往搶救，約3小時撲滅火勢，沒有傷亡，凌霄寶殿1、2樓遭燒毀，消防局火災調查人員鑑識釐清起火原因。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
       },
       {
         "id": "9711717",
@@ -149,10 +149,32 @@
     ],
     "finance": [
       {
+        "id": "9711767",
+        "title": "台幣升勢面臨阻力 外資投入股市資金減少 遠期市場需求轉弱",
+        "published_at": "2026-08-25T01:31:00+08:00",
+        "time": "01:31",
+        "url": "https://money.udn.com/money/story/5616/9711767?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5616/9711767",
+        "summary": "新台幣兌美元匯率昨（24）日以31.854作收，貶值0.6分；8月以來，新台幣累計至昨日已升值4.38角，升幅達1.38%，有機會寫下一年多來最大單月升幅。不過，分析師認為，新台幣升勢現階段面臨多重阻力，懷疑這波反彈能否延續。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "9711724",
+        "title": "富邦金：台股 AI 基本面有撐 總座韓蔚廷預期 Q4 高檔震盪機率大",
+        "published_at": "2026-08-25T01:31:00+08:00",
+        "time": "01:31",
+        "url": "https://money.udn.com/money/story/5613/9711724?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5613/9711724",
+        "summary": "富邦金控昨（24）日召開第2季法說會，富邦金總經理韓蔚廷說，金控內部看好今年台灣經濟成長率飛越10%，展望台股，韓蔚廷認為，近來市場對消息更加敏感、波動可能放大，但是，AI基本面並未改變也有支撐，預期第4季「高檔震盪機率大」。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
         "id": "9711725",
         "title": "散戶縮手！證券劃撥餘額大減 7月下滑2,413億元 史上次多",
-        "published_at": "2026-08-25T01:25:00+08:00",
-        "time": "01:25",
+        "published_at": "2026-08-25T01:31:00+08:00",
+        "time": "01:31",
         "url": "https://money.udn.com/money/story/5613/9711725?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/5613/9711725",
         "summary": "中央銀行昨（24）日公布7月金融情勢，在外資大舉賣超台股、資金淨匯出雙重影響下，7月M1B、M2年增率分別降至7.34%及7.42%。其中，與股市資金動能高度相關的證券劃撥餘額單月大減2,413億元，降至4.18兆元，減額創歷史次高，顯示股市修正期間，市場資金明顯撤出證券交易體系。",
@@ -160,10 +182,21 @@
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
       {
+        "id": "9711657",
+        "title": "國銀新南向放款 一個月抵一季 澳洲、越南、新加坡為三大成長市場",
+        "published_at": "2026-08-25T01:31:00+08:00",
+        "time": "01:31",
+        "url": "https://money.udn.com/money/story/5613/9711657?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5613/9711657",
+        "summary": "國銀新南向放款7月衝出史上首見「千億級」增量。據金管會統計，單月新增1,003億元，前七月累計已達3,948億元；市場照目前動能樂觀推估，5,000億元大關最快第3季就有機會提前達陣。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
         "id": "9711672",
         "title": "金價看漲 上攻4,680美元 專家認為市場投機情緒降溫",
-        "published_at": "2026-08-25T01:25:00+08:00",
-        "time": "01:25",
+        "published_at": "2026-08-25T01:31:00+08:00",
+        "time": "01:31",
         "url": "https://money.udn.com/money/story/5613/9711672?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/5613/9711672",
         "summary": "國際金價近期站上每英兩4,600美元，昨（24）日臺銀黃金存摺牌價收在每公克4,790元，創三個多月來新高。展望本周，臺銀指出，美國對伊朗已從軍事打擊轉變為經濟制裁，油價將逐步降溫，加上美國財政部可能加大公債回購力道，將使美債殖利率與美元指數轉弱，金價有機會繼續上行挑戰4,680美元。",
@@ -171,35 +204,13 @@
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
       {
-        "id": "9711459",
-        "title": "富邦金法說會／明年股利5.5元有望？韓蔚廷：配發率40%至50%不變",
-        "published_at": "2026-08-25T01:25:00+08:00",
-        "time": "01:25",
-        "url": "https://money.udn.com/money/story/5613/9711459?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5613/9711459",
-        "summary": "富邦金控（2881）24日召開第2季法說會，富邦金總經理韓蔚廷看好台灣經濟基本面，受惠全球AI資本支出持續暢旺，台灣半導體、電子硬體出口動能強勁，金控內部預估今年台灣經濟成長率有機會達10%以上；",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "9710974",
-        "title": "欠稅1,700萬拖20年仍逃不掉！稅務局漫長追稅內幕曝光",
-        "published_at": "2026-08-25T01:25:00+08:00",
-        "time": "01:25",
-        "url": "https://money.udn.com/money/story/6710/9710974?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/6710/9710974",
-        "summary": "有一名欠稅人2006年積欠1,700多萬元稅款，案件一拖就是近20年，原以為時間久遠可能就此不了了之？沒想到，桃園稅務局始終沒有放棄追查，不僅持續掌握欠稅人及關係人的財產、資力狀況，還一路追查不動產及有價證券買賣情形，2026年終於將1,700多萬元欠稅全數追回。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "9710628",
-        "title": "遺產稅新制差在哪？資誠拆解3大變革 繼承人權益一次看",
-        "published_at": "2026-08-25T01:25:00+08:00",
-        "time": "01:25",
-        "url": "https://money.udn.com/money/story/6710/9710628?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/6710/9710628",
-        "summary": "立法院日前三讀通過《遺產及贈與稅法》部分條文修正草案，迎來3大變革，包括生前2年內贈與特定親屬的財產，改由受贈人負擔相關遺產稅、配偶剩餘財產差額分配請求權扣除額放寬，以及取消遺產稅分期繳納30萬元門檻。資誠分析，新制可望解決過去財產由一人拿、稅卻由其他繼承人一起繳的不公平現象。",
+        "id": "9711727",
+        "title": "富邦金總經理韓蔚廷：半導體融資需求 熱到明年",
+        "published_at": "2026-08-25T01:26:00+08:00",
+        "time": "01:26",
+        "url": "https://money.udn.com/money/story/5613/9711727?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5613/9711727",
+        "summary": "AI浪潮不只推升台灣出口，也開始轉化為銀行授信商機。富邦金總經理韓蔚廷昨（24）日表示，從北富銀企業客戶觀察，今年上半年AI、半導體相關產業融資需求已增加約二至三成，預期下半年動能仍將持續，甚至「至少看到2027年上半年」。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
@@ -211,28 +222,6 @@
         "url": "https://money.udn.com/money/story/122376/9711661?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/122376/9711661",
         "summary": "國銀海外設點重心轉向美國。據金管會統計，今年前七月共申設四處海外據點，新南向與美國各占兩處；相較去年新南向一口氣新增七處，今年設點熱度明顯降溫，美國則成為新一波布局焦點。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "9711665",
-        "title": "國票金張兆順辭穩懋獨董 董座兼職爭議落幕",
-        "published_at": "2026-08-25T01:21:00+08:00",
-        "time": "01:21",
-        "url": "https://money.udn.com/money/story/5613/9711665?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5613/9711665",
-        "summary": "砷化鎵代工廠穩懋昨（24）日公告獨立董事張兆順辭職。張兆順目前為國票金控董事長，本次請辭也順勢讓原先公股董事長兼任獨董的爭議暫時畫下句點。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "9711578",
-        "title": "玉山守護生態 保育台灣黑熊",
-        "published_at": "2026-08-25T01:20:00+08:00",
-        "time": "01:20",
-        "url": "https://money.udn.com/money/story/5613/9711578?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5613/9711578",
-        "summary": "玉山文教基金會於23日攜手內政部國家公園署玉山國家公園管理處，簽署「台灣黑熊保育合作備忘錄（MOU）」，未來雙方將共同推動台灣黑熊保育研究、環境教育推廣及社會參與工作，守護台灣珍貴的自然資產。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
@@ -299,6 +288,17 @@
         "url": "https://house.udn.com/house/story/123590/9711002",
         "canonical_url": "https://house.udn.com/house/story/123590/9711002",
         "summary": "永慶房產集團根據聯徵中心與實價登錄資料，觀察六都及新竹市的購屋坪數變化，發現和10年前相比，各世代的購屋坪數全面縮水，其...",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9711844",
+        "title": "朕也會筆誤！ 康熙勇奪「錯別字大王」 雍正大方「校正回歸」",
+        "published_at": "2026-08-25T00:00:00+08:00",
+        "time": "00:00",
+        "url": "https://money.udn.com/money/story/5648/9711844?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5648/9711844",
+        "summary": "人非聖賢、誰能無錯字，而即使是聖賢也會寫錯字。故宮南院展出中的「錯字書法特展」，展出唐代至清代出現「錯字」的書法、奏摺。而故宮南院副處長鄭永昌進一步研究發現，康熙是清代皇帝中的「錯字大王」；而被認為是史上最過勞、在位13年批閱了4萬多件奏摺的雍正，錯字不多且勇於認錯，甚至要求臣子要幫他「挑錯字」。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
