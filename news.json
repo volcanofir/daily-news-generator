@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at": "2026-08-25T01:22:23.674554+08:00",
+  "updated_at": "2026-08-25T01:25:32.854520+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "instant": {
@@ -38,7 +38,9 @@
         },
         {
           "name": "udn房地產",
-          "url": "https://house.udn.com/house/index"
+          "url": "https://house.udn.com/house/index",
+          "resolve_missing_dates": true,
+          "max_candidates": 24
         }
       ]
     }
@@ -146,6 +148,61 @@
       }
     ],
     "finance": [
+      {
+        "id": "9711725",
+        "title": "散戶縮手！證券劃撥餘額大減 7月下滑2,413億元 史上次多",
+        "published_at": "2026-08-25T01:25:00+08:00",
+        "time": "01:25",
+        "url": "https://money.udn.com/money/story/5613/9711725?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5613/9711725",
+        "summary": "中央銀行昨（24）日公布7月金融情勢，在外資大舉賣超台股、資金淨匯出雙重影響下，7月M1B、M2年增率分別降至7.34%及7.42%。其中，與股市資金動能高度相關的證券劃撥餘額單月大減2,413億元，降至4.18兆元，減額創歷史次高，顯示股市修正期間，市場資金明顯撤出證券交易體系。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "9711672",
+        "title": "金價看漲 上攻4,680美元 專家認為市場投機情緒降溫",
+        "published_at": "2026-08-25T01:25:00+08:00",
+        "time": "01:25",
+        "url": "https://money.udn.com/money/story/5613/9711672?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5613/9711672",
+        "summary": "國際金價近期站上每英兩4,600美元，昨（24）日臺銀黃金存摺牌價收在每公克4,790元，創三個多月來新高。展望本周，臺銀指出，美國對伊朗已從軍事打擊轉變為經濟制裁，油價將逐步降溫，加上美國財政部可能加大公債回購力道，將使美債殖利率與美元指數轉弱，金價有機會繼續上行挑戰4,680美元。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "9711459",
+        "title": "富邦金法說會／明年股利5.5元有望？韓蔚廷：配發率40%至50%不變",
+        "published_at": "2026-08-25T01:25:00+08:00",
+        "time": "01:25",
+        "url": "https://money.udn.com/money/story/5613/9711459?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5613/9711459",
+        "summary": "富邦金控（2881）24日召開第2季法說會，富邦金總經理韓蔚廷看好台灣經濟基本面，受惠全球AI資本支出持續暢旺，台灣半導體、電子硬體出口動能強勁，金控內部預估今年台灣經濟成長率有機會達10%以上；",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "9710974",
+        "title": "欠稅1,700萬拖20年仍逃不掉！稅務局漫長追稅內幕曝光",
+        "published_at": "2026-08-25T01:25:00+08:00",
+        "time": "01:25",
+        "url": "https://money.udn.com/money/story/6710/9710974?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/6710/9710974",
+        "summary": "有一名欠稅人2006年積欠1,700多萬元稅款，案件一拖就是近20年，原以為時間久遠可能就此不了了之？沒想到，桃園稅務局始終沒有放棄追查，不僅持續掌握欠稅人及關係人的財產、資力狀況，還一路追查不動產及有價證券買賣情形，2026年終於將1,700多萬元欠稅全數追回。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "9710628",
+        "title": "遺產稅新制差在哪？資誠拆解3大變革 繼承人權益一次看",
+        "published_at": "2026-08-25T01:25:00+08:00",
+        "time": "01:25",
+        "url": "https://money.udn.com/money/story/6710/9710628?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/6710/9710628",
+        "summary": "立法院日前三讀通過《遺產及贈與稅法》部分條文修正草案，迎來3大變革，包括生前2年內贈與特定親屬的財產，改由受贈人負擔相關遺產稅、配偶剩餘財產差額分配請求權扣除額放寬，以及取消遺產稅分期繳納30萬元門檻。資誠分析，新制可望解決過去財產由一人拿、稅卻由其他繼承人一起繳的不公平現象。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
       {
         "id": "9711661",
         "title": "國銀海外布局 聚焦美國",
