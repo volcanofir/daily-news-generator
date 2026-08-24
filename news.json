@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at": "2026-08-25T06:38:40.776815+08:00",
+  "updated_at": "2026-08-25T07:31:21.122595+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "instant": {
@@ -48,15 +48,169 @@
   "categories": {
     "instant": [
       {
-        "id": "9711869",
-        "title": "美擴大施壓 貝森特：助伊朗洗錢實體將踢出美元體系",
-        "published_at": "2026-08-25T06:30:00+08:00",
-        "time": "06:30",
-        "url": "https://money.udn.com/money/story/5599/9711869?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5599/9711869",
-        "summary": "美國試圖向伊朗施加巨大經濟壓力以結束中東戰爭，財政部長貝森特今天表示，任何代表伊朗協助洗錢活動的實體，將被踢出美元體系",
+        "id": "9711974",
+        "title": "更輕更薄更高效！Pixel 11 Pro Fold上手體驗 Gemini AI加持效率升級",
+        "published_at": "2026-08-25T07:23:00+08:00",
+        "time": "07:23",
+        "url": "https://udn.com/news/story/7270/9711974",
+        "canonical_url": "https://udn.com/news/story/7270/9711974",
+        "summary": "摺疊智慧型手機在今年迎來了以「實用多工」與「AI深度整合」為核心的進化趨勢，各品牌除了在螢幕開闔形式與尺寸比例變化調整，更致力於讓大螢幕真正解放行動生產力。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9711953",
+        "title": "美股收盤／輝達財報前連七跌 晶片股重挫拖累那指跌0.8%",
+        "published_at": "2026-08-25T07:21:00+08:00",
+        "time": "07:21",
+        "url": "https://money.udn.com/money/story/123398/9711953?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/123398/9711953",
+        "summary": "美國股市周一漲跌互見。輝達（NVIDIA）財報公布前，晶片及AI基礎設施類股賣壓沉重，拖累標普500指數及那斯達克綜合指數收低；金融股上漲則支撐道瓊工業指數收高。投資人也消化美國對伊朗的新制裁、與加拿大的關稅衝突，以及財政部可能採取的債務管理措施。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711972",
+        "title": "馬斯克：SpaceX 搭載輝達晶片「太空 AI 資料中心」明年第4季送上軌道",
+        "published_at": "2026-08-25T07:21:00+08:00",
+        "time": "07:21",
+        "url": "https://money.udn.com/money/story/5599/9711972?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9711972",
+        "summary": "馬斯克表示，SpaceX首批由輝達（NVIDIA）晶片驅動的AI衛星將於明年第4季開始發射，並在2028年達到「大規模部署」。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711970",
+        "title": "對流雨帶移入 中部以南留意強降雨 粉專估中午前後趨緩",
+        "published_at": "2026-08-25T07:17:00+08:00",
+        "time": "07:17",
+        "url": "https://udn.com/news/story/7266/9711970",
+        "canonical_url": "https://udn.com/news/story/7266/9711970",
+        "summary": "中部以南留意強降雨，中午前後趨緩。民間氣象粉專「觀氣象看天氣」今天表示，目前上班上課時間，中部以南持續有較廣泛、且局部劇烈的降雨出現。從凌晨00時累積到現在，彰化、雲林沿海、高屏地區累積雨量都已突破100毫米，其中以高雄左營161毫米、雲林麥寮146毫米最多。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9710853",
+        "title": "狠甩「年資+年齡>65」優退緊箍咒！ 45歲科技人自組73股息策略 靠13%報酬安心退",
+        "published_at": "2026-08-25T07:16:00+08:00",
+        "time": "07:16",
+        "url": "https://udn.com/news/story/121591/9710853",
+        "canonical_url": "https://udn.com/news/story/121591/9710853",
+        "summary": "科技人在面對中年危機時，她從理財小白前晉升到財務自由之路，只花了短短四年時間。前南科科技公司專案經理V大（龔恬永）39歲時意識到中年危機的逼近，完全不諳投資的她，從盤點個人年開支、剔除不必要浪費開始，逐步建立起穩健投資系統。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9711964",
+        "title": "台積電ADR跌2.1% 台指期夜盤跌208點",
+        "published_at": "2026-08-25T07:08:00+08:00",
+        "time": "07:08",
+        "url": "https://money.udn.com/money/story/123398/9711964?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/123398/9711964",
+        "summary": "台積電ADR周三下跌2.1%，收在410.12美元，較台北交易溢價10.1%。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711966",
+        "title": "影／詐領助理費及施壓油料運輸案涉賄 立委陳雪生200萬交保",
+        "published_at": "2026-08-25T07:08:00+08:00",
+        "time": "07:08",
+        "url": "https://udn.com/news/story/7321/9711966",
+        "canonical_url": "https://udn.com/news/story/7321/9711966",
+        "summary": "國民黨立委陳雪生被控利用親友詐領助理費、收受廠商提供助理使用等不正利益，調查局昨天搜索立法院辦公室共35處地點，約談陳雪生及身兼辦公室主任的胞弟陳雪懷共27人到案，台北地檢署漏夜複訊後，今天清晨依貪汙罪命陳雪生200萬交保、限制出境出海；陳雪懷以10萬交保。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9711963",
+        "title": "國家級警報響 屏東縣枋山鄉、獅子鄉大雷雨 有致災性短延時強降雨發生",
+        "published_at": "2026-08-25T07:07:00+08:00",
+        "time": "07:07",
+        "url": "https://udn.com/news/story/7266/9711963",
+        "canonical_url": "https://udn.com/news/story/7266/9711963",
+        "summary": "國家級警報響，中央氣象署發布屏東縣枋山鄉、獅子鄉大雷雨即時訊息，持續至上午7時59分。氣象署說，已針對此大雷雨發布災防告警訊息（PWS），有致災性短延時強降雨發生，並伴隨較強陣風，慎防溪河水暴漲、坍方、落石、低窪地區積水、低能見度。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9711242",
+        "title": "中職／投打失調守備還幫倒忙 永田颯太郎會是台鋼救世主？",
+        "published_at": "2026-08-25T07:00:00+08:00",
+        "time": "07:00",
+        "url": "https://udn.com/news/story/122629/9711242",
+        "canonical_url": "https://udn.com/news/story/122629/9711242",
+        "summary": "台鋼8月戰績4勝9敗，投打失調且失誤聯盟最多，二壘防線成破口；新簽永田颯太郎二軍打擊亮眼，能否成為即戰力補強受矚。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9711509",
+        "title": "K湯還有戲？拚生涯第五冠超柯瑞就在熱火",
+        "published_at": "2026-08-25T07:00:00+08:00",
+        "time": "07:00",
+        "url": "https://udn.com/news/story/122629/9711509",
+        "canonical_url": "https://udn.com/news/story/122629/9711509",
+        "summary": "K湯湯普森買斷獨行俠合約加盟熱火，簽下2年1150萬美元合約，盼攜手字母哥、阿德巴約爭冠，挑戰生涯第5冠。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9711009",
+        "title": "當「30轟30盜」去年就有7人辦到 PCA想靠這爭MVP恐還不夠",
+        "published_at": "2026-08-25T07:00:00+08:00",
+        "time": "07:00",
+        "url": "https://udn.com/news/story/122629/9711009",
+        "canonical_url": "https://udn.com/news/story/122629/9711009",
+        "summary": "2025年大聯盟單季7人達成30轟30盜，創歷史新高；規則與訓練推升攻擊表現，讓30-30從MVP王牌變成入場門票，大谷翔平更推高競爭標準。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9711955",
+        "title": "大範圍雲雨帶正在影響 苗栗至屏東大雨 5縣市雨勢最劇烈",
+        "published_at": "2026-08-25T06:46:00+08:00",
+        "time": "06:46",
+        "url": "https://udn.com/news/story/7266/9711955",
+        "canonical_url": "https://udn.com/news/story/7266/9711955",
+        "summary": "低壓帶影響，水氣仍多，苗栗至屏東大雨，民間氣象粉專「台灣颱風論壇｜天氣特急」表示，大範圍雲雨帶正在影響西部地區，許多地方正下著雨，尤其台中、彰化、雲林、台南、高雄雨勢大，注意安全。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9711950",
+        "title": "沙德爾颱風進逼 專家曝暴風侵襲機率5縣市最高 估明早海警、明晚陸警",
+        "published_at": "2026-08-25T06:41:00+08:00",
+        "time": "06:41",
+        "url": "https://udn.com/news/story/7266/9711950",
+        "canonical_url": "https://udn.com/news/story/7266/9711950",
+        "summary": "沙德爾颱風目前是中度颱風，在台灣東方1080公里之處，以每小時20公里速度，向西北西進行。「西南風交接水氣開關給沙德爾」。氣象專家林得恩今天在「林老師氣象站」臉書粉專表示，初步評估，若其移動方向、移動速度及強度變化不改變的話，明天上午就會發布海上颱風警報，明天晚間追加陸上颱風警報。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9711948",
+        "title": "8月25日重要財經行事曆",
+        "published_at": "2026-08-25T06:39:00+08:00",
+        "time": "06:39",
+        "url": "https://money.udn.com/money/story/5607/9711948?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5607/9711948",
+        "summary": "台灣 立法院會 經濟部發布7月工業生產指數、批發零售餐飲營業額統計 除權息：永豐優息存股、台肥、春雨、裕隆、瓦城、尼克森、晶呈科技、富宇、jpp-KY、長虹、沛波、信紘科、昱展新藥、泓德能源、能率亞洲、盛弘、巨大 法人說明會：中碳、正新、順德、偉詮電、彰銀、永豐金、高林、中租-KY、寶雅*、高…",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711858",
+        "title": "影／高雄凌晨暴雨 鼓山路面成河、愛河畔淹上騎樓",
+        "published_at": "2026-08-25T06:32:00+08:00",
+        "time": "06:32",
+        "url": "https://udn.com/news/story/7327/9711858",
+        "canonical_url": "https://udn.com/news/story/7327/9711858",
+        "summary": "高雄受到西南風及低壓帶影響，今天凌晨持續出現強降雨，多區傳出道路積水、淹水；民眾反映，愛河畔及鼓山區內惟地區淹水上騎樓，內惟部分路段路面宛如河道，仁武曹公新圳也出現溢流。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
       },
       {
         "id": "9711944",
@@ -279,26 +433,15 @@
         "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
       },
       {
-        "id": "9711859",
-        "title": "影／立委陳雪生涉輸油弊案及詐領助理費 凌晨移送北檢畫面曝",
-        "published_at": "2026-08-25T02:36:00+08:00",
-        "time": "02:36",
-        "url": "https://udn.com/news/story/7321/9711859",
-        "canonical_url": "https://udn.com/news/story/7321/9711859",
-        "summary": "國民黨立委陳雪生被控利用親友詐領助理費、收受廠商提供助理使用等不正利益，涉貪汙治罪條例，調查局台北市調查處、南機站昨天搜索立法院辦公室共35處地點，約談陳雪生及胞弟陳雪懷27人到案，陳雪生、陳雪懷凌晨分別移送台北地檢署複訊，不排除強制處分。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "9711858",
-        "title": "影／高雄凌晨暴雨 鼓山路面成河、愛河畔淹上騎樓",
-        "published_at": "2026-08-25T02:32:00+08:00",
-        "time": "02:32",
-        "url": "https://udn.com/news/story/7327/9711858",
-        "canonical_url": "https://udn.com/news/story/7327/9711858",
-        "summary": "高雄受到西南風及低壓帶影響，今天凌晨持續出現強降雨，多區傳出道路積水、淹水；民眾反映，愛河畔及鼓山區內惟地區淹水上騎樓，內惟部分路段路面宛如河道，仁武曹公新圳也出現溢流。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
+        "id": "9711869",
+        "title": "美擴大施壓 貝森特：助伊朗洗錢實體將踢出美元體系",
+        "published_at": "2026-08-25T04:21:00+08:00",
+        "time": "04:21",
+        "url": "https://money.udn.com/money/story/5599/9711869?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9711869",
+        "summary": "美國試圖向伊朗施加巨大經濟壓力以結束中東戰爭，財政部長貝森特今天表示，任何代表伊朗協助洗錢活動的實體，將被踢出美元體系",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
       },
       {
         "id": "9711844",
@@ -345,28 +488,6 @@
         "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
       },
       {
-        "id": "9711717",
-        "title": "川普：明年1月起 對加拿大汽車及鋼鐵關稅增至50%",
-        "published_at": "2026-08-25T00:14:00+08:00",
-        "time": "00:14",
-        "url": "https://udn.com/news/story/6811/9711717",
-        "canonical_url": "https://udn.com/news/story/6811/9711717",
-        "summary": "美加貿易談判破局，美國總統川普今天發文稱，加拿大多年來一直占美國便宜，造成兩國之間高額貿易逆差，他並宣布，明年1月1日起...",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "9711714",
-        "title": "俄批援烏是火上澆油 英相柏南：該問是誰點火",
-        "published_at": "2026-08-25T00:14:00+08:00",
-        "time": "00:14",
-        "url": "https://udn.com/news/story/6809/9711714",
-        "canonical_url": "https://udn.com/news/story/6809/9711714",
-        "summary": "莫斯科批評英國支援烏克蘭、甚至協助烏克蘭打造長程巡弋飛彈，是「火上澆油」、破壞和平前景。英國首相柏南今天訪問基輔，回應媒...",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
         "id": "9711740",
         "title": "影／指南宮大火 凌霄寶殿1、2樓全燒毀 火勢近2小時才控制",
         "published_at": "2026-08-25T00:10:00+08:00",
@@ -398,28 +519,39 @@
         "summary": "受西南風偏強與低壓帶影響，嘉南高屏等地區連日降下豪大雨，農產業災損已破千萬元。農業部於今晚依據災情掌握情形，主動公告嘉義縣、嘉義市、台南市、高雄市及屏東縣農產業全品項辦理現金救助與低利貸款，加速辦理救助，協助農民災後盡速復耕復建。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
-      },
-      {
-        "id": "9711749",
-        "title": "展開整合 盧秀燕喊「2028國民黨重新執政」",
-        "published_at": "2026-08-25T00:06:00+08:00",
-        "time": "00:06",
-        "url": "https://udn.com/news/story/124652/9711749",
-        "canonical_url": "https://udn.com/news/story/124652/9711749",
-        "summary": "台中市長盧秀燕、台北市長蔣萬安與立法院長韓國瑜上周同台，力拚國民黨二○二六開紅盤，也醞釀二○二八大選氣勢。盧秀燕昨受訪表示，她在國民黨內比較資深，這段時間在進行整合，而國民黨展現團結、合作氣氛，還會持續不斷擴大，二○二八要讓國民黨重新執政。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
       }
     ],
     "finance": [
       {
-        "id": "9711869",
-        "title": "美擴大施壓 貝森特：助伊朗洗錢實體將踢出美元體系",
+        "id": "9711972",
+        "title": "馬斯克：SpaceX 搭載輝達晶片「太空 AI 資料中心」明年第4季送上軌道",
+        "published_at": "2026-08-25T07:16:00+08:00",
+        "time": "07:16",
+        "url": "https://money.udn.com/money/story/5599/9711972?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9711972",
+        "summary": "馬斯克表示，SpaceX首批由輝達（NVIDIA）晶片驅動的AI衛星將於明年第4季開始發射，並在2028年達到「大規模部署」。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9710853",
+        "title": "狠甩「年資+年齡>65」優退緊箍咒！ 45歲科技人自組73股息策略 靠13%報酬安心退",
+        "published_at": "2026-08-25T07:16:00+08:00",
+        "time": "07:16",
+        "url": "https://udn.com/news/story/121591/9710853",
+        "canonical_url": "https://udn.com/news/story/121591/9710853",
+        "summary": "科技人在面對中年危機時，她從理財小白前晉升到財務自由之路，只花了短短四年時間。前南科科技公司專案經理V大（龔恬永）39歲時意識到中年危機的逼近，完全不諳投資的她，從盤點個人年開支、剔除不必要浪費開始，逐步建立起穩健投資系統。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9711953",
+        "title": "美股收盤／輝達財報前連七跌 晶片股重挫拖累那指跌0.8%",
         "published_at": "2026-08-25T01:31:00+08:00",
         "time": "01:31",
-        "url": "https://money.udn.com/money/story/5599/9711869?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5599/9711869",
-        "summary": "美國試圖向伊朗施加巨大經濟壓力以結束中東戰爭，財政部長貝森特今天表示，任何代表伊朗協助洗錢活動的實體，將被踢出美元體系",
+        "url": "https://money.udn.com/money/story/123398/9711953?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/123398/9711953",
+        "summary": "美國股市周一漲跌互見。輝達（NVIDIA）財報公布前，晶片及AI基礎設施類股賣壓沉重，拖累標普500指數及那斯達克綜合指數收低；金融股上漲則支撐道瓊工業指數收高。投資人也消化美國對伊朗的新制裁、與加拿大的關稅衝突，以及財政部可能採取的債務管理措施。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
@@ -479,39 +611,6 @@
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
       {
-        "id": "9711617",
-        "title": "幼兒園房地 建商搶手貨",
-        "published_at": "2026-08-25T01:31:00+08:00",
-        "time": "01:31",
-        "url": "https://house.udn.com/house/story/123589/9711617",
-        "canonical_url": "https://house.udn.com/house/story/123589/9711617",
-        "summary": "幼兒園退場後留下房地成建商搶手貨；據實價登錄最新揭露，今年1月桃園在地營造廠森拓營造以自然人名義，以總價2.94億元買下金門二街占地343.9坪幼兒園；總計近兩年開發商買下幼兒園案例就有八筆，且不少集中台中、高雄，總交易金額逾66億元、規模不容小覷。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "9711230",
-        "title": "台南最有感！去年六都、新竹各世代購屋坪數全面縮水 這都面積減幅最小",
-        "published_at": "2026-08-25T01:31:00+08:00",
-        "time": "01:31",
-        "url": "https://house.udn.com/house/story/123590/9711230",
-        "canonical_url": "https://house.udn.com/house/story/123590/9711230",
-        "summary": "永慶房產集團根據聯徵中心與實價登錄資料，彙整2016年至2025年間六都、新竹市不同年齡層購屋坪數變化，顯示各世代購屋坪數全面縮水。不過，各都會區縮幅卻有明顯差異，台南房價漲幅居冠，購屋坪數縮減幅度最為明顯。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "9711944",
-        "title": "投資人權衡美國經濟施壓伊朗 華爾街股市多收跌",
-        "published_at": "2026-08-25T01:31:00+08:00",
-        "time": "01:31",
-        "url": "https://money.udn.com/money/story/123398/9711944?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/123398/9711944",
-        "summary": "投資人衡量美國向伊朗擴大施加經濟壓力，並準備迎接人工智慧晶片巨擘輝達公司（NVIDIA）財報和備受關注的通膨數據報告，華...",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
         "id": "9711727",
         "title": "富邦金總經理韓蔚廷：半導體融資需求 熱到明年",
         "published_at": "2026-08-25T01:26:00+08:00",
@@ -532,17 +631,6 @@
         "summary": "國銀海外設點重心轉向美國。據金管會統計，今年前七月共申設四處海外據點，新南向與美國各占兩處；相較去年新南向一口氣新增七處，今年設點熱度明顯降溫，美國則成為新一波布局焦點。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "9711665",
-        "title": "國票金張兆順辭穩懋獨董 董座兼職爭議落幕",
-        "published_at": "2026-08-25T01:21:00+08:00",
-        "time": "01:21",
-        "url": "https://udn.com/news/story/7239/9711665",
-        "canonical_url": "https://udn.com/news/story/7239/9711665",
-        "summary": "砷化鎵代工廠穩懋昨（24）日公告獨立董事張兆順辭職。張兆順目前為國票金控董事長，本次請辭也順勢讓原先公股董事長兼任獨董的爭議暫時畫下句點。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
         "id": "9711575",
@@ -618,6 +706,17 @@
         "url": "https://udn.com/news/story/7241/9711616",
         "canonical_url": "https://udn.com/news/story/7241/9711616",
         "summary": "外傳森崴能源標到離岸風電3-2期又德風場，未繳足履約保證金，並多次要求延展簽約時間。經濟部能源署昨（24）日說明，截至本月業者仍未完成剩餘履約保證金繳納，目前正簽報解約作業。這也代表又一家得標開發商退場。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9711617",
+        "title": "幼兒園房地 建商搶手貨",
+        "published_at": "2026-08-25T00:58:00+08:00",
+        "time": "00:58",
+        "url": "https://udn.com/news/story/7241/9711617",
+        "canonical_url": "https://udn.com/news/story/7241/9711617",
+        "summary": "幼兒園退場後留下房地成建商搶手貨；據實價登錄最新揭露，今年1月桃園在地營造廠森拓營造以自然人名義，以總價2.94億元買下金門二街占地343.9坪幼兒園；總計近兩年開發商買下幼兒園案例就有八筆，且不少集中台中、高雄，總交易金額逾66億元、規模不容小覷。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
