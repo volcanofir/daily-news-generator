@@ -79,7 +79,7 @@ function renderCategory(category, items = []) {
       <div class="news-meta">
         <span>${escapeHtml(item.time || "")}</span>
         <span>•</span>
-        <span>${config.label}</span>
+        <span>${escapeHtml(item.source || config.label)}</span>
       </div>
       <a class="news-title" href="${escapeHtml(item.url)}"
          target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
