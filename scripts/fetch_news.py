@@ -55,8 +55,13 @@ session.headers.update(
 def fetch(url: str, timeout: int = 20) -> str:
     response = session.get(url, timeout=timeout)
     response.raise_for_status()
-    response.encoding = response.apparent_encoding or "utf-8"
-    return response.text
+    # UDN pages are UTF-8. Charset auto-detection can misidentify some
+    # Traditional Chinese article pages and produce mojibake.
+    try:
+        return response.content.decode("utf-8")
+    except UnicodeDecodeError:
+        response.encoding = response.apparent_encoding or "utf-8"
+        return response.text
 
 
 def canonical_story_url(href: str, base_url: str) -> str | None:
@@ -181,6 +186,11 @@ def clean_summary(text: str, title: str) -> str:
     return text
 
 
+def looks_mojibake(text: str) -> bool:
+    suspicious = ("ï¼", "ه", "وˆ", "ç‡", "è²", "گ", "وœ", "ن»")
+    return any(token in (text or "") for token in suspicious)
+
+
 def fetch_article_summary(url: str, title: str) -> str:
     try:
         html = fetch(url)
@@ -261,6 +271,8 @@ def main() -> None:
             canonical = candidate["url"]
             old = previous.get(canonical, {})
             summary = old.get("summary", "")
+            if looks_mojibake(summary):
+                summary = ""
             if not summary:
                 summary = fetch_article_summary(canonical, candidate["title"])
                 time.sleep(0.18)
