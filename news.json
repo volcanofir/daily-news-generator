@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at": "2026-08-25T01:39:54.273464+08:00",
+  "updated_at": "2026-08-25T02:54:34.220331+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "instant": {
@@ -47,6 +47,28 @@
   },
   "categories": {
     "instant": [
+      {
+        "id": "9711859",
+        "title": "影／立委陳雪生涉輸油弊案及詐領助理費 凌晨移送北檢畫面曝",
+        "published_at": "2026-08-25T02:36:00+08:00",
+        "time": "02:36",
+        "url": "https://udn.com/news/story/7321/9711859",
+        "canonical_url": "https://udn.com/news/story/7321/9711859",
+        "summary": "國民黨立委陳雪生被控利用親友詐領助理費、收受廠商提供助理使用等不正利益，涉貪汙治罪條例，調查局台北市調查處、南機站昨天搜索立法院辦公室共35處地點，約談陳雪生及胞弟陳雪懷27人到案，陳雪生、陳雪懷凌晨分別移送台北地檢署複訊，不排除強制處分。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9711858",
+        "title": "影／高雄凌晨暴雨 鼓山路面成河、愛河畔淹上騎樓",
+        "published_at": "2026-08-25T02:32:00+08:00",
+        "time": "02:32",
+        "url": "https://udn.com/news/story/7327/9711858",
+        "canonical_url": "https://udn.com/news/story/7327/9711858",
+        "summary": "高雄受到西南風及低壓帶影響，今天凌晨持續出現強降雨，多區傳出道路積水、淹水；民眾反映，愛河畔及鼓山區內惟地區淹水上騎樓，內惟部分路段路面宛如河道，仁武曹公新圳也出現溢流。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
       {
         "id": "9711844",
         "title": "朕也會筆誤！ 康熙勇奪「錯別字大王」 雍正大方「校正回歸」",
@@ -204,6 +226,39 @@
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
       {
+        "id": "9711617",
+        "title": "幼兒園房地 建商搶手貨",
+        "published_at": "2026-08-25T01:31:00+08:00",
+        "time": "01:31",
+        "url": "https://house.udn.com/house/story/123589/9711617",
+        "canonical_url": "https://house.udn.com/house/story/123589/9711617",
+        "summary": "幼兒園退場後留下房地成建商搶手貨；據實價登錄最新揭露，今年1月桃園在地營造廠森拓營造以自然人名義，以總價2.94億元買下金門二街占地343.9坪幼兒園；總計近兩年開發商買下幼兒園案例就有八筆，且不少集中台中、高雄，總交易金額逾66億元、規模不容小覷。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9711230",
+        "title": "台南最有感！去年六都、新竹各世代購屋坪數全面縮水 這都面積減幅最小",
+        "published_at": "2026-08-25T01:31:00+08:00",
+        "time": "01:31",
+        "url": "https://house.udn.com/house/story/123590/9711230",
+        "canonical_url": "https://house.udn.com/house/story/123590/9711230",
+        "summary": "永慶房產集團根據聯徵中心與實價登錄資料，彙整2016年至2025年間六都、新竹市不同年齡層購屋坪數變化，顯示各世代購屋坪數全面縮水。不過，各都會區縮幅卻有明顯差異，台南房價漲幅居冠，購屋坪數縮減幅度最為明顯。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9711854",
+        "title": "8月25日 五件財經大事搶先看",
+        "published_at": "2026-08-25T01:31:00+08:00",
+        "time": "01:31",
+        "url": "https://money.udn.com/money/story/5607/9711854?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5607/9711854",
+        "summary": "經濟日報整理五件不可不知的財經大事，讓讀者在每天清晨能快速掌握最重要的財經大事。 一、救市！美要砸1兆美元購債 市場預料將壓抑長債殖利率 兩名美國財政部資深官員透露，可能會動用近1兆美元的財政部一般帳戶（TGA）資金，為其近期宣布的擴大買回債券計畫提供財源...more 二、富邦金：台股 AI…",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
         "id": "9711727",
         "title": "富邦金總經理韓蔚廷：半導體融資需求 熱到明年",
         "published_at": "2026-08-25T01:26:00+08:00",
@@ -235,6 +290,72 @@
         "summary": "兆豐銀行家庭日首度結合職棒，董事長董瑞斌23日身穿統一獅球衣登板開球，逾3,000名員工及眷屬進場同樂。今年兆豐銀更加碼員工福利，每人旅遊補助最高達1.7萬元，估可創造上億元國旅商機。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "9711649",
+        "title": "英特爾EMIB先進封裝客戶增 力積電成幕後贏家",
+        "published_at": "2026-08-25T01:12:00+08:00",
+        "time": "01:12",
+        "url": "https://udn.com/news/story/7240/9711649",
+        "canonical_url": "https://udn.com/news/story/7240/9711649",
+        "summary": "英特爾EMIB先進封裝客戶持續增加，帶動EMIB必備的關鍵元件特殊矽電容需求激增，力積電為英特爾EMIB特殊矽電容獨家供應商，出貨跟著爆發，成為英特爾EMIB搶下多筆大咖訂單幕後的大贏家。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9711645",
+        "title": "台積電晶片去年省電1,800億度",
+        "published_at": "2026-08-25T01:11:00+08:00",
+        "time": "01:11",
+        "url": "https://udn.com/news/story/7240/9711645",
+        "canonical_url": "https://udn.com/news/story/7240/9711645",
+        "summary": "台積電最新年度永續報告書出爐，揭露台積電晶片低能耗為全球帶來的高節能效益，去年採用台積電晶片的資通訊產品，為全球節電逾1,800億度，減少近8,900萬公噸碳排放；至2030年，台積電每用1度電生產半導體產品，將為全球節省近7度電。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9711609",
+        "title": "老字號生活通路掀掛牌潮 床的世界9月中旬轉上櫃",
+        "published_at": "2026-08-25T01:11:00+08:00",
+        "time": "01:11",
+        "url": "https://udn.com/news/story/7241/9711609",
+        "canonical_url": "https://udn.com/news/story/7241/9711609",
+        "summary": "老字號生活通路吹起掛牌風。床的世界預計9月中旬由興櫃轉上櫃掛牌，特力屋上市案已獲證交所董事會核議通過，小北百貨也規劃2027年啟動IPO。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9711654",
+        "title": "台積電員工薪酬中位數295萬 創高",
+        "published_at": "2026-08-25T01:10:00+08:00",
+        "time": "01:10",
+        "url": "https://udn.com/news/story/7240/9711654",
+        "canonical_url": "https://udn.com/news/story/7240/9711654",
+        "summary": "台積電於最新年度永續報告書揭露，去年全球員工總數首度突破9萬人，創新高，年增約8.3%，去年員工總薪酬中位數295萬元，同寫新猷，年增約二成。去年全體員工離職率2.9% ，一年內新進員工離職率5.7%，皆優於預期目標。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9711610",
+        "title": "生活通路業者跳脫框架 多元店型拚突圍",
+        "published_at": "2026-08-25T01:04:00+08:00",
+        "time": "01:04",
+        "url": "https://udn.com/news/story/7241/9711610",
+        "canonical_url": "https://udn.com/news/story/7241/9711610",
+        "summary": "生活通路業者走過數十年發展，當既有市場逐漸成熟，下一階段成長已不能只靠複製門市。從寶雅發展新店型、特力屋將服務深入社區，到床的世界跨足智能睡眠，老字號通路不約而同跳脫原有經營框架，尋找第二成長曲線。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9711616",
+        "title": "森崴又德風場面臨解約",
+        "published_at": "2026-08-25T00:59:00+08:00",
+        "time": "00:59",
+        "url": "https://udn.com/news/story/7241/9711616",
+        "canonical_url": "https://udn.com/news/story/7241/9711616",
+        "summary": "外傳森崴能源標到離岸風電3-2期又德風場，未繳足履約保證金，並多次要求延展簽約時間。經濟部能源署昨（24）日說明，截至本月業者仍未完成剩餘履約保證金繳納，目前正簽報解約作業。這也代表又一家得標開發商退場。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
         "id": "9711451",
@@ -270,46 +391,79 @@
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
       {
-        "id": "9711230",
-        "title": "台南最有感！去年六都、新竹各世代購屋坪數全面縮水 這都面積減幅最小",
-        "published_at": "2026-08-25T00:00:00+08:00",
-        "time": "00:00",
-        "url": "https://house.udn.com/house/story/123590/9711230",
-        "canonical_url": "https://house.udn.com/house/story/123590/9711230",
-        "summary": "永慶房產集團根據聯徵中心與實價登錄資料，彙整2016年至2025年間六都、新竹市不同年齡層購屋坪數變化，顯示各世代購屋坪數全面縮水。不過，各都會區縮幅卻有明顯差異，台南房價漲幅居冠，購屋坪數縮減幅度最為明顯。",
+        "id": "9711754",
+        "title": "工總示警 勞動力缺口擴大",
+        "published_at": "2026-08-25T00:54:00+08:00",
+        "time": "00:54",
+        "url": "https://udn.com/news/story/7238/9711754",
+        "canonical_url": "https://udn.com/news/story/7238/9711754",
+        "summary": "工總昨（24）日發表2026年度白皮書，缺工問題連三年居產業關注榜首，工總向政府提出改善缺工五大政策建言，並強調，台灣邁入超高齡社會，總人口連續負成長，勞動力缺口加大，已成為足以動搖國本的系統性風險。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "9711002",
-        "title": "房仲：購屋坪數10年全面縮水 台南減幅最大、新竹不到1成",
-        "published_at": "2026-08-25T00:00:00+08:00",
-        "time": "00:00",
-        "url": "https://house.udn.com/house/story/123590/9711002",
-        "canonical_url": "https://house.udn.com/house/story/123590/9711002",
-        "summary": "永慶房產集團根據聯徵中心與實價登錄資料，觀察六都及新竹市的購屋坪數變化，發現和10年前相比，各世代的購屋坪數全面縮水，其...",
+        "id": "9711460",
+        "title": "自住兼營業 地價稅按比率計",
+        "published_at": "2026-08-25T00:54:00+08:00",
+        "time": "00:54",
+        "url": "https://udn.com/news/story/7243/9711460",
+        "canonical_url": "https://udn.com/news/story/7243/9711460",
+        "summary": "花蓮縣稅務局表示，若房屋同時做自住及營業使用，且兩者範圍可明確劃分，地價稅仍可依房屋實際使用比率，計算適用自住稅率面積，不過都市土地適用優稅最多仍以300平方公尺為限。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "9711844",
-        "title": "朕也會筆誤！ 康熙勇奪「錯別字大王」 雍正大方「校正回歸」",
-        "published_at": "2026-08-25T00:00:00+08:00",
-        "time": "00:00",
-        "url": "https://money.udn.com/money/story/5648/9711844?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5648/9711844",
-        "summary": "人非聖賢、誰能無錯字，而即使是聖賢也會寫錯字。故宮南院展出中的「錯字書法特展」，展出唐代至清代出現「錯字」的書法、奏摺。而故宮南院副處長鄭永昌進一步研究發現，康熙是清代皇帝中的「錯字大王」；而被認為是史上最過勞、在位13年批閱了4萬多件奏摺的雍正，錯字不多且勇於認錯，甚至要求臣子要幫他「挑錯字」。",
+        "id": "9711755",
+        "title": "勞部兩原則 精進跨國人力",
+        "published_at": "2026-08-25T00:53:00+08:00",
+        "time": "00:53",
+        "url": "https://udn.com/news/story/7238/9711755",
+        "canonical_url": "https://udn.com/news/story/7238/9711755",
+        "summary": "工總呼籲全面放寬移工政策，勞動部昨（24）日回應，將持續在「保障本國勞工就業機會」、「避免低薪定錨效應」兩原則下，研擬並檢討跨國勞動力政策；至於能源與淨零政策，國發會強調，穩供電、淨零減碳缺一不可，政府已啟動二次能源轉型。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "9711795",
-        "title": "明年統籌款雙北雙破千億 新北人均獲配金額敬陪末座",
-        "published_at": "2026-08-25T00:00:00+08:00",
-        "time": "00:00",
-        "url": "https://udn.com/news/story/7238/9711795",
-        "canonical_url": "https://udn.com/news/story/7238/9711795",
-        "summary": "財政部國庫署昨公布地方政府明年獲配的中央普通統籌分配稅款，由於稅收預算增加，地方獲配的統籌稅款也增至九三三六億元的新高。各縣市獲配情況方面，台北市、新北市雙雙破千億元，分別獲配一二六四億、一○七五億元；但以人均獲配數計算，新北市因人口較多，僅二點六六萬元，不僅在六都中敬陪末座，也是全台最低。",
+        "id": "9711758",
+        "title": "經濟K型分化 業界憂心",
+        "published_at": "2026-08-25T00:52:00+08:00",
+        "time": "00:52",
+        "url": "https://udn.com/news/story/7238/9711758",
+        "canonical_url": "https://udn.com/news/story/7238/9711758",
+        "summary": "工總理事長潘俊榮昨（24）日表示，台灣今年經濟成長率可望創近40年新高，但傳統產業仍是維持國家運作與民生穩定的重要基礎，政府應避免資源過度集中於AI產業，協助傳產導入數位工具、改善生產效率及提升競爭力。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9711764",
+        "title": "振興中小微企把門開大 經部擬修法",
+        "published_at": "2026-08-25T00:52:00+08:00",
+        "time": "00:52",
+        "url": "https://udn.com/news/story/7243/9711764",
+        "canonical_url": "https://udn.com/news/story/7243/9711764",
+        "summary": "經濟部規劃《中小微企業轉型升級發展條例》修法，將增訂設備投資抵減租稅優惠，且適用門檻將低於產創條例，也要增加研發投抵項目、提高抵減率，擴大增僱加薪減稅適用對象、加碼優惠。三大租稅優惠朝降低門檻、擴大優惠研擬，盼「把門開得大一點」。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9711666",
+        "title": "生醫大數據基建兩階段推進 搶攻全球800億美元商機",
+        "published_at": "2026-08-25T00:46:00+08:00",
+        "time": "00:46",
+        "url": "https://udn.com/news/story/7238/9711666",
+        "canonical_url": "https://udn.com/news/story/7238/9711666",
+        "summary": "生醫大數據基建，兩階段推進。行政院生技產業策略諮議委員會議（BTC）昨（24）日登場，BTC召集人、政務委員吳誠文表示，政府近年建立國際接軌的FHIR醫療資訊交換標準，年底可望在全國各醫學中心落實，明年底前希望各區域醫院跟進，並推廣到長期照護機構。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9711669",
+        "title": "生技業界喊設轉譯基金 碰釘子",
+        "published_at": "2026-08-25T00:43:00+08:00",
+        "time": "00:43",
+        "url": "https://udn.com/news/story/7241/9711669",
+        "canonical_url": "https://udn.com/news/story/7241/9711669",
+        "summary": "行政院生技產業策略諮議委員會議（BTC）昨（24）日召開，業界建議政府帶頭支持設立「轉譯創投基金」，不過，身負推動生醫產業政策重任的政務委員吳誠文，對此卻表反對。意外出現產官雙方意見紛歧，言語交鋒的場景。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
@@ -321,17 +475,6 @@
         "url": "https://udn.com/news/story/7238/9711703",
         "canonical_url": "https://udn.com/news/story/7238/9711703",
         "summary": "工總昨天發表二○二六年白皮書，「缺工」、「產業轉型」及「能源政策」為今年產業界最關切的三大議題。工總建議，政府應停止「重科技、輕傳產」的偏廢政策，導正資源分配傾斜，確保傳統製造業的基礎生存與發展權，協助產業轉型，促進產業均衡發展。工總理事長潘俊榮說，台灣不能只有ＡＩ，也要讓百工百業都能翻轉。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "9711679",
-        "title": "工總發表白皮書 國發會：跨部會滾動檢討",
-        "published_at": "2026-08-25T00:00:00+08:00",
-        "time": "00:00",
-        "url": "https://udn.com/news/story/7238/9711679",
-        "canonical_url": "https://udn.com/news/story/7238/9711679",
-        "summary": "工總昨發表二○二六年白皮書，提一三○項政策建議。國發會昨回應，白皮書核心訴求與政府主要政策方向高度契合，將持續攜手相關部會精進政策並進行滾動檢討，在全球供應鏈重組關鍵時刻，扮演產業界最強後盾。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       }
