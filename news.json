@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at": "2026-08-25T04:42:51.436052+08:00",
+  "updated_at": "2026-08-25T05:38:52.899236+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "instant": {
@@ -47,6 +47,50 @@
   },
   "categories": {
     "instant": [
+      {
+        "id": "9711882",
+        "title": "美將敘利亞移出支持恐怖主義名單 解除相關制裁",
+        "published_at": "2026-08-25T05:36:00+08:00",
+        "time": "05:36",
+        "url": "https://money.udn.com/money/story/5599/9711882?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9711882",
+        "summary": "美國今天將敘利亞從「支持恐怖主義國家」名單中移除，並解除相關制裁措施，顯示兩國關係進一步回溫",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711881",
+        "title": "3颱共存 吳德榮：今防局部強對流 沙德爾周四周五以中颱侵台",
+        "published_at": "2026-08-25T05:35:00+08:00",
+        "time": "05:35",
+        "url": "https://money.udn.com/money/story/122328/9711881?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/122328/9711881",
+        "summary": "目前太平洋地區有3個颱風，包括中度颱風沙德爾、輕度颱風紫檀、輕颱閃電。中央大學大氣科學系兼任副教授吳德榮今天在「氣象應用推廣基金會」的「洩天機教室」專欄表示，第18號颱風持續向西北西前進，明天通過琉球附近，漸轉偏西進行，周四、周五再轉西南西，中心進入台灣北部海面，暴風圈邊緣掃過北台灣，周五晚從…",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711876",
+        "title": "8月24日 期交所夜盤行情",
+        "published_at": "2026-08-25T05:31:00+08:00",
+        "time": "05:31",
+        "url": "https://money.udn.com/money/story/11112/9711876?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/11112/9711876",
+        "summary": "盤後時段臺指期收在44,532點，（較開盤參考價）下跌208點。 小臺指期收在44,537點，（較開盤參考價）下跌203點。 微臺指期收在44,534點，（較開盤參考價）下跌206點。 電子期收在2,819.7點，（較開盤參考價）下跌23.7點。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711879",
+        "title": "雨區涵蓋全台15縣市 台南、高雄及屏東慎防豪雨",
+        "published_at": "2026-08-25T05:21:00+08:00",
+        "time": "05:21",
+        "url": "https://money.udn.com/money/story/122328/9711879?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/122328/9711879",
+        "summary": "中央氣象署發豪雨特報，低壓帶影響且水氣偏多易有短延時強降雨，今天台南市、高雄市及屏東縣有局部大雨或豪雨，北海岸、中部、東...",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
       {
         "id": "9711869",
         "title": "美擴大施壓 貝森特：助伊朗洗錢實體將踢出美元體系",
@@ -270,13 +314,13 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "9711869",
-        "title": "美擴大施壓 貝森特：助伊朗洗錢實體將踢出美元體系",
+        "id": "9711882",
+        "title": "美將敘利亞移出支持恐怖主義名單 解除相關制裁",
         "published_at": "2026-08-25T01:31:00+08:00",
         "time": "01:31",
-        "url": "https://money.udn.com/money/story/5599/9711869?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5599/9711869",
-        "summary": "美國試圖向伊朗施加巨大經濟壓力以結束中東戰爭，財政部長貝森特今天表示，任何代表伊朗協助洗錢活動的實體，將被踢出美元體系",
+        "url": "https://money.udn.com/money/story/5599/9711882?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9711882",
+        "summary": "美國今天將敘利亞從「支持恐怖主義國家」名單中移除，並解除相關制裁措施，顯示兩國關係進一步回溫",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
@@ -343,17 +387,6 @@
         "url": "https://udn.com/news/story/7240/9711645",
         "canonical_url": "https://udn.com/news/story/7240/9711645",
         "summary": "台積電最新年度永續報告書出爐，揭露台積電晶片低能耗為全球帶來的高節能效益，去年採用台積電晶片的資通訊產品，為全球節電逾1,800億度，減少近8,900萬公噸碳排放；至2030年，台積電每用1度電生產半導體產品，將為全球節省近7度電。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "9711609",
-        "title": "老字號生活通路掀掛牌潮 床的世界9月中旬轉上櫃",
-        "published_at": "2026-08-25T01:11:00+08:00",
-        "time": "01:11",
-        "url": "https://udn.com/news/story/7241/9711609",
-        "canonical_url": "https://udn.com/news/story/7241/9711609",
-        "summary": "老字號生活通路吹起掛牌風。床的世界預計9月中旬由興櫃轉上櫃掛牌，特力屋上市案已獲證交所董事會核議通過，小北百貨也規劃2027年啟動IPO。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
