@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-25",
+  "updated_at": null,
+  "timezone": "Asia/Taipei",
+  "sources": {
+    "instant": {
+      "label": "即時",
+      "url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+    },
+    "finance": {
+      "label": "金融",
+      "url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+    },
+    "housing": {
+      "label": "房市",
+      "url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
+    }
+  },
+  "categories": {
+    "instant": [],
+    "finance": [],
+    "housing": []
+  }
+}
