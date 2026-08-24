@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at": "2026-08-25T05:38:52.899236+08:00",
+  "updated_at": "2026-08-25T06:38:40.776815+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "instant": {
@@ -48,6 +48,193 @@
   "categories": {
     "instant": [
       {
+        "id": "9711869",
+        "title": "美擴大施壓 貝森特：助伊朗洗錢實體將踢出美元體系",
+        "published_at": "2026-08-25T06:30:00+08:00",
+        "time": "06:30",
+        "url": "https://money.udn.com/money/story/5599/9711869?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9711869",
+        "summary": "美國試圖向伊朗施加巨大經濟壓力以結束中東戰爭，財政部長貝森特今天表示，任何代表伊朗協助洗錢活動的實體，將被踢出美元體系",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711944",
+        "title": "投資人權衡美國經濟施壓伊朗 華爾街股市多收跌",
+        "published_at": "2026-08-25T06:30:00+08:00",
+        "time": "06:30",
+        "url": "https://money.udn.com/money/story/123398/9711944?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/123398/9711944",
+        "summary": "投資人衡量美國向伊朗擴大施加經濟壓力，並準備迎接人工智慧晶片巨擘輝達公司（NVIDIA）財報和備受關注的通膨數據報告，華...",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711942",
+        "title": "【即時短評】「中華民國」非感冒藥 「八二三」亦非自助餐",
+        "published_at": "2026-08-25T06:28:00+08:00",
+        "time": "06:28",
+        "url": "https://udn.com/news/story/6656/9711942",
+        "canonical_url": "https://udn.com/news/story/6656/9711942",
+        "summary": "八二三砲戰六十八周年，賴清德總統與國民黨主席鄭麗文先後赴金門致祭。耐人尋味的是，過去在國家認同上南轅北轍的藍綠領袖，這一天都把「中華民國」掛在嘴邊。賴總統稱八二三是「中華民國國軍擊敗中華人民共和國解放軍的光榮戰役」；鄭麗文則要求賴總統「做一天真正的中華民國總統」，回到中華民國憲法。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9711937",
+        "title": "海地幫派攻擊事件頻傳 首都附近城鎮至少30人喪命",
+        "published_at": "2026-08-25T06:21:00+08:00",
+        "time": "06:21",
+        "url": "https://money.udn.com/money/story/5599/9711937?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9711937",
+        "summary": "海地首都太子港附近的肯斯科夫鎮（Kenscoff）地方官員今天告訴路透社，當地至少30人死於幫派襲擊",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711933",
+        "title": "國1南向豐原路段重大車禍 聯結車追撞翻覆…全線封閉回堵2公里",
+        "published_at": "2026-08-25T06:11:00+08:00",
+        "time": "06:11",
+        "url": "https://udn.com/news/story/7320/9711933",
+        "canonical_url": "https://udn.com/news/story/7320/9711933",
+        "summary": "目前中南部天候不佳，國道1號南向大雅系統前今天清晨發生重大交通事故，高速公路局中區養護工程分局表示，國道1號南向170.8K豐原路段，今天清晨4時20分，發生1輛連結車和1輛大貨車追撞，其中連結車翻車事故，目前全線封閉處理中，回堵2公里。用路人小心駕駛。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9711912",
+        "title": "今年來外資提款韓股居冠 單周東南亞股市撐盤",
+        "published_at": "2026-08-25T06:05:00+08:00",
+        "time": "06:05",
+        "url": "https://money.udn.com/money/story/5618/9711912?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5618/9711912",
+        "summary": "國際股市上周普遍下跌，主要受到美伊協議僵局、油價反彈帶動美債殖利率飆升、不利於通膨、利率政策和美國財政等因素多重影響。玉山投信指出，觀察亞洲資金上周流向，外資普遍出現提款，僅印度、印尼及台灣有小幅淨買超，其中，台股淨買超0.21億美元，而南韓則成為外資大額提款的對象，單周淨賣超16.04億美元…",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711911",
+        "title": "美國股票基金淨流入續居冠",
+        "published_at": "2026-08-25T06:04:00+08:00",
+        "time": "06:04",
+        "url": "https://money.udn.com/money/story/5618/9711911?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5618/9711911",
+        "summary": "地緣政治與利率壓力升溫，美元走弱支撐新興市場表現。根據EPFR統計截至2026年8月19日止近一周，全球股票型基金資金流向以美國股票基金最受青睞，單周淨流入289.29億美元，不僅居各區域之冠，資金動能亦明顯增強；全球新興市場股票基金則以吸引21.47億美元位居第二。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711889",
+        "title": "平日國旅補助9月登場 今天起全面開放登錄 最高折抵3700元",
+        "published_at": "2026-08-25T06:03:00+08:00",
+        "time": "06:03",
+        "url": "https://money.udn.com/money/story/5648/9711889?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5648/9711889",
+        "summary": "「把2026的風景，變成你的限時動態」。觀光署9月1日起啟動平日國旅補助，本島住宿最高每人補助2000元，離島最高補助2500元；另還有「生日券」優惠，每月份抽出1000名壽星，可獲得1200元住宿金。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711898",
+        "title": "短延時強降雨發生 高雄屏東大雷雨持續至上午7時8分",
+        "published_at": "2026-08-25T06:03:00+08:00",
+        "time": "06:03",
+        "url": "https://money.udn.com/money/story/122328/9711898?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/122328/9711898",
+        "summary": "低壓帶影響，水氣仍多，中央氣象署稍早針對彰化縣、雲林縣、嘉義縣、台南市發布大雷雨，現再追加高雄市、屏東縣大雷雨即時訊息，持續時間至上午7時8分；有短延時強降雨發生，並伴隨較強陣風、閃電落雷，慎防溪河水暴漲、低窪地區積水、低能見度、雷擊。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711908",
+        "title": "投資級債吸金居冠 三大債市均淨流",
+        "published_at": "2026-08-25T06:03:00+08:00",
+        "time": "06:03",
+        "url": "https://money.udn.com/money/story/5618/9711908?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5618/9711908",
+        "summary": "美伊局勢再增溫，債市全面下跌。根據美銀引述EPFR統計，截至2026年8月19日止一周，全球主要債券資產類別全面維持淨流入，投資等級債券基金以55.3億美元淨流入居冠。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711904",
+        "title": "台股挾「三大利多」蓄勢攻峰 策略型高股息護航下半年旺季",
+        "published_at": "2026-08-25T06:02:00+08:00",
+        "time": "06:02",
+        "url": "https://money.udn.com/money/story/5618/9711904?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5618/9711904",
+        "summary": "隨著國內外企業法說會高峰期落幕、個股營運不確定性顯著降溫，市場焦點已全面轉向即將登場的輝達（Nvidia）財報發布，以及2026下半年科技產業的傳統拉貨旺季。大華銀投信指數量化投資部門主管暨大華優利高填息30（00918）經理人郭修誠表示，台股後市具備三大利多的強勁支撐。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711900",
+        "title": "HBM4 規格升級 韓國科技龍頭獲利長線可預測性顯著提升",
+        "published_at": "2026-08-25T06:01:00+08:00",
+        "time": "06:01",
+        "url": "https://money.udn.com/money/story/5618/9711900?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5618/9711900",
+        "summary": "法人指出，隨著HBM4規格升級帶動平均銷售單價（ASP）與毛利率再升級，韓國科技龍頭獲利長線可預測性顯著提升。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711896",
+        "title": "永豐金解鎖賽三周吸10萬人 震盪行情散戶搶拿投資金",
+        "published_at": "2026-08-25T06:01:00+08:00",
+        "time": "06:01",
+        "url": "https://money.udn.com/money/story/5607/9711896?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5607/9711896",
+        "summary": "第3季台美股市場震盪加劇，投資人策略逐漸轉向無痛抗跌與累積本金的雙軌思維。永豐金證券下半年推出台美投資解鎖賽，精準擊中此波市場痛點，活動上線短短三周，強勢吸引超過10萬名投資人參與。反映盤勢越震盪，投資人越渴望本金防禦力的解方，而非單純追逐漲跌。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711891",
+        "title": "台股 ETF 受益人周增11.8萬人 15檔人氣率先創高",
+        "published_at": "2026-08-25T06:00:00+08:00",
+        "time": "06:00",
+        "url": "https://money.udn.com/money/story/5618/9711891?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5618/9711891",
+        "summary": "在經過連續兩周降溫後，台股ETF受益人人數止跌回升。根據集保戶股權分散8月21日最新統計資料顯示，94檔台股ETF受益人數上周增加11.79萬人，總人數來到18513684人，統計今年來還是增加了6340194。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711888",
+        "title": "市場衡量美國擴大施壓伊朗 國際油價回落",
+        "published_at": "2026-08-25T05:54:00+08:00",
+        "time": "05:54",
+        "url": "https://money.udn.com/money/story/5599/9711888?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9711888",
+        "summary": "美國財政部長貝森特（Scott Bessent）稍早宣布展開一場前所未有的經濟施壓行動，以試圖孤立伊朗並結束中東戰爭，市...",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711887",
+        "title": "AI合作協議 英國率先取得烏克蘭復仇者平台實戰數據",
+        "published_at": "2026-08-25T05:54:00+08:00",
+        "time": "05:54",
+        "url": "https://money.udn.com/money/story/5599/9711887?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9711887",
+        "summary": "英國首相柏南今天訪問基輔期間，與烏克蘭總統澤倫斯基簽署人工智慧（AI）夥伴關係協議，英國成為第一個獲准使用烏克蘭國防部「...",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711883",
+        "title": "低壓帶影響水氣多 大雷雨今晨開炸彰雲嘉南4縣市",
+        "published_at": "2026-08-25T05:51:00+08:00",
+        "time": "05:51",
+        "url": "https://money.udn.com/money/story/122328/9711883?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/122328/9711883",
+        "summary": "低壓帶影響且水氣偏多，易有短延時強降雨，中央氣象署發布彰化縣、雲林縣、嘉義縣、台南市大雷雨即時訊息，持續時間至上午6時22分；有短延時強降雨發生，並伴隨較強陣風、閃電落雷，慎防溪河水暴漲、低窪地區積水、低能見度、雷擊。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
         "id": "9711882",
         "title": "美將敘利亞移出支持恐怖主義名單 解除相關制裁",
         "published_at": "2026-08-25T05:36:00+08:00",
@@ -88,17 +275,6 @@
         "url": "https://money.udn.com/money/story/122328/9711879?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/122328/9711879",
         "summary": "中央氣象署發豪雨特報，低壓帶影響且水氣偏多易有短延時強降雨，今天台南市、高雄市及屏東縣有局部大雨或豪雨，北海岸、中部、東...",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
-      },
-      {
-        "id": "9711869",
-        "title": "美擴大施壓 貝森特：助伊朗洗錢實體將踢出美元體系",
-        "published_at": "2026-08-25T04:21:00+08:00",
-        "time": "04:21",
-        "url": "https://money.udn.com/money/story/5599/9711869?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5599/9711869",
-        "summary": "美國試圖向伊朗施加巨大經濟壓力以結束中東戰爭，財政部長貝森特今天表示，任何代表伊朗協助洗錢活動的實體，將被踢出美元體系",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
       },
@@ -237,6 +413,17 @@
     ],
     "finance": [
       {
+        "id": "9711869",
+        "title": "美擴大施壓 貝森特：助伊朗洗錢實體將踢出美元體系",
+        "published_at": "2026-08-25T01:31:00+08:00",
+        "time": "01:31",
+        "url": "https://money.udn.com/money/story/5599/9711869?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9711869",
+        "summary": "美國試圖向伊朗施加巨大經濟壓力以結束中東戰爭，財政部長貝森特今天表示，任何代表伊朗協助洗錢活動的實體，將被踢出美元體系",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
         "id": "9711767",
         "title": "台幣升勢面臨阻力 外資投入股市資金減少 遠期市場需求轉弱",
         "published_at": "2026-08-25T01:31:00+08:00",
@@ -314,13 +501,13 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "9711882",
-        "title": "美將敘利亞移出支持恐怖主義名單 解除相關制裁",
+        "id": "9711944",
+        "title": "投資人權衡美國經濟施壓伊朗 華爾街股市多收跌",
         "published_at": "2026-08-25T01:31:00+08:00",
         "time": "01:31",
-        "url": "https://money.udn.com/money/story/5599/9711882?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5599/9711882",
-        "summary": "美國今天將敘利亞從「支持恐怖主義國家」名單中移除，並解除相關制裁措施，顯示兩國關係進一步回溫",
+        "url": "https://money.udn.com/money/story/123398/9711944?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/123398/9711944",
+        "summary": "投資人衡量美國向伊朗擴大施加經濟壓力，並準備迎接人工智慧晶片巨擘輝達公司（NVIDIA）財報和備受關注的通膨數據報告，華...",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
