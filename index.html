@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f5a47">
+  <meta name="description" content="經濟日報每日新聞選取與早安文字生成工具">
+  <title>每日新聞文字生成器</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__inner">
+      <div>
+        <p class="eyebrow">DAILY NEWS</p>
+        <h1>每日新聞文字生成器</h1>
+        <p class="hero__sub">挑選今天的即時、金融、房市新聞，一鍵生成可直接分享的早安文字。</p>
+      </div>
+      <button id="refreshBtn" class="ghost-btn" type="button">重新整理新聞</button>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="status-card" aria-live="polite">
+      <div>
+        <span class="status-label">新聞日期</span>
+        <strong id="newsDate">讀取中…</strong>
+      </div>
+      <div>
+        <span class="status-label">最後更新</span>
+        <strong id="updatedAt">—</strong>
+      </div>
+      <div>
+        <span class="status-label">已選新聞</span>
+        <strong><span id="selectedCount">0</span> 篇</strong>
+      </div>
+      <div id="dataStatus" class="data-status">正在讀取資料</div>
+    </section>
+
+    <section class="news-grid">
+      <article class="news-panel" data-category="instant">
+        <div class="panel-head">
+          <div>
+            <span class="panel-icon">⚡</span>
+            <div>
+              <h2>即時</h2>
+              <p>今日最新新聞</p>
+            </div>
+          </div>
+          <span id="instantCount" class="count-badge">0</span>
+        </div>
+        <div id="instantList" class="news-list"></div>
+      </article>
+
+      <article class="news-panel" data-category="finance">
+        <div class="panel-head">
+          <div>
+            <span class="panel-icon">💹</span>
+            <div>
+              <h2>金融</h2>
+              <p>今日金融新聞</p>
+            </div>
+          </div>
+          <span id="financeCount" class="count-badge">0</span>
+        </div>
+        <div id="financeList" class="news-list"></div>
+      </article>
+
+      <article class="news-panel" data-category="housing">
+        <div class="panel-head">
+          <div>
+            <span class="panel-icon">🏠</span>
+            <div>
+              <h2>房市</h2>
+              <p>今日房市新聞</p>
+            </div>
+          </div>
+          <span id="housingCount" class="count-badge">0</span>
+        </div>
+        <div id="housingList" class="news-list"></div>
+      </article>
+    </section>
+
+    <section class="generator">
+      <div class="generator__head">
+        <div>
+          <p class="eyebrow">MESSAGE BUILDER</p>
+          <h2>生成今日分享文字</h2>
+          <p>每個分類最多選 1 篇；可只選其中一個或兩個分類。</p>
+        </div>
+        <button id="generateBtn" class="primary-btn" type="button">生成文字</button>
+      </div>
+
+      <div id="outputWrap" class="output-wrap" hidden>
+        <textarea id="outputText" spellcheck="false" aria-label="生成文字"></textarea>
+        <div class="output-actions">
+          <span id="copyStatus" aria-live="polite"></span>
+          <button id="copyBtn" class="secondary-btn" type="button">複製全文</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>資料來源：經濟日報。文章內容與發布時間以原網站為準。</p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
