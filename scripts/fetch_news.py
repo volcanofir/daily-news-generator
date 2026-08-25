@@ -93,7 +93,7 @@ SOURCES = {
             },
             {
                 "name": "好房網News",
-                "url": "https://news.housefun.com.tw/news/#news-list",
+                "url": "https://news.housefun.com.tw/news/all/",
                 "resolve_missing_dates": True,
                 "max_candidates": 30,
             },
@@ -106,7 +106,7 @@ TVBS_PATH_RE = re.compile(r"^/[A-Za-z0-9_-]+/\d+/?$")
 CHINATIMES_REALTIME_RE = re.compile(r"^/realtimenews/\d{14}-\d+/?$")
 CHINATIMES_HOUSE_RE = re.compile(r"^/\d{14}-\d+/?$")
 HOUSEFUN_RE = re.compile(r"^/news/article/\d+\.html/?$")
-STORM_RE = re.compile(r"^/(?!channel(?:/|$))(?:[A-Za-z0-9_-]+/)*\d+/?$")
+STORM_RE = re.compile(r"^/(?:article|lifestyle)/\d+/?$")
 
 DATE_RE = re.compile(
     r"(20\d{2})[/-](\d{1,2})[/-](\d{1,2})\s+(\d{1,2}):(\d{2})(?::(\d{2}))?"
@@ -137,7 +137,16 @@ session.headers.update(
 
 
 def fetch(url: str, timeout: int = 25) -> str:
-    response = session.get(url, timeout=timeout)
+    headers = None
+    if "housefun.com.tw" in url:
+        headers = {
+            "Referer": "https://news.housefun.com.tw/",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "same-origin",
+            "Upgrade-Insecure-Requests": "1",
+        }
+    response = session.get(url, timeout=timeout, headers=headers)
     response.raise_for_status()
     try:
         return response.content.decode("utf-8")
