@@ -1,4 +1,5 @@
 const CATEGORY_CONFIG = {
+  weather: { list: "weatherList", count: "weatherCount", label: "天氣" },
   instant: { list: "instantList", count: "instantCount", label: "即時" },
   finance: { list: "financeList", count: "financeCount", label: "金融" },
   housing: { list: "housingList", count: "housingCount", label: "房市" },
@@ -7,6 +8,7 @@ const CATEGORY_CONFIG = {
 const state = {
   payload: null,
   selected: {
+    weather: null,
     instant: null,
     finance: null,
     housing: null,
@@ -45,7 +47,7 @@ function displayUpdated(isoDateTime) {
 }
 
 function escapeHtml(value = "") {
-  return value
+  return String(value)
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
@@ -74,8 +76,7 @@ function renderCategory(category, items = []) {
       : "";
 
     row.innerHTML = `
-      <input class="news-check" type="checkbox"
-        aria-label="選取 ${escapeHtml(item.title)}">
+      <input class="news-check" type="checkbox" aria-label="選取 ${escapeHtml(item.title)}">
       <div class="news-meta">
         <span>${escapeHtml(item.time || "")}</span>
         <span>•</span>
@@ -114,6 +115,7 @@ function updateSelectedCount() {
 }
 
 function focusHeading(category, item) {
+  if (category === "weather") return "📰 【🌦️ 天氣焦點】";
   if (category === "finance") return "📰 【💹 經濟焦點】";
   if (category === "housing") return "📰 【🏠 房市焦點】";
 
