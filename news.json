@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updated_at": "2026-08-26T00:55:21.537184+08:00",
+  "updated_at": "2026-08-26T01:01:03.417377+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "weather": {
@@ -17,6 +17,12 @@
           "url": "https://news.tvbs.com.tw/search?q=天氣&st=tag",
           "resolve_missing_dates": true,
           "max_candidates": 30
+        },
+        {
+          "name": "太報・天氣",
+          "url": "https://www.taisounds.com/news/section/139",
+          "resolve_missing_dates": true,
+          "max_candidates": 35
         }
       ]
     },
@@ -53,6 +59,12 @@
         {
           "name": "聯合新聞網・產經",
           "url": "https://udn.com/news/cate/2/6644"
+        },
+        {
+          "name": "太報・財經焦點",
+          "url": "https://www.taisounds.com/news/section/76",
+          "resolve_missing_dates": true,
+          "max_candidates": 35
         }
       ]
     },
@@ -120,12 +132,51 @@
         {
           "name": "富比士地產王",
           "url": "https://www.fbs168.com/"
+        },
+        {
+          "name": "太報・房市",
+          "url": "https://www.taisounds.com/news/section/81",
+          "resolve_missing_dates": true,
+          "max_candidates": 35
         }
       ]
     }
   },
   "categories": {
     "weather": [
+      {
+        "id": "771e065e3567f11f",
+        "title": "王識賢、羅志祥西門町陪玩 《網紅老爸》休息室驚竄火苗",
+        "published_at": "2026-08-26T00:53:15+08:00",
+        "time": "00:53",
+        "url": "https://www.taisounds.com/news/content/107/285162",
+        "canonical_url": "https://www.taisounds.com/news/content/107/285162",
+        "summary": "王識賢、陳怡佳、張懷秋、羅志祥、孫鵬、白吉勝、林道禹、王宣、柯宇森昨（8╱25）在西門町掃街為《網紅老爸》造勢並舉行見面會，不料藝人休息室疑似電線走火飄出刺鼻的塑膠燒焦味，冷氣機也一度冒出火苗，黃鐙輝急忙驅散人員，並對現場記者說「工作沒有生命重要」，要大家快收電腦，「先別寫了」！所幸最後有驚無險。",
+        "source": "太報・天氣",
+        "source_url": "https://www.taisounds.com/news/section/139"
+      },
+      {
+        "id": "994edf1b93b08286",
+        "title": "加拿大對美國祭最高50%對等報復關稅 9/8開徵涵700種商品",
+        "published_at": "2026-08-26T00:46:02+08:00",
+        "time": "00:46",
+        "url": "https://www.taisounds.com/news/content/84/285161",
+        "canonical_url": "https://www.taisounds.com/news/content/84/285161",
+        "summary": "加拿大週二（8/25）宣布對美國關稅的反制措施，下月8日起對價值276億加元（約6358億元台幣）的美國商品課徵報復性關稅，稅率分別為15%、25%和50%；另公佈對受貿易戰影響的加拿大企業和工人的財政支持計劃。",
+        "source": "太報・天氣",
+        "source_url": "https://www.taisounds.com/news/section/139"
+      },
+      {
+        "id": "aa13c6ab0a3d5183",
+        "title": "SpaceX熱潮吹向台灣！6檔主動式ETF逢低布局獲關注",
+        "published_at": "2026-08-26T00:30:06+08:00",
+        "time": "00:30",
+        "url": "https://www.taisounds.com/news/content/76/285113",
+        "canonical_url": "https://www.taisounds.com/news/content/76/285113",
+        "summary": "馬斯克SpaceX熱潮吹向台灣，9檔海外主動式ETF中，有6檔持有SpaceX，今(26)天掛牌的主動統一前沿科技(00411A)也在其中。00411A進場時機，恰好是SpaceX股價打底後逐步走揚之際，SpaceX能否帶動00411A及相關海外主動式ETF走勢，將是市場觀察焦點。",
+        "source": "太報・天氣",
+        "source_url": "https://www.taisounds.com/news/section/139"
+      },
       {
         "id": "b12f7b576c7567a5",
         "title": "今天8/26停班停課最新通知！9地區宣布放豪雨假，全台22縣市放假資訊不斷更新",
@@ -136,9 +187,64 @@
         "summary": "受到低壓帶與西南風持續影響，全台多地連日降下致災性豪雨。中央氣象署雖然已解除了大規模劇烈豪雨作業，但各地的雨勢依然未見停歇，陸續發布豪雨及大雨特報。由於長時間強降雨導致部分山區土石鬆軟、沿海低窪地區積水難消，民眾極為關心明日（8/26）是否停班停課。",
         "source": "風傳媒・天氣",
         "source_url": "https://www.storm.mg/channel/120/"
+      },
+      {
+        "id": "b08255009fd93015",
+        "title": "中島健人倒數撲台 羞認長濱禰留私下超合拍",
+        "published_at": "2026-08-26T00:13:33+08:00",
+        "time": "00:13",
+        "url": "https://www.taisounds.com/news/content/107/285160",
+        "canonical_url": "https://www.taisounds.com/news/content/107/285160",
+        "summary": "中島健人8月29、30日將在Zepp New Taipei舉辦首次亞洲巡演「IDOL1ST KENTY」，8月31日出席電影《LOVE ≠ COMEDY》見面場與粉絲分享拍攝幕後與角色心得。",
+        "source": "太報・天氣",
+        "source_url": "https://www.taisounds.com/news/section/139"
+      },
+      {
+        "id": "b354f966823941bb",
+        "title": "王少偉看五熊潑油事件「應該是不小心」 出遊先做功課是常識",
+        "published_at": "2026-08-26T00:06:06+08:00",
+        "time": "00:06",
+        "url": "https://www.taisounds.com/news/content/107/285158",
+        "canonical_url": "https://www.taisounds.com/news/content/107/285158",
+        "summary": "王少偉昨（8╱25）與董至成、派翠克、泱泱出席《高年級超進化》開播記者會，談到五熊（蔡頤榛）4月去奈良藥師寺旅遊時對千年國寶「佛足石」潑灑甘油成分液體，8月22日入境日本時被拘捕到案事件，他認為五熊「應該是不小心、沒有搞清楚狀況」，「像我們以前出外景，我們都比較不會用自己的想法來看待一件事情…",
+        "source": "太報・天氣",
+        "source_url": "https://www.taisounds.com/news/section/139"
+      },
+      {
+        "id": "33b7a101b7d454ef",
+        "title": "「半導體千金」張喬菲不嫁豪門 陪尪賣蛋糕翻身連鎖烘焙王",
+        "published_at": "2026-08-26T00:04:48+08:00",
+        "time": "00:04",
+        "url": "https://www.taisounds.com/news/content/107/285157",
+        "canonical_url": "https://www.taisounds.com/news/content/107/285157",
+        "summary": "「半導體千金」張喬菲與淡水「元記小舖」創辦人王厚元結婚12年，不僅從1家小店舖擴大成3家連鎖店，最近從新北市長侯友宜手中接下「新北嚴選潛力獎」獎狀，對夫妻倆而言，這不只是得獎，更是一路共同打拼過程中的重要肯定。",
+        "source": "太報・天氣",
+        "source_url": "https://www.taisounds.com/news/section/139"
+      },
+      {
+        "id": "12c5ff4391793440",
+        "title": "阿信率F3攻鳥巢 燒5億升級舞台",
+        "published_at": "2026-08-26T00:02:06+08:00",
+        "time": "00:02",
+        "url": "https://www.taisounds.com/news/content/107/285156",
+        "canonical_url": "https://www.taisounds.com/news/content/107/285156",
+        "summary": "言承旭、吳建豪、周渝民10月6、7日將登鳥巢開唱，這次不是嘉賓，而是與「五月天」阿信帶著「F✦FOREVER恆星之城」旗艦版重返體育場，並斥資5億打造極致舞台，祭出節目內容升級、零死角金字塔升降台魅力破表、全方位環場「逐星號」閃耀登場、各城市限定延伸舞台。",
+        "source": "太報・天氣",
+        "source_url": "https://www.taisounds.com/news/section/139"
       }
     ],
     "instant": [
+      {
+        "id": "7de0c3b8cb14d002",
+        "title": "美國對伊朗制裁未見明顯衝擊 歐股收盤漲多跌少",
+        "published_at": "2026-08-26T00:54:04+08:00",
+        "time": "00:54",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5552256",
+        "canonical_url": "https://ec.ltn.com.tw/article/breakingnews/5552256",
+        "summary": "〔中央社〕美國宣布對伊朗新一輪制裁後，未見其經濟壓力明顯升高，令投資人鬆一口氣；加上德國第2季經濟成長率終值優於初值，歐洲主要股市今天收盤大多應聲上漲，惟法國股市尾盤轉跌。 倫敦FTSE 100指數",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
       {
         "id": "5c6e3290baa3de19",
         "title": "翁曉玲扯中油採購庇護商品執行率0遭打臉 張育萌嗆：道歉很難嗎？",
@@ -263,6 +369,94 @@
     ],
     "finance": [
       {
+        "id": "f8bfe4098a5546ec",
+        "title": "執業者捐贈節稅 留意三眉角",
+        "published_at": "2026-08-26T00:58:00+08:00",
+        "time": "00:58",
+        "url": "https://money.udn.com/money/story/6710/9713868?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/6710/9713868",
+        "summary": "醫師、律師等執行業務者捐款做公益，報稅時要注意三大眉角，包括公益捐贈有10%認列上限、對政府捐贈不受限額限制、捐款名義會影響申報方式。財政部高雄國稅局提醒，所謂10%上限並非直接以收入乘以10%，一旦超過限額，超出的捐款就不能列為執行業務費用。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "68135cf9624bc9e9",
+        "title": "親友寄戶口 無礙自住優稅",
+        "published_at": "2026-08-26T00:57:00+08:00",
+        "time": "00:57",
+        "url": "https://money.udn.com/money/story/6710/9713870?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/6710/9713870",
+        "summary": "不少家長為了子女就學，會向親友借地址「寄戶口」，但部分屋主會擔心是否影響原有的房屋稅、地價稅自住優惠？新竹市稅務局表示，只要房地實際仍作自住使用，沒有出租或營業，單純提供親友寄放戶籍，不會影響原本適用的自住稅率。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "771e065e3567f11f",
+        "title": "王識賢、羅志祥西門町陪玩 《網紅老爸》休息室驚竄火苗",
+        "published_at": "2026-08-26T00:53:15+08:00",
+        "time": "00:53",
+        "url": "https://www.taisounds.com/news/content/107/285162",
+        "canonical_url": "https://www.taisounds.com/news/content/107/285162",
+        "summary": "王識賢、陳怡佳、張懷秋、羅志祥、孫鵬、白吉勝、林道禹、王宣、柯宇森昨（8╱25）在西門町掃街為《網紅老爸》造勢並舉行見面會，不料藝人休息室疑似電線走火飄出刺鼻的塑膠燒焦味，冷氣機也一度冒出火苗，黃鐙輝急忙驅散人員，並對現場記者說「工作沒有生命重要」，要大家快收電腦，「先別寫了」！所幸最後有驚無險。",
+        "source": "太報・財經焦點",
+        "source_url": "https://www.taisounds.com/news/section/76"
+      },
+      {
+        "id": "994edf1b93b08286",
+        "title": "加拿大對美國祭最高50%對等報復關稅 9/8開徵涵700種商品",
+        "published_at": "2026-08-26T00:46:02+08:00",
+        "time": "00:46",
+        "url": "https://www.taisounds.com/news/content/84/285161",
+        "canonical_url": "https://www.taisounds.com/news/content/84/285161",
+        "summary": "加拿大週二（8/25）宣布對美國關稅的反制措施，下月8日起對價值276億加元（約6358億元台幣）的美國商品課徵報復性關稅，稅率分別為15%、25%和50%；另公佈對受貿易戰影響的加拿大企業和工人的財政支持計劃。",
+        "source": "太報・財經焦點",
+        "source_url": "https://www.taisounds.com/news/section/76"
+      },
+      {
+        "id": "aa13c6ab0a3d5183",
+        "title": "SpaceX熱潮吹向台灣！6檔主動式ETF逢低布局獲關注",
+        "published_at": "2026-08-26T00:30:00+08:00",
+        "time": "00:30",
+        "url": "https://www.taisounds.com/news/content/76/285113",
+        "canonical_url": "https://www.taisounds.com/news/content/76/285113",
+        "summary": "馬斯克SpaceX熱潮吹向台灣，9檔海外主動式ETF中，有6檔持有SpaceX，今(26)天掛牌的主動統一前沿科技(00411A)也在其中。00411A進場時機，恰好是SpaceX股價打底後逐步走揚之際，SpaceX能否帶動00411A及相關海外主動式ETF走勢，將是市場觀察焦點。",
+        "source": "太報・財經焦點",
+        "source_url": "https://www.taisounds.com/news/section/76"
+      },
+      {
+        "id": "b08255009fd93015",
+        "title": "中島健人倒數撲台 羞認長濱禰留私下超合拍",
+        "published_at": "2026-08-26T00:13:33+08:00",
+        "time": "00:13",
+        "url": "https://www.taisounds.com/news/content/107/285160",
+        "canonical_url": "https://www.taisounds.com/news/content/107/285160",
+        "summary": "中島健人8月29、30日將在Zepp New Taipei舉辦首次亞洲巡演「IDOL1ST KENTY」，8月31日出席電影《LOVE ≠ COMEDY》見面場與粉絲分享拍攝幕後與角色心得。",
+        "source": "太報・財經焦點",
+        "source_url": "https://www.taisounds.com/news/section/76"
+      },
+      {
+        "id": "b354f966823941bb",
+        "title": "王少偉看五熊潑油事件「應該是不小心」 出遊先做功課是常識",
+        "published_at": "2026-08-26T00:06:06+08:00",
+        "time": "00:06",
+        "url": "https://www.taisounds.com/news/content/107/285158",
+        "canonical_url": "https://www.taisounds.com/news/content/107/285158",
+        "summary": "王少偉昨（8╱25）與董至成、派翠克、泱泱出席《高年級超進化》開播記者會，談到五熊（蔡頤榛）4月去奈良藥師寺旅遊時對千年國寶「佛足石」潑灑甘油成分液體，8月22日入境日本時被拘捕到案事件，他認為五熊「應該是不小心、沒有搞清楚狀況」，「像我們以前出外景，我們都比較不會用自己的想法來看待一件事情…",
+        "source": "太報・財經焦點",
+        "source_url": "https://www.taisounds.com/news/section/76"
+      },
+      {
+        "id": "33b7a101b7d454ef",
+        "title": "「半導體千金」張喬菲不嫁豪門 陪尪賣蛋糕翻身連鎖烘焙王",
+        "published_at": "2026-08-26T00:04:48+08:00",
+        "time": "00:04",
+        "url": "https://www.taisounds.com/news/content/107/285157",
+        "canonical_url": "https://www.taisounds.com/news/content/107/285157",
+        "summary": "「半導體千金」張喬菲與淡水「元記小舖」創辦人王厚元結婚12年，不僅從1家小店舖擴大成3家連鎖店，最近從新北市長侯友宜手中接下「新北嚴選潛力獎」獎狀，對夫妻倆而言，這不只是得獎，更是一路共同打拼過程中的重要肯定。",
+        "source": "太報・財經焦點",
+        "source_url": "https://www.taisounds.com/news/section/76"
+      },
+      {
         "id": "1b5396a41a0e74c2",
         "title": "台中高鐵門戶重大建設加速成形 新案《精晨 Life Show》逆勢順銷七成",
         "published_at": "2026-08-26T00:04:00+08:00",
@@ -270,17 +464,6 @@
         "url": "https://house.udn.com/house/story/123589/9713902",
         "canonical_url": "https://house.udn.com/house/story/123589/9713902",
         "summary": "預售市場買氣回歸理性，消費者購屋態度也從過去追價，轉向更重視地段、產品與區域長期發展性。位於台中南屯的精晨建設新案「精晨 Life Show」，自農曆年後公開至今已銷售七成，成為近期高鐵門戶特區少數逆勢突圍的代表個案，也反映在房市盤整階段，市場資金正逐漸向具備重大建設與長期發展潛力的核心區域集中。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "8dffda2a9f493deb",
-        "title": "輝達財報前夕…獲印度大採購",
-        "published_at": "2026-08-26T00:04:00+08:00",
-        "time": "00:04",
-        "url": "https://money.udn.com/money/story/123398/9714067?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/123398/9714067",
-        "summary": "印度AI基礎設施公司AM Intelligence宣布，已訂購9,000套輝達最新Vera Rubin系統，力拚成為亞洲首批採用輝達先進運算平台的公司之一。AM Intelligence於25日發布聲明表示，配備這些系統的伺服器，預計明年在印度南部上線。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
@@ -296,15 +479,26 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "8bf6d4e40596a77c",
-        "title": "彰銀、國票金「公公併」 市場解讀：幾成定局",
-        "published_at": "2026-08-26T00:00:00+08:00",
-        "time": "00:00",
-        "url": "https://udn.com/news/story/7238/9714079",
-        "canonical_url": "https://udn.com/news/story/7238/9714079",
-        "summary": "彰化銀行與國票金控的「公公併」有譜。彰銀在廿四日的董事會通過授權董事長胡光華成立專案小組評估整併，昨天並公告遴選財務顧問公司，啟動整併的前期評估，加上國票金今天舉行董事會討論整併等議案，市場解讀，彰銀併國票金已經成定局，現在就看能否趕在明年股東會前完成此案。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
+        "id": "12c5ff4391793440",
+        "title": "阿信率F3攻鳥巢 燒5億升級舞台",
+        "published_at": "2026-08-26T00:02:06+08:00",
+        "time": "00:02",
+        "url": "https://www.taisounds.com/news/content/107/285156",
+        "canonical_url": "https://www.taisounds.com/news/content/107/285156",
+        "summary": "言承旭、吳建豪、周渝民10月6、7日將登鳥巢開唱，這次不是嘉賓，而是與「五月天」阿信帶著「F✦FOREVER恆星之城」旗艦版重返體育場，並斥資5億打造極致舞台，祭出節目內容升級、零死角金字塔升降台魅力破表、全方位環場「逐星號」閃耀登場、各城市限定延伸舞台。",
+        "source": "太報・財經焦點",
+        "source_url": "https://www.taisounds.com/news/section/76"
+      },
+      {
+        "id": "35588d0efad6f3c9",
+        "title": "機長歌手護送歌王歌后飛西雅圖 許富凱傳授萬芳舞功",
+        "published_at": "2026-08-26T00:01:27+08:00",
+        "time": "00:01",
+        "url": "https://www.taisounds.com/news/content/107/285154",
+        "canonical_url": "https://www.taisounds.com/news/content/107/285154",
+        "summary": "「愛之日常音樂節」8月29日將在西雅圖登場，民歌手、華航機長廖柏青明（8╱27）將親自執飛護送許富凱、郭子（郭蘅祈）、浮花樂隊、黃韻玲、沈裕紘、萬芳、桑布伊、鄭宜農、霜淇淋樂團飛美，他打趣說含金量這麼高的團隊一路上說說唱唱，根本可以在太平洋上空先開唱。",
+        "source": "太報・財經焦點",
+        "source_url": "https://www.taisounds.com/news/section/76"
       },
       {
         "id": "410abd6c11ed86b0",
@@ -316,19 +510,30 @@
         "summary": "台灣證券交易所為遏止市場違約交割亂象並防範交易風險，昨天董事會通過全面收緊違約投資人管理機制。未來首次違約結案者追蹤列管期，將從現行一年大幅延長至五年，累犯者全額預收款券天數直接提高至卅個營業日。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "8bf6d4e40596a77c",
+        "title": "彰銀、國票金「公公併」 市場解讀：幾成定局",
+        "published_at": "2026-08-26T00:00:00+08:00",
+        "time": "00:00",
+        "url": "https://udn.com/news/story/7238/9714079",
+        "canonical_url": "https://udn.com/news/story/7238/9714079",
+        "summary": "彰化銀行與國票金控的「公公併」有譜。彰銀在廿四日的董事會通過授權董事長胡光華成立專案小組評估整併，昨天並公告遴選財務顧問公司，啟動整併的前期評估，加上國票金今天舉行董事會討論整併等議案，市場解讀，彰銀併國票金已經成定局，現在就看能否趕在明年股東會前完成此案。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
       }
     ],
     "housing": [
       {
-        "id": "e2da34311ef00352",
-        "title": "反擊川式「鉛筆簽名」 卡尼9月8日起也對美祭50%關稅",
-        "published_at": "2026-08-26T00:47:00+08:00",
-        "time": "00:47",
-        "url": "https://money.udn.com/money/story/5599/9714175?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5599/9714175",
-        "summary": "加拿大總理卡尼25日對美國總統川普上周末宣布的新關稅，施以同等力道的反擊，9月8日起對美國鋼鋁製品的現有反制關稅將提高一倍至50%，美國製的家具、服裝和服飾，以及電玩、智慧手機等電子產品，也將面臨50%的新關稅。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
+        "id": "771e065e3567f11f",
+        "title": "王識賢、羅志祥西門町陪玩 《網紅老爸》休息室驚竄火苗",
+        "published_at": "2026-08-26T00:53:15+08:00",
+        "time": "00:53",
+        "url": "https://www.taisounds.com/news/content/107/285162",
+        "canonical_url": "https://www.taisounds.com/news/content/107/285162",
+        "summary": "王識賢、陳怡佳、張懷秋、羅志祥、孫鵬、白吉勝、林道禹、王宣、柯宇森昨（8╱25）在西門町掃街為《網紅老爸》造勢並舉行見面會，不料藝人休息室疑似電線走火飄出刺鼻的塑膠燒焦味，冷氣機也一度冒出火苗，黃鐙輝急忙驅散人員，並對現場記者說「工作沒有生命重要」，要大家快收電腦，「先別寫了」！所幸最後有驚無險。",
+        "source": "太報・房市",
+        "source_url": "https://www.taisounds.com/news/section/81"
       },
       {
         "id": "528fe9dbbf485ef5",
@@ -386,6 +591,17 @@
         "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
       },
       {
+        "id": "994edf1b93b08286",
+        "title": "加拿大對美國祭最高50%對等報復關稅 9/8開徵涵700種商品",
+        "published_at": "2026-08-26T00:46:02+08:00",
+        "time": "00:46",
+        "url": "https://www.taisounds.com/news/content/84/285161",
+        "canonical_url": "https://www.taisounds.com/news/content/84/285161",
+        "summary": "加拿大週二（8/25）宣布對美國關稅的反制措施，下月8日起對價值276億加元（約6358億元台幣）的美國商品課徵報復性關稅，稅率分別為15%、25%和50%；另公佈對受貿易戰影響的加拿大企業和工人的財政支持計劃。",
+        "source": "太報・房市",
+        "source_url": "https://www.taisounds.com/news/section/81"
+      },
+      {
         "id": "f203ff399f43f937",
         "title": "營建成本衝高 房價難跌",
         "published_at": "2026-08-26T00:45:00+08:00",
@@ -406,6 +622,17 @@
         "summary": "營建土方問題未解，且愈來愈亂。建商指出，中央雖然已要求地方盤點土方收容量並回報，但盤點數字不等於工地找得到合法去處；各縣市收受標準、運輸規定、處理價格及行政程序不同，部分工地「有錢也找不到地方倒」，開挖工程被迫停擺。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
+      },
+      {
+        "id": "aa13c6ab0a3d5183",
+        "title": "SpaceX熱潮吹向台灣！6檔主動式ETF逢低布局獲關注",
+        "published_at": "2026-08-26T00:30:06+08:00",
+        "time": "00:30",
+        "url": "https://www.taisounds.com/news/content/76/285113",
+        "canonical_url": "https://www.taisounds.com/news/content/76/285113",
+        "summary": "馬斯克SpaceX熱潮吹向台灣，9檔海外主動式ETF中，有6檔持有SpaceX，今(26)天掛牌的主動統一前沿科技(00411A)也在其中。00411A進場時機，恰好是SpaceX股價打底後逐步走揚之際，SpaceX能否帶動00411A及相關海外主動式ETF走勢，將是市場觀察焦點。",
+        "source": "太報・房市",
+        "source_url": "https://www.taisounds.com/news/section/81"
       },
       {
         "id": "32a72584e7e0d86f",
