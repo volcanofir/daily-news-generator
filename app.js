@@ -5,6 +5,8 @@ const CATEGORY_CONFIG = {
   housing: { list: "housingList", count: "housingCount", label: "房市" },
 };
 
+const CATEGORY_ORDER = ["weather", "instant", "finance", "housing"];
+
 const state = {
   payload: null,
   selected: {
@@ -55,6 +57,55 @@ function escapeHtml(value = "") {
     .replaceAll("'", "&#039;");
 }
 
+function setPanelCollapsed(category, collapsed) {
+  const panel = document.querySelector(`.news-panel[data-category="${category}"]`);
+  if (!panel) return;
+  const head = panel.querySelector(".panel-head");
+  panel.classList.toggle("collapsed", collapsed);
+  head?.setAttribute("aria-expanded", String(!collapsed));
+}
+
+function togglePanel(category) {
+  const panel = document.querySelector(`.news-panel[data-category="${category}"]`);
+  if (!panel) return;
+  setPanelCollapsed(category, !panel.classList.contains("collapsed"));
+}
+
+function advanceToNextCategory(currentCategory) {
+  const currentIndex = CATEGORY_ORDER.indexOf(currentCategory);
+  if (currentIndex < 0) return;
+
+  const nextCategory = CATEGORY_ORDER
+    .slice(currentIndex + 1)
+    .find((category) => !state.selected[category]);
+
+  if (!nextCategory) return;
+
+  setPanelCollapsed(currentCategory, true);
+  setPanelCollapsed(nextCategory, false);
+
+  const nextPanel = document.querySelector(`.news-panel[data-category="${nextCategory}"]`);
+  window.setTimeout(() => {
+    nextPanel?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 140);
+}
+
+function setupPanelToggles() {
+  document.querySelectorAll(".news-panel").forEach((panel) => {
+    const category = panel.dataset.category;
+    const head = panel.querySelector(".panel-head");
+    if (!category || !head) return;
+
+    head.addEventListener("click", () => togglePanel(category));
+    head.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        togglePanel(category);
+      }
+    });
+  });
+}
+
 function renderCategory(category, items = []) {
   const config = CATEGORY_CONFIG[category];
   const list = $(config.list);
@@ -88,6 +139,7 @@ function renderCategory(category, items = []) {
     `;
 
     const checkbox = row.querySelector(".news-check");
+    checkbox.addEventListener("click", (event) => event.stopPropagation());
     checkbox.addEventListener("change", () => {
       if (checkbox.checked) {
         list.querySelectorAll(".news-check").forEach((other) => {
@@ -98,11 +150,13 @@ function renderCategory(category, items = []) {
         });
         state.selected[category] = item;
         row.classList.add("selected");
+        updateSelectedCount();
+        advanceToNextCategory(category);
       } else {
         state.selected[category] = null;
         row.classList.remove("selected");
+        updateSelectedCount();
       }
-      updateSelectedCount();
     });
 
     list.appendChild(row);
@@ -192,6 +246,7 @@ async function loadNews() {
 
     Object.keys(CATEGORY_CONFIG).forEach((category) => {
       renderCategory(category, payload.categories?.[category] || []);
+      setPanelCollapsed(category, false);
     });
   } catch (error) {
     console.error(error);
@@ -224,4 +279,5 @@ $("copyBtn").addEventListener("click", async () => {
   }
 });
 
+setupPanelToggles();
 loadNews();
