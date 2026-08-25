@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at": "2026-08-25T12:31:53.713938+08:00",
+  "updated_at": "2026-08-25T12:35:07.920172+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "weather": {
@@ -74,12 +74,6 @@
         {
           "name": "中時房產",
           "url": "https://house.chinatimes.com",
-          "resolve_missing_dates": true,
-          "max_candidates": 30
-        },
-        {
-          "name": "好房網News",
-          "url": "https://news.housefun.com.tw/news/all/",
           "resolve_missing_dates": true,
           "max_candidates": 30
         }
@@ -170,8 +164,8 @@
       {
         "id": "bee84cb9d6049c45",
         "title": "news photo",
-        "published_at": "2026-08-25T12:31:00+08:00",
-        "time": "12:31",
+        "published_at": "2026-08-25T12:33:00+08:00",
+        "time": "12:33",
         "url": "https://money.udn.com/money/story/5612/9712593?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/5612/9712593",
         "summary": "全家（5903）搶攻健康鮮食商機再出招。隨台灣規律運動人口比例攀升至35.6%，全家旗下「健康志向」運動應援系列鮮食年銷售額已突破10億元，看準運動、飲食控制逐漸成為日常生活習慣，全家首度攜手國家運動訓練中心，由運動營養師參與研發7款聯名鮮食，鎖定均衡營養、蛋白質及碳水補給三大需求，並找來拳擊…",
@@ -181,8 +175,8 @@
       {
         "id": "4ff156227cbff9b3",
         "title": "中光電股票為何暫停交易？",
-        "published_at": "2026-08-25T12:31:00+08:00",
-        "time": "12:31",
+        "published_at": "2026-08-25T12:33:00+08:00",
+        "time": "12:33",
         "url": "https://money.udn.com/money/story/11074/9709063?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/11074/9709063",
         "summary": "金管會已核准中光電（5371）股票，將自9月3日起停止公開發行。",
@@ -192,8 +186,8 @@
       {
         "id": "a36f2d1497c814af",
         "title": "房子送配偶，6,000萬房貸卻留自己？陳幸妤親身踩雷 律師揭夫妻贈與5大陷阱",
-        "published_at": "2026-08-25T12:31:00+08:00",
-        "time": "12:31",
+        "published_at": "2026-08-25T12:33:00+08:00",
+        "time": "12:33",
         "url": "https://money.udn.com/money/story/12040/9704285?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/12040/9704285",
         "summary": "陳幸妤在google map評論前夫趙建銘診所的事情，讓全網都熱議。她表示，過去曾將作為診所使用的店面贈與給前夫，但高達六千萬的房屋貸款仍留在自己名下，提醒大家千萬別犯跟她一樣的錯(新聞詳留言) 關於夫妻間贈與房子，我想提醒大家以下五件事：",
@@ -203,13 +197,24 @@
       {
         "id": "b8c0e0bdd1433997",
         "title": "國會女股神出手了！砸約8千萬元最新鎖定這檔 AI 概念股",
-        "published_at": "2026-08-25T12:31:00+08:00",
-        "time": "12:31",
+        "published_at": "2026-08-25T12:33:00+08:00",
+        "time": "12:33",
         "url": "https://money.udn.com/money/story/123398/9712338?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/123398/9712338",
         "summary": "被散戶奉為「股海明燈」或「國會女股神」的美國眾議院前議長裴洛西（Nancy Pelosi）最近又把一檔新的AI概念股納入她的投資組合，那就是生產能為AI資料中心供電的燃料電池系統業者Bloom Energy。另外，她也投資了英特爾股票。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "26c8240f0164e8f5",
+        "title": "Gogoro發布第二季財報 毛利率創新高",
+        "published_at": "2026-08-25T12:33:00+08:00",
+        "time": "12:33",
+        "url": "https://udn.com/news/story/7239/9712731",
+        "canonical_url": "https://udn.com/news/story/7239/9712731",
+        "summary": "電動機車龍頭Gogoro今日發布今年第二季財報，展現「聚焦」策略帶來的強勁轉型成果，在產品布局、財務基礎和營運效率的持續提升下，已連續五季創下正向現金流，上半年營運現金流年增71.5%至2600萬美元、毛利率提升至21.6%，創下新高，加速朝2026年能源事業損益兩平、2027年產生自由現金流…",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
       },
       {
         "id": "ee639b7a216640b4",
@@ -221,6 +226,28 @@
         "summary": "台經院今日發布7月景氣動向調查，7月製造業與營建業營業氣候測驗點皆較上月上揚。對於明年經濟成長能否維持高成長，台經院景氣預測中心主任孫明德強調，要看AI後續產品表現能否獲得市場青睞；",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "1afc13f42d6b8476",
+        "title": "烏克蘭女星賭場打工「同事遭砍死」血濺現場！ 她意外逃過一劫",
+        "published_at": "2026-08-25T12:31:00+08:00",
+        "time": "12:31",
+        "url": "https://www.chinatimes.com/realtimenews/20260825002179-260404",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002179-260404",
+        "summary": "中天綜合台《歐耶一級棒》明（26日）晚10點播出「青春照片回憶殺，當年校園風雲人物只剩一張嘴」，烏克蘭女星佳娜求學時期是高材生，成績一直都很好，喜歡法律的她，也向媽媽爭取念私校的機會：「媽媽說很貴不要去，",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "1fb999e19ba0f486",
+        "title": "趙建銘露臉稱「被逼離婚」網友怒批：你才不要演了！",
+        "published_at": "2026-08-25T12:31:00+08:00",
+        "time": "12:31",
+        "url": "https://www.chinatimes.com/realtimenews/20260825002370-260407",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002370-260407",
+        "summary": "陳幸妤前夫趙建銘在婚變延燒2周後，今天首度選在麻豆新樓醫院看診前，在醫院外的超商發表聲明，向陳幸妤喊話「不用醜化別人來墊高自己」，也提到「我是被逼離婚的」，一席話讓網友拳頭都硬了，狠嗆「自己偷吃在先，",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
         "id": "0a8c9175ca5f8aa9",
@@ -245,6 +272,28 @@
         "source_url": "https://udn.com/news/breaknews/1"
       },
       {
+        "id": "f73c59e19928eb87",
+        "title": "美國進口牛舌驚見寄生蟲 爭鮮海膽卵重金屬超標",
+        "published_at": "2026-08-25T12:30:00+08:00",
+        "time": "12:30",
+        "url": "https://www.chinatimes.com/realtimenews/20260825002477-260405",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002477-260405",
+        "summary": "食藥署今天（25）公布邊境檢驗食品不合格名單，連鎖品牌爭鮮也上榜，一批加拿大進口的冷藏海膽卵，檢出重金屬鎘超標。另有一批美國冷凍牛舌，被檢出寄生蟲，近900公斤在邊境全部攔截。食藥署每周例行公布邊境檢驗食",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "74a2fc6836f8f481",
+        "title": "股市崩盤大場面快來？避險情緒狂飆 比特幣飆破8萬美元",
+        "published_at": "2026-08-25T12:30:00+08:00",
+        "time": "12:30",
+        "url": "https://www.chinatimes.com/realtimenews/20260825002483-260410",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002483-260410",
+        "summary": "比特幣和加密貨幣類股在本周展開凌厲漲勢，主要歸因於投資者對通膨和財政赤字的擔憂加劇，使得美元走弱以及風險胃納升溫，帶動比特幣暴漲，一舉衝破8萬美元，創2023年以來最強勁的三日漲幅。在25日亞洲早盤，比特幣",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
         "id": "7550153721035a6c",
         "title": "不副署累積已7案 張雅屏：不守憲法的行政院長就應下台",
         "published_at": "2026-08-25T12:29:00+08:00",
@@ -254,6 +303,17 @@
         "summary": "行政院繼先前不副署「未來帳戶」相關法案，近日又不副署「廣播電視法」修法。國民黨考紀會主委張雅屏表示，行政院是國家最高行政機關，依法行政是最基本的義務，院長卓榮泰若帶頭拒絕執行法律、拒絕尊重國會、拒絕接受權力制衡，應立即為違法違憲、破壞五權分立負起政治責任，辭職下台。",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "f0c5e252c42cd19a",
+        "title": "沙德爾颱風逼近基隆！謝國樑視察防汛整備",
+        "published_at": "2026-08-25T12:28:00+08:00",
+        "time": "12:28",
+        "url": "https://www.chinatimes.com/realtimenews/20260825002472-260405",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002472-260405",
+        "summary": "中南部才因為熱帶低壓肆虐發生嚴重災害，颱風沙德爾又朝向台灣來襲，基隆市長謝國樑25日上午主持防颱準備會議，要求市府各單位嚴陣以待，並要求環保局全力維持排水暢通。並呼籲市民做好嚴密的防颱準備。謝國樑表示，",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
         "id": "9ecd6a168a3d5368",
@@ -553,28 +613,6 @@
         "source_url": "https://udn.com/news/breaknews/1"
       },
       {
-        "id": "6fec0257113e6ec4",
-        "title": "長榮航空攜手微軟、台塑石化打造低碳運輸 首年估減碳1.5萬噸",
-        "published_at": "2026-08-25T12:14:00+08:00",
-        "time": "12:14",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002372-260405",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002372-260405",
-        "summary": "長榮航空今（25）日與全球知名貨運代理商 AIT Worldwide Logistics（以下簡稱 AIT）正式簽署協議，雙方將共同推動長榮航運輸計畫，透過添加永續航空燃油（Sustainable Aviation Fuel,SAF）航班，首年提供微軟1萬5000",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "ab995a97de12cda0",
-        "title": "趙建銘自曝「被迫離婚」 前主播揪他後面拋一句話：相當矛盾",
-        "published_at": "2026-08-25T12:14:00+08:00",
-        "time": "12:14",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002365-260404",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002365-260404",
-        "summary": "前第一家庭昔日駙馬趙建銘因婚變風波延燒，今(25日)首度面對媒體受訪，他表示當初是陳幸妤主動提出離婚，直言「我是被逼的」，言談中有諸多委屈。前主播鄒倩琳稍早發文，表示趙建銘後來又說了一句話自打嘴巴，他稱必",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
         "id": "c5fdc6040d60298a",
         "title": "兩任總統勝選福地 沈伯洋競總將設於「該處」 稱已站在巨人的肩膀上",
         "published_at": "2026-08-25T12:13:00+08:00",
@@ -584,28 +622,6 @@
         "summary": "民進黨台北市長參選人沈伯洋日前接受專訪對現任市長蔣萬安下辯論戰帖，蔣昨天回應他每天都在說明，沈今天反嗆，每天說明為何兒虐、食安、陽傘至今都講不清楚，更稱「如果每都說明，那就更有時間來辯論市政」。",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "2c1c5b1bce68670b",
-        "title": "才說只能先電話聯繫地方 卓榮泰今赴屏東勘災 強調「行程早已安排」",
-        "published_at": "2026-08-25T12:13:00+08:00",
-        "time": "12:13",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002234-260407",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002234-260407",
-        "summary": "屏東連日豪雨造成多處積淹水及農業災損，行政院長卓榮泰25日在屏東縣長周春米陪同下，前往南州鄉視察苦瓜園受災情形。針對前一天提及行政院預算遭刪、南下勘災受到限制，卓榮泰表示，他與賴清德總統的南下行程早已安",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "cc19d3b8c473fa0a",
-        "title": "中颱沙德爾逼近「恐觸陸」！災變中心備戰 要地方政府清排水",
-        "published_at": "2026-08-25T12:12:00+08:00",
-        "time": "12:12",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002240-260405",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002240-260405",
-        "summary": "中央災害應變中心今（25）日9時召開第三次工作會議，指出第18號中度颱風沙德爾逐漸接近，暴風圈可能影響部分陸地，要求各功能分組與地方政府密切合作，加速復原工作，並把握颱風影響臺灣前的時間，加強各項防災整備",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
         "id": "6c42e4467c580604",
@@ -628,36 +644,25 @@
         "summary": "效力軟銀鷹隊的台灣投手徐若熙7月中旬進行椎間盤手術，今天術後首度進牛棚練投，共投30球，賽後掛滿笑容回應：「幾乎沒有不舒服的感覺」，復出之路跨出一大步。",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "8329512707f5558a",
-        "title": "指在野黨堅持無人機改年度預算扼殺產業 業者：將面臨大批倒閉潮",
-        "published_at": "2026-08-25T12:11:00+08:00",
-        "time": "12:11",
-        "url": "https://udn.com/news/story/10930/9712675",
-        "canonical_url": "https://udn.com/news/story/10930/9712675",
-        "summary": "民眾黨立院黨團有意明將再召集無人載具協商，民進黨立委鍾佳濱今找來業者開記者會提3點呼籲，包括無人載具產業需要的是長單與大單，特別預算有其必要等。業者則警示，若沒有跨年度的特別預算與穩定的長期訂單，無人機產業將面臨「大批倒閉潮」，人才也將外流到其他國家。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "e837fce9d97858f2",
-        "title": "醬油買1送1「回家剩3罐」老公神回覆 全場跪喊：嫁對人",
-        "published_at": "2026-08-25T12:11:00+08:00",
-        "time": "12:11",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002334-260405",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002334-260405",
-        "summary": "全聯一款醬油近日推出「買一送一」優惠，一名網友表示，她看到後順手買回家，本來應該有4罐，老公發現只剩3罐，好奇詢問原因，才知道原來老婆不慎摔破1罐，當下不只沒怪對方，還立刻關心有沒有受傷，並安慰說「現在",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
       }
     ],
     "finance": [
       {
+        "id": "2fa45c5abb26f4bf",
+        "title": "為睡覺地方一輩子睡不好！得勝老闆點破房貸真相：別複製上一代遺憾",
+        "published_at": "2026-08-25T12:33:00+08:00",
+        "time": "12:33",
+        "url": "https://house.udn.com/house/story/123589/9710226",
+        "canonical_url": "https://house.udn.com/house/story/123589/9710226",
+        "summary": "房仲專家得勝老闆提醒，別讓房貸與置產壓力耗盡人生，為了一個睡覺的地方，反而失去陪伴家人與珍貴回憶；他也感嘆，別重複上一代的人生軌跡。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
         "id": "579d8a7e8dea33aa",
         "title": "「青安3.0」來了！一表看六都、新竹縣市三房不到千萬購屋區",
-        "published_at": "2026-08-25T12:31:00+08:00",
-        "time": "12:31",
+        "published_at": "2026-08-25T12:33:00+08:00",
+        "time": "12:33",
         "url": "https://house.udn.com/house/story/123590/9712650",
         "canonical_url": "https://house.udn.com/house/story/123590/9712650",
         "summary": "「青安3.0」今年8月1日上路，並新增婚育加碼，購屋族可活用其最高貸款額度，規劃符合自身負擔能力的成家住宅。依政策揭露，育有未成年子女最高貸款額度1,500萬元，若以貸款八成回推，可鎖定總價1,875萬元以內、適合育兒家庭的三房住宅(大樓、華廈、公寓)產品。",
@@ -665,23 +670,23 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "3e2a8825782b3ddf",
-        "title": "房市不再為未來買單！一線房仲：買盤轉向具備「成熟機能」",
-        "published_at": "2026-08-25T12:31:00+08:00",
-        "time": "12:31",
-        "url": "https://house.udn.com/house/story/123589/9712530",
-        "canonical_url": "https://house.udn.com/house/story/123589/9712530",
-        "summary": "2026十大房價創新高生活圈，沒有台南，這件事，我覺得台南人應該好好看一下。 先講結論：我不認為這代表台南房市不行了，但它確實透露了一個訊號，市場，開始不再那麼願意替「未來」買單了。",
+        "id": "9609e6f9e2dc36ff",
+        "title": "Gogoro發布第二季財報 毛利率創新高",
+        "published_at": "2026-08-25T12:33:00+08:00",
+        "time": "12:33",
+        "url": "https://money.udn.com/money/story/5612/9712731?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5612/9712731",
+        "summary": "電動機車龍頭Gogoro今日發布今年第二季財報，展現「聚焦」策略帶來的強勁轉型成果，在產品布局、財務基礎和營運效率的持續提升下，已連續五季創下正向現金流，上半年營運現金流年增71.5%至2600萬美元、毛利率提升至21.6%，創下新高，加速朝2026年能源事業損益兩平、2027年產生自由現金流…",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "64ec9007378f46f7",
+        "id": "ee639b7a216640b4",
         "title": "7月製造業營業測驗點轉升 孫明德：央行升息最大壓力不是物價",
         "published_at": "2026-08-25T12:31:00+08:00",
         "time": "12:31",
-        "url": "https://money.udn.com/money/story/10869/9712726?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/10869/9712726",
+        "url": "https://udn.com/news/story/7239/9712726",
+        "canonical_url": "https://udn.com/news/story/7239/9712726",
         "summary": "台經院今日發布7月景氣動向調查，7月製造業與營建業營業氣候測驗點皆較上月上揚。對於明年經濟成長能否維持高成長，台經院景氣預測中心主任孫明德強調，要看AI後續產品表現能否獲得市場青睞；",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
@@ -740,17 +745,6 @@
         "summary": "國際金價延續多頭格局，繼8月19日強彈逾4%後持續墊高，24日盤中再漲1.05%，目前美英兩約在4,650美元以上價位。國銀分析指出，隨著投資人減碼風險資產，黃金過去半年面臨的通膨、利率及部位壓力已獲緩解；加上能源市場調整降低了極端緊縮與通膨風險，整體宏觀環境有利金價走勢。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "d0a002567fcec8dc",
-        "title": "高雄這區上半年房產買賣 近九成交易都買中古屋",
-        "published_at": "2026-08-25T11:41:00+08:00",
-        "time": "11:41",
-        "url": "https://udn.com/news/story/7241/9712566",
-        "canonical_url": "https://udn.com/news/story/7241/9712566",
-        "summary": "台灣房屋集團根據內政部實價登錄資料，統計高雄市今年上半年屋齡5年內新成屋與逾5年中古屋的交易占比，新舊比例約為3：7；進一步觀察，主要行政區中，就有6個行政區中古屋交易占比超過七成，高於市場的平均值，其中，鹽埕區中古屋交易比例高達九成，居全市之冠，新屋僅占一成；",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
         "id": "c798242bf4085733",
@@ -1072,17 +1066,6 @@
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
       {
-        "id": "e97b9dfa6b1bd5a6",
-        "title": "國銀新南向放款 一個月抵一季",
-        "published_at": "2026-08-25T01:26:00+08:00",
-        "time": "01:26",
-        "url": "https://udn.com/news/story/7239/9711657",
-        "canonical_url": "https://udn.com/news/story/7239/9711657",
-        "summary": "國銀新南向放款7月衝出史上首見「千億級」增量。據金管會統計，單月新增1,003億元，前七月累計已達3,948億元；市場照目前動能樂觀推估，5,000億元大關最快第3季就有機會提前達陣。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
         "id": "6143ad0309862fed",
         "title": "金價看漲 上攻4,680美元 專家認為市場投機情緒降溫",
         "published_at": "2026-08-25T01:24:00+08:00",
@@ -1183,6 +1166,17 @@
       }
     ],
     "housing": [
+      {
+        "id": "2fa45c5abb26f4bf",
+        "title": "為睡覺地方一輩子睡不好！得勝老闆點破房貸真相：別複製上一代遺憾",
+        "published_at": "2026-08-25T12:31:55+08:00",
+        "time": "12:31",
+        "url": "https://house.udn.com/house/story/123589/9710226",
+        "canonical_url": "https://house.udn.com/house/story/123589/9710226",
+        "summary": "房仲專家得勝老闆提醒，別讓房貸與置產壓力耗盡人生，為了一個睡覺的地方，反而失去陪伴家人與珍貴回憶；他也感嘆，別重複上一代的人生軌跡。",
+        "source": "udn房地產",
+        "source_url": "https://house.udn.com/house/index"
+      },
       {
         "id": "cc0b69599f9fd0a9",
         "title": "「青安3.0」來了！一表看六都、新竹縣市三房不到千萬購屋區",
