@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import time
@@ -15,9 +16,24 @@ TZ = ZoneInfo("Asia/Taipei")
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "news.json"
 
-# Each website section can merge multiple sources. The frontend still renders
-# only the three user-facing groups: 即時 / 金融 / 房市.
 SOURCES = {
+    "weather": {
+        "label": "天氣",
+        "feeds": [
+            {
+                "name": "風傳媒・天氣",
+                "url": "https://www.storm.mg/channel/120/",
+                "resolve_missing_dates": True,
+                "max_candidates": 30,
+            },
+            {
+                "name": "TVBS・天氣",
+                "url": "https://news.tvbs.com.tw/search?q=天氣&st=tag",
+                "resolve_missing_dates": True,
+                "max_candidates": 30,
+            },
+        ],
+    },
     "instant": {
         "label": "即時",
         "feeds": [
@@ -28,6 +44,12 @@ SOURCES = {
             {
                 "name": "聯合新聞網",
                 "url": "https://udn.com/news/breaknews/1",
+            },
+            {
+                "name": "中時新聞網・即時",
+                "url": "https://www.chinatimes.com/realtimenews/",
+                "resolve_missing_dates": True,
+                "max_candidates": 35,
             },
         ],
     },
@@ -57,17 +79,46 @@ SOURCES = {
                 "resolve_missing_dates": True,
                 "max_candidates": 24,
             },
+            {
+                "name": "風傳媒・房市",
+                "url": "https://www.storm.mg/channel/57/",
+                "resolve_missing_dates": True,
+                "max_candidates": 30,
+            },
+            {
+                "name": "中時房產",
+                "url": "https://house.chinatimes.com",
+                "resolve_missing_dates": True,
+                "max_candidates": 30,
+            },
+            {
+                "name": "好房網News",
+                "url": "https://news.housefun.com.tw/news/#news-list",
+                "resolve_missing_dates": True,
+                "max_candidates": 30,
+            },
         ],
     },
 }
 
-STORY_PATH_RE = re.compile(r"^/(?:money|news|house)/story/\d+/\d+/?$")
+UDN_PATH_RE = re.compile(r"^/(?:money|news|house)/story/\d+/\d+/?$")
+TVBS_PATH_RE = re.compile(r"^/[A-Za-z0-9_-]+/\d+/?$")
+CHINATIMES_REALTIME_RE = re.compile(r"^/realtimenews/\d{14}-\d+/?$")
+CHINATIMES_HOUSE_RE = re.compile(r"^/\d{14}-\d+/?$")
+HOUSEFUN_RE = re.compile(r"^/news/article/\d+\.html/?$")
+STORM_RE = re.compile(r"^/(?!channel(?:/|$))(?:[A-Za-z0-9_-]+/)*\d+/?$")
+
 DATE_RE = re.compile(
     r"(20\d{2})[/-](\d{1,2})[/-](\d{1,2})\s+(\d{1,2}):(\d{2})(?::(\d{2}))?"
 )
+TIME_DATE_RE = re.compile(
+    r"(\d{1,2}):(\d{2})(?::(\d{2}))?\s+(20\d{2})[/-](\d{1,2})[/-](\d{1,2})"
+)
+
 GENERIC_TEXT = {
-    "上一篇", "下一篇", "看更多", "更多", "即時", "金融", "房市", "產經",
-    "經濟日報", "聯合新聞網", "udn房地產",
+    "上一篇", "下一篇", "看更多", "更多", "即時", "金融", "房市", "產經", "天氣",
+    "經濟日報", "聯合新聞網", "udn房地產", "風傳媒", "TVBS", "中時新聞網",
+    "中時房產", "好房網News", "首頁", "最新新聞", "熱門新聞",
 }
 
 session = requests.Session()
@@ -78,17 +129,16 @@ session.headers.update(
             "AppleWebKit/537.36 (KHTML, like Gecko) "
             "Chrome/139.0 Safari/537.36"
         ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
         "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.6",
         "Cache-Control": "no-cache",
     }
 )
 
 
-def fetch(url: str, timeout: int = 20) -> str:
+def fetch(url: str, timeout: int = 25) -> str:
     response = session.get(url, timeout=timeout)
     response.raise_for_status()
-    # UDN pages are UTF-8. Charset auto-detection can misidentify some
-    # Traditional Chinese article pages and produce mojibake.
     try:
         return response.content.decode("utf-8")
     except UnicodeDecodeError:
@@ -96,44 +146,68 @@ def fetch(url: str, timeout: int = 20) -> str:
         return response.text
 
 
+def normalized_host(host: str) -> str:
+    host = host.lower().split(":", 1)[0]
+    return host[4:] if host.startswith("www.") else host
+
+
 def canonical_story_url(href: str, base_url: str) -> str | None:
     absolute = urljoin(base_url, href)
     parsed = urlparse(absolute)
-    host = parsed.netloc.lower().split(":", 1)[0]
-    if host not in {"money.udn.com", "udn.com", "www.udn.com", "house.udn.com"}:
-        return None
-    if not STORY_PATH_RE.match(parsed.path):
-        return None
+    host = normalized_host(parsed.netloc)
+    path = parsed.path.rstrip("/") or "/"
+    canonical_host = host
+    valid = False
 
-    if host == "www.udn.com":
-        host = "udn.com"
-    return f"https://{host}{parsed.path.rstrip('/')}"
+    if host in {"money.udn.com", "udn.com", "house.udn.com"}:
+        valid = bool(UDN_PATH_RE.match(path))
+    elif host == "news.tvbs.com.tw":
+        valid = bool(TVBS_PATH_RE.match(path))
+    elif host == "chinatimes.com":
+        valid = bool(CHINATIMES_REALTIME_RE.match(path))
+        canonical_host = "www.chinatimes.com"
+    elif host == "house.chinatimes.com":
+        valid = bool(CHINATIMES_HOUSE_RE.match(path))
+    elif host == "news.housefun.com.tw":
+        valid = bool(HOUSEFUN_RE.match(path))
+    elif host == "storm.mg":
+        valid = bool(STORM_RE.match(path))
+        canonical_host = "www.storm.mg"
+
+    if not valid:
+        return None
+    return f"https://{canonical_host}{path}"
 
 
 def share_url(canonical: str) -> str:
-    parsed = urlparse(canonical)
-    if parsed.netloc == "money.udn.com":
+    if urlparse(canonical).netloc == "money.udn.com":
         return canonical + "?from=ednappsharing"
     return canonical
 
 
 def clean_title(text: str) -> str:
-    text = re.sub(r"\s+", " ", text).strip()
-    text = DATE_RE.sub("", text).strip(" ｜|—-")
-    return text
+    text = re.sub(r"\s+", " ", text or "").strip()
+    text = DATE_RE.sub("", text)
+    text = TIME_DATE_RE.sub("", text)
+    return text.strip(" ｜|—-•·")
 
 
 def parse_datetime(text: str) -> datetime | None:
     normalized = (text or "").replace("T", " ")
     match = DATE_RE.search(normalized)
-    if not match:
-        return None
-    year, month, day, hour, minute, second = match.groups()
-    return datetime(
-        int(year), int(month), int(day),
-        int(hour), int(minute), int(second or 0),
-        tzinfo=TZ,
-    )
+    if match:
+        year, month, day, hour, minute, second = match.groups()
+        return datetime(
+            int(year), int(month), int(day), int(hour), int(minute), int(second or 0), tzinfo=TZ
+        )
+
+    match = TIME_DATE_RE.search(normalized)
+    if match:
+        hour, minute, second, year, month, day = match.groups()
+        return datetime(
+            int(year), int(month), int(day), int(hour), int(minute), int(second or 0), tzinfo=TZ
+        )
+    return None
 
 
 def nearest_datetime(anchor) -> datetime | None:
@@ -162,12 +236,11 @@ def nearest_datetime(anchor) -> datetime | None:
                         return dt
 
         text = node.get_text(" ", strip=True) if hasattr(node, "get_text") else ""
-        if len(text) <= 900:
+        if len(text) <= 1200:
             dt = parse_datetime(text)
             if dt:
                 return dt
         node = getattr(node, "parent", None)
-
     return None
 
 
@@ -180,22 +253,24 @@ def extract_candidates(html: str, source_url: str) -> list[dict]:
         if not canonical:
             continue
 
-        title_options: list[str] = []
-        for selector in ("h1", "h2", "h3", "h4", "h5", ".title"):
+        options: list[str] = []
+        for selector in ("h1", "h2", "h3", "h4", "h5", ".title", ".news-title"):
             el = anchor.select_one(selector)
             if el:
-                title_options.append(clean_title(el.get_text(" ", strip=True)))
-
+                options.append(clean_title(el.get_text(" ", strip=True)))
         for attr in ("title", "aria-label"):
             if anchor.get(attr):
-                title_options.append(clean_title(str(anchor.get(attr))))
+                options.append(clean_title(str(anchor.get(attr))))
+        img = anchor.find("img")
+        if img and img.get("alt"):
+            options.append(clean_title(str(img.get("alt"))))
+        options.append(clean_title(anchor.get_text(" ", strip=True)))
 
-        title_options.append(clean_title(anchor.get_text(" ", strip=True)))
-        title_options = [
-            t for t in title_options
-            if t and t not in GENERIC_TEXT and 6 <= len(t) <= 180
+        options = [
+            title for title in options
+            if title and title not in GENERIC_TEXT and 6 <= len(title) <= 180
         ]
-        title = min(title_options, key=len) if title_options else ""
+        title = min(options, key=len) if options else ""
         published = nearest_datetime(anchor)
 
         item = found.setdefault(
@@ -212,7 +287,11 @@ def extract_candidates(html: str, source_url: str) -> list[dict]:
 
 def clean_summary(text: str, title: str) -> str:
     text = re.sub(r"\s+", " ", text or "").strip()
-    text = re.sub(r"^(?:經濟日報|聯合新聞網|udn房地產)\s*[|｜\-—]\s*", "", text)
+    text = re.sub(
+        r"^(?:經濟日報|聯合新聞網|udn房地產|風傳媒|TVBS|中時新聞網|好房網News)\s*[|｜\-—]\s*",
+        "",
+        text,
+    )
     if title and text.startswith(title):
         text = text[len(title):].lstrip(" ｜|—-：:")
     if len(text) > 150:
@@ -232,9 +311,11 @@ def looks_mojibake(text: str) -> bool:
 def extract_article_datetime(soup: BeautifulSoup, html: str) -> datetime | None:
     meta_keys = (
         ("property", "article:published_time"),
+        ("property", "article:published"),
         ("name", "article:published_time"),
         ("name", "date"),
         ("name", "pubdate"),
+        ("name", "publishdate"),
         ("itemprop", "datePublished"),
     )
     for attr, value in meta_keys:
@@ -246,22 +327,23 @@ def extract_article_datetime(soup: BeautifulSoup, html: str) -> datetime | None:
                 return dt
 
     for time_el in soup.find_all("time"):
-        for value in (time_el.get("datetime"), time_el.get_text(" ", strip=True)):
+        for value in (time_el.get("datetime"), time_el.get("data-time"), time_el.get_text(" ", strip=True)):
             dt = parse_datetime(str(value or ""))
             if dt:
                 return dt
 
-    # UDN properties commonly expose datePublished in JSON-LD.
-    match = re.search(
-        r'"datePublished"\s*:\s*"(20\d{2}-\d{1,2}-\d{1,2}[T ]\d{1,2}:\d{2}(?::\d{2})?[^\"]*)"',
-        html,
-    )
-    if match:
-        dt = parse_datetime(match.group(1))
-        if dt:
-            return dt
+    for pattern in (
+        r'"datePublished"\s*:\s*"(20\d{2}-\d{1,2}-\d{1,2}[T ][^"]+)"',
+        r'"datePublished"\s*:\s*"(20\d{2}/\d{1,2}/\d{1,2}\s+[^"]+)"',
+        r'"published_at"\s*:\s*"(20\d{2}-\d{1,2}-\d{1,2}[T ][^"]+)"',
+    ):
+        match = re.search(pattern, html)
+        if match:
+            dt = parse_datetime(match.group(1))
+            if dt:
+                return dt
 
-    return None
+    return parse_datetime(soup.get_text(" ", strip=True)[:15000])
 
 
 def fetch_article_details(url: str, title: str) -> tuple[str, datetime | None]:
@@ -277,24 +359,21 @@ def fetch_article_details(url: str, title: str) -> tuple[str, datetime | None]:
         ):
             meta = soup.find("meta", attrs=attrs)
             if meta and meta.get("content"):
-                summary = clean_summary(meta["content"], title)
+                summary = clean_summary(str(meta["content"]), title)
                 if len(summary) >= 25:
                     return summary, published
 
-        paragraphs = []
+        paragraphs: list[str] = []
         for selector in (
-            "article p",
-            ".article-body p",
-            ".article-content p",
-            "#story_body_content p",
-            ".story_body_content p",
-            ".article-content__paragraph p",
+            "article p", ".article-body p", ".article-content p", "#story_body_content p",
+            ".story_body_content p", ".article-content__paragraph p", ".article_content p",
+            ".article-main p", ".main-article p", ".story p", ".content p",
         ):
             for p in soup.select(selector):
                 text = p.get_text(" ", strip=True)
                 if len(text) >= 25 and "歡迎用「轉貼」" not in text:
                     paragraphs.append(text)
-                if len("".join(paragraphs)) >= 180:
+                if len("".join(paragraphs)) >= 220:
                     break
             if paragraphs:
                 break
@@ -302,11 +381,6 @@ def fetch_article_details(url: str, title: str) -> tuple[str, datetime | None]:
     except Exception as exc:
         print(f"[article] {url}: {exc}")
         return "", None
-
-
-def fetch_article_summary(url: str, title: str) -> str:
-    summary, _ = fetch_article_details(url, title)
-    return summary
 
 
 def load_previous() -> dict[str, dict]:
@@ -317,20 +391,16 @@ def load_previous() -> dict[str, dict]:
     except Exception:
         return {}
 
-    previous = {}
+    previous: dict[str, dict] = {}
     for items in payload.get("categories", {}).values():
         for item in items:
             if item.get("canonical_url"):
                 previous[item["canonical_url"]] = item
-            # Also index by numeric story id so the same UDN story shared by
-            # money.udn.com and udn.com can reuse its summary.
-            if item.get("id"):
-                previous[f"id:{item['id']}"] = item
     return previous
 
 
-def story_id(canonical: str) -> str:
-    return canonical.rsplit("/", 1)[-1]
+def item_id(canonical: str) -> str:
+    return hashlib.sha1(canonical.encode("utf-8")).hexdigest()[:16]
 
 
 def main() -> None:
@@ -350,6 +420,7 @@ def main() -> None:
                 max_candidates = int(feed.get("max_candidates", 0) or 0)
                 if max_candidates:
                     candidates = candidates[:max_candidates]
+                print(f"[candidates] {feed['name']}: {len(candidates)}")
             except Exception as exc:
                 print(f"[source-error] {key} / {feed['name']}: {exc}")
                 continue
@@ -359,33 +430,35 @@ def main() -> None:
                     continue
 
                 canonical = candidate["url"]
+                old = previous.get(canonical, {})
                 published = candidate.get("published_at")
-                preloaded_summary = ""
+                if not published and old.get("published_at"):
+                    published = parse_datetime(str(old["published_at"]))
 
-                # The udn house homepage lists current articles without a
-                # visible timestamp. Resolve those dates from the article page
-                # before deciding whether the story belongs to today.
+                summary = old.get("summary", "")
+                if looks_mojibake(summary):
+                    summary = ""
+
                 if not published and feed.get("resolve_missing_dates"):
-                    preloaded_summary, published = fetch_article_details(
-                        canonical, candidate["title"]
-                    )
-                    time.sleep(0.18)
+                    fetched_summary, published = fetch_article_details(canonical, candidate["title"])
+                    summary = fetched_summary or summary
+                    time.sleep(0.12)
 
                 if not published or published.astimezone(TZ).date() != today:
                     continue
 
-                item_id = story_id(canonical)
-                old = previous.get(canonical) or previous.get(f"id:{item_id}") or {}
-                summary = preloaded_summary or old.get("summary", "")
-                if looks_mojibake(summary):
-                    summary = ""
                 if not summary:
-                    summary = fetch_article_summary(canonical, candidate["title"])
-                    time.sleep(0.18)
+                    summary, resolved_date = fetch_article_details(canonical, candidate["title"])
+                    if not published and resolved_date:
+                        published = resolved_date
+                    time.sleep(0.12)
+
+                if not published or published.astimezone(TZ).date() != today:
+                    continue
 
                 today_items.append(
                     {
-                        "id": item_id,
+                        "id": item_id(canonical),
                         "title": candidate["title"],
                         "published_at": published.isoformat(),
                         "time": published.strftime("%H:%M"),
@@ -397,19 +470,17 @@ def main() -> None:
                     }
                 )
 
-        # Numeric story id is shared across UDN properties, so this also
-        # removes duplicates when the same story is surfaced by two feeds.
         deduped: dict[str, dict] = {}
         for item in today_items:
-            existing = deduped.get(item["id"])
+            title_key = re.sub(r"[\W_]+", "", item["title"]).lower()[:90]
+            existing = deduped.get(title_key)
             if not existing:
-                deduped[item["id"]] = item
+                deduped[title_key] = item
                 continue
-            # Keep the richer version when one source has a summary/title.
             current_score = len(item.get("summary", "")) + len(item.get("title", ""))
             old_score = len(existing.get("summary", "")) + len(existing.get("title", ""))
             if current_score > old_score:
-                deduped[item["id"]] = item
+                deduped[title_key] = item
 
         categories[key] = sorted(
             deduped.values(),
