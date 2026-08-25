@@ -47,6 +47,9 @@ jobs:
       - name: Fetch today's news
         run: python scripts/fetch_news.py
 
+      - name: Add MyHousing and dedupe similar headlines
+        run: python scripts/augment_myhousing.py
+
       - name: Remove malformed news
         run: python scripts/sanitize_news.py
 
