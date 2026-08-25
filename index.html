@@ -49,7 +49,7 @@
   </header>
 
   <main class="page">
-    <section class="status-card" aria-live="polite">
+    <section id="statusCard" class="status-card" aria-live="polite">
       <div>
         <span class="status-label">新聞日期</span>
         <strong id="newsDate">讀取中…</strong>
@@ -61,6 +61,10 @@
       <div>
         <span class="status-label">已選新聞</span>
         <strong><span id="selectedCount">0</span> 篇</strong>
+      </div>
+      <div id="nextUpdateWrap" class="next-update" hidden>
+        <span class="status-label">🌙 夜間暫停更新</span>
+        <strong id="nextUpdateAt">明日 06:00 開始更新</strong>
       </div>
     </section>
 
