@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at": "2026-08-25T08:59:20.586485+08:00",
+  "updated_at": "2026-08-25T09:07:56.546741+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "instant": {
@@ -48,6 +48,116 @@
   "categories": {
     "instant": [
       {
+        "id": "9712055",
+        "title": "9月川習會前先強硬？美擬對中國加徵7.5%「產能過剩關稅」恢復20%稅率",
+        "published_at": "2026-08-25T09:06:00+08:00",
+        "time": "09:06",
+        "url": "https://money.udn.com/money/story/5599/9712055?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9712055",
+        "summary": "彭博資訊引述知情人士說法報導，美國準備以中國「產能過剩」為由，對中國商品加徵7.5%的關稅，而且時間點設定在美國總統川普與中國大陸國家主席習近平預定下個月舉行高峰會之前。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9712001",
+        "title": "美國預告次級制裁施壓伊朗！5國恐成下一波目標 中國風險最大",
+        "published_at": "2026-08-25T09:06:00+08:00",
+        "time": "09:06",
+        "url": "https://money.udn.com/money/story/5599/9712001?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9712001",
+        "summary": "CNN報導，美國財政部24日宣布擴大對伊朗的經濟施壓，警告世界各國停止與德黑蘭做生意，否則恐面臨美方次級制裁，被排除在主導全球的美元體系之外。專家點名，中國大陸、阿拉伯聯合大公國、土耳其、伊拉克與印度可能首當其衝，對中國的影響恐怕最為嚴重。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9712010",
+        "title": "輝達200億美元收購成果曝光 三星代工的 Groq 晶片量產 今年稍晚啟用",
+        "published_at": "2026-08-25T09:06:00+08:00",
+        "time": "09:06",
+        "url": "https://money.udn.com/money/story/5599/9712010?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9712010",
+        "summary": "財經網站CNBC報導，輝達（NVIDIA）周一宣布，Groq 3 LPX機櫃已正式進入量產，代表去年斥資200億美元、創下該公司最大收購紀錄的Groq技術正式商業化。該機櫃將搭配Vera CPU與Rubin GPU，部署於雲端業者Nebius，預計今年稍晚啟用。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9711991",
+        "title": "川普「經濟諾曼第登陸」來了！伊朗強硬回應 預告轉守為攻",
+        "published_at": "2026-08-25T09:06:00+08:00",
+        "time": "09:06",
+        "url": "https://money.udn.com/money/story/5599/9711991?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9711991",
+        "summary": "紐約時報報導，美國宣布擴大對伊朗經濟制裁後，德黑蘭強硬回應，財政部長馬達尼札德表示，伊朗早已為美方進一步施壓做好準備，更警告這次不會只採取守勢，「美國也應預料到我們會採取攻勢」。分析人士認為，面對華府加大經濟壓力，伊朗可能升高軍事反制，而非接受美方要求。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9712092",
+        "title": "尼坦雅胡稱伊朗企圖暗殺兒子 力挺政敵獲全天候維安",
+        "published_at": "2026-08-25T09:06:00+08:00",
+        "time": "09:06",
+        "url": "https://money.udn.com/money/story/5599/9712092?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9712092",
+        "summary": "以色列總理尼坦雅胡今天指控伊朗曾企圖暗殺他的兒子，同時表態力挺選戰對手、前參謀總長埃森科特獲得全天候維安保護，強調若無嚴...",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "9712091",
+        "title": "影／趙建銘喊話陳幸妤「好聚好散」 追許芊芊是是離婚之後的事",
+        "published_at": "2026-08-25T09:05:00+08:00",
+        "time": "09:05",
+        "url": "https://udn.com/news/story/124985/9712091",
+        "canonical_url": "https://udn.com/news/story/124985/9712091",
+        "summary": "前第一家庭夫婿趙建銘，因爲不滿「有人一再透過週刊、媒體誣蔑他」。今天當著各媒體鏡頭一次說個夠，記者問他有沒有什麼話要對前妻陳幸妤說，他只淡淡的回答，「我們就好聚好散吧！」",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9711264",
+        "title": "聯發科借券賣出衝高能跟空？網勸別只看一項指標：可能是避險套利",
+        "published_at": "2026-08-25T09:04:00+08:00",
+        "time": "09:04",
+        "url": "https://udn.com/news/story/12806/9711264",
+        "canonical_url": "https://udn.com/news/story/12806/9711264",
+        "summary": "聯發科（2454）近期股價維持高檔震盪，PTT有網友注意到借券賣出餘額快速攀升，擔心是否代表法人正在大舉看空。從發文者附上的券商畫面來看，聯發科股價來到3790元、上漲90元或2.43%，而借券賣出部位近期明顯增加，8月20日借券賣出達3967張，8月19日為3258張、8月18日則為3106…",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9712086",
+        "title": "屏東台東大雷雨持續1小時 恐有較強陣風、閃電落雷",
+        "published_at": "2026-08-25T09:02:00+08:00",
+        "time": "09:02",
+        "url": "https://udn.com/news/story/7266/9712086",
+        "canonical_url": "https://udn.com/news/story/7266/9712086",
+        "summary": "低壓帶影響，水氣仍多，中央氣象署發布屏東縣、台東縣大雷雨即時訊息，持續時間至上午9時54分；有短延時強降雨發生，並伴隨較強陣風、閃電落雷，慎防溪河水暴漲、低窪地區積水、低能見度、雷擊、瞬間大浪。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9712077",
+        "title": "與陳幸妤離婚 趙建銘：我是被逼的、診所6千萬貸款我早還清",
+        "published_at": "2026-08-25T09:00:00+08:00",
+        "time": "09:00",
+        "url": "https://udn.com/news/story/124985/9712077",
+        "canonical_url": "https://udn.com/news/story/124985/9712077",
+        "summary": "趙建銘與陳幸妤離婚後風波不斷，沉默多日後，趙建銘今在台南主動對媒體說明原由，趙建銘說，感謝陳幸妤25年來照顧與付出，小孩的2300萬教育基金是用於投資理財上，小孩了解並同意給他管理，但為避免日後紛爭，他決定由小孩自行保管運用，本人不再過問。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9712074",
+        "title": "彭博揭美加談判破局內幕 「他」最後關頭介入 要求收回部分讓步",
+        "published_at": "2026-08-25T08:59:00+08:00",
+        "time": "08:59",
+        "url": "https://money.udn.com/money/story/5599/9712074?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9712074",
+        "summary": "美加貿易談判原本接近拍板定案，卻在最後一刻戲劇性翻盤。彭博資訊披露，關鍵轉折在於美國商務部長盧特尼克（Howard Lutnick）在最後關頭介入，執意收回先前對加拿大的部分關稅讓步。加方指責他臨時改變條件，但對美國鋼鐵和鋁業者而言，他卻是天降救星。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
         "id": "9712002",
         "title": "香港市場驚見老鼠偷吃豆腐！女子憂：翻面繼續賣 網驚呼好髒",
         "published_at": "2026-08-25T08:53:00+08:00",
@@ -68,39 +178,6 @@
         "summary": "絕跡60年的高致死性寄生蟲「新世界螺旋蠅」（New World Screwworm）近期席捲美國南部。隨著疫情從墨西哥逐步蔓延至德州及新墨西哥州，不僅當地畜牧業首當其衝，就連動物收容所內的流浪犬貓也受到波及。當地收容所嚴重爆滿，加上缺乏常駐獸醫，大批無家可歸的救援貓狗正面臨遭集體安樂死的危機。",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "9712001",
-        "title": "美國預告次級制裁施壓伊朗！5國恐成下一波目標 中國風險最大",
-        "published_at": "2026-08-25T08:48:00+08:00",
-        "time": "08:48",
-        "url": "https://money.udn.com/money/story/5599/9712001?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5599/9712001",
-        "summary": "CNN報導，美國財政部24日宣布擴大對伊朗的經濟施壓，警告世界各國停止與德黑蘭做生意，否則恐面臨美方次級制裁，被排除在主導全球的美元體系之外。專家點名，中國大陸、阿拉伯聯合大公國、土耳其、伊拉克與印度可能首當其衝，對中國的影響恐怕最為嚴重。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
-      },
-      {
-        "id": "9712010",
-        "title": "輝達200億美元收購成果曝光 三星代工的 Groq 晶片量產 今年稍晚啟用",
-        "published_at": "2026-08-25T08:48:00+08:00",
-        "time": "08:48",
-        "url": "https://money.udn.com/money/story/5599/9712010?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5599/9712010",
-        "summary": "財經網站CNBC報導，輝達（NVIDIA）周一宣布，Groq 3 LPX機櫃已正式進入量產，代表去年斥資200億美元、創下該公司最大收購紀錄的Groq技術正式商業化。該機櫃將搭配Vera CPU與Rubin GPU，部署於雲端業者Nebius，預計今年稍晚啟用。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
-      },
-      {
-        "id": "9711991",
-        "title": "川普「經濟諾曼第登陸」來了！伊朗強硬回應 預告轉守為攻",
-        "published_at": "2026-08-25T08:48:00+08:00",
-        "time": "08:48",
-        "url": "https://money.udn.com/money/story/5599/9711991?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5599/9711991",
-        "summary": "紐約時報報導，美國宣布擴大對伊朗經濟制裁後，德黑蘭強硬回應，財政部長馬達尼札德表示，伊朗早已為美方進一步施壓做好準備，更警告這次不會只採取守勢，「美國也應預料到我們會採取攻勢」。分析人士認為，面對華府加大經濟壓力，伊朗可能升高軍事反制，而非接受美方要求。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
       },
       {
         "id": "9711977",
@@ -145,17 +222,6 @@
         "summary": "「高接梨」是一種梨嗎？農業部表示，不是，其實是一種栽培技術。不同的梨樹有各自生長環境，有的適合在低海拔地區生長，也有些高品質梨品種原本較適合高海拔、低溫的環境，到了平地，往往會因為冬季低溫不足，影響開花與結果。因此，民國60年代台中東勢農友張榕生發明了「高接梨」技術。",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "9712055",
-        "title": "9月川習會前先強硬？美擬對中國加徵7.5%「產能過剩關稅」恢復20%稅率",
-        "published_at": "2026-08-25T08:44:00+08:00",
-        "time": "08:44",
-        "url": "https://money.udn.com/money/story/5599/9712055?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5599/9712055",
-        "summary": "彭博資訊引述知情人士說法報導，美國準備以中國「產能過剩」為由，對中國商品加徵7.5%的關稅，而且時間點設定在美國總統川普與中國大陸國家主席習近平預定下個月舉行高峰會之前。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
       },
       {
         "id": "9712053",
@@ -288,61 +354,6 @@
         "summary": "中央氣象署發布豪雨特報，低壓帶影響且水氣偏多，易有短延時強降雨，今日台南市、高雄市、屏東縣及台東縣山區有局部大雨或豪雨，...",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
-      },
-      {
-        "id": "9712042",
-        "title": "連日大雨釀災！南橫利稻路段清晨落石 雙向交通中斷、機具進場搶修",
-        "published_at": "2026-08-25T08:36:00+08:00",
-        "time": "08:36",
-        "url": "https://udn.com/news/story/7266/9712042",
-        "canonical_url": "https://udn.com/news/story/7266/9712042",
-        "summary": "受到連日大雨影響，台東縣海端鄉台20線南橫公路利稻路段今天清晨發生落石，170K+400利稻路段遭土石阻斷，造成雙向道路無法通行，公路局關山工務段獲報後立即派遣機具進場搶災，預計上午10時恢復正常通行。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "9712037",
-        "title": "Mac用戶注意！LINE停止支援macOS 13 受影響型號一次看",
-        "published_at": "2026-08-25T08:36:00+08:00",
-        "time": "08:36",
-        "url": "https://udn.com/news/story/7266/9712037",
-        "canonical_url": "https://udn.com/news/story/7266/9712037",
-        "summary": "Mac用戶注意，有一批電腦即將遭到LINE放生！LINE官方日前宣布，已停止支援macOS Ventura 13系統。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "9712038",
-        "title": "雲林崙背民宅火警3人受困 1老婦輕傷2人OHCA送醫搶救中",
-        "published_at": "2026-08-25T08:36:00+08:00",
-        "time": "08:36",
-        "url": "https://udn.com/news/story/7320/9712038",
-        "canonical_url": "https://udn.com/news/story/7320/9712038",
-        "summary": "雲林縣崙背鄉民主路69號今天清晨發生住宅火警，消防局清晨5時51分接獲報案，有一處鐵皮屋民宅冒出濃煙，立即派遣消防人、車前往搶救，6時02分抵達現場展開灌救，發現屋內可能有人，10多分鐘後救出一名長者意識清楚，趕緊送醫，控制火勢後陸續再救出兩人，但呈現OHCA已送醫搶救中。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "9712036",
-        "title": "NBA／拓荒者後衛半月板撕裂 預計休半年趕不上開季",
-        "published_at": "2026-08-25T08:36:00+08:00",
-        "time": "08:36",
-        "url": "https://udn.com/news/story/7002/9712036",
-        "canonical_url": "https://udn.com/news/story/7002/9712036",
-        "summary": "拓荒者隊還沒開季就出現傷情，去年剛和球隊續約的後衛夏普（Shaedon Sharpe）右膝半月板撕裂，預計要缺席6個月，等於趕不上2026-27賽季，成球隊的壞消息。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "9712035",
-        "title": "才說只能電話勘災 卓榮泰今赴屏東勘查農損及排水工程",
-        "published_at": "2026-08-25T08:35:00+08:00",
-        "time": "08:35",
-        "url": "https://udn.com/news/story/6656/9712035",
-        "canonical_url": "https://udn.com/news/story/6656/9712035",
-        "summary": "南台灣暴雨成災，屏東農損慘重，屏東縣議員許展維說，昨到田區，農民告訴他，苦瓜在兩周就可以採收，如今全泡在水裡，全都是水傷。行政院長卓榮泰今上午到屏東縣勘災，先到南州鄉了解苦瓜農災損情況，接著到麟洛鄉視察大湖排水改善工程。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
       },
       {
         "id": "9712028",
@@ -798,6 +809,17 @@
     ],
     "finance": [
       {
+        "id": "9712055",
+        "title": "9月川習會前先強硬？美擬對中國加徵7.5%「產能過剩關稅」恢復20%稅率",
+        "published_at": "2026-08-25T08:37:00+08:00",
+        "time": "08:37",
+        "url": "https://money.udn.com/money/story/5599/9712055?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9712055",
+        "summary": "彭博資訊引述知情人士說法報導，美國準備以中國「產能過剩」為由，對中國商品加徵7.5%的關稅，而且時間點設定在美國總統川普與中國大陸國家主席習近平預定下個月舉行高峰會之前。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
         "id": "9712001",
         "title": "美國預告次級制裁施壓伊朗！5國恐成下一波目標 中國風險最大",
         "published_at": "2026-08-25T08:37:00+08:00",
@@ -886,13 +908,24 @@
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
       {
-        "id": "9711977",
-        "title": "輸官司擋不住川普針對 H-1B 十萬美元簽證費擬擴大至境內申請人",
+        "id": "9712077",
+        "title": "與陳幸妤離婚 趙建銘：我是被逼的、診所6千萬貸款我早還清",
         "published_at": "2026-08-25T08:37:00+08:00",
         "time": "08:37",
-        "url": "https://money.udn.com/money/story/10511/9711977?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/10511/9711977",
-        "summary": "川普政府對部分高技能外國員工簽證徵收10萬美元費用的企圖6月被一個聯邦法庭駁回。",
+        "url": "https://house.udn.com/house/story/123589/9712077",
+        "canonical_url": "https://house.udn.com/house/story/123589/9712077",
+        "summary": "趙建銘與陳幸妤離婚後風波不斷，沉默多日後，趙建銘今在台南主動對媒體說明原由，趙建銘說，感謝陳幸妤25年來照顧與付出，小孩的2300萬教育基金是用於投資理財上，小孩了解並同意給他管理，但為避免日後紛爭，他決定由小孩自行保管運用，本人不再過問。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "9712092",
+        "title": "尼坦雅胡稱伊朗企圖暗殺兒子 力挺政敵獲全天候維安",
+        "published_at": "2026-08-25T08:37:00+08:00",
+        "time": "08:37",
+        "url": "https://money.udn.com/money/story/5599/9712092?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9712092",
+        "summary": "以色列總理尼坦雅胡今天指控伊朗曾企圖暗殺他的兒子，同時表態力挺選戰對手、前參謀總長埃森科特獲得全天候維安保護，強調若無嚴...",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
@@ -1151,6 +1184,39 @@
       }
     ],
     "housing": [
+      {
+        "id": "9712077",
+        "title": "與陳幸妤離婚 趙建銘：我是被逼的、診所6千萬貸款我早還清",
+        "published_at": "2026-08-25T09:00:44+08:00",
+        "time": "09:00",
+        "url": "https://house.udn.com/house/story/123589/9712077",
+        "canonical_url": "https://house.udn.com/house/story/123589/9712077",
+        "summary": "趙建銘與陳幸妤離婚後風波不斷，沉默多日後，趙建銘今在台南主動對媒體說明原由，趙建銘說，感謝陳幸妤25年來照顧與付出，小孩的2300萬教育基金是用於投資理財上，小孩了解並同意給他管理，但為避免日後紛爭，他決定由小孩自行保管運用，本人不再過問。",
+        "source": "udn房地產",
+        "source_url": "https://house.udn.com/house/index"
+      },
+      {
+        "id": "9712058",
+        "title": "繼承土地年收2萬租金、遇颱風卻要百萬修復！代書嘆：上一代祖產變下一代累贅",
+        "published_at": "2026-08-25T08:59:45+08:00",
+        "time": "08:59",
+        "url": "https://house.udn.com/house/story/123589/9712058",
+        "canonical_url": "https://house.udn.com/house/story/123589/9712058",
+        "summary": "阿爸留下的是財產？還是災難？上週我與一位朋友阿秀聊起資產傳承這個議題，她告訴我她們家的「農地」發生的事，讓我覺得某些人「資產傳承」觀念應該重新來探討。 阿秀說：我阿爸名下有幾塊農地，有一塊阿公留下的，有些是他年輕時買的，我阿爸常說：「我的爸爸有留土地給我，我當然也要留給你們，這才叫傳承。",
+        "source": "udn房地產",
+        "source_url": "https://house.udn.com/house/index"
+      },
+      {
+        "id": "9712043",
+        "title": "親友把戶籍寄你家會失去自住優惠？稅務局揭判斷關鍵",
+        "published_at": "2026-08-25T08:37:27+08:00",
+        "time": "08:37",
+        "url": "https://house.udn.com/house/story/123589/9712043",
+        "canonical_url": "https://house.udn.com/house/story/123589/9712043",
+        "summary": "不少家長為了子女就學，會向親友借地址寄放戶籍，但屋主也擔心，家中多了其他人的戶籍，原本享有的房屋稅、地價稅自住優惠是否會因此被取消？新竹市稅務局表示，只要房地實際仍作自住使用，沒有出租或營業，單純提供親友寄放戶籍，不會影響原本適用的自住稅率。",
+        "source": "udn房地產",
+        "source_url": "https://house.udn.com/house/index"
+      },
       {
         "id": "9712020",
         "title": "屋齡109年老店面月租8.8萬！小坪數不缺租客 張旭嵐：躺平數錢難怪沒興趣都更",
