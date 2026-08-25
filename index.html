@@ -14,7 +14,7 @@
       <div>
         <p class="eyebrow">DAILY NEWS</p>
         <h1>每日新聞文字生成器</h1>
-        <p class="hero__sub">挑選今天的即時、金融、房市新聞，一鍵生成可直接分享的早安文字。</p>
+        <p class="hero__sub">挑選今天的天氣、即時、金融、房市新聞，一鍵生成可直接分享的早安文字。</p>
       </div>
     </div>
   </header>
@@ -34,13 +34,27 @@
         <strong><span id="selectedCount">0</span> 篇</strong>
       </div>
       <div class="refresh-slot">
-        <button id="refreshBtn" class="refresh-btn" type="button">🔄 立即更新畫面</button>
-        <span class="refresh-hint">GitHub 每 5 分鐘自動抓取</span>
+        <button id="refreshBtn" class="refresh-btn" type="button">🔄 重新整理畫面</button>
+        <span class="refresh-hint">依設定時段由 GitHub 自動抓取</span>
       </div>
       <div id="dataStatus" class="data-status">正在讀取資料</div>
     </section>
 
     <section class="news-grid">
+      <article class="news-panel" data-category="weather">
+        <div class="panel-head">
+          <div>
+            <span class="panel-icon">🌦️</span>
+            <div>
+              <h2>天氣</h2>
+              <p>今日天氣新聞</p>
+            </div>
+          </div>
+          <span id="weatherCount" class="count-badge">0</span>
+        </div>
+        <div id="weatherList" class="news-list"></div>
+      </article>
+
       <article class="news-panel" data-category="instant">
         <div class="panel-head">
           <div>
@@ -89,7 +103,7 @@
         <div>
           <p class="eyebrow">MESSAGE BUILDER</p>
           <h2>生成今日分享文字</h2>
-          <p>每個分類最多選 1 篇；可只選其中一個或兩個分類。</p>
+          <p>每個分類最多選 1 篇；最多可同時選 4 篇。</p>
         </div>
         <button id="generateBtn" class="primary-btn" type="button">生成文字</button>
       </div>
@@ -105,7 +119,7 @@
   </main>
 
   <footer>
-    <p>資料來源：經濟日報、聯合新聞網、udn 房地產。文章內容與發布時間以原網站為準。</p>
+    <p>資料來源：經濟日報、聯合新聞網、udn 房地產、風傳媒、TVBS、中時新聞網、好房網News。文章內容與發布時間以原網站為準。</p>
   </footer>
 
   <script src="app.js" defer></script>
