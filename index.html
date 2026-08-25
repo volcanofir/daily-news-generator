@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0f5a47">
-  <meta name="description" content="經濟日報每日新聞選取與早安文字生成工具">
+  <meta name="description" content="每日新聞選取與早安文字生成工具">
   <title>每日新聞文字生成器</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -16,7 +16,6 @@
         <h1>每日新聞文字生成器</h1>
         <p class="hero__sub">挑選今天的即時、金融、房市新聞，一鍵生成可直接分享的早安文字。</p>
       </div>
-      <button id="refreshBtn" class="ghost-btn" type="button">重新整理新聞</button>
     </div>
   </header>
 
@@ -33,6 +32,10 @@
       <div>
         <span class="status-label">已選新聞</span>
         <strong><span id="selectedCount">0</span> 篇</strong>
+      </div>
+      <div class="refresh-slot">
+        <button id="refreshBtn" class="refresh-btn" type="button">🔄 立即更新畫面</button>
+        <span class="refresh-hint">GitHub 每 5 分鐘自動抓取</span>
       </div>
       <div id="dataStatus" class="data-status">正在讀取資料</div>
     </section>
@@ -102,7 +105,7 @@
   </main>
 
   <footer>
-    <p>資料來源：經濟日報。文章內容與發布時間以原網站為準。</p>
+    <p>資料來源：經濟日報、聯合新聞網、udn 房地產。文章內容與發布時間以原網站為準。</p>
   </footer>
 
   <script src="app.js" defer></script>
