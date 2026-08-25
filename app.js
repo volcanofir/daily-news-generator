@@ -30,6 +30,35 @@ function taipeiToday() {
   return `${get("year")}-${get("month")}-${get("day")}`;
 }
 
+function taipeiClockParts() {
+  const parts = new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Asia/Taipei",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).formatToParts(new Date());
+  const get = (type) => Number(parts.find((p) => p.type === type)?.value || 0);
+  return { hour: get("hour"), minute: get("minute") };
+}
+
+function updateNextUpdateNotice() {
+  const wrap = $("nextUpdateWrap");
+  const text = $("nextUpdateAt");
+  const card = $("statusCard");
+  if (!wrap || !text || !card) return;
+
+  const { hour } = taipeiClockParts();
+  const overnightPause = hour >= 21 || hour < 6;
+
+  wrap.hidden = !overnightPause;
+  card.classList.toggle("has-next-update", overnightPause);
+
+  if (!overnightPause) return;
+  text.textContent = hour >= 21
+    ? "明日 06:00 開始更新"
+    : "今日 06:00 開始更新";
+}
+
 function displayDate(isoDate) {
   return (isoDate || "").replaceAll("-", "/");
 }
@@ -280,4 +309,6 @@ $("copyBtn").addEventListener("click", async () => {
 });
 
 setupPanelToggles();
+updateNextUpdateNotice();
+window.setInterval(updateNextUpdateNotice, 60 * 1000);
 loadNews();
