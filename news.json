@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at": "2026-08-25T15:34:55.777966+08:00",
+  "updated_at": "2026-08-25T15:43:39.221263+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "weather": {
@@ -150,7 +150,7 @@
       },
       {
         "id": "ca2fe72d5c1faba4",
-        "title": "颱風動態》沙德爾「最快週三」海警！最新路徑、影響範圍一次看",
+        "title": "颱風動態》沙德爾持續減弱、路徑再北修！最新路徑、影響範圍一次看",
         "published_at": "2026-08-25T04:18:20+08:00",
         "time": "04:18",
         "url": "https://news.tvbs.com.tw/life/4011700",
@@ -206,10 +206,76 @@
     ],
     "instant": [
       {
+        "id": "977b4cc4f1d4e1aa",
+        "title": "中職／雨勢影響 台南亞太25日龍獅戰延賽",
+        "published_at": "2026-08-25T15:42:00+08:00",
+        "time": "15:42",
+        "url": "https://udn.com/news/story/7001/9713139",
+        "canonical_url": "https://udn.com/news/story/7001/9713139",
+        "summary": "中職例行賽受到雨勢影響，近1週南部賽事都無法進行，原訂今天在台南亞太球場舉行的統一7-ELEVEn獅隊、味全龍隊比賽因雨...",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "a67aa5e95da000e9",
+        "title": "塞「海軍退將」給陳雪生當特助涉貪 前國大代表楊肅元今約談到案",
+        "published_at": "2026-08-25T15:41:00+08:00",
+        "time": "15:41",
+        "url": "https://udn.com/news/story/7321/9713211",
+        "canonical_url": "https://udn.com/news/story/7321/9713211",
+        "summary": "國民黨立委陳雪生被控詐領助理費、收受廠商不正利益，檢調查出，金門縣前縣長長楊鎮浯的父親即金欣海運實際負責人楊肅元，提供海軍退少將范寶華到陳雪生辦公室擔任特助，薪酬由楊實質可控的公司支付，涉貪汙不違背職務行賄罪，昨約談楊肅元未到，楊肅元今前往調查局說明，晚間再赴台北地檢署接受複訊。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "880de41afcf5eae4",
+        "title": "NBA／轉戰綠衫軍羅賓森「罰球挑戰」連進2顆！球迷不買單喊：一定是AI",
+        "published_at": "2026-08-25T15:39:00+08:00",
+        "time": "15:39",
+        "url": "https://udn.com/news/story/7002/9713127",
+        "canonical_url": "https://udn.com/news/story/7002/9713127",
+        "summary": "塞爾蒂克休賽季以3年4740萬美元簽下前尼克中鋒羅賓森（Mitchell Robinson），近日他也親自拍影片回應球迷的「罰球挑戰」，然而即使連進兩球，也仍遭球迷戲稱「這一定是AI。」，取代羅賓森尼克位置的佐蒙德（Andre Drummond）也跑來留言。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "726129ab6e70e985",
+        "title": "雞蛋貼圖當暗號！黑幫微信「五燈獎」賣喪屍煙彈 刑事局扣500萬元毒品",
+        "published_at": "2026-08-25T15:39:00+08:00",
+        "time": "15:39",
+        "url": "https://udn.com/news/story/7315/9713208",
+        "canonical_url": "https://udn.com/news/story/7315/9713208",
+        "summary": "游姓男子涉嫌出資由竹聯幫弘仁會成員林姓男子負責，在新北市租屋分裝毒品販賣，獲利3500萬元，刑事局搜扣價值共500萬元的依托咪酯類「喪屍煙彈」、搖頭丸、K他命、毒品咖啡包及哈密瓜錠等毒品，拘提游、林等12人移送，新北地檢署依毒品等罪起訴。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "40b232d356df9672",
+        "title": "新北人均補助墊底 李四川競辦：蘇巧慧擋新北預算又放任中央砍補助",
+        "published_at": "2026-08-25T15:38:00+08:00",
+        "time": "15:38",
+        "url": "https://udn.com/news/story/124652/9713206",
+        "canonical_url": "https://udn.com/news/story/124652/9713206",
+        "summary": "財政部昨公布明年度統籌分配稅款，新北市雖增加幅度，但人均分配金額仍墊底。李四川競選辦公室發言人郭音蘭今指出，對新北人均配額長年墊底，蘇巧慧父親蘇貞昌也曾高呼要修正財劃法，但蘇巧慧十年來卻毫無作為，甚至反對修法、阻擋新北市增加預算，中央政府大玩兩面手法砍地方補助，蘇巧慧選擇噤聲，證明其心中「黨意…",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "d3b0e3d408ef7964",
+        "title": "工具男追妹幫修電腦「偷她性愛片」 強索40萬還嗆聲下場曝光",
+        "published_at": "2026-08-25T15:38:00+08:00",
+        "time": "15:38",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003279-260402",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003279-260402",
+        "summary": "男工程師阿彬（化名）追求女子小光（化名）未果，竟趁協助其維修筆電之際，偷偷將她存在電腦內與前男友的性愛影片及裸照複製留存，事後多次傳影片截圖嗆聲「死洋腸台女」，甚至恐嚇索取共42萬元。小光不堪其擾提告求",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
         "id": "c2bf5ce85cfa927a",
         "title": "美 IPO 熱潮提前升溫 Oura、Anthropic 蓄勢登場",
-        "published_at": "2026-08-25T15:34:00+08:00",
-        "time": "15:34",
+        "published_at": "2026-08-25T15:37:00+08:00",
+        "time": "15:37",
         "url": "https://money.udn.com/money/story/123398/9712880?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/123398/9712880",
         "summary": "華爾街夏末向來清淡，今年卻因9月7日勞動節後一波首次公開發行股票（IPO）蓄勢待發而提前熱絡起來。智慧戒指業者Oura可望搶先登場，募資規模上看1,000億美元的Anthropic更是重頭戲，足以把今年IPO募資推上新高。",
@@ -219,13 +285,57 @@
       {
         "id": "9c24ac182a27ba3e",
         "title": "美農民慘兮兮 今明兩年恐都賺不到錢 九大作物種植戶估虧630億美元",
-        "published_at": "2026-08-25T15:34:00+08:00",
-        "time": "15:34",
+        "published_at": "2026-08-25T15:37:00+08:00",
+        "time": "15:37",
         "url": "https://money.udn.com/money/story/10511/9712943?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/10511/9712943",
         "summary": "美國玉米帶農民正面臨40年來最嚴重的財務危機。他們原本就受到美中貿易戰與穀價低迷重創，如今美伊戰事又推高柴油和肥料價格，極端氣候也打擊收成。有農民直言，照目前情況，未來兩年恐怕都得慘賠。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "19a2bd2f3eebfd5b",
+        "title": "連3震！東南部海域再發生4.2有感地震 綠島最大震度2級",
+        "published_at": "2026-08-25T15:37:00+08:00",
+        "time": "15:37",
+        "url": "https://udn.com/news/story/7266/9713175",
+        "canonical_url": "https://udn.com/news/story/7266/9713175",
+        "summary": "今（2026）年8月25日下午3時22分，台灣東南部近海發生規模4.2淺層地震，最大震度為台東縣綠島2級，深度約13公里，地震有感但未達需特別防範程度。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "2af0b77e78b408bb",
+        "title": "從陳幸妤離婚風波學協議怎麼寫 律師教戰5件事簽字前看清楚",
+        "published_at": "2026-08-25T15:37:00+08:00",
+        "time": "15:37",
+        "url": "https://udn.com/news/story/124985/9713201",
+        "canonical_url": "https://udn.com/news/story/124985/9713201",
+        "summary": "前總統陳水扁女兒陳幸妤離婚風波持續延燒，前夫趙建銘日前返台時公開離婚協議書部分內容，並指向其中的保密條款，內容載明若違反約定、造成一方或親屬隱私受侵害，須賠償懲罰性金額1億元，也讓「離婚協議到底該怎麼寫」成為討論焦點。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "0337341ca9832dd1",
+        "title": "沈伯洋提遮陽傘五點質疑...北市反擊問：毒油七問還要繼續「小洋逃」?",
+        "published_at": "2026-08-25T15:36:00+08:00",
+        "time": "15:36",
+        "url": "https://udn.com/news/story/7323/9713195",
+        "canonical_url": "https://udn.com/news/story/7323/9713195",
+        "summary": "北市府規畫在信義區打造8座遮陽傘，原先稱8月底前完工，現傳出將延宕到明年1月選後。民進黨台北市長候選人沈伯洋今提遮陽傘五項質疑，北市府各局處逐一澄清，副發言人蔡畹鎣也反擊，沈既然喜歡問答，想問沈委員針對「毒油七問」，可以一題一題回答了嗎？還要繼續「小洋逃」？",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "bd1819cebc507b18",
+        "title": "信義開發BIM、生產履歷、社區營造三箭齊發 攜手信義房屋參展亞太永續博覽會",
+        "published_at": "2026-08-25T15:35:00+08:00",
+        "time": "15:35",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003312-260410",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003312-260410",
+        "summary": "2026亞太永續博覽會8月27至29日於台北世貿一館登場，信義開發攜手信義房屋參展，以BIM建築資訊模型、建物生產履歷、社區營造三大核心，展現產品產製以及讓住戶從陌生到熟識的永續實踐路徑。本屆展覽以「共築我們的未",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
         "id": "1955560f8ca1dd31",
@@ -239,6 +349,28 @@
         "source_url": "https://udn.com/news/breaknews/1"
       },
       {
+        "id": "91c7af34012ebba6",
+        "title": "韓女團接力登台！LE SSERAFIM大吃壽司刷爆信用卡 QWER海外首站獻台北",
+        "published_at": "2026-08-25T15:34:00+08:00",
+        "time": "15:34",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003175-260404",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003175-260404",
+        "summary": "韓國人氣女團LE SSERAFIM今年11月將再度來台，14、15日一連兩天登上林口體育館（國立體育大學綜合體育館）開唱，主辦單位也正式公布票價、座位圖以及粉絲福利。準備來台與FEARNOT（官方粉絲名）見面的5人，最近登上",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "b51c8e2f814abdfd",
+        "title": "疑天雨路滑！長照車遇積水打滑自撞 87歲乘客一度受困",
+        "published_at": "2026-08-25T15:34:00+08:00",
+        "time": "15:34",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003275-260402",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003275-260402",
+        "summary": "澎湖縣馬公市澎25號道路烏崁段今（25）日中午發生一起長照接送車自撞事故，肇禍的接送車疑因路面積水失控，撞上路旁路樹後再撞圍牆，造成2名女性乘客受傷，其中副駕駛座1名87歲婦人一度受困車內，幸消防人員獲報後迅",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
         "id": "aeba00de5d51bdbb",
         "title": "2分鐘內連兩震…台灣東南部海域發生芮氏規模4.3地震有感搖晃",
         "published_at": "2026-08-25T15:33:00+08:00",
@@ -248,6 +380,28 @@
         "summary": "2026年8月25日下午3時02分，台灣東南部海域發生規模4.3地震，深度約30.7公里，最大震度在台東縣綠島達2級，居民感受到明顯搖晃。",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "d2615c4a9e66e43c",
+        "title": "藍委陳雪生涉貪交保 前國代楊肅元涉行賄遭移送",
+        "published_at": "2026-08-25T15:33:00+08:00",
+        "time": "15:33",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003295-260402",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003295-260402",
+        "summary": "國民黨立委陳雪生遭檢舉利用親友詐領助理費、收受業者提供助理使用等不正利益，涉嫌違反《貪汙治罪條例》，檢調24日兵分35路搜索陳雪生立院辦公室、金欣海運公司等處，約談陳雪生與辦公室主任胞弟陳雪懷、親友、金欣",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "2a3fb50228c77ff9",
+        "title": "台南囝仔揚威國際！右武衛合唱團匈牙利勇奪3金 9／6新營免費開唱",
+        "published_at": "2026-08-25T15:33:00+08:00",
+        "time": "15:33",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003140-260405",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003140-260405",
+        "summary": "從台南下營一路唱到匈牙利，這群台南囝仔不只抱回3面金獎，更在國際舞台上唱出自信。台南市右武衛兒童合唱團今年7月受屏東希望兒童合唱團邀請，分組赴匈牙利「2026布達佩斯國際合唱慶典」參賽，最終勇奪3面金獎，並",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
         "id": "b218c85fe11d27c5",
@@ -272,6 +426,72 @@
         "source_url": "https://udn.com/news/breaknews/1"
       },
       {
+        "id": "ef8a1de87965f02f",
+        "title": "點出趙建銘「真正問題」 沈政男喊話：別在媒體上繼續放話",
+        "published_at": "2026-08-25T15:32:00+08:00",
+        "time": "15:32",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003221-260407",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003221-260407",
+        "summary": "前總統陳水扁女兒陳幸妤近日接連談及與前夫趙建銘的婚姻糾紛，從3名子女約2300萬元教育基金、診所貸款，到許芊芊相關爭議，引發外界關注，而趙今（25）日也出面回應，逐一說明相關指控。對此，時常評論時事的精神科",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "fac8d637fa0fbefa",
+        "title": "《國際產業》沒驚喜？漲不動？輝達業績行情 選擇權現端倪",
+        "published_at": "2026-08-25T15:30:00+08:00",
+        "time": "15:30",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003293-260410",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003293-260410",
+        "summary": "被視為AI產業風向球的輝達（Nvidia）即將在周三美股盤後公布上季財報。根據選擇權交易，市場押注輝達在秀出營運成績單後，市值可能出現2800億美元的波動。根據輝達的選擇權定價，市場預估輝達股價在周四、發布業績隔",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "ffcab27e963d4060",
+        "title": "《熱門族群》矽光子反彈收高 全新、汎銓漲停",
+        "published_at": "2026-08-25T15:30:00+08:00",
+        "time": "15:30",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003288-260410",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003288-260410",
+        "summary": "擺脫美國光通訊股重挫陰霾，台灣矽光子個股全面止跌反彈，化合物半導體磊晶廠全新(2455)、矽光子檢測廠汎銓(6830)今天連袂亮燈漲停作收，IET-KY(4971)與環宇-KY(4991)今天亦同步收紅。矽光子概念股近日受到美國光通",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "15a93522b818652e",
+        "title": "《國際政治》俄南部煉油廠遭無人機襲擊 2死2傷",
+        "published_at": "2026-08-25T15:30:00+08:00",
+        "time": "15:30",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003287-260410",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003287-260410",
+        "summary": "烏克蘭週二凌晨持續攻擊俄羅斯能源基礎設施。俄羅斯南部靠近黑海附近的克拉斯諾達爾(Krasnodar)地區的州長Veniamin Kondratyev週二在社群媒體Telegram上發文表示，該地區的Afipsky煉油廠遭到無人機襲擊，並且發生大",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "da47325d1ed8ab1e",
+        "title": "《半導體》力旺營運迎轉折 3奈米專案到手、權利金蓄勢成長",
+        "published_at": "2026-08-25T15:30:00+08:00",
+        "time": "15:30",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003286-260410",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003286-260410",
+        "summary": "力旺（3529）今（25）日參加櫃買中心業績說明會表示，隨著人工智慧（AI）算力快速提升，加上量子運算帶來潛在攻擊風險，全球資安架構正由過去以軟體防護為主，轉向軟硬體並重，帶動硬體信任根（Root of Trust）、實",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "083650f39155d1fc",
+        "title": "《國際社會》中颱沙德爾來襲 估挾帶大量雨水",
+        "published_at": "2026-08-25T15:30:00+08:00",
+        "time": "15:30",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003281-260410",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003281-260410",
+        "summary": "路透社25日報導，目前強度降至中度颱風的沙德爾(Saudel)，正朝著日本南部和台灣北部方向前進，預計將會帶來大量的降雨，台灣指出，南部和東部的另一個氣候系統(weather system)已造成1人死亡以及4人失蹤。日本氣象廳",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
         "id": "2559035c225988b5",
         "title": "破紀錄！秋冬流感疫苗採購超過705萬劑 10月1開打施打資格變動一次看",
         "published_at": "2026-08-25T15:29:00+08:00",
@@ -292,17 +512,6 @@
         "summary": "年底地方公職人員選舉腳步逼近，反賄選宣導也不只停留在宣講場合，雲林地檢署首度將反賄選觸角延伸至國營事業服務網絡，串聯台電、台水既有的服務據點與數位管道，把原本服務民眾的「服務網」，轉化為守護選舉公平的",
         "source": "中時新聞網・即時",
         "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "2704e88bdefb7c18",
-        "title": "美網／小威、小蠻牛夢幻混雙 首輪就碰女雙衛冕軍",
-        "published_at": "2026-08-25T15:27:00+08:00",
-        "time": "15:27",
-        "url": "https://udn.com/news/story/7003/9713176",
-        "canonical_url": "https://udn.com/news/story/7003/9713176",
-        "summary": "今年宣布驚喜復出的美國傳奇網球名將小威廉絲（Serena Williams），美網混雙聯手傷後回歸的「西班牙小蠻牛」阿爾卡拉斯（Carlos Alcaraz），組成相差21歲的跨世代夢幻組合，首輪對手透過資格賽出爐，將碰紐西蘭羅莉芙（Erin Routliffe）／英國格拉斯普爾（Lloyd…",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
       },
       {
         "id": "26c6dabd568a6cfa",
@@ -437,17 +646,6 @@
         "source_url": "https://udn.com/news/breaknews/1"
       },
       {
-        "id": "dc734e589a300c71",
-        "title": "台灣東南海域發生規模5.8地震 高雄收到國家級警報後約10秒有感",
-        "published_at": "2026-08-25T15:20:00+08:00",
-        "time": "15:20",
-        "url": "https://udn.com/news/story/7266/9713158",
-        "canonical_url": "https://udn.com/news/story/7266/9713158",
-        "summary": "台灣東南海域今天下午3時發生有感地震，中央氣象署初步測得芮氏規模5.8，震央位於台東縣政府東南東方約48公里的台灣東南部海域，地震深度13.1公里，預估南投、彰化、雲林、嘉義、台南、高雄、屏東，以及宜蘭、花蓮、台東等地區可能達3級以上震度。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
         "id": "6a92525111fdf9ad",
         "title": "卓榮泰赴台東弔唁饒穎奇 與饒慶鈴姊妹同框致意",
         "published_at": "2026-08-25T15:20:00+08:00",
@@ -470,63 +668,8 @@
         "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
-        "id": "75b0ecd606b72475",
-        "title": "沙德爾擦身而過？粉專揭「下墜球」路徑 對台影響曝",
-        "published_at": "2026-08-25T15:18:00+08:00",
-        "time": "15:18",
-        "url": "https://www.chinatimes.com/realtimenews/20260825003139-260405",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003139-260405",
-        "summary": "中颱沙德爾持續朝西北方向移動，氣象粉專「台灣颱風論壇｜天氣特急」分析，沙德爾通過沖繩附近後，將一路往西南西移動，接近台灣北方海域，不過颱風與台灣本島擦身而過的機率很高，且越靠近台灣強度可能越弱，預估周",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "5ce4302c0f55c3bc",
-        "title": "卓揆「電話勘災」惹議 總統視察永康強調挺地方治水：多支持 少批評",
-        "published_at": "2026-08-25T15:17:00+08:00",
-        "time": "15:17",
-        "url": "https://www.chinatimes.com/realtimenews/20260825003122-260407",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003122-260407",
-        "summary": "賴清德總統25日視察台南永康此次受低壓帶強降雨致淹水情形，南市水利局爭取崑山科大允諾提供校地做地下滯洪池改善，預計斥資5億元；賴強調中央會全力支持地方持續治水，也說明行政院長卓榮泰今赴屏東勘災、他則走訪",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "8111bc36f853b531",
-        "title": "律師看趙建銘反咬陳幸妤 評「省小花大賠更多錢的五十多歲媽寶」",
-        "published_at": "2026-08-25T15:16:00+08:00",
-        "time": "15:16",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002959-260404",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002959-260404",
-        "summary": "前總統陳水扁女兒陳幸妤與前夫趙建銘之間的紛爭受到全台關注，今(25日)上午趙建銘接受媒體訪問，對於陳幸妤的指控，反擊稱當初被對方逼離婚、6000萬貸款已還清、會歸還兒子2300萬教育基金，並承認很久以前對許姓護理",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "0a81fa586ce17dfc",
-        "title": "全台警報齊響！台東外海規模5.8地震 東河、成功、綠島震度4級",
-        "published_at": "2026-08-25T15:15:00+08:00",
-        "time": "15:15",
-        "url": "https://udn.com/news/story/7266/9713152",
-        "canonical_url": "https://udn.com/news/story/7266/9713152",
-        "summary": "台東外海今天下午發生有感地震！中央氣象署發布第057號顯著有感地震報告，今天下午3時整，台灣東南部海域發生芮氏規模5.8地震，震源深度13.1公里，震央位於台東縣政府東南東方48公里處，台東地區明顯感受到搖晃。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "a5e86368be3407fe",
-        "title": "「左流右新」10月開打！流感疫苗採購創新高破700萬劑",
-        "published_at": "2026-08-25T15:13:00+08:00",
-        "time": "15:13",
-        "url": "https://www.chinatimes.com/realtimenews/20260825003153-260405",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003153-260405",
-        "summary": "為防範秋冬流感、新冠疫情，今年「左流右新」疫苗將於10月開打。疾管署公布，今年公費流感疫苗共採購705萬150劑，創下歷年採購量新高，包括免疫加強型疫苗20萬劑、標準型疫苗約685萬劑，新冠則採購240萬劑，並首度引",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
         "id": "90ed3a36a957a776",
-        "title": "下午3時地牛翻身！規模5.8國家警報大作 全台有感",
+        "title": "15:00地牛翻身！規模5.8國家警報大作 全台有感",
         "published_at": "2026-08-25T15:12:00+08:00",
         "time": "15:12",
         "url": "https://udn.com/news/story/7266/9713145",
@@ -534,105 +677,6 @@
         "summary": "今天下午3時發生一起規模5.8地震，震央位於台東外海，深度僅13.1公里，全台最大震度綠島達4級，花蓮、嘉義、雲林、台南及台東都有3級震度。全台有感，台中以南普遍有2級震度，北部則以1級為主，台北地區有收到國家級警報。",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "2f371d6fb227a7b1",
-        "title": "越南股市升格新興市場倒數 社群、AI助長Z世代散戶投資狂熱",
-        "published_at": "2026-08-25T15:12:00+08:00",
-        "time": "15:12",
-        "url": "https://udn.com/news/story/6811/9713132",
-        "canonical_url": "https://udn.com/news/story/6811/9713132",
-        "summary": "隨著富時羅素預計將越南納入全球股票指數系列，越南正式擺脫邊境市場。當前越南經濟與股市猶如1980年代經濟起飛的台灣，伴隨...",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "e2eca1fa5a6c028d",
-        "title": "屏東勘災 卓榮泰：農損全品項免現勘、淹水逾50公分每戶最高3萬元",
-        "published_at": "2026-08-25T15:12:00+08:00",
-        "time": "15:12",
-        "url": "https://udn.com/news/story/7266/9713143",
-        "canonical_url": "https://udn.com/news/story/7266/9713143",
-        "summary": "雨勢一直下，屏東農損、各地淹水災情嚴重，行政院長卓榮泰今赴屏東勘災，農損部分要求農業部加速核定現金救助，全品項、免現勘，並提供肥料、資材等補助，協助農民復耕。住家淹水補助，比照過去米克拉颱風標準，淹水30至50公分且有家電損失者，每戶補助1萬元；",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "db1162c19105c97d",
-        "title": "支持中小企業關懷職場 勞動部公布「EAP 實務手冊」",
-        "published_at": "2026-08-25T15:12:00+08:00",
-        "time": "15:12",
-        "url": "https://udn.com/news/story/7238/9713141",
-        "canonical_url": "https://udn.com/news/story/7238/9713141",
-        "summary": "為支持企業推動員工協助方案，勞動部發布「員工協助方案(EAP)承辦人員實務手冊」，讓企業承辦人員在推動員工協助及關懷業務時，提供具體的員工需求評估步驟與解決方法。企業可至「工作生活平衡網」下載瀏覽，共同打造組織友善關懷文化。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "69d1c0b0a9332282",
-        "title": "氣象署預告地震警報聲大作 台中市消防局：暫無災情",
-        "published_at": "2026-08-25T15:12:00+08:00",
-        "time": "15:12",
-        "url": "https://udn.com/news/story/7266/9713140",
-        "canonical_url": "https://udn.com/news/story/7266/9713140",
-        "summary": "氣象署在今天下午3時許，發布地震預告，手機警報聲大作，台中市消防局表示，案發5分鐘後，暫未接獲有關地震災情通報，持續關注中。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "40dfe755f4cf60a6",
-        "title": "4名腫瘤科醫師答案相同 早上9點前一定要做這件事",
-        "published_at": "2026-08-25T15:09:00+08:00",
-        "time": "15:09",
-        "url": "https://www.chinatimes.com/realtimenews/20260825003097-260408",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003097-260408",
-        "summary": "癌症成因複雜，涉及基因、環境及生活方式等多項因素，沒有任何一種習慣能夠保證預防癌症。不過，美國健康飲食網站《吃得好》（EatingWell）訪問4位腫瘤科醫師，詢問早上9點前最值得養成的健康習慣，4人的答案完全一",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "561dbc60fa5624f3",
-        "title": "國喬跨足半導體特化材料 結盟日氣體大廠AWI入股宏廣新技",
-        "published_at": "2026-08-25T15:08:00+08:00",
-        "time": "15:08",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002964-260410",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002964-260410",
-        "summary": "看準半導體供應鏈在地化與高階材料需求，國喬石化25日宣布，攜手日本工業氣體大廠愛沃特（AIR WATER INC.，AWI），共同參與半導體特殊氣體製造商宏廣新技增資案，雙方將各持股35％成為2大股東，正式跨足台灣半導體特",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "7f65ff5e0d48cc22",
-        "title": "同一碗飯血糖差很大 專家最推糙米 曝4種米吃法",
-        "published_at": "2026-08-25T15:08:00+08:00",
-        "time": "15:08",
-        "url": "https://www.chinatimes.com/realtimenews/20260825003104-260418",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003104-260418",
-        "summary": "不同種類的米，對血糖的影響大不相同。營養師孫語霙分享，糙米、白米、黑米及十穀米各有營養特色，若想減脂、控糖，選對米飯種類也很重要。其中，她最推薦糙米，若口感不習慣，可先從胚芽米開始嘗試，而白米若與其他",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "ae22d78d2db7e7db",
-        "title": "徐展元夫妻遭蟲群圍攻！「停滿全身、朝嘴裡飛」驚悚瞬間曝光",
-        "published_at": "2026-08-25T15:06:00+08:00",
-        "time": "15:06",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002934-260404",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002934-260404",
-        "summary": "體育主播徐展元和老婆谷懷萱5月份到青海甘肅自費旅行，近來在社群分享旅程的種種經歷，先前位在乾燥的戈壁，因為回到飯店後，忘記開加濕器，導致兩人一直流鼻血，沒想到轉往「水上雅丹」時，居然遭到一群飛蟲迎面攻",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "df25e4c81a8d3eb9",
-        "title": "東南外海強震！規模5.8 國家警報狂響 綠島震度4級",
-        "published_at": "2026-08-25T15:01:00+08:00",
-        "time": "15:01",
-        "url": "https://www.chinatimes.com/realtimenews/20260825003129-260405",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003129-260405",
-        "summary": "國家警報狂響！今天下午3點，台灣東南外海發生有感地震，根據中央氣象署地震測報中心觀測，地震芮氏規模達5.8，震央位在台東縣政府東南東方48.0公里，深度僅13.1公里，屬超淺層地震。最大震度發生在綠島，震度高達4",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
         "id": "506119da1deb2c3b",
@@ -688,53 +732,20 @@
         "summary": "在時尚產業繽紛色彩的背後可能是一場環境浩劫，紡織染色過程大量使用水、能源與化學品，部分有毒物質最終隨廢水流入河川與海洋。英國生物染料公司Colorifix試圖改變這套沿用逾百年的模式，從大自然取得「釀造顏色」的方法，以細菌發酵取代石油化學染料。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
-      },
-      {
-        "id": "dc35eeab610bfbc8",
-        "title": "《產業》全球新能源車Q2銷量增1成 海外市場成中系車廠決勝關鍵",
-        "published_at": "2026-08-25T15:00:00+08:00",
-        "time": "15:00",
-        "url": "https://www.chinatimes.com/realtimenews/20260825003125-260410",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003125-260410",
-        "summary": "根據TrendForce最新電動車產業研究，2026年第二季全球純電動車(BEV)、插電混合式電動車(PHEV)和氫燃料電池車等新能源車合計銷量達537萬輛，年增10.4%。若計入油電混合車(HEV)，上述四類電動車總計貢獻第二季全球汽車",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "f5a726cffe70b7c1",
-        "title": "吃飽不等於吃對！6成學童晚餐狂吃澱粉 熱量過剩營養不足",
-        "published_at": "2026-08-25T14:58:00+08:00",
-        "time": "14:58",
-        "url": "https://www.chinatimes.com/realtimenews/20260825003054-260418",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003054-260418",
-        "summary": "外食、含糖飲料與高度加工食品日益普及，兒少飲食面臨「熱量過剩」和「營養不足」的雙重挑戰。根據2026台灣兒童飲食營養現況調查報告，逾半數孩童每周至少飲用一次手搖飲，21.3％幾乎每天食用零食甜點，63.2％學童晚",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "1416de890da9f3e4",
-        "title": "趙建銘稱「被逼離婚」！陳水扁開嗆 1句話藏2300萬玄機",
-        "published_at": "2026-08-25T14:55:00+08:00",
-        "time": "14:55",
-        "url": "https://www.chinatimes.com/realtimenews/20260825003067-260407",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003067-260407",
-        "summary": "前總統陳水扁女兒陳幸妤與前夫趙建銘婚姻風波持續延燒。趙建銘今（25日）首度公開受訪，針對離婚、2300萬元子女教育基金、診所貸款及許姓護理師等爭議逐一回應，強調離婚並非自己主動提出，更形容自己「是被逼的」。",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "b7e8c97333645d8f",
-        "title": "9月電子期金融期齊漲",
-        "published_at": "2026-08-25T14:13:00+08:00",
-        "time": "14:13",
-        "url": "https://money.udn.com/money/story/11112/9712991?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/11112/9712991",
-        "summary": "台北股市今天上漲407.14點，收45169.46點。9月電子期收2869.85點，上漲26.45點，正價差1.29點；...",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
       }
     ],
     "finance": [
+      {
+        "id": "8f7ef6a7664c5523",
+        "title": "4000萬換屋選板橋還是存股？雙薪家庭陷天擇 網勸：湳雅夜市要想清楚",
+        "published_at": "2026-08-25T15:34:00+08:00",
+        "time": "15:34",
+        "url": "https://house.udn.com/house/story/123589/9710313",
+        "canonical_url": "https://house.udn.com/house/story/123589/9710313",
+        "summary": "雙薪家庭年收350萬至400萬元，考慮斥資4000萬元換屋至板橋湳雅夜市預售案，卻在通勤、環境、轉手與股市投資間掙扎，引發網友熱議。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
       {
         "id": "f9a78bcb5b699bbd",
         "title": "武漢旁「2房只要40萬台幣」！拿台灣房價一比驚呆 鄉民：那你買幾間了？",
@@ -747,23 +758,23 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "cedd9d275b7582af",
-        "title": "2019苦勸朋友買房「一個都沒人理」！他看房價噴出悟了：真的管好自己就好",
+        "id": "742089bdee70a21c",
+        "title": "從陳幸妤離婚風波學協議怎麼寫！律師教戰5件事簽字前看清楚",
         "published_at": "2026-08-25T15:34:00+08:00",
         "time": "15:34",
-        "url": "https://house.udn.com/house/story/123589/9710300",
-        "canonical_url": "https://house.udn.com/house/story/123589/9710300",
-        "summary": "PTT網友回憶2019、2020年苦勸友人買房無人理，房價上漲後感嘆別過度介入他人選擇，網友看法不一。",
+        "url": "https://money.udn.com/money/story/5648/9713201?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5648/9713201",
+        "summary": "前總統陳水扁女兒陳幸妤離婚風波持續延燒，前夫趙建銘日前返台時公開離婚協議書部分內容，並指向其中的保密條款，內容載明若違反約定、造成一方或親屬隱私受侵害，須賠償懲罰性金額1億元，也讓「離婚協議到底該怎麼寫」成為討論焦點。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "a24ffae1f7344c9d",
+        "id": "1955560f8ca1dd31",
         "title": "大立光今年第四度出手獵地 斥資逾30億元購進台中南屯區土地",
         "published_at": "2026-08-25T15:34:00+08:00",
         "time": "15:34",
-        "url": "https://money.udn.com/money/story/5612/9713190?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5612/9713190",
+        "url": "https://udn.com/news/story/7240/9713190",
+        "canonical_url": "https://udn.com/news/story/7240/9713190",
         "summary": "大立光（3008）25日再度公告斥資30.8億元購進台中南屯區土地，這是今年第四筆購進的土地，也是最大一筆土地，顯見大立光衝刺CPO新事業，加速擴充腳步。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
@@ -963,17 +974,6 @@
         "url": "https://money.udn.com/money/story/123398/9712880?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/123398/9712880",
         "summary": "華爾街夏末向來清淡，今年卻因9月7日勞動節後一波首次公開發行股票（IPO）蓄勢待發而提前熱絡起來。智慧戒指業者Oura可望搶先登場，募資規模上看1,000億美元的Anthropic更是重頭戲，足以把今年IPO募資推上新高。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "9c24ac182a27ba3e",
-        "title": "美農民慘兮兮 今明兩年恐都賺不到錢 九大作物種植戶估虧630億美元",
-        "published_at": "2026-08-25T13:44:00+08:00",
-        "time": "13:44",
-        "url": "https://money.udn.com/money/story/10511/9712943?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/10511/9712943",
-        "summary": "美國玉米帶農民正面臨40年來最嚴重的財務危機。他們原本就受到美中貿易戰與穀價低迷重創，如今美伊戰事又推高柴油和肥料價格，極端氣候也打擊收成。有農民直言，照目前情況，未來兩年恐怕都得慘賠。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
@@ -1537,17 +1537,6 @@
         "url": "https://money.udn.com/money/story/123398/9712880?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/123398/9712880",
         "summary": "華爾街夏末向來清淡，今年卻因9月7日勞動節後一波首次公開發行股票（IPO）蓄勢待發而提前熱絡起來。智慧戒指業者Oura可望搶先登場，募資規模上看1,000億美元的Anthropic更是重頭戲，足以把今年IPO募資推上新高。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
-      },
-      {
-        "id": "9c24ac182a27ba3e",
-        "title": "美農民慘兮兮 今明兩年恐都賺不到錢 九大作物種植戶估虧630億美元",
-        "published_at": "2026-08-25T11:02:00+08:00",
-        "time": "11:02",
-        "url": "https://money.udn.com/money/story/10511/9712943?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/10511/9712943",
-        "summary": "美國玉米帶農民正面臨40年來最嚴重的財務危機。他們原本就受到美中貿易戰與穀價低迷重創，如今美伊戰事又推高柴油和肥料價格，極端氣候也打擊收成。有農民直言，照目前情況，未來兩年恐怕都得慘賠。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
       },
