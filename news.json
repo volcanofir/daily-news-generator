@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at": "2026-08-25T15:30:32.551625+08:00",
+  "updated_at": "2026-08-25T15:34:55.777966+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "weather": {
@@ -206,21 +206,10 @@
     ],
     "instant": [
       {
-        "id": "ff47ff9ef7a44d9e",
-        "title": "精誠資訊、日本伊藤忠成立合資公司 總部設立福岡",
-        "published_at": "2026-08-25T15:31:00+08:00",
-        "time": "15:31",
-        "url": "https://udn.com/news/story/7240/9713186",
-        "canonical_url": "https://udn.com/news/story/7240/9713186",
-        "summary": "台灣資訊服務龍頭廠精誠資訊（6214）與日本伊藤忠科技解決方案株式會社（ITOCHU Techno-Solutions Corporation，簡稱「CTC」）25日宣布成立合資公司「CTC-SYSTEX株式會社」，為赴日發展的台灣企業提供完整IT服務。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
         "id": "c2bf5ce85cfa927a",
         "title": "美 IPO 熱潮提前升溫 Oura、Anthropic 蓄勢登場",
-        "published_at": "2026-08-25T15:30:00+08:00",
-        "time": "15:30",
+        "published_at": "2026-08-25T15:34:00+08:00",
+        "time": "15:34",
         "url": "https://money.udn.com/money/story/123398/9712880?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/123398/9712880",
         "summary": "華爾街夏末向來清淡，今年卻因9月7日勞動節後一波首次公開發行股票（IPO）蓄勢待發而提前熱絡起來。智慧戒指業者Oura可望搶先登場，募資規模上看1,000億美元的Anthropic更是重頭戲，足以把今年IPO募資推上新高。",
@@ -230,8 +219,8 @@
       {
         "id": "9c24ac182a27ba3e",
         "title": "美農民慘兮兮 今明兩年恐都賺不到錢 九大作物種植戶估虧630億美元",
-        "published_at": "2026-08-25T15:30:00+08:00",
-        "time": "15:30",
+        "published_at": "2026-08-25T15:34:00+08:00",
+        "time": "15:34",
         "url": "https://money.udn.com/money/story/10511/9712943?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/10511/9712943",
         "summary": "美國玉米帶農民正面臨40年來最嚴重的財務危機。他們原本就受到美中貿易戰與穀價低迷重創，如今美伊戰事又推高柴油和肥料價格，極端氣候也打擊收成。有農民直言，照目前情況，未來兩年恐怕都得慘賠。",
@@ -239,8 +228,52 @@
         "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
       },
       {
+        "id": "1955560f8ca1dd31",
+        "title": "大立光今年第四度出手獵地 斥資逾30億元購進台中南屯區土地",
+        "published_at": "2026-08-25T15:34:00+08:00",
+        "time": "15:34",
+        "url": "https://udn.com/news/story/7240/9713190",
+        "canonical_url": "https://udn.com/news/story/7240/9713190",
+        "summary": "大立光（3008）25日再度公告斥資30.8億元購進台中南屯區土地，這是今年第四筆購進的土地，也是最大一筆土地，顯見大立光衝刺CPO新事業，加速擴充腳步。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "aeba00de5d51bdbb",
+        "title": "2分鐘內連兩震…台灣東南部海域發生芮氏規模4.3地震有感搖晃",
+        "published_at": "2026-08-25T15:33:00+08:00",
+        "time": "15:33",
+        "url": "https://udn.com/news/story/7266/9713146",
+        "canonical_url": "https://udn.com/news/story/7266/9713146",
+        "summary": "2026年8月25日下午3時02分，台灣東南部海域發生規模4.3地震，深度約30.7公里，最大震度在台東縣綠島達2級，居民感受到明顯搖晃。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "b218c85fe11d27c5",
+        "title": "孩子吃ADHD藥後狂眨眼、清喉嚨？ 醫：藥物不會誘發抽動跟妥瑞氏症",
+        "published_at": "2026-08-25T15:32:00+08:00",
+        "time": "15:32",
+        "url": "https://udn.com/news/story/7266/9713188",
+        "canonical_url": "https://udn.com/news/story/7266/9713188",
+        "summary": "「醫師，我的孩子原本只是過動，怎麼吃藥後開始一直眨眼、清喉嚨，是不是藥物讓他得了妥瑞氏症？」不少家長看到孩子服用注意力不足過動症（ADHD）藥物後出現抽動症狀，第一時間自責與懷疑，甚至因此自行停藥。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "baae0a29bf203b88",
+        "title": "有感搖晃！東南海域規模5.8地震 北捷未受影響正常營運",
+        "published_at": "2026-08-25T15:32:00+08:00",
+        "time": "15:32",
+        "url": "https://udn.com/news/story/7266/9713164",
+        "canonical_url": "https://udn.com/news/story/7266/9713164",
+        "summary": "根據中央氣象署最新資訊，今天下午3時台灣東南海域發生芮氏規模5.8地震。台北捷運公司表示，北捷系統未受影響，正常營運",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
         "id": "2559035c225988b5",
-        "title": "破紀錄 秋冬流感疫苗採購超過705萬劑 10/1開打 施打資格變動一次看",
+        "title": "破紀錄！秋冬流感疫苗採購超過705萬劑 10月1開打施打資格變動一次看",
         "published_at": "2026-08-25T15:29:00+08:00",
         "time": "15:29",
         "url": "https://udn.com/news/story/7266/9713181",
@@ -248,6 +281,17 @@
         "summary": "為防範今年秋冬流感及新冠疫情，提供長者、幼兒等高風險族群更周全保護，本年度公費流感疫苗總計採購705萬150劑，首度超過700萬劑，疾管署長羅一鈞說，今年開亞洲先例，首度採購2種廠牌共20萬劑「加強型流感疫苗」，優先提供長照及安養機構 65 歲以上長者公費接種。",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "29fd57873bfd12b6",
+        "title": "雲林地檢署攜手台電、台水 日常用水用電不忘反賄選",
+        "published_at": "2026-08-25T15:29:00+08:00",
+        "time": "15:29",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003145-260421",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003145-260421",
+        "summary": "年底地方公職人員選舉腳步逼近，反賄選宣導也不只停留在宣講場合，雲林地檢署首度將反賄選觸角延伸至國營事業服務網絡，串聯台電、台水既有的服務據點與數位管道，把原本服務民眾的「服務網」，轉化為守護選舉公平的",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
         "id": "2704e88bdefb7c18",
@@ -259,6 +303,28 @@
         "summary": "今年宣布驚喜復出的美國傳奇網球名將小威廉絲（Serena Williams），美網混雙聯手傷後回歸的「西班牙小蠻牛」阿爾卡拉斯（Carlos Alcaraz），組成相差21歲的跨世代夢幻組合，首輪對手透過資格賽出爐，將碰紐西蘭羅莉芙（Erin Routliffe）／英國格拉斯普爾（Lloyd…",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "26c6dabd568a6cfa",
+        "title": "沈伯洋公布競辦發言人！挨酸發言跳針 魏汶萱反批「小洋逃」",
+        "published_at": "2026-08-25T15:27:00+08:00",
+        "time": "15:27",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003214-260407",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003214-260407",
+        "summary": "民進黨台北市長參選人沈伯洋25日宣布競選辦公室發言人，由民進黨基隆市議員許睿慈辦公室主任蔡一愷、綠委陳培瑜辦公室主任林昱彤擔任，同時質疑北市府發言人魏汶萱發言重複蔣萬安講過的話；魏汶萱反擊，面對攸關民眾",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "85c9dfd8453d7a7c",
+        "title": "星二代女星自招「寵溺型媽媽」！對2愛犬黏TT：出國會想到哭",
+        "published_at": "2026-08-25T15:26:00+08:00",
+        "time": "15:26",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003186-260404",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003186-260404",
+        "summary": "「星二代」演員林宜禾在中視八點檔《樓上樓下》飾演寵物溝通師「王潔希」，劇中時常跟自己養的小烏龜對話，「我覺得牠好像都有在聽我講話，眼睛會跟我互動，覺得很可愛。我上、下班時常都會先去跟牠打招呼培養感情，",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
         "id": "ac594e4e723bfdbc",
@@ -292,6 +358,17 @@
         "summary": "民進黨立委吳沛憶日前受邀赴南非，24日與南非民主聯盟的國會議員前往開普敦朝天宮參香；吳沛憶說，2位南非議員都是第一次走進...",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "1471faa4ee054342",
+        "title": "全球城市美業形象大使選拔大賽圓滿落幕 胡莎拉脫穎而出摘下后冠",
+        "published_at": "2026-08-25T15:24:00+08:00",
+        "time": "15:24",
+        "url": "https://www.chinatimes.com/realtimenews/20260825003230-260421",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003230-260421",
+        "summary": "2026全球城市美業形象大使選拔大賽日前於臺北漢來大飯店盛大登場，現場冠蓋雲集，星光熠熠。活動由資深媒體人許聖梅及前城市小姐施又云聯袂主持，開場即炒熱全場氣氛，正式揭開這場美業盛事的序幕，最終由胡莎拉勇奪",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
         "id": "f95ae5263b643a69",
@@ -328,7 +405,7 @@
       },
       {
         "id": "1b111a10d6b4fe50",
-        "title": "影》高雄雨彈狂炸！柯志恩勘災險受困 座車拋錨急「爬窗逃生」",
+        "title": "影》高雄雨彈狂炸！柯志恩勘災座車拋錨 急「爬窗逃生」",
         "published_at": "2026-08-25T15:21:00+08:00",
         "time": "15:21",
         "url": "https://www.chinatimes.com/realtimenews/20260825003197-260405",
@@ -503,39 +580,6 @@
         "source_url": "https://udn.com/news/breaknews/1"
       },
       {
-        "id": "b8f6e1efbed7b7ea",
-        "title": "誰在買？台股由低點一路拉抬逾900點 三大法人卻賣超53億元",
-        "published_at": "2026-08-25T15:12:00+08:00",
-        "time": "15:12",
-        "url": "https://udn.com/news/story/7251/9713138",
-        "canonical_url": "https://udn.com/news/story/7251/9713138",
-        "summary": "台股25日開低，盤中一度下挫逾500點，尾盤出現反攻，收在最高45,169.46點，高低點相差959.15點，終場上漲407.14點，漲幅0.91%，守住月線，成交量略增至6,960.55億元，三大法人賣超53.36億元。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "de7c33c31e7ecc45",
-        "title": "竹縣14歲國中生遭籃球架壓死 縣府將全面清查校園設備安全",
-        "published_at": "2026-08-25T15:11:00+08:00",
-        "time": "15:11",
-        "url": "https://udn.com/news/story/6898/9713137",
-        "canonical_url": "https://udn.com/news/story/6898/9713137",
-        "summary": "新竹縣某高職國中部籃球隊14歲陳姓男學生，20日在校內體育館遭電動油壓籃球架壓傷送醫不治，目前檢調單位已展開調查，釐清設備維護管理過程有無疏失。縣長楊文科上午在主管會報中，指示教育局務必通令各校落實高危險動作及工程作業安全管制，嚴禁學生在缺乏指導與保護下自行操作，並全面檢討防範類似憾事再發生。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "9dd2abfac24d0687",
-        "title": "北部有感地震！新北捷運一度全線停車 慢速行駛巡軌檢測",
-        "published_at": "2026-08-25T15:10:00+08:00",
-        "time": "15:10",
-        "url": "https://udn.com/news/story/7266/9713135",
-        "canonical_url": "https://udn.com/news/story/7266/9713135",
-        "summary": "今天下午3時發生有感地震，新北捷運公司指出，淡海輕軌、安坑輕軌、三鶯線及環狀線先全線停車後，續依程序慢速行駛並巡查各車站設備及全線軌道狀況。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
         "id": "40dfe755f4cf60a6",
         "title": "4名腫瘤科醫師答案相同 早上9點前一定要做這件事",
         "published_at": "2026-08-25T15:09:00+08:00",
@@ -679,50 +723,6 @@
         "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
-        "id": "254ef770d791153e",
-        "title": "五熊潑油案日媒報很大 日網友逆風抱不平 肯定多數台灣人",
-        "published_at": "2026-08-25T14:51:00+08:00",
-        "time": "14:51",
-        "url": "https://www.chinatimes.com/realtimenews/20260825003060-260405",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003060-260405",
-        "summary": "女星五熊（蔡頤榛）因涉嫌破壞日本國寶「佛足石」，近日前往日本時在機場被直接逮，相關新聞引起討論，當地媒體更大規模進行報導，讓不少日本網友質疑，在造訪日本的觀光客中，台灣人算是守規矩的一群人，不解媒體為",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "7f6534b533a1a54d",
-        "title": "台東第2席副縣長由林宏義出任 歐斐君升任民政處長",
-        "published_at": "2026-08-25T14:50:00+08:00",
-        "time": "14:50",
-        "url": "https://www.chinatimes.com/realtimenews/20260825003014-260407",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003014-260407",
-        "summary": "台東縣政府第2席副縣長人選揭曉。縣長饒慶鈴今（25）日宣布，由現任民政處長林宏義出任，民政處長遺缺則由副處長歐斐君升任，2人均於9月1日上任。因應《地方制度法》修正，台東縣府增設第2席副縣長。林宏義曾任太麻",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "4328a54fd1e80649",
-        "title": "盤後解析》台股暴力拉漲為哪樁？籌碼凌亂Q3區間整理",
-        "published_at": "2026-08-25T14:50:00+08:00",
-        "time": "14:50",
-        "url": "https://www.chinatimes.com/realtimenews/20260825003092-260410",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825003092-260410",
-        "summary": "台股今日受美股重挫拖累，早盤開低後一度下挫近530點、回測月線，最低探至44,210.31點。不過午盤過後，權王台積電(2330)買盤湧入，帶動台光電(2383)、大立光(3008)、奇鋐(3017)等電子權值股回穩，集中市場指數隨之由",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "70cbd67f6134c3f6",
-        "title": "指總統府棄單弱勢團體 綠點名台中3寶批盧秀燕：雙面刀鬼",
-        "published_at": "2026-08-25T14:43:00+08:00",
-        "time": "14:43",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002973-260407",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002973-260407",
-        "summary": "台中市長盧秀燕今（25）日指總統府「棄單」庇護工場，民進黨發言人林楚茵痛批，盧秀燕不僅移花接木、偷換概念，說謊成性。民進黨政策會執行長吳思瑤也說，國民黨支持惡刪預算包括盧的子弟兵台中三寶「神也是你！鬼也",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
         "id": "b7e8c97333645d8f",
         "title": "9月電子期金融期齊漲",
         "published_at": "2026-08-25T14:13:00+08:00",
@@ -738,8 +738,8 @@
       {
         "id": "f9a78bcb5b699bbd",
         "title": "武漢旁「2房只要40萬台幣」！拿台灣房價一比驚呆 鄉民：那你買幾間了？",
-        "published_at": "2026-08-25T15:21:00+08:00",
-        "time": "15:21",
+        "published_at": "2026-08-25T15:34:00+08:00",
+        "time": "15:34",
         "url": "https://house.udn.com/house/story/123589/9710308",
         "canonical_url": "https://house.udn.com/house/story/123589/9710308",
         "summary": "中國武漢旁鄂州傳兩房住宅約10萬元人民幣，換算約40萬元台幣，引發PTT熱議；網友質疑地段、薪資與轉手性，原PO則聚焦房價所得比。",
@@ -749,8 +749,8 @@
       {
         "id": "cedd9d275b7582af",
         "title": "2019苦勸朋友買房「一個都沒人理」！他看房價噴出悟了：真的管好自己就好",
-        "published_at": "2026-08-25T15:21:00+08:00",
-        "time": "15:21",
+        "published_at": "2026-08-25T15:34:00+08:00",
+        "time": "15:34",
         "url": "https://house.udn.com/house/story/123589/9710300",
         "canonical_url": "https://house.udn.com/house/story/123589/9710300",
         "summary": "PTT網友回憶2019、2020年苦勸友人買房無人理，房價上漲後感嘆別過度介入他人選擇，網友看法不一。",
@@ -758,13 +758,13 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "935ae63dfeec3733",
-        "title": "比特幣突破8萬美元 美元走軟、貶值交易邏輯助攻",
-        "published_at": "2026-08-25T15:21:00+08:00",
-        "time": "15:21",
-        "url": "https://money.udn.com/money/story/5599/9713182?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5599/9713182",
-        "summary": "比特幣今天突破8萬美元，創下逾3個月新高。在美國財政部長貝森特（Scott Bessent）採取措施緩和債券市場情勢後，...",
+        "id": "a24ffae1f7344c9d",
+        "title": "大立光今年第四度出手獵地 斥資逾30億元購進台中南屯區土地",
+        "published_at": "2026-08-25T15:34:00+08:00",
+        "time": "15:34",
+        "url": "https://money.udn.com/money/story/5612/9713190?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5612/9713190",
+        "summary": "大立光（3008）25日再度公告斥資30.8億元購進台中南屯區土地，這是今年第四筆購進的土地，也是最大一筆土地，顯見大立光衝刺CPO新事業，加速擴充腳步。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
@@ -789,6 +789,17 @@
         "summary": "美日聯手干預日圓匯率阻貶之後，民眾該怎麼掌握最新的「甜甜價」？永豐金首席經濟學家黃蔭基今日指出，「日圓兌台幣低於0.2都是好買點！」他說，倘若把日圓兌美元匯率160，除以新台幣兌美元匯率31.9元，大約數值在5倍，亦即日圓兌台幣的匯率0.2的價位，低於這個價位民眾都可以放心買。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "90ed3a36a957a776",
+        "title": "15:00地牛翻身！規模5.8國家警報大作 全台有感",
+        "published_at": "2026-08-25T15:12:00+08:00",
+        "time": "15:12",
+        "url": "https://udn.com/news/story/7266/9713145",
+        "canonical_url": "https://udn.com/news/story/7266/9713145",
+        "summary": "今天下午3時發生一起規模5.8地震，震央位於台東外海，深度僅13.1公里，全台最大震度綠島達4級，花蓮、嘉義、雲林、台南及台東都有3級震度。全台有感，台中以南普遍有2級震度，北部則以1級為主，台北地區有收到國家級警報。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
         "id": "db1162c19105c97d",
@@ -842,17 +853,6 @@
         "url": "https://udn.com/news/story/7240/9713083",
         "canonical_url": "https://udn.com/news/story/7240/9713083",
         "summary": "台灣半導體產業為何能在全球占有關鍵地位？清華大學科技管理學院榮譽講座教授史欽泰25日出席SEMI與台灣高鐵策略合作記者會時表示，台灣長年形成緊密協作的產業生態系，不僅累積技術能量，更建立全球夥伴的信任，其他國家即使想要複製，也需要相當長的時間；",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "5e98dc7170e7ea48",
-        "title": "AI 相關美股為何疲軟？孫明德：正值新舊產品迭代期",
-        "published_at": "2026-08-25T14:46:00+08:00",
-        "time": "14:46",
-        "url": "https://udn.com/news/story/7240/9713081",
-        "canonical_url": "https://udn.com/news/story/7240/9713081",
-        "summary": "AI熱潮仍在延續，但成長情勢並非一路暴衝。台經院景氣預測中心主任孫明德25日表示，AI產品大約每一年到一年半就會出現一波明顯成長，目前市場正處於新舊產品迭代階段，這也是近兩日AI相關美股表現相對疲弱的原因之一，後續關鍵仍要看新一代產品能否順利接棒。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
@@ -932,6 +932,17 @@
         "summary": "讀名校卻曾陷入低薪焦慮，他如何靠「換賽道」進入高薪科技業，40歲累積1.4億資產？從主動收入、職涯選擇到資產累積，揭密高薪職涯與財富自由背後的關鍵…",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "6bde0fe40fd9dbfe",
+        "title": "整理包／日本退稅新制11月1日上路！流程怎麼做、該注意什麼？重點一次看",
+        "published_at": "2026-08-25T13:44:00+08:00",
+        "time": "13:44",
+        "url": "https://money.udn.com/money/story/124512/9713126?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/124512/9713126",
+        "summary": "日本新的退稅制度即將於2026年11月1日正式上路實施，未來將無法在店內退稅，而是統一至機場進行，對此，《經濟日報》整理初步相關資訊，供讀者參考比較。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
       {
         "id": "e6135beba9c7abea",
@@ -1495,6 +1506,17 @@
         "summary": "台中市今年6月房價指數較去年同期全數下跌，清水跌逾7%；得勝老闆提醒，屋主別拿前兩年價格等今天買方。",
         "source": "udn房地產",
         "source_url": "https://house.udn.com/house/index"
+      },
+      {
+        "id": "6bde0fe40fd9dbfe",
+        "title": "整理包／日本退稅新制11月1日上路！流程怎麼做、該注意什麼？重點一次看",
+        "published_at": "2026-08-25T11:02:00+08:00",
+        "time": "11:02",
+        "url": "https://money.udn.com/money/story/124512/9713126?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/124512/9713126",
+        "summary": "日本新的退稅制度即將於2026年11月1日正式上路實施，未來將無法在店內退稅，而是統一至機場進行，對此，《經濟日報》整理初步相關資訊，供讀者參考比較。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
       },
       {
         "id": "e6135beba9c7abea",
