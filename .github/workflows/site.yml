@@ -56,6 +56,9 @@ jobs:
       - name: Add ETtoday housing source
         run: python scripts/augment_ettoday.py
 
+      - name: Add FBS housing source
+        run: python scripts/augment_fbs.py
+
       - name: Remove malformed news
         run: python scripts/sanitize_news.py
 
