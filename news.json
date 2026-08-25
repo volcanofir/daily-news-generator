@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updated_at": "2026-08-26T00:50:50.445917+08:00",
+  "updated_at": "2026-08-26T00:55:21.537184+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "weather": {
@@ -36,6 +36,10 @@
           "url": "https://www.chinatimes.com/realtimenews/",
           "resolve_missing_dates": true,
           "max_candidates": 35
+        },
+        {
+          "name": "自由時報・即時新聞",
+          "url": "https://news.ltn.com.tw/list/breakingnews"
         }
       ]
     },
@@ -100,13 +104,63 @@
           "url": "https://www.myhousing.com.tw/category/n/n01/",
           "resolve_missing_dates": true,
           "max_candidates": 30
+        },
+        {
+          "name": "自由時報・地產天下",
+          "url": "https://estate.ltn.com.tw/news"
+        },
+        {
+          "name": "自由財經・房產資訊",
+          "url": "https://ec.ltn.com.tw/list/estate"
+        },
+        {
+          "name": "ETtoday房產雲",
+          "url": "https://house.ettoday.net/focus/房產新聞"
+        },
+        {
+          "name": "富比士地產王",
+          "url": "https://www.fbs168.com/"
         }
       ]
     }
   },
   "categories": {
-    "weather": [],
+    "weather": [
+      {
+        "id": "b12f7b576c7567a5",
+        "title": "今天8/26停班停課最新通知！9地區宣布放豪雨假，全台22縣市放假資訊不斷更新",
+        "published_at": "2026-08-26T00:30:00+08:00",
+        "time": "00:30",
+        "url": "https://www.storm.mg/lifestyle/11159245",
+        "canonical_url": "https://www.storm.mg/lifestyle/11159245",
+        "summary": "受到低壓帶與西南風持續影響，全台多地連日降下致災性豪雨。中央氣象署雖然已解除了大規模劇烈豪雨作業，但各地的雨勢依然未見停歇，陸續發布豪雨及大雨特報。由於長時間強降雨導致部分山區土石鬆軟、沿海低窪地區積水難消，民眾極為關心明日（8/26）是否停班停課。",
+        "source": "風傳媒・天氣",
+        "source_url": "https://www.storm.mg/channel/120/"
+      }
+    ],
     "instant": [
+      {
+        "id": "5c6e3290baa3de19",
+        "title": "翁曉玲扯中油採購庇護商品執行率0遭打臉 張育萌嗆：道歉很難嗎？",
+        "published_at": "2026-08-26T00:47:28+08:00",
+        "time": "00:47",
+        "url": "https://news.ltn.com.tw/news/politics/breakingnews/5552244",
+        "canonical_url": "https://news.ltn.com.tw/news/politics/breakingnews/5552244",
+        "summary": "國民黨立委翁曉玲把總統府國務機要費全數刪凍，導致府方今年中秋節向全國37家庇護工場及弱勢團體訂購的糕餅禮盒被迫取消，連日來遭輿論猛烈撻伐。沒想到堅不認錯的翁曉玲，又企圖把中油給拖下水，指稱中油去年編列143萬元採購庇護工場產品預算，執行率卻為0，結果被中油狠狠打臉，翁曉玲根本是算錯。",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "0d6e2f73037d02c7",
+        "title": "二仁溪暴漲水退滿地泥濘 石安橋阿蓮端今清洗續管制通行",
+        "published_at": "2026-08-26T00:24:03+08:00",
+        "time": "00:24",
+        "url": "https://news.ltn.com.tw/news/life/breakingnews/5552250",
+        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5552250",
+        "summary": "高雄地區連日降下超大豪雨，導致高雄、台南交界河川二仁溪水暴漲，溪水消退後，阿蓮區石安橋道路滿是泥濘，阿蓮端今（26）日將進行路面清洗，持續管制通行。",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
       {
         "id": "bf2f3b495285dff5",
         "title": "必勝客「披薩＋炸雞」買1送1！達美樂「大披薩199元、副食20元起」",
@@ -128,6 +182,28 @@
         "summary": "國民黨立委陳雪生被控利用親友詐領助理費、收受前金門縣長楊鎮浯家族供養助理，施壓金門油料運輸，台北地檢署25日約談陳雪生等27人，訊後依貪汙罪命陳雪生200萬交保、限制出境出海；",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "662e71a6822a4a51",
+        "title": "掃街遇阿伯遞陳情信 沈伯洋「1小動作」網讚爆：太優秀！",
+        "published_at": "2026-08-26T00:18:02+08:00",
+        "time": "00:18",
+        "url": "https://news.ltn.com.tw/news/politics/breakingnews/5552177",
+        "canonical_url": "https://news.ltn.com.tw/news/politics/breakingnews/5552177",
+        "summary": "民進黨台北市長參選人沈伯洋25日到中山區的雙城街夜市掃街拜票，同樣受到大批熱情支持者簇擁，「洋流」持續發威。過程中，一位阿伯遞上一封陳情信，沈伯洋接過後下意識遮住信封上的個資，一個小動作讓網友們讚爆！沈伯洋週二來到雙城街夜市，一位阿伯遞了封陳情信給沈伯洋，沈伯洋停下來接過之後，好好聽完阿伯的訴…",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "30ef88730059d730",
+        "title": "天公不作美「洋流」熱情不減 長者整理東京地下滯洪池資料衝夜市交給沈伯洋",
+        "published_at": "2026-08-26T00:16:07+08:00",
+        "time": "00:16",
+        "url": "https://news.ltn.com.tw/news/politics/breakingnews/5552248",
+        "canonical_url": "https://news.ltn.com.tw/news/politics/breakingnews/5552248",
+        "summary": "民進黨籍台北市長參選人沈伯洋25日晚間走訪中山區雙城街夜市掃街，儘管天公不作美，但「洋流」熱情不減，有曾在花蓮洪災投入救災的「鏟子超人」到場合照，手部打石膏的民眾索取簽名，並幽默說「需要市長保佑一下！」還有長者特別研究東京地下滯洪池，整理一疊資料交給沈作政見參考，沿途更見攤商端出地瓜球、章魚燒招待。",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
       },
       {
         "id": "2b556d84326369c3",
@@ -198,13 +274,13 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "522e045f80b575c5",
-        "title": "公司董事有權查閱帳冊嗎？",
+        "id": "8dffda2a9f493deb",
+        "title": "輝達財報前夕…獲印度大採購",
         "published_at": "2026-08-26T00:04:00+08:00",
         "time": "00:04",
-        "url": "https://money.udn.com/money/story/5629/9713965?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5629/9713965",
-        "summary": "甲公司是家族企業，由家族成員擔任董、監事，但相互之間並不和諧。有董事質疑董事長和相關人員，侵占公司款項及偽造會計憑證。為調查真相，董事要求公司提供會計帳簿及相關憑證，以便查核。公司拒絕，董事告上法院。",
+        "url": "https://money.udn.com/money/story/123398/9714067?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/123398/9714067",
+        "summary": "印度AI基礎設施公司AM Intelligence宣布，已訂購9,000套輝達最新Vera Rubin系統，力拚成為亞洲首批採用輝達先進運算平台的公司之一。AM Intelligence於25日發布聲明表示，配備這些系統的伺服器，預計明年在印度南部上線。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
@@ -220,17 +296,6 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "410abd6c11ed86b0",
-        "title": "證交所硬起來！打擊違約交割 列管期一口氣拉至5年",
-        "published_at": "2026-08-26T00:00:00+08:00",
-        "time": "00:00",
-        "url": "https://udn.com/news/story/7238/9714069",
-        "canonical_url": "https://udn.com/news/story/7238/9714069",
-        "summary": "台灣證券交易所為遏止市場違約交割亂象並防範交易風險，昨天董事會通過全面收緊違約投資人管理機制。未來首次違約結案者追蹤列管期，將從現行一年大幅延長至五年，累犯者全額預收款券天數直接提高至卅個營業日。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
         "id": "8bf6d4e40596a77c",
         "title": "彰銀、國票金「公公併」 市場解讀：幾成定局",
         "published_at": "2026-08-26T00:00:00+08:00",
@@ -238,6 +303,17 @@
         "url": "https://udn.com/news/story/7238/9714079",
         "canonical_url": "https://udn.com/news/story/7238/9714079",
         "summary": "彰化銀行與國票金控的「公公併」有譜。彰銀在廿四日的董事會通過授權董事長胡光華成立專案小組評估整併，昨天並公告遴選財務顧問公司，啟動整併的前期評估，加上國票金今天舉行董事會討論整併等議案，市場解讀，彰銀併國票金已經成定局，現在就看能否趕在明年股東會前完成此案。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "410abd6c11ed86b0",
+        "title": "證交所硬起來！打擊違約交割 列管期一口氣拉至5年",
+        "published_at": "2026-08-26T00:00:00+08:00",
+        "time": "00:00",
+        "url": "https://udn.com/news/story/7238/9714069",
+        "canonical_url": "https://udn.com/news/story/7238/9714069",
+        "summary": "台灣證券交易所為遏止市場違約交割亂象並防範交易風險，昨天董事會通過全面收緊違約投資人管理機制。未來首次違約結案者追蹤列管期，將從現行一年大幅延長至五年，累犯者全額預收款券天數直接提高至卅個營業日。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       }
@@ -352,6 +428,17 @@
         "summary": "台北市不動產開發公會25日表示，當前房市陷入「60年一遇、最慘景氣」，關鍵就是政策過度壓抑，尤其第二戶房貸限縮至六成，已打壓換屋買方貸款卡關；公會針對限貸令、土方之亂、豪宅貸款限制、都更提四大建言，籲請政府解除「第二戶貸款管制」、調整過嚴政策。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
+      },
+      {
+        "id": "1b5396a41a0e74c2",
+        "title": "台中高鐵門戶重大建設加速成形 新案《精晨 Life Show》逆勢順銷七成",
+        "published_at": "2026-08-26T00:04:00+08:00",
+        "time": "00:04",
+        "url": "https://house.udn.com/house/story/123589/9713902",
+        "canonical_url": "https://house.udn.com/house/story/123589/9713902",
+        "summary": "預售市場買氣回歸理性，消費者購屋態度也從過去追價，轉向更重視地段、產品與區域長期發展性。位於台中南屯的精晨建設新案「精晨 Life Show」，自農曆年後公開至今已銷售七成，成為近期高鐵門戶特區少數逆勢突圍的代表個案，也反映在房市盤整階段，市場資金正逐漸向具備重大建設與長期發展潛力的核心區域集中。",
+        "source": "udn房地產",
+        "source_url": "https://house.udn.com/house/index"
       }
     ]
   }
