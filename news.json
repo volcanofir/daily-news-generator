@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at": "2026-08-25T13:25:23.737366+08:00",
+  "updated_at": "2026-08-25T13:32:58.309390+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "weather": {
@@ -173,21 +173,21 @@
     ],
     "instant": [
       {
-        "id": "5dade0ce7969bbab",
-        "title": "news photo",
-        "published_at": "2026-08-25T13:23:00+08:00",
-        "time": "13:23",
-        "url": "https://money.udn.com/money/story/5607/9712852?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5607/9712852",
-        "summary": "AIن¼؛وœچه™¨ç،¬é«”هچ‡ç´ڑه•†و©ںوŒپç؛Œهگ‘PCBم€پICè¼‰و‌؟ç­‰é—œéچµé›¶çµ„ن»¶و“´و•£ï¼Œه¤–è³‡وœ€و–°ه ±ه‘ٹه†چه؛¦é»‍هگچABFè¼‰و‌؟ه‰چو™¯م€‚ن¸­هœ‹ن؟،è¨—وٹ•ن؟،è،…",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+        "id": "3aed018d2516260c",
+        "title": "用幾十年才發現！保鮮膜「隱藏機關」超便利 網驚：終於不會跑出來",
+        "published_at": "2026-08-25T13:33:00+08:00",
+        "time": "13:33",
+        "url": "https://udn.com/news/story/120911/9712393",
+        "canonical_url": "https://udn.com/news/story/120911/9712393",
+        "summary": "保鮮膜外盒側邊藏有可按壓壓片，能固定紙軸、防止整卷滑出，網友分享引發共鳴；醫師也提醒，PVC、PVDC保鮮膜不宜接觸熱食或直接加熱。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
       },
       {
         "id": "c43728a17b8008ee",
         "title": "導師撂狠話了！朱肯米勒投書嚴詞警告貝森特 干預債市是重大錯誤",
-        "published_at": "2026-08-25T13:23:00+08:00",
-        "time": "13:23",
+        "published_at": "2026-08-25T13:30:00+08:00",
+        "time": "13:30",
         "url": "https://money.udn.com/money/story/5599/9712612?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/5599/9712612",
         "summary": "億萬富豪投資人、同時也是美國財長貝森特早期擔任避險基金交易員時的導師朱肯米勒（Stanley Druckenmiller），批評這位財政部長要支出數十億美元回購美國公債的計畫是一項錯誤。",
@@ -197,13 +197,156 @@
       {
         "id": "77f9b9e5c9f5bc5d",
         "title": "全村的希望來了 台股還能繼續漲？分析師曝輝達財報「這一數據」最重要",
-        "published_at": "2026-08-25T13:23:00+08:00",
-        "time": "13:23",
+        "published_at": "2026-08-25T13:30:00+08:00",
+        "time": "13:30",
         "url": "https://money.udn.com/money/story/5607/9712641?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/5607/9712641",
         "summary": "台股近期成交量持續縮減，不少分析師，市場中實戶都趁機休息出國旅遊，證券分析師坦言，本周恐將是量縮觀望的走勢，影響大盤的變數主是是輝達財報、聯準會（Fed）主席華許的演說、全球央行年會、美債殖利率飆高等，其中最關鍵的變數應屬輝達的毛利率數字。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
+      },
+      {
+        "id": "ff3c61a242aa62df",
+        "title": "66%學校人行道不足 非都會區完全不及格",
+        "published_at": "2026-08-25T13:30:00+08:00",
+        "time": "13:30",
+        "url": "https://udn.com/news/story/6885/9712794",
+        "canonical_url": "https://udn.com/news/story/6885/9712794",
+        "summary": "【台灣醒報記者呂翔禾台北報導】「學校附近應加速設置人行道，才能保障學童安全！」靖娟基金會25日調查指出，都市計畫區檢核學校仍有約66%存在人行道寬度不足、不連續等問題；而非都市計畫區更達100%，且70%的指定通學路缺乏人行設施。基金會呼籲擴大學校周圍通學路段改善，並定時公開成效。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "a15caff4ed3e3b1b",
+        "title": "興華公園地下停車場啟用 侯友宜：三重8年蓋了17座停車場",
+        "published_at": "2026-08-25T13:28:00+08:00",
+        "time": "13:28",
+        "url": "https://udn.com/news/story/7323/9712864",
+        "canonical_url": "https://udn.com/news/story/7323/9712864",
+        "summary": "三重地區停車需求龐大，新北市長侯友宜今天主持三重區興華公園地下停車場啟用典禮，並宣布今晚6時起免費停至9月24日。侯說，停車是市府8年來最重視的基礎建設之一，市府8年在三重區共投入約53.7億元，興建17座立體及平面停車場，共提供4574格汽車停車位、4101格機車停車位，逐步翻轉停車一位難求…",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "b3e5b765324eb2a9",
+        "title": "嚴重曬傷恐致癌？專家：起水泡都損DNA",
+        "published_at": "2026-08-25T13:28:00+08:00",
+        "time": "13:28",
+        "url": "https://udn.com/news/story/7266/9712801",
+        "canonical_url": "https://udn.com/news/story/7266/9712801",
+        "summary": "嚴重曬傷恐改變您的一生！美國健康研究指出，曾有嚴重起水泡或疼痛曬傷史的人，罹患皮膚鱗狀細胞癌等癌症風險將顯著增加。專家指出，紫外線會破壞皮膚細胞內的DNA，即使退紅後損傷依然存在，恐對未來健康造成巨大威脅。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "6ca521bbef77b44b",
+        "title": "TPBL／前特攻洋將葛瑞菲加盟戰神 誓言助隊衝擊隊史首冠",
+        "published_at": "2026-08-25T13:27:00+08:00",
+        "time": "13:27",
+        "url": "https://udn.com/news/story/7003/9712861",
+        "canonical_url": "https://udn.com/news/story/7003/9712861",
+        "summary": "台北台新戰神隊今天宣布美國籍大前鋒葛瑞菲（Bryan Griffin）正式加盟，現年28歲的葛瑞菲身高203公分，自2021年開啟職業生涯，征戰歐洲各國聯賽，近年於台灣、南韓與土耳其等地出賽。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "84853d27b82a162c",
+        "title": "三重停車荒有解！興華公園停車場啟用 限時1個月免費停車",
+        "published_at": "2026-08-25T13:27:00+08:00",
+        "time": "13:27",
+        "url": "https://www.chinatimes.com/realtimenews/20260825002690-260421",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002690-260421",
+        "summary": "由中央前瞻計畫補助1.5億元、市府自籌3.7億元，總經費約5.2億元的新北市三重區興華公園地下停車場，今（25）日舉辦啟用典禮，新北市長侯友宜出席表示近8年在三重區投入約53.7億元，陸續興建17座立體及平面停車場，共",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "a811a082f969eb33",
+        "title": "最新研究：大陸駭客利用DeepSeek等AI擴大網路攻擊",
+        "published_at": "2026-08-25T13:27:00+08:00",
+        "time": "13:27",
+        "url": "https://www.chinatimes.com/realtimenews/20260825002685-260410",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002685-260410",
+        "summary": "中國駭客將深度求索（DeepSeek）及其他開源人工智慧模型整合進網路攻擊行動後，正加大攻擊力度，顯示攻擊者能夠藉助基礎AI工具擴大對海外目標的攻擊規模。據外媒25日報導，台灣研究機構TeamT5稱，自中國大陸國家關聯",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "b014e5ded0f5da16",
+        "title": "AI聯盟課程難度高 退選、停修學生多 葉丙成：改10星分級有改善",
+        "published_at": "2026-08-25T13:26:00+08:00",
+        "time": "13:26",
+        "url": "https://udn.com/news/story/6885/9712859",
+        "canonical_url": "https://udn.com/news/story/6885/9712859",
+        "summary": "教育部2024年推動「台灣大專院校人工智慧學程聯盟（TAICA）」，歷經兩年時間，今天舉辦「TAICA首批頒證暨成果發表記者會」，首批26人取得證書。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "841b522ea986ba22",
+        "title": "英特爾代理式AI三箭齊發 18A、UCIe串連資料中心至邊緣",
+        "published_at": "2026-08-25T13:26:00+08:00",
+        "time": "13:26",
+        "url": "https://www.chinatimes.com/realtimenews/20260825002680-260410",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002680-260410",
+        "summary": "英特爾於Hot Chips 2026揭露Diamond Rapids、Crescent Island與Wildcat Lake三款新架構，分別鎖定企業級運算、資料中心AI推論，以及主流筆電與智慧邊緣市場。隨代理式AI由模型訓練走向自主規劃、協作及執行任務，英",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "edfa04821e5bf773",
+        "title": "中歐貿易摩擦升溫 高盛警告：衝擊大陸高達27％對歐出口",
+        "published_at": "2026-08-25T13:26:00+08:00",
+        "time": "13:26",
+        "url": "https://www.chinatimes.com/realtimenews/20260825002681-260410",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002681-260410",
+        "summary": "高盛集團表示，歐盟現有及擬議中的對中貿易措施，可能覆蓋中國每年對歐盟名義出口額的約27％，凸顯中歐貿易對峙所牽涉的貿易規模。高盛經濟學家陳鑫泉和Chelsea Song在一份報告中表示，歐盟限制措施所覆蓋的範圍「並",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "502efd06b17aa0e3",
+        "title": "為習近平訪印鋪路？韓正見印度國安顧問 會談聚焦邊界",
+        "published_at": "2026-08-25T13:26:00+08:00",
+        "time": "13:26",
+        "url": "https://www.chinatimes.com/realtimenews/20260825002707-260409",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002707-260409",
+        "summary": "大陸國家副主席韓正25日在北京會見印度國家安全顧問、印中邊界問題特別代表多瓦爾。這次會面正值中印舉行第25輪邊界問題特別代表會談，外界關注兩國能否進一步穩定邊境局勢、推動雙邊關係改善。韓正表示，近兩年來，",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "0833f8c9adab1394",
+        "title": "美祭「經濟諾曼第」重擊伊朗 學者：北京恐被逼在美元、石油間選邊",
+        "published_at": "2026-08-25T13:25:00+08:00",
+        "time": "13:25",
+        "url": "https://www.chinatimes.com/realtimenews/20260825002639-260407",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002639-260407",
+        "summary": "美國財政部長貝森特24日宣布，對伊朗實施「經濟諾曼第登陸日」（ECONOMIC D-DAY）行動，將原有經濟制裁擴大至航空、數位資產、黃金、航運與技術5個領域，另將約60個實體、個人及船舶列入清單。學者認為，這不是普通",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "8ea13fbf442379d8",
+        "title": "台中神岡農會送100個愛心便當 獨居老人與65歲老人受惠",
+        "published_at": "2026-08-25T13:24:00+08:00",
+        "time": "13:24",
+        "url": "https://udn.com/news/story/7325/9712857",
+        "canonical_url": "https://udn.com/news/story/7325/9712857",
+        "summary": "台中市神岡區農會今天送100個愛心便當，提供社口社區關懷據點分送給獨居老人和65歲老人；神岡區農會總幹事王偉凱表示，農會透過家政班將愛心傳到神岡各社區，提供關懷據點共餐或獨居老人食用，關懷社區長輩。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "c7808d41b715621e",
+        "title": "無障礙環境推行逾18年 身障者仍看得到、用不到",
+        "published_at": "2026-08-25T13:24:00+08:00",
+        "time": "13:24",
+        "url": "https://www.chinatimes.com/realtimenews/20260825002674-260405",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002674-260405",
+        "summary": "34歲脊髓性肌肉萎縮症（SMA）病友哲凡，25歲後身體機能快速退化，原本能獨立完成的事情逐漸變得困難，經積極治療，退化已踩煞車，運動功能也有顯著提升，重新找回對生活的熱情與期待。然而，當外出頻率增加後，他卻",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
         "id": "8d245298a44a2750",
@@ -459,28 +602,6 @@
         "source_url": "https://udn.com/news/breaknews/1"
       },
       {
-        "id": "8483ef9310bdb932",
-        "title": "中職／桃猿8新人全簽下第2隊完成談約 還有4隊未亮牌",
-        "published_at": "2026-08-25T13:14:00+08:00",
-        "time": "13:14",
-        "url": "https://udn.com/news/story/7001/9712826",
-        "canonical_url": "https://udn.com/news/story/7001/9712826",
-        "summary": "樂天桃猿球團今天宣布，今年度選秀會選進的8位潛力新秀已全員完成簽約，正式披上桃猿戰袍。繼首波加盟的陳趙羿勳、鄭鈞澤、吳柏霆後，球團再與曾乙倫、尤丞翊、莊偉晟、白井雄登以及莊承翰達成加盟共識，宣告今年度選秀補強作業圓滿完成，所有新秀將全數投入球隊訓練，正式揭開職棒生涯序幕。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "bf52e18316883955",
-        "title": "PLG／艾倫再度回鍋台籃 加盟台鋼獵鷹助陣東超",
-        "published_at": "2026-08-25T13:13:00+08:00",
-        "time": "13:13",
-        "url": "https://udn.com/news/story/7003/9712825",
-        "canonical_url": "https://udn.com/news/story/7003/9712825",
-        "summary": "PLG台鋼獵鷹隊今天宣布，正式簽下身高213公分、來自英國並歸化伊朗籍的中鋒艾倫（Aaron Geramipoor），成為陣中第四名洋將，將以亞洲外援身分代表球隊出戰東亞超級聯賽（EASL）。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
         "id": "c82798915401e4b4",
         "title": "約旦國王會習近平稱「台灣是中國一部分」外交部駁嚴重扭曲事實",
         "published_at": "2026-08-25T13:12:00+08:00",
@@ -490,17 +611,6 @@
         "summary": "大陸國家主席習近平24日會晤約旦國王阿布杜拉二世（King Abdullah II），會後雙方共同發布聯合聲明，其中內容稱「約旦恪守一個中國原則，支持中國實現國家統一，台灣是中國領土不可分割的一部分，中華人民共和國政府",
         "source": "中時新聞網・即時",
         "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "d9bd73b781215947",
-        "title": "最低工資明年又漲5% 這群上班族反而最吃虧",
-        "published_at": "2026-08-25T13:11:00+08:00",
-        "time": "13:11",
-        "url": "https://udn.com/news/story/7269/9712821",
-        "canonical_url": "https://udn.com/news/story/7269/9712821",
-        "summary": "明年最低工資審議會最快9月登場，外界預期明年最低工資調幅可能上看5%，月薪將由29,500元增加至30,975元，時薪也將由196元提高至約206元。然而，最低薪資調漲，對於多數上班族來說，實際感受恐怕仍有限。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
       },
       {
         "id": "5eab4c5e80cf09d9",
@@ -521,127 +631,6 @@
         "url": "https://www.chinatimes.com/realtimenews/20260825002562-260407",
         "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002562-260407",
         "summary": "南台灣連日遭逢低氣壓與西南風重創，高雄、屏東等地豪雨災情慘重。行政院長卓榮泰24日以立法院刪減預算為由，稱「只能透過電話與地方聯繫」，引發輿論猛烈撻伐。賴清德總統今（25）日赴高雄岡山視察五甲尾滯洪池時，",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "73debd6f2c8ef1b6",
-        "title": "47億水湳轉運中心啟用半月人潮冷清？交局透露行人空橋預計今年開工",
-        "published_at": "2026-08-25T13:10:00+08:00",
-        "time": "13:10",
-        "url": "https://udn.com/news/story/7325/9712820",
-        "canonical_url": "https://udn.com/news/story/7325/9712820",
-        "summary": "斥資約47億元興建的台中水湳轉運中心8月5日啟用，市府規劃整合市區公車、國道客運、捷運、汽車、機車、計程車及自行車，打造「七轉七接交通任意門」。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "7d93037d75c6ea57",
-        "title": "桃園騎樓整平效率下降 市府坦言越來越難做",
-        "published_at": "2026-08-25T13:10:00+08:00",
-        "time": "13:10",
-        "url": "https://udn.com/news/story/7324/9712819",
-        "canonical_url": "https://udn.com/news/story/7324/9712819",
-        "summary": "桃園市工務局執行騎樓整平計畫25年，至今改善1萬7362公尺，雖能維持每年改善800公尺的目標，但長度逐年減少，2021年約1885公尺，去年僅剩861公尺，不僅審計處點名檢討，議員也要求再努力；工務局回應，過去騎樓整平同意書比較容易取得，近年越來越不容易。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "f1925f38799b1907",
-        "title": "「聯合國反貪腐公約」第三次國家報告會議 5位國際專家在地審查",
-        "published_at": "2026-08-25T13:10:00+08:00",
-        "time": "13:10",
-        "url": "https://udn.com/news/story/7314/9712817",
-        "canonical_url": "https://udn.com/news/story/7314/9712817",
-        "summary": "法務部籌辦「聯合國反貪腐公約」第三次國家報告國際審查會議，今隆重揭幕，廉政署指出，台灣自2018年起，每4年定期公布反貪腐公約國家報告，邀請5位國際審查委員在地審查，透過跨部會、跨領域的廉能治理行動，深化國家民主韌性與凝聚社會信任。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "3db1a5fca7c4ee9d",
-        "title": "高雄不放豪雨假！臉書被「咕嚕咕嚕」灌爆 陳其邁回應了",
-        "published_at": "2026-08-25T13:10:00+08:00",
-        "time": "13:10",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002636-260405",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002636-260405",
-        "summary": "高雄連放兩天豪雨假後，今（25）日恢復上班課，不料昨夜至清晨暴雨傾瀉，鼓山三路、美術館豪宅區一帶再度淪為汪洋，道路水淹成河，市長陳其邁臉書一早隨即湧入大批市民怒刷「咕嚕咕嚕」洗版開酸。面對外界質疑停班課",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "f2e2744e9f3da957",
-        "title": "《科技》四大CSP砸7450億美元搶AI商機 鉅額資本支出成財務警訊",
-        "published_at": "2026-08-25T13:09:00+08:00",
-        "time": "13:09",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002666-260410",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002666-260410",
-        "summary": "在生成式AI商機快速擴張帶動下，全球雲端基礎設施投資進入新一輪高峰。根據DIGITIMES觀察，亞馬遜、Alphabet和微軟認為，先前投入的鉅額資本支出已帶動營收明顯成長，且預期AI潛在商機仍將持續擴大。亞馬遜、Alphabe",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "b4561c70550689e7",
-        "title": "富邦金爆量飆7％ 帶動金融類股漲2.3％穩盤",
-        "published_at": "2026-08-25T13:09:00+08:00",
-        "time": "13:09",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002566-260410",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002566-260410",
-        "summary": "富邦金（2881）上半年每股稅後純益（EPS）6.67元，每股淨值飆上109.3元新高，受此激勵，今（25）日股價勢如破竹，一早攻上141元，平創除息（4.25元）前6月18日盤中141元新高。在富邦金帶動下，金融類股指數今天大漲2",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "ff247fec2cedcb7c",
-        "title": "港成獨角獸企業新戰場？李家超揭「超級聯系人」關鍵角色",
-        "published_at": "2026-08-25T13:09:00+08:00",
-        "time": "13:09",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002585-260409",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002585-260409",
-        "summary": "根據觀察者網報導，首屆全球獨角獸大會8月24日在香港開幕。據香港特區政府新聞公報，香港特區行政長官李家超在致詞時表示，香港是大陸新創和獨角獸企業進軍國際市場的最強跳板，也是海外頂尖科創企業探索大陸市場的",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "3fcd266c78d7b6ff",
-        "title": "長榮攜手AIT、微軟推綠運輸計劃 台塑：盼法規放寬 讓原料取得更容易",
-        "published_at": "2026-08-25T13:08:00+08:00",
-        "time": "13:08",
-        "url": "https://udn.com/news/story/7266/9712811",
-        "canonical_url": "https://udn.com/news/story/7266/9712811",
-        "summary": "長榮航空與知名貨運代理商AIT簽署協議，共同推動長榮航空「綠運輸計畫」，透過添加SAF航班，首年提供科技巨擘微軟1.5萬噸範疇三減碳環境效益。長榮航空永續長劉嘉文表示，此次合作能協助有低碳運輸需求的客戶；台塑石化總經理林克彥說，推動SAF自產需投資設備，盼政府可以放寬法規，讓原料取得更加容易。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "63f270d4a80b4459",
-        "title": "屏東豪雨！老夫妻雙載遭溪水沖走 妻抱樹幹獲救 夫下落不明",
-        "published_at": "2026-08-25T13:07:00+08:00",
-        "time": "13:07",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002576-260402",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002576-260402",
-        "summary": "屏東縣連日豪雨成災，萬丹鄉24日下午發生夫妻落水意外，74歲張姓男子疑遭湍急溪水沖走，至今仍下落不明。警消25日增派搜救人力、救生艇及無人機，持續沿事故地點及下游區域搜尋，截至中午12時仍未發現張男蹤跡。據了",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "77a173b9da9c96ee",
-        "title": "台東旅遊省錢攻略！9月起國旅補助 連住3晚最高省4000",
-        "published_at": "2026-08-25T13:07:00+08:00",
-        "time": "13:07",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002611-260405",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002611-260405",
-        "summary": "搶攻後暑假國旅商機！台東縣政府響應觀光署住宿優惠，自9月1日起加碼續推「一遊未盡」方案，不分平假日，自由行前2晚入住台東，第3晚即享一般地區1200元、離島1500元住宿折抵；若疊加中央補助，最高可現省4000元；團",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "86aa6d26edd139fa",
-        "title": "美網》混雙全明星陣容 阿卡瑞茲、小威、喬帥、莎芭蓮卡首輪亮相",
-        "published_at": "2026-08-25T13:06:00+08:00",
-        "time": "13:06",
-        "url": "https://www.chinatimes.com/realtimenews/20260825002590-260403",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825002590-260403",
-        "summary": "西班牙天王阿卡瑞茲（Carlos Alcaraz）回歸賽場，並且與美國傳奇女將小威廉絲（Serena Williams）搭檔打混雙，這也是小威在相隔4年重返美國網球公開賽。對於兩人來說，冠軍的100萬美元獎金顯然不是目標，但是觀眾可",
         "source": "中時新聞網・即時",
         "source_url": "https://www.chinatimes.com/realtimenews/"
       },
@@ -670,13 +659,13 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "e22083e5c02a4c6d",
-        "title": "英飛凌宣布收購 C2i Semiconductors",
+        "id": "b33affdfbc37f591",
+        "title": "東京中野百老匯商店街鐘錶店遭搶 損失金額達4004萬",
         "published_at": "2026-08-25T13:14:00+08:00",
         "time": "13:14",
-        "url": "https://money.udn.com/money/story/5612/9712855?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5612/9712855",
-        "summary": "晶片大廠英飛凌宣布，收購總部位於班加羅爾的C2i Semiconductors。",
+        "url": "https://money.udn.com/money/story/5599/9712870?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9712870",
+        "summary": "今天日本時間中午過後，東京中野區的商店街「中野百老匯商店街」內，一名男子持類似鐵錘的工具砸碎玻璃展示櫃，搶走4支價值約2...",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
@@ -690,6 +679,28 @@
         "summary": "廢棄風機葉片可做球拍！經濟部25日與環境部、農業部與內政部等部會召開「2026台灣循環經濟周」記者會，邀請6家企業與財團法人分享循環經濟成果。包括咖啡渣轉化成紡織紗線、還有將塑膠回收製作自行車架、羽球拍與電動車殼，以及將肉類副產品循環製作飼料等。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "af7f6b6d2c6ea803",
+        "title": "長榮攜手AIT、微軟推綠運輸計劃 台塑：盼法規放寬 讓原料取得更容易",
+        "published_at": "2026-08-25T13:08:00+08:00",
+        "time": "13:08",
+        "url": "https://udn.com/news/story/7241/9712811",
+        "canonical_url": "https://udn.com/news/story/7241/9712811",
+        "summary": "長榮航空與知名貨運代理商AIT簽署協議，共同推動長榮航空「綠運輸計畫」，透過添加SAF航班，首年提供科技巨擘微軟1.5萬噸範疇三減碳環境效益。長榮航空永續長劉嘉文表示，此次合作能協助有低碳運輸需求的客戶；台塑石化總經理林克彥說，推動SAF自產需投資設備，盼政府可以放寬法規，讓原料取得更加容易。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "dbed5dc36ad81abc",
+        "title": "產業走向大者恆大 法人看好三檔 IP ASIC 供應鏈",
+        "published_at": "2026-08-25T12:51:00+08:00",
+        "time": "12:51",
+        "url": "https://money.udn.com/money/story/5607/9712839?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5607/9712839",
+        "summary": "大型雲端服務供應商（CSP）積極自行研發晶片，加上人工智慧（AI）推理需求，帶動ASIC在AI伺服器滲透率大幅攀升，IC設計廠商亟需銀彈確保產能供應，法人預期將呈現大者恆大生態，正向看待聯發科（2454）、創意（3443）、世芯-KY（3661）等三檔。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
       {
         "id": "ee764944b756d031",
@@ -820,17 +831,6 @@
         "url": "https://udn.com/news/story/7239/9712726",
         "canonical_url": "https://udn.com/news/story/7239/9712726",
         "summary": "台經院今日發布7月景氣動向調查，7月製造業與營建業營業氣候測驗點皆較上月上揚。對於明年經濟成長能否維持高成長，台經院景氣預測中心主任孫明德強調，要看AI後續產品表現能否獲得市場青睞；",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "ca4b475c14c490b7",
-        "title": "「青安3.0」來了！一表看六都、新竹縣市三房不到千萬購屋區",
-        "published_at": "2026-08-25T12:06:00+08:00",
-        "time": "12:06",
-        "url": "https://udn.com/news/story/7241/9712650",
-        "canonical_url": "https://udn.com/news/story/7241/9712650",
-        "summary": "「青安3.0」今年8月1日上路，並新增婚育加碼，購屋族可活用其最高貸款額度，規劃符合自身負擔能力的成家住宅。依政策揭露，育有未成年子女最高貸款額度1,500萬元，若以貸款八成回推，可鎖定總價1,875萬元以內、適合育兒家庭的三房住宅(大樓、華廈、公寓)產品。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
       },
@@ -1288,6 +1288,17 @@
         "source_url": "https://house.udn.com/house/index"
       },
       {
+        "id": "dbed5dc36ad81abc",
+        "title": "產業走向大者恆大 法人看好三檔 IP ASIC 供應鏈",
+        "published_at": "2026-08-25T11:02:00+08:00",
+        "time": "11:02",
+        "url": "https://money.udn.com/money/story/5607/9712839?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5607/9712839",
+        "summary": "大型雲端服務供應商（CSP）積極自行研發晶片，加上人工智慧（AI）推理需求，帶動ASIC在AI伺服器滲透率大幅攀升，IC設計廠商亟需銀彈確保產能供應，法人預期將呈現大者恆大生態，正向看待聯發科（2454）、創意（3443）、世芯-KY（3661）等三檔。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
+      },
+      {
         "id": "ee764944b756d031",
         "title": "等待「三變數」台股跌多漲少 千金股剩這檔股價再創新高",
         "published_at": "2026-08-25T11:02:00+08:00",
@@ -1541,13 +1552,13 @@
         "source_url": "https://house.chinatimes.com"
       },
       {
-        "id": "5e5d8b77c548165b",
-        "title": "看屋筆記：新竹市北區竹慶筑光(個案＋價格分析)",
+        "id": "ba6b30d3d0616190",
+        "title": "廚房耐用也要耐看！永不過時 7 種廚房經典配色示範",
         "published_at": "2026-08-25T04:27:00+08:00",
         "time": "04:27",
-        "url": "https://house.chinatimes.com/20240414000001-264405",
-        "canonical_url": "https://house.chinatimes.com/20240414000001-264405",
-        "summary": "新竹市舊城區近期陸續推出了許多都更案，因其周邊機能完善受到許多換屋族關注。竹慶筑光位於新竹市北區和平路22號，運動中心步行可達；基地四面臨路，對面就是竹光國中，享永久棟距，讓面向校園的住戶擁有無遮蔽的景觀視野。",
+        "url": "https://house.chinatimes.com/20230624000008-264419",
+        "canonical_url": "https://house.chinatimes.com/20230624000008-264419",
+        "summary": "找設計師前，廚房配色你想好了嗎？大家有發現，老屋翻新的設計案中，廚房 Before / After 的色彩風格對比，通常都會讓屋主強烈感受到色彩對於廚房的重要性！無論是新建房屋還是翻新廚房，選擇合適的配色，不僅是廚房風格、空間感的關鍵，也會直接影響烹飪者下廚時的心情。",
         "source": "中時房產",
         "source_url": "https://house.chinatimes.com"
       },
@@ -1563,13 +1574,13 @@
         "source_url": "https://house.chinatimes.com"
       },
       {
-        "id": "ba6b30d3d0616190",
-        "title": "廚房耐用也要耐看！永不過時 7 種廚房經典配色示範",
+        "id": "5e5d8b77c548165b",
+        "title": "看屋筆記：新竹市北區竹慶筑光(個案＋價格分析)",
         "published_at": "2026-08-25T04:27:00+08:00",
         "time": "04:27",
-        "url": "https://house.chinatimes.com/20230624000008-264419",
-        "canonical_url": "https://house.chinatimes.com/20230624000008-264419",
-        "summary": "找設計師前，廚房配色你想好了嗎？大家有發現，老屋翻新的設計案中，廚房 Before / After 的色彩風格對比，通常都會讓屋主強烈感受到色彩對於廚房的重要性！無論是新建房屋還是翻新廚房，選擇合適的配色，不僅是廚房風格、空間感的關鍵，也會直接影響烹飪者下廚時的心情。",
+        "url": "https://house.chinatimes.com/20240414000001-264405",
+        "canonical_url": "https://house.chinatimes.com/20240414000001-264405",
+        "summary": "新竹市舊城區近期陸續推出了許多都更案，因其周邊機能完善受到許多換屋族關注。竹慶筑光位於新竹市北區和平路22號，運動中心步行可達；基地四面臨路，對面就是竹光國中，享永久棟距，讓面向校園的住戶擁有無遮蔽的景觀視野。",
         "source": "中時房產",
         "source_url": "https://house.chinatimes.com"
       },
