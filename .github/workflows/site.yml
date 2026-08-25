@@ -68,7 +68,7 @@ jobs:
         run: |
           rm -rf _site
           mkdir _site
-          cp index.html app.js styles.css news.json .nojekyll _site/
+          cp index.html app.js styles.css news.json news-icon.svg manifest.webmanifest .nojekyll _site/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
