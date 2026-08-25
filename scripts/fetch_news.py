@@ -91,12 +91,6 @@ SOURCES = {
                 "resolve_missing_dates": True,
                 "max_candidates": 30,
             },
-            {
-                "name": "好房網News",
-                "url": "https://news.housefun.com.tw/news/all/",
-                "resolve_missing_dates": True,
-                "max_candidates": 30,
-            },
         ],
     },
 }
@@ -105,7 +99,6 @@ UDN_PATH_RE = re.compile(r"^/(?:money|news|house)/story/\d+/\d+/?$")
 TVBS_PATH_RE = re.compile(r"^/[A-Za-z0-9_-]+/\d+/?$")
 CHINATIMES_REALTIME_RE = re.compile(r"^/realtimenews/\d{14}-\d+/?$")
 CHINATIMES_HOUSE_RE = re.compile(r"^/\d{14}-\d+/?$")
-HOUSEFUN_RE = re.compile(r"^/news/article/\d+\.html/?$")
 STORM_RE = re.compile(r"^/(?:article|lifestyle)/\d+/?$")
 
 DATE_RE = re.compile(
@@ -118,7 +111,7 @@ TIME_DATE_RE = re.compile(
 GENERIC_TEXT = {
     "上一篇", "下一篇", "看更多", "更多", "即時", "金融", "房市", "產經", "天氣",
     "經濟日報", "聯合新聞網", "udn房地產", "風傳媒", "TVBS", "中時新聞網",
-    "中時房產", "好房網News", "首頁", "最新新聞", "熱門新聞",
+    "中時房產", "首頁", "最新新聞", "熱門新聞",
 }
 
 session = requests.Session()
@@ -137,16 +130,7 @@ session.headers.update(
 
 
 def fetch(url: str, timeout: int = 25) -> str:
-    headers = None
-    if "housefun.com.tw" in url:
-        headers = {
-            "Referer": "https://news.housefun.com.tw/",
-            "Sec-Fetch-Dest": "document",
-            "Sec-Fetch-Mode": "navigate",
-            "Sec-Fetch-Site": "same-origin",
-            "Upgrade-Insecure-Requests": "1",
-        }
-    response = session.get(url, timeout=timeout, headers=headers)
+    response = session.get(url, timeout=timeout)
     response.raise_for_status()
     try:
         return response.content.decode("utf-8")
@@ -177,8 +161,6 @@ def canonical_story_url(href: str, base_url: str) -> str | None:
         canonical_host = "www.chinatimes.com"
     elif host == "house.chinatimes.com":
         valid = bool(CHINATIMES_HOUSE_RE.match(path))
-    elif host == "news.housefun.com.tw":
-        valid = bool(HOUSEFUN_RE.match(path))
     elif host == "storm.mg":
         valid = bool(STORM_RE.match(path))
         canonical_host = "www.storm.mg"
@@ -297,7 +279,7 @@ def extract_candidates(html: str, source_url: str) -> list[dict]:
 def clean_summary(text: str, title: str) -> str:
     text = re.sub(r"\s+", " ", text or "").strip()
     text = re.sub(
-        r"^(?:經濟日報|聯合新聞網|udn房地產|風傳媒|TVBS|中時新聞網|好房網News)\s*[|｜\-—]\s*",
+        r"^(?:經濟日報|聯合新聞網|udn房地產|風傳媒|TVBS|中時新聞網)\s*[|｜\-—]\s*",
         "",
         text,
     )
