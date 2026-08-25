@@ -47,6 +47,9 @@ jobs:
       - name: Fetch today's news
         run: python scripts/fetch_news.py
 
+      - name: Remove malformed news
+        run: python scripts/sanitize_news.py
+
       - name: Save refreshed news data
         run: |
           if ! git diff --quiet -- news.json; then
