@@ -178,8 +178,6 @@ function buildMessage() {
 }
 
 async function loadNews() {
-  $("dataStatus").className = "data-status";
-  $("dataStatus").textContent = "正在更新";
   try {
     const response = await fetch(`news.json?v=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -195,24 +193,13 @@ async function loadNews() {
     Object.keys(CATEGORY_CONFIG).forEach((category) => {
       renderCategory(category, payload.categories?.[category] || []);
     });
-
-    const today = taipeiToday();
-    if (payload.date !== today) {
-      $("dataStatus").className = "data-status warn";
-      $("dataStatus").textContent = "資料日期尚未更新";
-    } else {
-      $("dataStatus").className = "data-status";
-      $("dataStatus").textContent = "今日資料已同步";
-    }
   } catch (error) {
     console.error(error);
-    $("dataStatus").className = "data-status warn";
-    $("dataStatus").textContent = "讀取失敗，請稍後重試";
+    $("newsDate").textContent = "讀取失敗";
+    $("updatedAt").textContent = "—";
     Object.keys(CATEGORY_CONFIG).forEach((category) => renderCategory(category, []));
   }
 }
-
-$("refreshBtn").addEventListener("click", loadNews);
 
 $("generateBtn").addEventListener("click", () => {
   const message = buildMessage();
