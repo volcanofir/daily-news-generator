@@ -59,6 +59,9 @@ jobs:
       - name: Add FBS housing source
         run: python scripts/augment_fbs.py
 
+      - name: Add TaiSounds sources
+        run: python scripts/augment_taisounds.py
+
       - name: Remove malformed news
         run: python scripts/sanitize_news.py
 
