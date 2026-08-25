@@ -50,6 +50,12 @@ jobs:
       - name: Add MyHousing and dedupe similar headlines
         run: python scripts/augment_myhousing.py
 
+      - name: Add Liberty Times sources
+        run: python scripts/augment_ltn.py
+
+      - name: Add ETtoday housing source
+        run: python scripts/augment_ettoday.py
+
       - name: Remove malformed news
         run: python scripts/sanitize_news.py
 
