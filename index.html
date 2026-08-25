@@ -13,8 +13,10 @@
     <div class="hero__inner">
       <div>
         <p class="eyebrow">DAILY NEWS</p>
-        <h1>每日新聞文字生成器</h1>
-        <p class="hero__sub">挑選今天的天氣、即時、金融、房市新聞，一鍵生成可直接分享的早安文字。</p>
+        <p class="hero__sub">
+          <span>挑選今天的天氣、即時、金融、房市新聞</span>
+          <span class="hero__sub-line">一鍵生成可直接分享的早安文字。</span>
+        </p>
       </div>
     </div>
   </header>
@@ -37,7 +39,7 @@
 
     <section class="news-grid">
       <article class="news-panel" data-category="weather">
-        <div class="panel-head">
+        <div class="panel-head" role="button" tabindex="0" aria-expanded="true">
           <div>
             <span class="panel-icon">🌦️</span>
             <div>
@@ -45,13 +47,16 @@
               <p>今日天氣新聞</p>
             </div>
           </div>
-          <span id="weatherCount" class="count-badge">0</span>
+          <div class="panel-actions">
+            <span id="weatherCount" class="count-badge">0</span>
+            <span class="collapse-icon" aria-hidden="true">⌃</span>
+          </div>
         </div>
         <div id="weatherList" class="news-list"></div>
       </article>
 
       <article class="news-panel" data-category="instant">
-        <div class="panel-head">
+        <div class="panel-head" role="button" tabindex="0" aria-expanded="true">
           <div>
             <span class="panel-icon">⚡</span>
             <div>
@@ -59,13 +64,16 @@
               <p>今日最新新聞</p>
             </div>
           </div>
-          <span id="instantCount" class="count-badge">0</span>
+          <div class="panel-actions">
+            <span id="instantCount" class="count-badge">0</span>
+            <span class="collapse-icon" aria-hidden="true">⌃</span>
+          </div>
         </div>
         <div id="instantList" class="news-list"></div>
       </article>
 
       <article class="news-panel" data-category="finance">
-        <div class="panel-head">
+        <div class="panel-head" role="button" tabindex="0" aria-expanded="true">
           <div>
             <span class="panel-icon">💹</span>
             <div>
@@ -73,13 +81,16 @@
               <p>今日金融新聞</p>
             </div>
           </div>
-          <span id="financeCount" class="count-badge">0</span>
+          <div class="panel-actions">
+            <span id="financeCount" class="count-badge">0</span>
+            <span class="collapse-icon" aria-hidden="true">⌃</span>
+          </div>
         </div>
         <div id="financeList" class="news-list"></div>
       </article>
 
       <article class="news-panel" data-category="housing">
-        <div class="panel-head">
+        <div class="panel-head" role="button" tabindex="0" aria-expanded="true">
           <div>
             <span class="panel-icon">🏠</span>
             <div>
@@ -87,7 +98,10 @@
               <p>今日房市新聞</p>
             </div>
           </div>
-          <span id="housingCount" class="count-badge">0</span>
+          <div class="panel-actions">
+            <span id="housingCount" class="count-badge">0</span>
+            <span class="collapse-icon" aria-hidden="true">⌃</span>
+          </div>
         </div>
         <div id="housingList" class="news-list"></div>
       </article>
