@@ -107,8 +107,14 @@ h1, h2, p { margin-top: 0; }
   gap: 18px;
   align-items: center;
 }
+.status-card.has-next-update { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .status-card strong { color: var(--ink); }
 .status-label { display: block; color: var(--muted); font-size: 12px; margin-bottom: 2px; }
+.next-update {
+  padding-left: 18px;
+  border-left: 1px solid #ead99c;
+}
+.next-update strong { color: #8d6a00; }
 
 .news-grid {
   margin-top: 22px;
@@ -304,7 +310,8 @@ footer { text-align: center; color: #827d70; font-size: 12px; padding: 0 20px 26
 
 @media (max-width: 1160px) {
   .news-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .status-card { grid-template-columns: repeat(3, 1fr); }
+  .status-card,
+  .status-card.has-next-update { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 700px) {
@@ -315,12 +322,19 @@ footer { text-align: center; color: #827d70; font-size: 12px; padding: 0 20px 26
     width: min(100% - 20px, 1480px);
     margin: 14px auto 56px;
   }
-  .status-card {
+  .status-card,
+  .status-card.has-next-update {
     grid-template-columns: 1fr 1fr;
     border-radius: 16px;
     gap: 14px;
   }
-  .status-card > div:nth-child(3) { grid-column: 1 / -1; }
+  .status-card:not(.has-next-update) > div:nth-child(3) { grid-column: 1 / -1; }
+  .next-update {
+    padding-left: 0;
+    border-left: 0;
+    padding-top: 10px;
+    border-top: 1px solid #ead99c;
+  }
   .news-grid { grid-template-columns: 1fr; }
   .news-list { max-height: 440px; }
   .news-panel, .generator { border-radius: 16px; }
