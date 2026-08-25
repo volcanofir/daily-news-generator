@@ -73,6 +73,9 @@ jobs:
           mkdir _site
           cp index.html app.js styles.css news.json manifest.webmanifest .nojekyll _site/
           base64 --decode news-icon-v2.png.b64 > _site/news-icon-v2.png
+          cp _site/news-icon-v2.png _site/apple-touch-icon.png
+          cp _site/news-icon-v2.png _site/apple-touch-icon-precomposed.png
+          cp _site/news-icon-v2.png _site/favicon.png
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
