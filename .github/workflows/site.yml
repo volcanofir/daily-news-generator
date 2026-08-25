@@ -71,7 +71,8 @@ jobs:
         run: |
           rm -rf _site
           mkdir _site
-          cp index.html app.js styles.css news.json news-icon.svg manifest.webmanifest .nojekyll _site/
+          cp index.html app.js styles.css news.json manifest.webmanifest .nojekyll _site/
+          base64 --decode news-icon-v2.png.b64 > _site/news-icon-v2.png
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
