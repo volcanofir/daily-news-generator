@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updated_at": "2026-08-26T06:30:15.386711+08:00",
+  "updated_at": "2026-08-26T07:27:14.402111+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "weather": {
@@ -145,6 +145,28 @@
   "categories": {
     "weather": [
       {
+        "id": "919d827d1367657f",
+        "title": "科技股止血反攻！美股全線收紅 台積電ADR飆近1.8%",
+        "published_at": "2026-08-26T07:03:26+08:00",
+        "time": "07:03",
+        "url": "https://www.taisounds.com/news/content/84/285165",
+        "canonical_url": "https://www.taisounds.com/news/content/84/285165",
+        "summary": "AI晶片巨頭輝達（Nvidia）公布財報前夕，科技股從拋售潮中回神，加上油價與美債殖利率下跌，華爾街股市主要指數週二（25日）全線收紅，台積電ADR揚升7.29美元或1.78%，收在417.41美元。",
+        "source": "太報・天氣",
+        "source_url": "https://www.taisounds.com/news/section/139"
+      },
+      {
+        "id": "ee8372ca039dbb9b",
+        "title": "I Will Always Love You原唱桃莉芭頓80歲辭世 川普令全美降半旗",
+        "published_at": "2026-08-26T07:03:22+08:00",
+        "time": "07:03",
+        "url": "https://www.taisounds.com/news/content/84/285164",
+        "canonical_url": "https://www.taisounds.com/news/content/84/285164",
+        "summary": "美國鄉村音樂傳奇巨星桃莉芭頓（Dolly Parton）的外甥25日宣布，這位惠妮休斯頓名曲「我將永遠愛你」的原唱人已辭世，享壽80歲。美國總統川普下令全美降半旗一週悼念。",
+        "source": "太報・天氣",
+        "source_url": "https://www.taisounds.com/news/section/139"
+      },
+      {
         "id": "8bb62cba36cb251e",
         "title": "輝達股價止跌了! 宣布入門機器人平台Jetson Orin Nano 2 、研華華碩入列",
         "published_at": "2026-08-26T05:37:26+08:00",
@@ -246,19 +268,272 @@
     ],
     "instant": [
       {
-        "id": "ee32c77e59128233",
-        "title": "心疼陳幸妤自揭傷口 陳致中：鮮血汨汨還有多久才結痂",
-        "published_at": "2026-08-26T06:25:23+08:00",
-        "time": "06:25",
-        "url": "https://news.ltn.com.tw/news/politics/breakingnews/5552277",
-        "canonical_url": "https://news.ltn.com.tw/news/politics/breakingnews/5552277",
-        "summary": "前總統陳水扁女兒陳幸妤與前夫趙建銘的離婚紛爭延燒，針對雙方持續隔空交鋒，陳幸妤的弟弟、前高雄市議員陳致中昨在社群發文感嘆「鮮血汨汨，離疤痕結痂的時候還有多久」，引發網友熱議，紛紛為陳幸妤加油打氣。陳致中昨在threads發文指出，「講得愈是雲淡風輕，實則愈是肝腸寸斷。",
+        "id": "7cd493cd14b7fe8f",
+        "title": "沙德爾路徑又變！估今晚發海警 明、後天風雨最大",
+        "published_at": "2026-08-26T07:23:00+08:00",
+        "time": "07:23",
+        "url": "https://www.chinatimes.com/realtimenews/20260826000906-260405",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826000906-260405",
+        "summary": "今天（26日）清晨中南部地區仍有局部陣雨或雷雨，白天起水氣逐漸減少，午後西半部山區及東半部地區有局部短暫雷陣雨。氣象專家林得恩表示，今晨沙德爾颱風路徑明顯北修，預計今晚至明（27日）晨發布海上颱風警報，陸",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "0e0c1bfb6adff859",
+        "title": "烏克蘭獨立35週年 首創全無人載具系統閱兵",
+        "published_at": "2026-08-26T07:20:00+08:00",
+        "time": "07:20",
+        "url": "https://www.chinatimes.com/realtimenews/20260826000053-260417",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826000053-260417",
+        "summary": "烏克蘭24日舉行獨立35週年紀念活動，總統澤倫斯基除親自主持，向抵禦俄羅斯侵略的英勇官兵授勳致敬，當局也出動近百具各型無人載具，舉行烏克蘭首次全由無人系統執行的閱兵活動，展現先進研發能量與無人系統戰力。實",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "7fa147cdec2cc74a",
+        "title": "美准售義「APKWS Ⅱ」先進精準擊殺武器系統 反制無人機威脅",
+        "published_at": "2026-08-26T07:20:00+08:00",
+        "time": "07:20",
+        "url": "https://www.chinatimes.com/realtimenews/20260826000060-260417",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826000060-260417",
+        "summary": "「詹氏」（Janes）網站24日報導，美國國務院已批准向義大利出售逾5000套「先進精準擊殺武器系統Ⅱ」（APKWS Ⅱ）導引火箭與相關設備，協助該國武裝部隊提升反無人機（C-UAS）和多元任務戰力。根據美國國務院，允售清單",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "7f3e915df8089123",
+        "title": "澳首艘「獵人級」巡防艦鋪龍骨 強化反潛戰力",
+        "published_at": "2026-08-26T07:20:00+08:00",
+        "time": "07:20",
+        "url": "https://www.chinatimes.com/realtimenews/20260826000065-260417",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826000065-260417",
+        "summary": "皇家澳洲海軍首艘「獵人級」（Hunter Class）巡防艦24日鋪設龍骨，該艦整合先進反潛套件、澳洲自主研發的雷達技術和美國海軍神盾作戰系統（AEGIS）等，預計2030年代初交付皇家澳洲海軍，未來可望擔負新一代反潛作戰",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "939db40e07271ab5",
+        "title": "「IC設計像拍電影」 信驊晶片搶全球8成市佔！林鴻明為何等AI來了才聘新人？",
+        "published_at": "2026-08-26T07:18:00+08:00",
+        "time": "07:18",
+        "url": "https://udn.com/news/story/7240/9713157",
+        "canonical_url": "https://udn.com/news/story/7240/9713157",
+        "summary": "信驊董事長林鴻明是在中年受挫時創立公司。他笑著說，有今天的成果完全出乎意料之外。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "b9e6af6ad24a0c8e",
+        "title": "淡水租屋藏「兩大價差」！3大學區租金曝光 套房、整戶竟差這麼多",
+        "published_at": "2026-08-26T07:18:00+08:00",
+        "time": "07:18",
+        "url": "https://estate.ltn.com.tw/article/28708",
+        "canonical_url": "https://estate.ltn.com.tw/article/28708",
+        "summary": "新學期即將到來，淡水大專院校周邊租屋市場也進入關注期。淡水區內有淡江大學、真理大學及台北海洋科技大學淡水校區，校園周邊生活機能成熟，不僅是學生租屋熱區，也吸引上班族及小家庭進駐。淡水地政事務所整理113年至115年實價登錄租賃資料，分析3校周邊租賃交易時間、",
         "source": "自由時報・即時新聞",
         "source_url": "https://news.ltn.com.tw/list/breakingnews"
       },
       {
+        "id": "c828ef7f8d1ea29b",
+        "title": "台積電ADR上漲1.8% 日月光聯電更強勁 台指期夜盤勁揚405點",
+        "published_at": "2026-08-26T07:15:00+08:00",
+        "time": "07:15",
+        "url": "https://udn.com/news/story/6811/9714321",
+        "canonical_url": "https://udn.com/news/story/6811/9714321",
+        "summary": "台股ADR周二（25日）收漲，台積電ADR收盤上漲1.78%，報每股417.41美元，收盤最新價格換算並折合新台幣後為每股2,661.32元，較台北交易股票溢價率為10.89%。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "c09f35b89a825ebb",
+        "title": "壽山動物園驚見「雨中憂鬱獅」 小編揭露：牠只是愛淋雨",
+        "published_at": "2026-08-26T07:10:00+08:00",
+        "time": "07:10",
+        "url": "https://www.chinatimes.com/realtimenews/20260826000019-260402",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826000019-260402",
+        "summary": "南台灣近日持續受到強降雨影響，高雄壽山動物園也出現一幕讓網友哭笑不得的畫面。園方近日分享獅子「小辛」在大雨中淋雨的模樣，只見小辛站在雨中超過1個小時，絲毫沒有要躲雨的意思，渾身濕答答的模樣，乍看之下宛",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "ed790459e53ec2a5",
+        "title": "屏東豪雨積淹水災情嚴重 佛教界送1300份愛心便當到災區",
+        "published_at": "2026-08-26T07:07:00+08:00",
+        "time": "07:07",
+        "url": "https://udn.com/news/story/7327/9714316",
+        "canonical_url": "https://udn.com/news/story/7327/9714316",
+        "summary": "受到低壓帶及西南風影響屏東連日降下豪大雨，各地傳出積淹水災情，部分地區交通受阻，民眾有生活物資需求。台灣佛教總會、中華比丘尼協進會及屏東縣佛教會25日號召100多名志工投入救災服務，從備餐、物資整理到運送，協助受災民眾度過難關。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "94c0f41b24ede1db",
+        "title": "美股收盤／四大指數收漲 輝達財報前科技股反彈 美債殖利率回落助攻",
+        "published_at": "2026-08-26T07:05:00+08:00",
+        "time": "07:05",
+        "url": "https://udn.com/news/story/6811/9714315",
+        "canonical_url": "https://udn.com/news/story/6811/9714315",
+        "summary": "美股四大指數周二（25日）收紅，因科技股在AI巨頭輝達（NVIDIA）公布財報前股價從先前跌勢中反彈，同時油價和債券殖利率下滑也讓投資者略感寬慰。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "faf38d23214640b9",
+        "title": "趙寅成放棄休息也要演！李滄東暌違8年新片代表韓國闖奧斯卡",
+        "published_at": "2026-08-26T07:03:00+08:00",
+        "time": "07:03",
+        "url": "https://www.chinatimes.com/realtimenews/20260825004643-260404",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260825004643-260404",
+        "summary": "韓國名導李滄東繼《燃燒烈愛》後，暌違8年新片《可能的愛情》找來薛景求、全道嬿、趙寅成、曹汝貞等實力派演員共同主演，先前除了入選威尼斯影展主競賽單元，昨（25日）又宣布將代表韓國參戰奧斯卡最佳國際影片獎，",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "bb66589793b143c7",
+        "title": "沙德爾最新路徑曝！今午後2地區防雷雨 明起颱風外圍環流襲台",
+        "published_at": "2026-08-26T07:01:38+08:00",
+        "time": "07:01",
+        "url": "https://news.ltn.com.tw/news/life/breakingnews/5552283",
+        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5552283",
+        "summary": "中央氣象署表示，今天（26日）清晨至上午中南部仍有局部陣雨或雷雨，南部清晨仍有短延時大雨，上中午起水氣漸少，雨勢逐漸趨緩，其他地區也轉為多雲到晴，午後西半部山區及東半部仍有局部短暫雷陣雨。",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "11607359bd2ef62a",
+        "title": "Costco熟食「哪天」買最新鮮？答案超意外 很多人不知道",
+        "published_at": "2026-08-26T07:01:19+08:00",
+        "time": "07:01",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5552134",
+        "canonical_url": "https://ec.ltn.com.tw/article/breakingnews/5552134",
+        "summary": "初次上稿08-25 22:34 更新時間08-26 07：01 〔財經頻道／綜合報導〕不少人逛Costco都會順手帶盒熟食回家，快速解決一餐。不過，究竟一週中的哪一天去Costco，最容",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "5219c2d9591dac4c",
+        "title": "「沙德爾」颱風路徑「遠離台灣」更偏北 預計週五登陸浙江",
+        "published_at": "2026-08-26T07:00:52+08:00",
+        "time": "07:00",
+        "url": "https://news.ltn.com.tw/news/life/breakingnews/5552281",
+        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5552281",
+        "summary": "今年第18號颱風「沙德爾」中心位置於今日凌晨2點位於日本沖繩縣那霸北北東方140公里處，以每小時16轉12公里速度，向西北西轉西前進。國家災害防救科技中心（NCDR）統整各國最新路徑，「沙德爾」颱風路徑更往北偏，預測暴風圈距離台灣本島已有一段距離，將在週五（28日）登陸中國浙江省。",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "a41a315078e016d1",
+        "title": "中職／延賽惡夢不斷纏身 單一球季增彈性成解方",
+        "published_at": "2026-08-26T07:00:00+08:00",
+        "time": "07:00",
+        "url": "https://udn.com/news/story/122629/9713858",
+        "canonical_url": "https://udn.com/news/story/122629/9713858",
+        "summary": "中職近年延賽場數超過20場，補賽週仍難化解梅雨季衝擊；建議採單一球季，彈性保留補賽日，並改善球場排水。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "c5f352855e38e58a",
+        "title": "高昂代價換回華森值得嗎？騎士重磅重組背後的爭冠抉擇",
+        "published_at": "2026-08-26T07:00:00+08:00",
+        "time": "07:00",
+        "url": "https://udn.com/news/story/122629/9713447",
+        "canonical_url": "https://udn.com/news/story/122629/9713447",
+        "summary": "騎士完成五隊重磅交易，換來23歲大型側翼華森，卻付出史特魯斯、施羅德等輪替戰力與選秀資產，正式押注陣容升級與爭冠前景。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "287d1844fc6d0d45",
+        "title": "日職／控球修不好球速還變慢 藤浪晉太郎生涯顯現危機訊號",
+        "published_at": "2026-08-26T07:00:00+08:00",
+        "time": "07:00",
+        "url": "https://udn.com/news/story/122629/9713049",
+        "canonical_url": "https://udn.com/news/story/122629/9713049",
+        "summary": "藤浪晉太郎回歸日職後控球問題未解，球速也下滑；截至8月23日，本季一軍僅投10局、防禦率6.30，生涯與續約前景亮起警訊。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "7e5ff31526f4f37b",
+        "title": "早安快評》兌現賴清德「餘命＋3」的代價（蔣德綱）",
+        "published_at": "2026-08-26T07:00:00+08:00",
+        "time": "07:00",
+        "url": "https://www.chinatimes.com/realtimenews/20260826000071-260407",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826000071-260407",
+        "summary": "內政部8月24日公布國人平均壽命，最新統計為81.27歲，比前一年增加0.5歲；其中女性平均壽命為84.75歲、男性為77.93歲，兩性差距近7年。而就在10天前賴清德總統發下豪語「如果能給他8年，我就能提升國人的平均餘命3年",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "6357f42172cef465",
+        "title": "LTN經濟通》一張卡牌百萬美元？收藏家也瘋狂",
+        "published_at": "2026-08-26T07:00:00+08:00",
+        "time": "07:00",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5547784",
+        "canonical_url": "https://ec.ltn.com.tw/article/breakingnews/5547784",
+        "summary": "寶可夢卡牌累計報酬率高於同期標普500指數 〔財經頻道／綜合報導〕寶可夢（Pokémon）卡牌熱度持續升高，稀有卡牌甚至動輒喊價數十萬、數百萬美元，究竟寶可夢卡牌為何突然爆紅，又有什麼魅力讓",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "26e24c55332da063",
+        "title": "【專家之眼】AI劇《問蒼生》的文化震撼",
+        "published_at": "2026-08-26T06:55:00+08:00",
+        "time": "06:55",
+        "url": "https://udn.com/news/story/7332/9714311",
+        "canonical_url": "https://udn.com/news/story/7332/9714311",
+        "summary": "一部26分鐘的中國AI短劇《我這一生最大的罪，是把人寫成了妖……》（簡稱《問蒼生》），意外成為兩岸網路最受矚目的作品之一。它以東漢末年黃巾起義為背景，寫飢荒、苛政與百姓反抗，上線後迅速突破千萬觀看。「你們不是天生該跪」等台詞在社群大量流傳，更引發作品究竟是在談古代，還是在借古言今的爭論。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "efe5fabd914c9214",
+        "title": "25歲女留學生領畢業證後失聯 韓警尋獲遺體、逮捕涉案男",
+        "published_at": "2026-08-26T06:50:00+08:00",
+        "time": "06:50",
+        "url": "https://www.chinatimes.com/realtimenews/20260826000018-260402",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826000018-260402",
+        "summary": "25歲大陸女留學生「文文」（化名）日前赴南韓大邱領取研究所畢業證書，原訂8月23日搭機返回大陸，卻在8月20日晚間與家人及友人失去聯繫。家屬原本透過當地律師向警方報案並向大陸駐釜山總領事館求助，沒想到案件25日",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "06ebe5c0a8d8be9e",
+        "title": "國1北上湖口凌晨2事故 小客車追撞事故班作業及緩撞車…聯結車翻覆塞爆",
+        "published_at": "2026-08-26T06:36:00+08:00",
+        "time": "06:36",
+        "url": "https://udn.com/news/story/7320/9714309",
+        "canonical_url": "https://udn.com/news/story/7320/9714309",
+        "summary": "高速公路局北區交控中心說，今天清晨4時27分，國道1號北上84.4K湖口前，發生1輛自小客車追撞事故班作業車及緩撞車，占用全線車道，一度封閉。今天清晨5時44分開放內線通行。可以先下湖口出口之後再從湖口入口進入主線。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "ae4b466c0cc35532",
+        "title": "「粥餅倫」灌餅店慘關門 因房租大漲嘆：只求吃飽飯",
+        "published_at": "2026-08-26T06:30:00+08:00",
+        "time": "06:30",
+        "url": "https://www.chinatimes.com/realtimenews/20260826000015-260402",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826000015-260402",
+        "summary": "曾因外貌神似華語流行天王周杰倫而爆紅的河北雞蛋灌餅攤主「粥餅倫」（本名白獻英），近年從街頭攤販轉型開設門市，事業一度拓展至天津、石家莊，全盛時期共經營3家店。不過，隨著網路熱度退燒，加上店面租金持續上",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "a29bfcda5a3abfce",
+        "title": "美國鄉村音樂天后桃莉芭頓辭世享壽80歲 川普下令降半旗",
+        "published_at": "2026-08-26T06:25:00+08:00",
+        "time": "06:25",
+        "url": "https://udn.com/news/story/6813/9714241",
+        "canonical_url": "https://udn.com/news/story/6813/9714241",
+        "summary": "鄉村音樂天后桃莉芭頓(Dolly Parton)辭世，享壽80歲。川普總統於真實社群(Truth Social)發文哀悼，稱她是「有史以來最偉大的鄉村歌手之一」，並下令自今晚6時起，全美國旗降半旗致哀一周。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
         "id": "6560515a5bb90e82",
-        "title": "國1北上湖口至楊梅「紫爆」 聯結車追撞貨櫃車側翻事故 建議改走國3",
+        "title": "國1北上湖口至楊梅「紫爆」 聯結車追撞貨櫃車側翻事故…建議改走國3",
         "published_at": "2026-08-26T06:21:00+08:00",
         "time": "06:21",
         "url": "https://udn.com/news/story/7320/9714304",
@@ -266,28 +541,6 @@
         "summary": "國道1號北向楊梅路段今天凌晨發生重大車禍，高速公路局表示，今天凌晨3時1分，在國1北向75.5K楊梅前，發生1輛聯結車追撞1輛貨櫃車，其中1車側翻占用全線事故，目前開放外側路肩通行。建議用路人可以先下湖口出口之後，再從湖口入口進入主線。現場仍在進行拖吊作業，行車速度相當緩慢，建議改走國3。",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "d5c1989a3a06eff4",
-        "title": "首批2架F-16 Block 70戰機近日抵台 專家估可抗衡共軍殲-20",
-        "published_at": "2026-08-26T06:20:00+08:00",
-        "time": "06:20",
-        "url": "https://news.ltn.com.tw/news/def/breakingnews/5552264",
-        "canonical_url": "https://news.ltn.com.tw/news/def/breakingnews/5552264",
-        "summary": "首次上稿 08-26 03:15更新時間 08-26 06:20台灣向美國採購的首批兩架F-16 Block 70戰機，預計近日飛抵台灣。分析人士指出，這款升級型戰機將有助於提升台灣對抗中國第5代戰機「殲-20」的勝算。這也是台灣以新台幣2473億元採購66架戰機的延宕計畫中，首批交付的戰機。香港「",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "9cb2fc01f054b718",
-        "title": "中市議會第6屆起3席以上性別保障 衝擊中西區三連任男將",
-        "published_at": "2026-08-26T06:18:08+08:00",
-        "time": "06:18",
-        "url": "https://news.ltn.com.tw/news/politics/breakingnews/5552279",
-        "canonical_url": "https://news.ltn.com.tw/news/politics/breakingnews/5552279",
-        "summary": "年底九合一大選11月28日舉行， 中選會已正式公告各縣市應選席次及婦女保障名額，因地方制度法已修正，第六屆起三席以上就需性別保障， 第5屆台中市議會中西區就有3位皆是男性市議員且要爭取連任，但面對第6屆需性別保障，3位市議員不僅要連任，而且要衝前2名。",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
       },
       {
         "id": "bd30232219ae5035",
@@ -301,28 +554,6 @@
         "source_url": "https://udn.com/news/breaknews/1"
       },
       {
-        "id": "0ce78f7ca1c0392a",
-        "title": "百年台中州廳8/31重開 文化局進駐打造「文化客廳」",
-        "published_at": "2026-08-26T06:12:00+08:00",
-        "time": "06:12",
-        "url": "https://news.ltn.com.tw/news/life/breakingnews/5552267",
-        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5552267",
-        "summary": "國定古蹟「台中州廳」始建於1913年，距今有113年歷史，歷經約6年兩期再利用工程，封閉多年，預定8月31日（下週一）重開大門，由台中市文化局進駐辦公，文化局長陳佳君說，州廳承載百年行政歷程，將致力活化為兼具藝文活力、公共服務場域。",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "70254298ff76919e",
-        "title": "烏克蘭和平談判陷僵局 美CIA局長突訪莫斯科",
-        "published_at": "2026-08-26T06:10:50+08:00",
-        "time": "06:10",
-        "url": "https://news.ltn.com.tw/news/world/breakingnews/5552236",
-        "canonical_url": "https://news.ltn.com.tw/news/world/breakingnews/5552236",
-        "summary": "首次上稿 08-25 23:25更新時間 08-26 06:10美國中央情報局（CIA）局長雷克里夫於美東時間8月25日被證實正在俄羅斯首都莫斯科進行會談，美國哥倫比亞廣播公司新聞（CBS News）率先報導指出，自雷克里夫2025年就任中情局局長以來，這是已知首次訪問俄羅斯。",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
         "id": "65d30bf4aa5dba3a",
         "title": "港男請沒錢阿婆吃肯德基 「善良的結局」讓人好心寒",
         "published_at": "2026-08-26T06:10:00+08:00",
@@ -334,19 +565,8 @@
         "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
-        "id": "c116a52bacf4fea8",
-        "title": "08/26 各報重點新聞一覽",
-        "published_at": "2026-08-26T06:08:16+08:00",
-        "time": "06:08",
-        "url": "https://news.ltn.com.tw/news/life/breakingnews/5552276",
-        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5552276",
-        "summary": "自由時報退役少校淪共諜 拉2軍職兒下水 上士助蒐軍機 更二審重判16年",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
         "id": "dc285abd911b3f63",
-        "title": "美股收盤》輝達財報前終止連7跌！道瓊漲160點 台積電ADR升1.78％",
+        "title": "美股收盤》輝達終止連7跌！道瓊漲160點 台積電ADR升1.78％",
         "published_at": "2026-08-26T06:07:19+08:00",
         "time": "06:07",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5552278",
@@ -400,17 +620,6 @@
         "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
-        "id": "903d392d45ee3111",
-        "title": "市場權衡中東局勢 美股收盤齊揚",
-        "published_at": "2026-08-26T05:36:03+08:00",
-        "time": "05:36",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5552274",
-        "canonical_url": "https://ec.ltn.com.tw/article/breakingnews/5552274",
-        "summary": "〔中央社〕美國近日宣布對伊朗擴大經濟制裁，但未訂出明確時程，也未點名制裁其他國家，較分析師預期來得溫和，此外美伊也已重啟穿梭外交，市場正權衡局勢發展，華爾街股市今天收紅。 道瓊工業指數上漲160.2",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
         "id": "34f2b9e1c8766356",
         "title": "辣妻抓猴！小三簽「不再主動聯繫」協議竟偷聊私事 判賠30萬",
         "published_at": "2026-08-26T05:30:00+08:00",
@@ -423,7 +632,7 @@
       },
       {
         "id": "eea7541b45c64f14",
-        "title": "今放晴午後仍有對流 「沙德爾」過門不入⋯明暴風圈邊緣掃北部海面",
+        "title": "今放晴午後仍有對流 吳德榮：沙德爾過門不入 明暴風圈邊緣掃北部海面",
         "published_at": "2026-08-26T05:27:00+08:00",
         "time": "05:27",
         "url": "https://udn.com/news/story/7266/9714259",
@@ -486,17 +695,6 @@
         "summary": "檢調偵辦國民黨立委陳雪生涉貪案，懷疑金欣海運實際負責人、前國大代表楊肅元涉嫌透過關聯企業金廈海運幫陳雪生雇用前海軍敦睦艦隊少將范寶華為特別助理，專責國會業務，按月支付薪酬，致陳雪生獲不正利益至少上百萬",
         "source": "中時新聞網・即時",
         "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "a29bfcda5a3abfce",
-        "title": "美國鄉村音樂天后桃莉芭頓辭世享壽80歲 川普下令降半旗",
-        "published_at": "2026-08-26T03:25:00+08:00",
-        "time": "03:25",
-        "url": "https://udn.com/news/story/6813/9714241",
-        "canonical_url": "https://udn.com/news/story/6813/9714241",
-        "summary": "鄉村音樂天后桃莉芭頓(Dolly Parton)辭世，享壽80歲。川普總統於真實社群(Truth Social)發文哀悼，稱她是「有史以來最偉大的鄉村歌手之一」，並下令自今晚6時起，全美國旗降半旗致哀一周。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
       },
       {
         "id": "b0ddbe0fa562f49c",
@@ -574,20 +772,53 @@
         "summary": "綠委吳思瑤在Threads發文質疑台北市長蔣萬安不關心也沒有解決教師荒，質疑去國小玩水槍趴之餘，到底有沒有心在市政。藍委葉元之指出，吳思瑤聲稱教育部「不用幫地方政府解決」缺老師的問題，就是跟長期把教育搞爛的",
         "source": "中時新聞網・即時",
         "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "9daa2547aea96679",
-        "title": "大膽爆乳妹「名牌0元購」 長島商場公布長相懸賞",
-        "published_at": "2026-08-26T00:01:00+08:00",
-        "time": "00:01",
-        "url": "https://www.chinatimes.com/realtimenews/20260826000016-260408",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826000016-260408",
-        "summary": "美國紐約長島日前發生一起名牌精品竊案，2名年輕女子疑似結伴闖入Outlet「大採購」，卻是拿了商品就走人，完全沒有付款。警方調查發現，2人先在Coach門市偷走價值近1400美元（約新台幣4.4萬元）的名牌包，接著又轉往",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
       }
     ],
     "finance": [
+      {
+        "id": "433be842b84543e2",
+        "title": "台積電ADR上漲1.8% 日月光聯電更強勁 台指期夜盤勁揚405點",
+        "published_at": "2026-08-26T07:18:00+08:00",
+        "time": "07:18",
+        "url": "https://money.udn.com/money/story/123398/9714321?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/123398/9714321",
+        "summary": "台股ADR周二（25日）收漲，台積電ADR收盤上漲1.78%，報每股417.41美元，收盤最新價格換算並折合新台幣後為每股2,661.32元，較台北交易股票溢價率為10.89%。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "939db40e07271ab5",
+        "title": "「IC設計像拍電影」 信驊晶片搶全球8成市佔！林鴻明為何等AI來了才聘新人？",
+        "published_at": "2026-08-26T07:18:00+08:00",
+        "time": "07:18",
+        "url": "https://udn.com/news/story/7240/9713157",
+        "canonical_url": "https://udn.com/news/story/7240/9713157",
+        "summary": "信驊董事長林鴻明是在中年受挫時創立公司。他笑著說，有今天的成果完全出乎意料之外。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "919d827d1367657f",
+        "title": "科技股止血反攻！美股全線收紅 台積電ADR飆近1.8%",
+        "published_at": "2026-08-26T07:03:26+08:00",
+        "time": "07:03",
+        "url": "https://www.taisounds.com/news/content/84/285165",
+        "canonical_url": "https://www.taisounds.com/news/content/84/285165",
+        "summary": "AI晶片巨頭輝達（Nvidia）公布財報前夕，科技股從拋售潮中回神，加上油價與美債殖利率下跌，華爾街股市主要指數週二（25日）全線收紅，台積電ADR揚升7.29美元或1.78%，收在417.41美元。",
+        "source": "太報・財經焦點",
+        "source_url": "https://www.taisounds.com/news/section/76"
+      },
+      {
+        "id": "ee8372ca039dbb9b",
+        "title": "I Will Always Love You原唱桃莉芭頓80歲辭世 川普令全美降半旗",
+        "published_at": "2026-08-26T07:03:22+08:00",
+        "time": "07:03",
+        "url": "https://www.taisounds.com/news/content/84/285164",
+        "canonical_url": "https://www.taisounds.com/news/content/84/285164",
+        "summary": "美國鄉村音樂傳奇巨星桃莉芭頓（Dolly Parton）的外甥25日宣布，這位惠妮休斯頓名曲「我將永遠愛你」的原唱人已辭世，享壽80歲。美國總統川普下令全美降半旗一週悼念。",
+        "source": "太報・財經焦點",
+        "source_url": "https://www.taisounds.com/news/section/76"
+      },
       {
         "id": "8bb62cba36cb251e",
         "title": "輝達股價止跌了! 宣布入門機器人平台Jetson Orin Nano 2 、研華華碩入列",
@@ -598,28 +829,6 @@
         "summary": "AI指標股輝達財報公布前，股價7連跌止跌了！輝達趁勢宣布Jetson Orin Nano 2，透過前沿生成式AI能力下放到入門機器人平台，不用再仰賴高端硬體，算力翻倍，功耗更降低40%，預計明年首季推出，台廠研華、華碩入列。",
         "source": "太報・財經焦點",
         "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "4490390fcdef803c",
-        "title": "搶搭青安2.0末班車、民俗月前交易 7月房貸月增量寫一年半最大",
-        "published_at": "2026-08-26T01:29:00+08:00",
-        "time": "01:29",
-        "url": "https://house.udn.com/house/story/123589/9714019",
-        "canonical_url": "https://house.udn.com/house/story/123589/9714019",
-        "summary": "中央銀行昨（25）日發布最新統計顯示，7月底購置住宅貸款餘額升至11兆8,896億元，單月增加769億元，年增4.52%，月增量創逾一年半最大，年增率為今年2月以來新高。央行官員強調，這波房貸增加主要受到短期政策與季節因素帶動，房市整體「量縮價穩」的盤整格局並未改變。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "02cfcfd082a63c8b",
-        "title": "國1北上湖口至楊梅「紫爆」 聯結車追撞貨櫃車側翻事故 建議改走國3",
-        "published_at": "2026-08-26T01:29:00+08:00",
-        "time": "01:29",
-        "url": "https://money.udn.com/money/story/122328/9714304?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/122328/9714304",
-        "summary": "國道1號北向楊梅路段今天凌晨發生重大車禍，高速公路局表示，今天凌晨3時1分，在國1北向75.5K楊梅前，發生1輛聯結車追撞1輛貨櫃車，其中1車側翻占用全線事故，目前開放外側路肩通行。建議用路人可以先下湖口出口之後，再從湖口入口進入主線。現場仍在進行拖吊作業，行車速度相當緩慢，建議改走國3。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
         "id": "a5a9a4c19f5e5151",
@@ -633,6 +842,17 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
+        "id": "c0f4484cb853e79d",
+        "title": "美股收盤／四大指數收漲 輝達財報前科技股反彈 美債殖利率回落助攻",
+        "published_at": "2026-08-26T01:19:00+08:00",
+        "time": "01:19",
+        "url": "https://money.udn.com/money/story/123398/9714315?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/123398/9714315",
+        "summary": "美股四大指數周二（25日）收紅，因科技股在AI巨頭輝達（NVIDIA）公布財報前股價從先前跌勢中反彈，同時油價和債券殖利率下滑也讓投資者略感寬慰。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
         "id": "7a86b018101fb3c5",
         "title": "永豐金前七月賺贏去年全年 總座談股利政策 仍以現金為主",
         "published_at": "2026-08-26T01:19:00+08:00",
@@ -640,6 +860,17 @@
         "url": "https://money.udn.com/money/story/5613/9714014?from=ednappsharing",
         "canonical_url": "https://money.udn.com/money/story/5613/9714014",
         "summary": "永豐金控昨（25）日舉行第2季法說會，受惠銀行、證券等核心業務表現亮眼，前七月稅後純益達289.32億元，年增89%，已超越2025年全年獲利，每股稅後純益達1.96元，獲利續創高峰。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "1a2e2308db704890",
+        "title": "搶搭青安2.0末班車、民俗月前交易需求湧現 7月房貸月增量寫一年半最大",
+        "published_at": "2026-08-26T01:19:00+08:00",
+        "time": "01:19",
+        "url": "https://money.udn.com/money/story/5613/9714019?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5613/9714019",
+        "summary": "中央銀行昨（25）日發布最新統計顯示，7月底購置住宅貸款餘額升至11兆8,896億元，單月增加769億元，年增4.52%，月增量創逾一年半最大，年增率為今年2月以來新高。央行官員強調，這波房貸增加主要受到短期政策與季節因素帶動，房市整體「量縮價穩」的盤整格局並未改變。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
@@ -798,17 +1029,6 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "ce92cf187ed94856",
-        "title": "輝達VR效能驚豔！每詞元成本大減 鴻海、廣達、緯創接單看到2028年",
-        "published_at": "2026-08-26T00:54:00+08:00",
-        "time": "00:54",
-        "url": "https://udn.com/news/story/7240/9714065",
-        "canonical_url": "https://udn.com/news/story/7240/9714065",
-        "summary": "輝達財報會議前夕，美國時間24日搶先揭露萬眾矚目的最新Vera Rubin平台效能數據，與目前最先進的GB300 NVL 72相較，Vera Rubin資料吞吐量是GB300的30倍，每詞元（Token）成本也大減，驚艷市場。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
         "id": "771e065e3567f11f",
         "title": "王識賢、羅志祥西門町陪玩 《網紅老爸》休息室驚竄火苗",
         "published_at": "2026-08-26T00:53:15+08:00",
@@ -941,17 +1161,6 @@
         "source_url": "https://www.taisounds.com/news/section/76"
       },
       {
-        "id": "35588d0efad6f3c9",
-        "title": "機長歌手護送歌王歌后飛西雅圖 許富凱傳授萬芳舞功",
-        "published_at": "2026-08-26T00:01:27+08:00",
-        "time": "00:01",
-        "url": "https://www.taisounds.com/news/content/107/285154",
-        "canonical_url": "https://www.taisounds.com/news/content/107/285154",
-        "summary": "「愛之日常音樂節」8月29日將在西雅圖登場，民歌手、華航機長廖柏青明（8╱27）將親自執飛護送許富凱、郭子（郭蘅祈）、浮花樂隊、黃韻玲、沈裕紘、萬芳、桑布伊、鄭宜農、霜淇淋樂團飛美，他打趣說含金量這麼高的團隊一路上說說唱唱，根本可以在太平洋上空先開唱。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
         "id": "8bf6d4e40596a77c",
         "title": "彰銀、國票金「公公併」 市場解讀：幾成定局",
         "published_at": "2026-08-26T00:00:00+08:00",
@@ -964,6 +1173,50 @@
       }
     ],
     "housing": [
+      {
+        "id": "b9e6af6ad24a0c8e",
+        "title": "淡水租屋藏「兩大價差」！3大學區租金曝光 套房、整戶竟差這麼多",
+        "published_at": "2026-08-26T07:18:00+08:00",
+        "time": "07:18",
+        "url": "https://estate.ltn.com.tw/article/28708",
+        "canonical_url": "https://estate.ltn.com.tw/article/28708",
+        "summary": "新學期即將到來，淡水大專院校周邊租屋市場也進入關注期。淡水區內有淡江大學、真理大學及台北海洋科技大學淡水校區，校園周邊生活機能成熟，不僅是學生租屋熱區，也吸引上班族及小家庭進駐。淡水地政事務所整理113年至115年實價登錄租賃資料，分析3校周邊租賃交易時間、",
+        "source": "自由時報・地產天下",
+        "source_url": "https://estate.ltn.com.tw/news"
+      },
+      {
+        "id": "919d827d1367657f",
+        "title": "科技股止血反攻！美股全線收紅 台積電ADR飆近1.8%",
+        "published_at": "2026-08-26T07:03:26+08:00",
+        "time": "07:03",
+        "url": "https://www.taisounds.com/news/content/84/285165",
+        "canonical_url": "https://www.taisounds.com/news/content/84/285165",
+        "summary": "AI晶片巨頭輝達（Nvidia）公布財報前夕，科技股從拋售潮中回神，加上油價與美債殖利率下跌，華爾街股市主要指數週二（25日）全線收紅，台積電ADR揚升7.29美元或1.78%，收在417.41美元。",
+        "source": "太報・房市",
+        "source_url": "https://www.taisounds.com/news/section/81"
+      },
+      {
+        "id": "ee8372ca039dbb9b",
+        "title": "I Will Always Love You原唱桃莉芭頓80歲辭世 川普令全美降半旗",
+        "published_at": "2026-08-26T07:03:22+08:00",
+        "time": "07:03",
+        "url": "https://www.taisounds.com/news/content/84/285164",
+        "canonical_url": "https://www.taisounds.com/news/content/84/285164",
+        "summary": "美國鄉村音樂傳奇巨星桃莉芭頓（Dolly Parton）的外甥25日宣布，這位惠妮休斯頓名曲「我將永遠愛你」的原唱人已辭世，享壽80歲。美國總統川普下令全美降半旗一週悼念。",
+        "source": "太報・房市",
+        "source_url": "https://www.taisounds.com/news/section/81"
+      },
+      {
+        "id": "6357f42172cef465",
+        "title": "LTN經濟通》一張卡牌百萬美元？收藏家也瘋狂",
+        "published_at": "2026-08-26T07:00:00+08:00",
+        "time": "07:00",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5547784",
+        "canonical_url": "https://ec.ltn.com.tw/article/breakingnews/5547784",
+        "summary": "寶可夢卡牌累計報酬率高於同期標普500指數 〔財經頻道／綜合報導〕寶可夢（Pokémon）卡牌熱度持續升高，稀有卡牌甚至動輒喊價數十萬、數百萬美元，究竟寶可夢卡牌為何突然爆紅，又有什麼魅力讓",
+        "source": "自由財經・房產資訊",
+        "source_url": "https://ec.ltn.com.tw/list/estate"
+      },
       {
         "id": "8bb62cba36cb251e",
         "title": "輝達股價止跌了! 宣布入門機器人平台Jetson Orin Nano 2 、研華華碩入列",
@@ -1007,6 +1260,17 @@
         "summary": "王識賢、陳怡佳、張懷秋、羅志祥、孫鵬、白吉勝、林道禹、王宣、柯宇森昨（8╱25）在西門町掃街為《網紅老爸》造勢並舉行見面會，不料藝人休息室疑似電線走火飄出刺鼻的塑膠燒焦味，冷氣機也一度冒出火苗，黃鐙輝急忙驅散人員，並對現場記者說「工作沒有生命重要」，要大家快收電腦，「先別寫了」！所幸最後有驚無險。",
         "source": "太報・房市",
         "source_url": "https://www.taisounds.com/news/section/81"
+      },
+      {
+        "id": "c0f4484cb853e79d",
+        "title": "美股收盤／四大指數收漲 輝達財報前科技股反彈 美債殖利率回落助攻",
+        "published_at": "2026-08-26T00:47:00+08:00",
+        "time": "00:47",
+        "url": "https://money.udn.com/money/story/123398/9714315?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/123398/9714315",
+        "summary": "美股四大指數周二（25日）收紅，因科技股在AI巨頭輝達（NVIDIA）公布財報前股價從先前跌勢中反彈，同時油價和債券殖利率下滑也讓投資者略感寬慰。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
       },
       {
         "id": "528fe9dbbf485ef5",
