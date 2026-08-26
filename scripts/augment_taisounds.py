@@ -18,6 +18,14 @@ TZ = ZoneInfo("Asia/Taipei")
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "news.json"
 
+DISABLED_FEEDS = [
+    {
+        "name": "太報・天氣",
+        "url": "https://www.taisounds.com/news/section/139",
+        "category": "weather",
+    },
+]
+
 FEEDS = [
     {
         "name": "太報・房市",
@@ -29,12 +37,6 @@ FEEDS = [
         "name": "太報・財經焦點",
         "url": "https://www.taisounds.com/news/section/76",
         "category": "finance",
-        "max_candidates": 35,
-    },
-    {
-        "name": "太報・天氣",
-        "url": "https://www.taisounds.com/news/section/139",
-        "category": "weather",
         "max_candidates": 35,
     },
 ]
@@ -49,7 +51,7 @@ TIME_DATE_RE = re.compile(
 
 GENERIC_TEXT = {
     "上一篇", "下一篇", "看更多", "更多", "首頁", "熱門", "最新", "快訊",
-    "房市", "財經焦點", "天氣", "太報", "TaiSounds",
+    "房市", "財經焦點", "太報", "TaiSounds",
 }
 
 session = requests.Session()
@@ -283,9 +285,40 @@ def item_id(canonical: str) -> str:
     return hashlib.sha1(canonical.encode("utf-8")).hexdigest()[:16]
 
 
+def remove_disabled_sources(payload: dict) -> None:
+    categories = payload.setdefault("categories", {})
+    sources = payload.setdefault("sources", {})
+
+    for disabled in DISABLED_FEEDS:
+        category = disabled["category"]
+        disabled_name = disabled["name"]
+        disabled_url = disabled["url"]
+
+        items = list(categories.get(category, []))
+        filtered_items = [
+            item for item in items
+            if item.get("source") != disabled_name and item.get("source_url") != disabled_url
+        ]
+        removed = len(items) - len(filtered_items)
+        if removed:
+            print(f"[taisounds-cleanup] removed {removed} old item(s) from {disabled_name}")
+        categories[category] = filtered_items
+
+        group = sources.get(category, {})
+        feeds = group.get("feeds", []) if isinstance(group, dict) else []
+        if isinstance(feeds, list):
+            group["feeds"] = [
+                feed for feed in feeds
+                if not (
+                    isinstance(feed, dict)
+                    and (feed.get("name") == disabled_name or feed.get("url") == disabled_url)
+                )
+            ]
+
+
 def add_source_metadata(payload: dict) -> None:
     sources = payload.setdefault("sources", {})
-    labels = {"weather": "天氣", "finance": "金融", "housing": "房市"}
+    labels = {"finance": "金融", "housing": "房市"}
     for feed in FEEDS:
         category = feed["category"]
         group = sources.setdefault(category, {"label": labels[category], "feeds": []})
@@ -307,10 +340,12 @@ def main() -> None:
         raise SystemExit("news.json not found; run fetch_news.py first")
 
     payload = json.loads(OUTPUT.read_text(encoding="utf-8"))
+    remove_disabled_sources(payload)
+
     now = datetime.now(TZ)
     today = now.date()
     categories = payload.setdefault("categories", {})
-    added_counts = {"weather": 0, "finance": 0, "housing": 0}
+    added_counts = {"finance": 0, "housing": 0}
 
     for feed in FEEDS:
         category = feed["category"]
