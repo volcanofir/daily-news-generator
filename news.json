@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updated_at": "2026-08-26T21:44:15.925730+08:00",
+  "updated_at": "2026-08-26T22:41:22.057035+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "weather": {
@@ -17,12 +17,6 @@
           "url": "https://news.tvbs.com.tw/search?q=天氣&st=tag",
           "resolve_missing_dates": true,
           "max_candidates": 30
-        },
-        {
-          "name": "太報・天氣",
-          "url": "https://www.taisounds.com/news/section/139",
-          "resolve_missing_dates": true,
-          "max_candidates": 35
         }
       ]
     },
@@ -59,12 +53,6 @@
         {
           "name": "聯合新聞網・產經",
           "url": "https://udn.com/news/cate/2/6644"
-        },
-        {
-          "name": "太報・財經焦點",
-          "url": "https://www.taisounds.com/news/section/76",
-          "resolve_missing_dates": true,
-          "max_candidates": 35
         }
       ]
     },
@@ -132,194 +120,12 @@
         {
           "name": "富比士地產王",
           "url": "https://www.fbs168.com/"
-        },
-        {
-          "name": "太報・房市",
-          "url": "https://www.taisounds.com/news/section/81",
-          "resolve_missing_dates": true,
-          "max_candidates": 35
         }
       ]
     }
   },
   "categories": {
     "weather": [
-      {
-        "id": "9aaf5d06cdd361f4",
-        "title": "有片／尼泊爾山洪近300外國客失聯 已找到55具屍首",
-        "published_at": "2026-08-26T21:21:36+08:00",
-        "time": "21:21",
-        "url": "https://www.taisounds.com/news/content/84/285360",
-        "canonical_url": "https://www.taisounds.com/news/content/84/285360",
-        "summary": "尼泊爾與中國邊境的喜馬拉雅山區週三（26日）發生大規模山洪爆發，數個村莊直接遭到夷平。根據週三傍晚的最新消息，災難現場已經找到55具屍首。此外，有近300名外國觀光客失聯。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "0435e00dae0e60f2",
-        "title": "教堂內處決、沿途屍體橫陳 海地幫派搶「戰略山城」釀47死",
-        "published_at": "2026-08-26T21:17:47+08:00",
-        "time": "21:17",
-        "url": "https://www.taisounds.com/news/content/84/285361",
-        "canonical_url": "https://www.taisounds.com/news/content/84/285361",
-        "summary": "海地首都太子港附近山城肯斯科夫，週日（8/23）遭幫派血洗，至少47死、逾50人遭綁架；城內道路屍體橫陳，倖存者「踩著屍體逃命」。專家指幫派覬覦此地是因其可鳥瞰通往首都道路、控制連接首都與海地南部道路，又可包圍臨時政府所在高檔社區，具高度戰略價值。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "cdddcbb8d65cc420",
-        "title": "「台灣最強高中生」Ray出事了！超市直播「被警方攔下帶走」一度短暫拘留",
-        "published_at": "2026-08-26T21:08:58+08:00",
-        "time": "21:08",
-        "url": "https://www.taisounds.com/news/content/107/285362",
-        "canonical_url": "https://www.taisounds.com/news/content/107/285362",
-        "summary": "有「台灣最強高中生」之稱的實況主Ray，近日與友人RaKai等人前往美國連鎖賣場Walmart（沃爾瑪）開直播時，突然被到場的警方攔下，並被告知已遭店家正式列入禁止進入名單，若未來再踏入Walmart，恐構成刑事非法侵入（criminal trespass）。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "f044a93f5de07fa4",
-        "title": "政大高材生想當「女版小賈斯汀」 Ginger自嘲：不唱歌嘴巴會癢",
-        "published_at": "2026-08-26T21:03:47+08:00",
-        "time": "21:03",
-        "url": "https://www.taisounds.com/news/content/107/285359",
-        "canonical_url": "https://www.taisounds.com/news/content/107/285359",
-        "summary": "政大高材生、創作新人Ginger挾YT Music串流逾500萬次成績進攻歌壇，她還因清新率性的中性外型被網友封為「最帥女歌手」，把小賈斯汀（Justin Bieber）當成音樂啟蒙偶像的她許願當「台灣女版小賈斯汀」，「我從小就很喜歡他！除了很帥之外，他的歌曲也深深地影響我的創作風格，讓我愛上…",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "3b378b8d0453e9c5",
-        "title": "林安可重返一軍後連2場敲安、單場2度上壘 西武大比分敗給火腿",
-        "published_at": "2026-08-26T21:03:13+08:00",
-        "time": "21:03",
-        "url": "https://www.taisounds.com/news/content/102/285358",
-        "canonical_url": "https://www.taisounds.com/news/content/102/285358",
-        "summary": "效力日本職棒（NPB）琦玉西武獅的台灣野手林安可今天（26日）在交手北海道日本火腿鬥士的比賽擔任第4棒、左外野手，雖然3打數1安打1保送，重返一軍後連2場比賽敲安，可惜西武最終1：9輸球，中斷近期的4連勝。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "5a9286664a7827ff",
-        "title": "濟州吃案警有多誇張？ 涉家暴、女廁偷拍還連連獲得嘉獎",
-        "published_at": "2026-08-26T20:18:00+08:00",
-        "time": "20:18",
-        "url": "https://www.taisounds.com/news/content/84/285355",
-        "canonical_url": "https://www.taisounds.com/news/content/84/285355",
-        "summary": "南韓濟州島一名夫姓警察對失蹤人口報案進行謊報吃案的行為，之後被查出他「結案」的失蹤人口至少有2人死亡，包括震驚海外的「張美蘭案」，引起南韓軒然大波。週三（26日）新的報導指出，這名濟州島警察行徑荒唐，卻連年獲得南韓國家警察廳與濟州警署嘉獎授勳，凸顯出韓警內部的荒誕狀況。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "91247fb575e8423f",
-        "title": "中國新增台灣文旦果園、包裝廠註冊集中花蓮 陸委會：就是大禮包統戰宣傳",
-        "published_at": "2026-08-26T20:09:07+08:00",
-        "time": "20:09",
-        "url": "https://www.taisounds.com/news/content/71/285354",
-        "canonical_url": "https://www.taisounds.com/news/content/71/285354",
-        "summary": "中國海關總署網站日前公布新增一批台灣文旦柚包裝廠及果園註冊，國台辦發言人今天（8/26）被問到此事，表示符合大陸檢驗檢疫規定前提下，歡迎更多台灣優質產品銷往大陸。對此，陸委會也立刻回應表示，陸方這次作法與其公布前2批相同，「此種作法就只是包裝成『中秋大禮包』的統戰宣傳」。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "dc8d85b151b889d5",
-        "title": "彰銀併國票金成公股合併首選！ 路透：政策目標明年6月前見成果",
-        "published_at": "2026-08-26T19:34:32+08:00",
-        "time": "19:34",
-        "url": "https://www.taisounds.com/news/content/76/285350",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285350",
-        "summary": "政府積極推動公股金融機構整併態度轉向積極，市場矚目的「公公併」再傳重大進展。路透今天引述3名消息人士指出，彰化銀行（2801）併購國票金控（2889）有望成為政策推動的主要方向，政策目標是在2027年6月兩家公司股東會召開前，取得具體成果。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "27d59cda32242831",
-        "title": "芳香劑、刮鬍刀藏攝影機！「阡日咖啡」噁老闆8年偷拍20女 一審判關5年",
-        "published_at": "2026-08-26T19:26:08+08:00",
-        "time": "19:26",
-        "url": "https://www.taisounds.com/news/content/97/285348",
-        "canonical_url": "https://www.taisounds.com/news/content/97/285348",
-        "summary": "台北赤峰街知名文青咖啡店「阡日咖啡」去（2025）年爆出偷拍案，老闆徐維隆涉嫌利用偽裝成「芳香劑、電動刮鬍刀」的微型攝影機，偷拍員工、客人等至少20名女性如廁、洗澡或更衣的畫面，連去日本及韓國員工旅遊時都不放過。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "29dae7c820916979",
-        "title": "驚喜！NBA金州勇士球星巴特勒現身大巨蛋 中信兄弟曝光來台原因",
-        "published_at": "2026-08-26T19:23:44+08:00",
-        "time": "19:23",
-        "url": "https://www.taisounds.com/news/content/102/285347",
-        "canonical_url": "https://www.taisounds.com/news/content/102/285347",
-        "summary": "效力NBA金州勇士球星巴特勒（Jimmy Butler）今天（26日）突然驚喜現身台北大巨蛋的中信兄弟、樂天桃猿之戰引發一陣騷動，中信兄弟球團透露他抵台原因。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "20270c5fde202101",
-        "title": "當股東大勝當員工！聯發科8月分紅傳打85折、平均較2月縮水降至80萬",
-        "published_at": "2026-08-26T18:58:31+08:00",
-        "time": "18:58",
-        "url": "https://www.taisounds.com/news/content/76/285344",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285344",
-        "summary": "IC設計龍頭聯發科今年8月分紅上周開獎，分紅跳水有感！疑似員工在decard爆料，當股東比當員工好！面對手機業務逆風，ASIC貢獻有限，聯發科今年上半年獲利年減約15.4%，外界估算分紅總金額恐跌破100億元，約97億元區間，以集團1.2萬名員工估算，平均每人約領80萬元，對比2月約95萬元…",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "93589118cded1f8d",
-        "title": "陳冠如提案告中視 國票金董事會10：3否決 4獨董反對：依法律意見適當處理即可",
-        "published_at": "2026-08-26T18:58:06+08:00",
-        "time": "18:58",
-        "url": "https://www.taisounds.com/news/content/76/285343",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285343",
-        "summary": "國票金（2889）董事會今（26）日除了討論整併及薪酬改革，也爆發是否對中視採取法律行動的攻防。國票金晚間發布重訊指出，針對董事陳冠如提案，主張中視未查證即播放惡意不實報導，要求公司研議檢舉、提告等法律行為，不過最終遭董事會10票反對、3票贊成否決，多數董事認為，由權責單位依實際情況判斷、適當…",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "7b0793cf35d4ab21",
-        "title": "DRAM真的「金貴」 3.3公斤就可以買一戶房子",
-        "published_at": "2026-08-26T18:39:22+08:00",
-        "time": "18:39",
-        "url": "https://www.taisounds.com/news/content/78/285341",
-        "canonical_url": "https://www.taisounds.com/news/content/78/285341",
-        "summary": "根據南韓政府的最新統計數據，在人工智慧（AI）浪潮中飆漲的個人電腦用記憶體DRAM，價格已經直逼黃金，基準DRAM晶片每公斤（1000公克）的價格已經等同620公克的黃金。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "dd60e54af46c1823",
-        "title": "彰銀表態之後 國票金董事會拍板授權張兆順尋找標的 高層薪酬也將設天花板",
-        "published_at": "2026-08-26T18:36:47+08:00",
-        "time": "18:36",
-        "url": "https://www.taisounds.com/news/content/76/285340",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285340",
-        "summary": "國票金（2889）今（26）日召開董事會，正式通過啟動整併評估，並授權董事長張兆順洽尋整併標的，意味國票金正式從過去「提升身價、等待機會」，轉向主動尋找整併對象；",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "6b1d967107e78600",
-        "title": "韓國瑜出馬協商 無人載具條例仍無共識 8/27表決大戰見真章",
-        "published_at": "2026-08-26T18:34:42+08:00",
-        "time": "18:34",
-        "url": "https://www.taisounds.com/news/content/71/285339",
-        "canonical_url": "https://www.taisounds.com/news/content/71/285339",
-        "summary": "立法院長韓國瑜今天（8/26）下午主持朝野黨團協商，對經濟委員會協商保留的行政院版「國防自主無人載具採購特別條例草案」與在野黨版草案等13案進行協商，但經過1個多小時討論，雖然民眾黨對於無人載具條例可接受經濟部與國防部並列為主管機關，但藍白兩黨仍堅持以年度預算編列，國民黨團堅持2400億元、分…",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "37f2f760ca1f3a71",
-        "title": "瓊斯盃「地主保送4強」持續延燒！籃協曝光會議內容、時間表",
-        "published_at": "2026-08-26T18:05:46+08:00",
-        "time": "18:05",
-        "url": "https://www.taisounds.com/news/content/103/285336",
-        "canonical_url": "https://www.taisounds.com/news/content/103/285336",
-        "summary": "第45屆威廉瓊斯盃國際籃球邀請賽男子組日前落幕，賽制中「中華藍保送4強」特殊條款爭議持續延燒，菲律賓SGA隊更抱怨，球隊抵達台灣後才知這項規定，針對近期外界關心「參賽隊伍是否於賽前獲知本屆瓊斯盃賽制」一事，中華籃協重新整理 FIBA 往返信件，以及與各參賽隊伍之通訊紀錄，對外說明如下。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
       {
         "id": "4d8817a44a6135c1",
         "title": "沙德爾颱風最新路徑曝！明晚至28日最接近台灣，南部恐迎短延時豪雨",
@@ -332,103 +138,26 @@
         "source_url": "https://www.storm.mg/channel/120/"
       },
       {
-        "id": "5a2e11cafe3ac4d1",
-        "title": "擊破詐團變現不法所得 新北分署9/1拍賣保時捷名車、土城300坪賣場7800萬開標",
-        "published_at": "2026-08-26T18:02:35+08:00",
-        "time": "18:02",
-        "url": "https://www.taisounds.com/news/content/97/285335",
-        "canonical_url": "https://www.taisounds.com/news/content/97/285335",
-        "summary": "檢執聯手打擊黑幫與詐欺集團又有新動作！台灣新北地方檢察署偵辦犯嫌違反《組織犯罪防制條例》及詐欺等罪案件，為迅速剝奪犯罪所得、保障被害人權益並充裕國庫，特別囑託法務部行政執行署新北分署執行扣押物變價。新北分署定於9月1日舉辦聯合拍賣會，將查扣的幾近全新名車與位於精華地段的重磅不動產公開強勢釋出。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
+        "id": "7088f378c72291ee",
+        "title": "今年強颱特多？不是只看海溫！專家揭颱風變強真正燃料藏在海面下",
+        "published_at": "2026-08-26T14:00:00+08:00",
+        "time": "14:00",
+        "url": "https://news.tvbs.com.tw/life/4013058",
+        "canonical_url": "https://news.tvbs.com.tw/life/4013058",
+        "summary": "第18號颱風沙德爾歷經長途跋涉終於接近台灣附近海域，然而從19日升級為颱風以來，其路徑發展並不如預期順利。由於高壓勢力不夠強勁，導引環流使颱風位置逐漸偏北，目前陸上颱風警報發布機率已降至不到10%，但西南風帶來的水氣仍可能為中南部地區帶來明顯降雨。",
+        "source": "TVBS・天氣",
+        "source_url": "https://news.tvbs.com.tw/search?q=天氣&st=tag"
       },
       {
-        "id": "9e49f17044d0f75d",
-        "title": "0050登社會版！2300萬教育基金引關注 陳幸妤兒點名買0050都翻倍、實際報酬更驚人",
-        "published_at": "2026-08-26T17:30:37+08:00",
-        "time": "17:30",
-        "url": "https://www.taisounds.com/news/content/76/285327",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285327",
-        "summary": "前總統陳水扁之女陳幸妤與趙建銘事件引發外界討論，2,300萬元教育基金去向備受關注，陳幸妤更點名「若拿去買0050都翻倍了」，意外讓「國民ETF」元大台灣50(0050)跨界紅到社會新聞版面，再次掀起投資人對ETF長期理財的討論。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "b5fb8705ea56ed7c",
-        "title": "首度導入「主權AI」辦案！法務部分署長交接 鄭銘謙宣示執法新藍圖",
-        "published_at": "2026-08-26T17:27:34+08:00",
-        "time": "17:27",
-        "url": "https://www.taisounds.com/news/content/97/285326",
-        "canonical_url": "https://www.taisounds.com/news/content/97/285326",
-        "summary": "法務部行政執行署今（8/26）日舉行卸、新任分署長聯合交接及宣誓典禮。法務部長鄭銘謙親自監交時首度揭示，未來將導入「台灣主權AI技術」，建構法務專屬大型語言模型輔助案件管理；同時重申，將以鐵腕貫徹「五打七安」政策，嚴打惡意滯欠大戶並徹底剝奪犯罪不法所得，帶領行政執行邁入科技與正義並重的新時代。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "d54f549428e6e121",
-        "title": "台灣醫生在日本執業性侵 辯稱「採集細胞」遭到逮捕",
-        "published_at": "2026-08-26T17:22:50+08:00",
-        "time": "17:22",
-        "url": "https://www.taisounds.com/news/content/84/285324",
-        "canonical_url": "https://www.taisounds.com/news/content/84/285324",
-        "summary": "一名在日本東京的醫院執業的台灣籍婦產科醫師范育仁，因為涉嫌在診療時用性玩具對女患者進行性侵，週三（26日）已遭到日本警方逮捕。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "a3fa5f8151dc050d",
-        "title": "明年預算編列研究核融合 卓揆重申：重啟核電維持2必須、3原則",
-        "published_at": "2026-08-26T17:19:31+08:00",
-        "time": "17:19",
-        "url": "https://www.taisounds.com/news/content/71/285322",
-        "canonical_url": "https://www.taisounds.com/news/content/71/285322",
-        "summary": "行政院長卓榮泰今（8/26）日出席今周刊「第十屆新能源國際論壇」，他於會中提到，明（2027）則有部分經費關於核融合技術，盼能與國際接軌，但目前依照《核管法》修法，重啟核三仍需達到兩個必須、三個原則。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "5475abc4c36bc96e",
-        "title": "毒油！70年老牌「麻油車」黑麻油也中鏢 北市、嘉義市大稽查結果曝",
-        "published_at": "2026-08-26T17:16:28+08:00",
-        "time": "17:16",
-        "url": "https://www.taisounds.com/news/content/92/285321",
-        "canonical_url": "https://www.taisounds.com/news/content/92/285321",
-        "summary": "癌油風暴持續延燒，繼沙拉油、苦茶油接連被驗出致癌物苯駢芘超標後，如今黑麻油也出現不合格產品。台北市衛生局接獲統健實業有限公司自主通報，由嘉義市統購實業有限公司製造、透過聖德科斯門市販售的「麻油車冷壓黑麻油」，檢出苯駢芘3.2μg/kg，超過2.0μg/kg以下的限量標準。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "ca22b8c8b567e0bb",
-        "title": "懷疑鄰居發出噪音！調查局專員連續17月「24小時偷錄音」 判賠25萬確定",
-        "published_at": "2026-08-26T16:53:45+08:00",
-        "time": "16:53",
-        "url": "https://www.taisounds.com/news/content/97/285315",
-        "canonical_url": "https://www.taisounds.com/news/content/97/285315",
-        "summary": "法務部調查局黃姓專員及其許姓妻子於2021年7月間，懷疑樓上鄰居薛男發出噪音，竟在自家天花板裝上「集音器」及錄音設備，幾乎24小時不間斷錄取各種生活聲響，一路持續到隔年11月底。薛男得知後憤而提告，主張兩人侵害隱私權並求償157萬餘元。一審判賠25萬，黃男、許女不服，提起上訴。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "2275e08171be69db",
-        "title": "健康台灣委員會明宣布「健康幣」10月上線 健檢、癌篩、打疫苗可累積獎勵",
-        "published_at": "2026-08-26T16:30:31+08:00",
-        "time": "16:30",
-        "url": "https://www.taisounds.com/news/content/71/285311",
-        "canonical_url": "https://www.taisounds.com/news/content/71/285311",
-        "summary": "總統府健康台灣推動委員會明天（8/27）周四將召開會議，據了解，會中將宣布健康幣10月正式上線，透過正向獎勵機制，鼓勵民眾接受成人健康檢查、癌症篩檢及疫苗接種，並逐步納入運動、健康飲食與慢性病控制等項目，推動醫療政策由疾病治療向前延伸至健康促進與疾病預防。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
-        "id": "6381dab9fbec4966",
-        "title": "好消息！馬太鞍溪堰塞湖不見了 「恢復河道型態」空拍畫面曝光",
-        "published_at": "2026-08-26T14:15:00+08:00",
-        "time": "14:15",
-        "url": "https://www.taisounds.com/news/content/93/285266",
-        "canonical_url": "https://www.taisounds.com/news/content/93/285266",
-        "summary": "林業及自然保育署花蓮分署持續監測萬里溪與馬太鞍溪堰塞湖狀況，根據今天（8/26）最新空拍畫面顯示，萬里溪堰塞湖持續穩定溢流，溢流範圍侷限於下游河道內；另外馬太鞍溪上游原堰塞湖區已無蓄水，恢復河道型態，目前也未發現新生堰塞湖。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
+        "id": "8936b5593c01152f",
+        "title": "極端氣候挑戰加劇！學者籲增加「城市韌性」 防災思維需全面翻轉",
+        "published_at": "2026-08-26T14:00:00+08:00",
+        "time": "14:00",
+        "url": "https://news.tvbs.com.tw/life/4013176",
+        "canonical_url": "https://news.tvbs.com.tw/life/4013176",
+        "summary": "全球暖化加劇，極端氣候引發的複合型災害已經成為常態，像是高溫與乾旱容易造成森林野火，今年加拿大的森林野火延燒，超過2萬人被迫撤離家園，而濃煙壟罩飄散，也造成嚴重的空氣汙染，而氣候變遷，會讓颱風個數減少，但強度增加，又或是強降雨造成的淹水，都會讓人類越來越難預測，傳統的防禦面臨極限，必須轉向提升…",
+        "source": "TVBS・天氣",
+        "source_url": "https://news.tvbs.com.tw/search?q=天氣&st=tag"
       },
       {
         "id": "4d5a75c6242f3d98",
@@ -519,17 +248,6 @@
         "source_url": "https://www.storm.mg/channel/120/"
       },
       {
-        "id": "23697f119754ce9d",
-        "title": "周四放颱風假？沙德爾暴風圈侵襲率曝光 最新路徑又變：今晚海警",
-        "published_at": "2026-08-26T08:51:00+08:00",
-        "time": "08:51",
-        "url": "https://www.taisounds.com/news/content/139/285173",
-        "canonical_url": "https://www.taisounds.com/news/content/139/285173",
-        "summary": "中央大學大氣科學系兼任副教授吳德榮指出，沙德爾今、明（8/26、27）兩日將逐漸減弱，預計暴風圈明日將掃過台灣北部海面，不過北部海面仍需警戒。此外，今、明仍有午後對流發展，西南部雨彈狂掃且區域將擴大，提醒民眾出門記得攜帶雨具。",
-        "source": "太報・天氣",
-        "source_url": "https://www.taisounds.com/news/section/139"
-      },
-      {
         "id": "1689bfe78d2b9e0a",
         "title": "天氣／颱風假沒了？沙德爾最新路徑、陸警機率曝，最快今晚發海警，這天起全台雨彈來襲",
         "published_at": "2026-08-26T07:37:00+08:00",
@@ -607,19 +325,8 @@
         "source_url": "https://news.tvbs.com.tw/search?q=天氣&st=tag"
       },
       {
-        "id": "6383f489b462af3a",
-        "title": "天氣／沙德爾減弱明晨恐發海警 未來兩周進入熱帶系統「活躍期」",
-        "published_at": "2026-08-26T01:44:21+08:00",
-        "time": "01:44",
-        "url": "https://news.tvbs.com.tw/life/4012777",
-        "canonical_url": "https://news.tvbs.com.tw/life/4012777",
-        "summary": "中度颱風沙德爾颱風正持續減弱，路徑偏北且下墜趨勢並不明顯，明日清晨有發布海上颱風警報的機率。台灣整合防災工程技術顧問公司總監賈新興今（26）天稍早在臉書表示，未來兩週西北太平洋將進入「熱帶系統發展活躍期」，請大家特別注意。",
-        "source": "TVBS・天氣",
-        "source_url": "https://news.tvbs.com.tw/search?q=天氣&st=tag"
-      },
-      {
         "id": "ca2fe72d5c1faba4",
-        "title": "颱風動態》沙德爾預計明清晨發海警！最新路徑、影響範圍一次看",
+        "title": "颱風動態》沙德爾最快清晨發海警！最新路徑、影響範圍一次看",
         "published_at": "2026-08-26T00:30:02+08:00",
         "time": "00:30",
         "url": "https://news.tvbs.com.tw/life/4011700",
@@ -642,200 +349,574 @@
     ],
     "instant": [
       {
-        "id": "6abf1b09ce144db2",
-        "title": "中職／范國宸致勝安！張奕砸鍋後盜走第6勝 下半季爐主換雄鷹",
-        "published_at": "2026-08-26T21:44:00+08:00",
-        "time": "21:44",
-        "url": "https://udn.com/news/story/7001/9716287",
-        "canonical_url": "https://udn.com/news/story/7001/9716287",
-        "summary": "富邦悍將新洋投瑪帝斯831前最後登板機會，今天對上台鋼雄鷹，先發6局失1分，但牛棚出狀況，「勝投怪盜」張奕在8局上登板砸鍋，下半局靠范國宸挺身而出敲回致勝分，終場悍將以5：4勝出，把雄鷹擠入下半季墊底位置，張奕「盜」走本季第6勝。",
+        "id": "7d09a9a3b10013e3",
+        "title": "增至95死！中尼邊境遭遇暴洪、土石流釀死傷 專家推測致災原因",
+        "published_at": "2026-08-26T22:40:00+08:00",
+        "time": "22:40",
+        "url": "https://udn.com/news/story/6809/9716364",
+        "canonical_url": "https://udn.com/news/story/6809/9716364",
+        "summary": "位於中國和尼泊爾邊境的西藏吉隆口岸今天遭遇大規模暴洪及土石流，周邊也有村莊與道路被沖毀，尼泊爾警方發言人說至少95死，專...",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
       },
       {
-        "id": "bc1e604daaef098f",
-        "title": "一條延長線改變晚年！80歲嬤沒中風、沒心肌梗塞「日子卻失控了」",
-        "published_at": "2026-08-26T21:42:00+08:00",
-        "time": "21:42",
-        "url": "https://udn.com/news/story/7266/9716275",
-        "canonical_url": "https://udn.com/news/story/7266/9716275",
-        "summary": "胸腔暨重症專科醫師黃軒分享，門診曾遇過一名80多歲阿嬤，沒有心肌梗塞、也沒有中風，改變她晚年生活的，只是一條放在地上的延長線。",
+        "id": "5fd7c80b27831ca4",
+        "title": "新學期迎新的相遇與關係 桃園兒美館「尋找好朋友」主題書展登場",
+        "published_at": "2026-08-26T22:36:05+08:00",
+        "time": "22:36",
+        "url": "https://news.ltn.com.tw/news/life/breakingnews/5553551",
+        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5553551",
+        "summary": "新學期即將展開，桃園市兒童美術館推出「尋找好朋友」共融主題書展，即日起至11月30日於兒美館三樓兒童藝術圖書空間展出，精選36本探討人際互動與情感表達的繪本，並與同期「一樣不一樣」展覽相互呼應，從藝術作品與繪本出發，探索共融的多元可能。",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "7f8a4dced83e0172",
+        "title": "被控害青少年社群媒體成癮 Meta同意賠逾5000億達成和解協議",
+        "published_at": "2026-08-26T22:35:00+08:00",
+        "time": "22:35",
+        "url": "https://udn.com/news/story/6811/9716362",
+        "canonical_url": "https://udn.com/news/story/6811/9716362",
+        "summary": "美國各州指控社群平台巨擘Meta，刻意將臉書、IG等社群媒體設計成容易讓年輕人上癮，Meta 26日與47個州、哥倫比亞特區及美國各屬地達成和解協議，除支付高達171億美元（約台幣5447億元）罰款，還會大幅修改旗下商品。",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
       },
       {
-        "id": "cf51c09b4b35611b",
-        "title": "借抽水機盧秀燕毫不遲疑 陳其邁：感謝每份風雨中的援手",
-        "published_at": "2026-08-26T21:39:18+08:00",
-        "time": "21:39",
-        "url": "https://news.ltn.com.tw/news/politics/breakingnews/5553511",
-        "canonical_url": "https://news.ltn.com.tw/news/politics/breakingnews/5553511",
-        "summary": "高雄連日超級暴雨今傍晚終於停歇。市長陳其邁晚間發文，誠摯感謝總統、政院、國軍等每一份在風雨中及時伸出的援手，並提到他打電話給台中市長盧秀燕商借抽水設備時，台中沒有遲疑、慷慨允諾協助，強調「高雄都會記在心裡」。",
+        "id": "62c6ed664d1888d6",
+        "title": "週四好天氣 苗栗以南午後雷雨彈轟炸",
+        "published_at": "2026-08-26T22:29:19+08:00",
+        "time": "22:29",
+        "url": "https://news.ltn.com.tw/news/life/breakingnews/5553372",
+        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5553372",
+        "summary": "氣象署提醒，明天週四（27日）南部地區有局部短暫陣雨或雷雨，其他地區為多雲到晴；午後苗栗以南地區及東半部山區有局部短暫雷陣雨；晚起中部地區有局部短暫陣雨。中央氣象署預報，週四受西南風影響，南部地區有局部短暫陣雨或雷雨，其他地區為多雲到晴，午後苗栗以南地區及東半部山區有局部短暫雷陣雨；",
         "source": "自由時報・即時新聞",
         "source_url": "https://news.ltn.com.tw/list/breakingnews"
       },
       {
-        "id": "2ccbd40ef973bc8c",
-        "title": "疑地震引發雪崩！尼泊爾山洪吞噬村莊 已31死近400人失蹤",
-        "published_at": "2026-08-26T21:39:00+08:00",
-        "time": "21:39",
-        "url": "https://news.ltn.com.tw/news/world/breakingnews/5553391",
-        "canonical_url": "https://news.ltn.com.tw/news/world/breakingnews/5553391",
-        "summary": "首次上稿 20:15 更新時間 21:39尼泊爾與西藏邊境今（26日）爆發嚴重洪災，尼泊爾首都加德滿都以北的拉蘇瓦地區（Rasuwa），突遭遇山洪及土石流侵襲，猛烈洪水沖進村莊，造成道路及基礎設施嚴重毀損，目前已知至少31人死亡，另有近400人下落不明，其中包括多國遊客。",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "0dfe993777d25ba0",
-        "title": "中職》伍立辰首次優質先發 兄弟20097人平日蛋史上新高",
-        "published_at": "2026-08-26T21:37:00+08:00",
-        "time": "21:37",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004457-260403",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004457-260403",
-        "summary": "中信兄弟26日在大巨蛋迎戰樂天桃猿，雙方皆派出土投應戰，前7局都完美壓制打線，8局下呂詠臻登板，遭江坤宇敲安，得點圈有人時，前役的投手宋晟睿敲出關鍵安打，送回超前分，最終中信兄弟2比0完封。今年5月才轉為先",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "8626ef5851bb671d",
-        "title": "今日最夯股／高端疫苗跳空量增漲停 外資大買有何題材？",
-        "published_at": "2026-08-26T21:36:00+08:00",
-        "time": "21:36",
-        "url": "https://money.udn.com/money/story/5607/9715998?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5607/9715998",
-        "summary": "иӮЎеёӮзһ¬жҒҜиҗ¬и®ҠпјҢжЁҷзҡ„дә”иҠұе…«й–ҖпјҢе“ӘдёҖжӘ”еҖӢиӮЎжҳҜжҜҸеӨ©еёӮе ҙжңҖй—ңжіЁзҡ„дәәж°ЈжҢҮжЁҷеҸҠи©ұйЎҢпјҢи«ӢзңӢз¶“жҝҹж—Ҙе ұжҜҸж—ҘзІҫйҒёзҡ„д»Ҡж—Ҙ…",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
-      },
-      {
-        "id": "30ebabe537f5a4ee",
-        "title": "外資回頭股匯雙漲 新台幣收31.818元寫逾2個月新高",
-        "published_at": "2026-08-26T21:36:00+08:00",
-        "time": "21:36",
-        "url": "https://money.udn.com/money/story/5616/9715991?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5616/9715991",
-        "summary": "外資回頭買超台股，帶動股匯同步走揚，新台幣匯率早盤震盪，最低觸及31.887元，午後一路走升，收盤收31.818元，升值...",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/rank/newest/1001/0/1?from=edn_navibar"
-      },
-      {
-        "id": "1eab5104a012a052",
-        "title": "智慧台中論壇登場 盧秀燕：台中將造無人機、AI機器人兩座新護國神山",
-        "published_at": "2026-08-26T21:35:00+08:00",
-        "time": "21:35",
-        "url": "https://udn.com/news/story/7325/9716283",
-        "canonical_url": "https://udn.com/news/story/7325/9716283",
-        "summary": "AI機器人、無人載具成為台中下一波產業布局！台中市長盧秀燕26日在「智慧台中論壇」指出，半導體與晶片是台灣的護國神山，台中正積極打造另外兩座護國神山，一座是無人機、無人載具，另一座就是AI機器人。",
+        "id": "6c64336fc608e4aa",
+        "title": "擴大抽驗近百件麻油全合格 業者卻通報黑麻油苯駢芘超標…食藥署這樣說",
+        "published_at": "2026-08-26T22:29:00+08:00",
+        "time": "22:29",
+        "url": "https://udn.com/news/story/7266/9716359",
+        "canonical_url": "https://udn.com/news/story/7266/9716359",
+        "summary": "致癌油風暴繼大豆沙拉油、苦茶油外，又添一類油品超標，台北市政府今天公布，接獲業者自主通報「麻油車冷壓黑麻油」苯駢芘超標，檢出3.2ppb，超過法定上限2ppb。",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
       },
       {
-        "id": "598060f034106dac",
-        "title": "聯電發債18億美元 用於購置機器設備與廠務工程",
-        "published_at": "2026-08-26T21:34:48+08:00",
-        "time": "21:34",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5553510",
-        "canonical_url": "https://ec.ltn.com.tw/article/breakingnews/5553510",
-        "summary": "〔記者林薏茹／台北報導〕晶圓代工廠聯電（2303）今（26）日公告發行海外第七次無擔保轉換公司債，發行總金額上限為18億美元，用於購置機器設備與廠務工程。 聯電公告指出，此次發債暫定按面額之",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "5f41277e13419ded",
-        "title": "為何蕭敬嚴被停權 丁瑀卻遭鍘？藍青年揭關鍵：很多人忍很久了",
-        "published_at": "2026-08-26T21:34:00+08:00",
-        "time": "21:34",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004499-260407",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004499-260407",
-        "summary": "國民黨前青年部主任蕭敬嚴與不分區提名人丁瑀，曾多次公開批評黨內政策與黨主席鄭麗文，國民黨考紀會昨（25）日決議開除丁的黨籍、蕭則被停權3年。對此，國民黨台北市議員參選人賴苡任點出，丁瑀和蕭敬嚴的行為本質",
+        "id": "94e1a1bb4d1e1afa",
+        "title": "大陸白菜泡甲醛引發食安疑慮 食藥署宣布「不分國別」加強邊境抽驗",
+        "published_at": "2026-08-26T22:29:00+08:00",
+        "time": "22:29",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004724-260405",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004724-260405",
+        "summary": "大陸近日傳出不肖業者用甲醛為大白菜保鮮，更引發市售越南、泰國等地進口娃娃菜「洗產地」疑慮。食藥署今天（26）晚間說明，已針對白菜及泡菜相關產品加強邊境管制，不分輸入國別進行重點抽驗，檢驗甲醛合格才准輸入",
         "source": "中時新聞網・即時",
         "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
-        "id": "4f227a3dd3f6e6d7",
-        "title": "不只減重！瘦瘦針「商機外溢」 萊雅集團搶攻台灣近千億市場",
-        "published_at": "2026-08-26T21:33:29+08:00",
-        "time": "21:33",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5553497",
-        "canonical_url": "https://ec.ltn.com.tw/article/breakingnews/5553497",
-        "summary": "〔記者邱巧貞／台北報導〕近年「瘦瘦針」GLP-1類藥物掀起減重熱潮，相關商機也開始外溢至醫美與保養市場。從減重後可能面臨的臉部容積流失、肌膚鬆弛，到雷射、電音波等療程後的居家照護需求，都讓「醫美",
+        "id": "df436de415a26231",
+        "title": "授勳換星鏈？澤倫斯基頒自由勳章拉攏馬斯克 爭取星鏈深入俄境200公里",
+        "published_at": "2026-08-26T22:28:00+08:00",
+        "time": "22:28",
+        "url": "https://udn.com/news/story/6809/9716358",
+        "canonical_url": "https://udn.com/news/story/6809/9716358",
+        "summary": "烏克蘭總統澤倫斯基已為億萬富豪馬斯克頒發該國最高榮譽之一的「自由勳章」，時值基輔正爭取馬斯克首肯，擴大星鏈在俄羅斯境內的使用範圍，好讓無人機可深入打擊俄羅斯。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "c68d8d61b20610b7",
+        "title": "國軍第五作戰區「重砲射擊」演練 民眾誤以為「阿共阿打來」",
+        "published_at": "2026-08-26T22:28:00+08:00",
+        "time": "22:28",
+        "url": "https://news.ltn.com.tw/news/def/breakingnews/5553541",
+        "canonical_url": "https://news.ltn.com.tw/news/def/breakingnews/5553541",
+        "summary": "國軍第五作戰區今天在台中海線地區實施年度「重砲射擊」任務，由陸軍聯兵234旅、聯兵586旅及陸軍58砲官兵操作建制火砲，依想定狀況完成射擊任務。一早砲聲隆隆，有民眾在網路po文笑稱「以為阿共阿打來」，還有人誤以為是下雨打雷；軍方表示，演習主要驗證平時武器裝備妥善及作戰效能，展現捍衛家園的使命與決心。",
         "source": "自由時報・即時新聞",
         "source_url": "https://news.ltn.com.tw/list/breakingnews"
       },
       {
-        "id": "a7ee59a794fb72ad",
-        "title": "陳幸妤存2300萬教育基金 陳佩琪：我給小孩619萬就是貪污犯婦？",
-        "published_at": "2026-08-26T21:30:00+08:00",
-        "time": "21:30",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004475-260407",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004475-260407",
-        "summary": "前總統陳水扁女兒陳幸妤自爆與趙建銘離婚，要求索回孩子2300萬元的教育基金。前台北市長、民眾黨創黨主席柯文哲妻子陳佩琪感嘆表示，平平都是醫師夫妻，人家給小孩2300萬教育基金，就是新時代會賺錢女性的表率，她5",
+        "id": "b2d789a8e82a90f0",
+        "title": "大陸爆甲醛大白菜案 食藥署：不分國別白菜及其製品提升抽驗比率至5成",
+        "published_at": "2026-08-26T22:27:00+08:00",
+        "time": "22:27",
+        "url": "https://udn.com/news/story/7266/9716356",
+        "canonical_url": "https://udn.com/news/story/7266/9716356",
+        "summary": "中國大陸河北省傳出甲醛大白菜事件，部分白菜收購商，以沾取甲醛溶液方式，延長其運輸保鮮時間。對此，衛福部食藥署指出，今年截至25日為止，並無大陸大白菜輸入查驗紀錄，不過，有鑒於韓國發現泡菜原料用大白菜檢出甲醛，食藥署已向韓方確認產品為輸入台灣，即日起對不分國別進口的大陸白菜、白菜製品，提高邊境查…",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "7cebd8202033ab91",
+        "title": "正妹沒關機M2 SSD直接插主板 電腦超慘下場曝 店員傻：一輩子沒看過",
+        "published_at": "2026-08-26T22:26:00+08:00",
+        "time": "22:26",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004717-260405",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004717-260405",
+        "summary": "USB具備熱插拔特性，即插即用，不用了直接拔掉即可，但並不代表其他硬體也可以。近日就有一名正妹，煩惱硬碟容量不夠大，於是自己上網購買了m.2 SSD後，在沒關機的狀況下直接插上主機板，下一秒電腦立刻當機，再也打",
         "source": "中時新聞網・即時",
         "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
-        "id": "b2a69db378822ea9",
-        "title": "博大三大引擎全速運轉 今年挑戰年度營收新高峰",
-        "published_at": "2026-08-26T21:28:18+08:00",
-        "time": "21:28",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5553493",
-        "canonical_url": "https://ec.ltn.com.tw/article/breakingnews/5553493",
-        "summary": "〔記者方韋傑／台北報導〕電源供應器廠商博大科技（8109）今日在法說會表示，受惠於全球工業自動化轉型、鐵道基礎建設升級及高階醫療設備需求爆發，公司已展現高度營運韌性與利基市場競爭優勢，預期第三季",
+        "id": "a654275eb519ec2a",
+        "title": "熱帶低壓TD25生成！最快明成颱 對台影響曝光",
+        "published_at": "2026-08-26T22:25:27+08:00",
+        "time": "22:25",
+        "url": "https://news.ltn.com.tw/news/life/breakingnews/5553558",
+        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5553558",
+        "summary": "今天晚間8點熱帶性低氣壓TD25生成，中央氣象署預報，TD25未來將以偏東北東方轉北方前進，未來一兩天有機會發展成「艾陶」颱風，但發展空間有限，預估對台灣無影響。目前太平洋上有1個颱風、1個熱帶性低氣壓。",
         "source": "自由時報・即時新聞",
         "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "a37980ec4c81596e",
+        "title": "西藏土石流釀重大傷亡 陸委會發聲慰問 公布國人緊急服務專線",
+        "published_at": "2026-08-26T22:25:00+08:00",
+        "time": "22:25",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004694-260409",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004694-260409",
+        "summary": "大陸西藏地區26日上午10時許，傳出嚴重土石流嚴重災情，日喀則市吉隆縣吉隆中尼邊界海關附近疑發生大規模土石流，猛烈土石夾帶泥水從尼泊爾山區沖下，波及周邊村落，造成重大人員傷亡及失聯。對此，陸委會也發布聲明",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "de18a9be195b6707",
+        "title": "中職／2本土投手7局好投由兄弟勝出 平野惠一讚：非常精彩",
+        "published_at": "2026-08-26T22:23:00+08:00",
+        "time": "22:23",
+        "url": "https://udn.com/news/story/7001/9716353",
+        "canonical_url": "https://udn.com/news/story/7001/9716353",
+        "summary": "中華職棒今天中信兄弟與樂天桃猿之戰，2隊本土投手皆繳出7局無失分好投，兄弟總教練平野惠一盛讚：「這是一場令人開心的比賽，...",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "43141e5b8cd6f0de",
+        "title": "伊朗稱與阿曼達成荷莫茲海峽協議 談妥收益分配",
+        "published_at": "2026-08-26T22:23:00+08:00",
+        "time": "22:23",
+        "url": "https://udn.com/news/story/124061/9716352",
+        "canonical_url": "https://udn.com/news/story/124061/9716352",
+        "summary": "伊朗伊斯蘭革命衛隊今天宣稱，伊朗與阿曼已就兩國在荷莫茲海峽水域的權益及收益分配達成協議，但如果美方不接受兩國的條件，這條...",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "feba31ab73257dec",
+        "title": "清大校長續任第3天赴美面試 高為元9/10首開全校說明會",
+        "published_at": "2026-08-26T22:22:48+08:00",
+        "time": "22:22",
+        "url": "https://news.ltn.com.tw/news/life/breakingnews/5553544",
+        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5553544",
+        "summary": "大場面來了！清大校長高為元被爆出今年5月1日續任第三天就赴美覓職，遭疑對清大毫無誠信，高為元8月9日發出一封清華人電子郵件後，至今未公開說明覓職爭議。在各界及校友陸續發聲及譴責後，高為元今天透過秘書處發給清大全校師生及校友一封邀請函，高為元將在開學後第一週9月10日在校內舉辦說明會。",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "6d2d3734c1231d1b",
+        "title": "中職／林詔恩6.1局無失分好投 獅隊1：0本季首度完封龍隊",
+        "published_at": "2026-08-26T22:22:00+08:00",
+        "time": "22:22",
+        "url": "https://udn.com/news/story/7001/9716354",
+        "canonical_url": "https://udn.com/news/story/7001/9716354",
+        "summary": "統一獅隊今天在台南亞太棒球場對上味全龍隊，左投林詔恩繳出6.1局無失分的表現，連兩戰繳出優質先發，並靠陳重羽在4局下敲回致勝分，終場以1：0勝出，本季首度完封龍隊。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "b612d6c91e1a9bce",
+        "title": "中國「甲醛白菜」引食安疑慮！食藥署：未輸台、各國產品加強抽驗",
+        "published_at": "2026-08-26T22:19:56+08:00",
+        "time": "22:19",
+        "url": "https://news.ltn.com.tw/news/life/breakingnews/5553545",
+        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5553545",
+        "summary": "中國「甲醛白菜」引發關注，民眾擔心相關產品是否流入台灣。衛福部食藥署今（26日）表示，中國生鮮或冷藏白菜依法不得輸入台灣，經查今年1月1日至8月25日，並無中國白菜輸入查驗紀錄；為保障食安，目前已針對白菜及泡菜相關產品加強邊境管制，不分輸入國別進行甲醛重點抽驗。",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "717dba5410cc85c9",
+        "title": "食用油連環爆！「麻油車」黑麻油驗出苯駢芘 216瓶急回收",
+        "published_at": "2026-08-26T22:19:10+08:00",
+        "time": "22:19",
+        "url": "https://news.ltn.com.tw/news/life/breakingnews/5553537",
+        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5553537",
+        "summary": "食用油品接連出包！繼大豆沙拉油、苦茶油陸續驗出致癌物苯駢芘不合格後，如今連黑麻油也中鏢。衛福部食藥署今（26日）表示，「麻油車頂級冷壓黑麻油」經業者自主通報檢驗不合格，共216瓶、每瓶255毫升，全數交由統健實業股份有限公司販售，目前已啟動退貨回收，製造商統購實業有限公司的麻油產線也被勒令暫停…",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "2ff47ef3f8056e46",
+        "title": "美股早盤／輝達財報在即...PCE顯示通膨仍然棘手 三大指數平盤波動",
+        "published_at": "2026-08-26T22:18:00+08:00",
+        "time": "22:18",
+        "url": "https://udn.com/news/story/6811/9716348",
+        "canonical_url": "https://udn.com/news/story/6811/9716348",
+        "summary": "美股26日早盤在平盤附近波動，主因是通膨報告結果比預期火熱，提高市場對美國聯準會（Fed）9月升息的押注，同時市場投資人也在等待AI領頭羊輝達的盤後財報。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "41ace27a6f203b6e",
+        "title": "盼擴大星鏈使用權 澤倫斯基授勳馬斯克",
+        "published_at": "2026-08-26T22:17:39+08:00",
+        "time": "22:17",
+        "url": "https://news.ltn.com.tw/news/world/breakingnews/5553353",
+        "canonical_url": "https://news.ltn.com.tw/news/world/breakingnews/5553353",
+        "summary": "烏克蘭總統澤倫斯基（Volodymyr Zelenskyy）今（26）日頒發了國家最高榮譽給太空探索技術公司（SpaceX）創辦人馬斯克（Elon Musk）。烏克蘭當前正在請求馬斯克開放更多「星鏈」（Starlink）衛星網路的使用權限，以便對俄羅斯發動縱深打擊。",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "0e27b23ab5f14a29",
+        "title": "花式滑冰／冰上搭檔變人生伴侶 日媒訪親友揭「璃來龍」甜蜜變化",
+        "published_at": "2026-08-26T22:16:00+08:00",
+        "time": "22:16",
+        "url": "https://udn.com/news/story/7005/9716342",
+        "canonical_url": "https://udn.com/news/story/7005/9716342",
+        "summary": "日本花式滑冰金牌組合「璃來龍」三浦璃來與木原龍一宣布訂婚，讓許多粉絲又驚又喜。兩人過去面對戀情提問時，總是回答「就交給大...",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "3c11f7f415ab23eb",
+        "title": "法航前空服員得乳癌列入「職業病」 創法國航空業首例",
+        "published_at": "2026-08-26T22:13:24+08:00",
+        "time": "22:13",
+        "url": "https://news.ltn.com.tw/news/world/breakingnews/5553546",
+        "canonical_url": "https://news.ltn.com.tw/news/world/breakingnews/5553546",
+        "summary": "法新社報導，法國1名前空服員成功爭取將其罹患的乳癌認列為職業病，創下該國航空業首例，可望為後續類似的索賠案件鋪路。法國民主工會聯盟（CFDT）與委任律師指出，這項裁決認定法國航空（Air France）前空服員萊諾（Sophie Lainault），因頻繁值夜班及暴露於二手菸環境而罹癌。",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "6da8825b1fc1205a",
+        "title": "綠治水雙標 青鳥許願「藍白、詐團消失」遭犀利反酸1句",
+        "published_at": "2026-08-26T22:13:00+08:00",
+        "time": "22:13",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004611-260407",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004611-260407",
+        "summary": "南部豪雨成災，總統賴清德25日南下勘災，針對卓揆扯預算被砍只能電話勘災，賴緩頰稱不要遇到淹水就責備中南部治水的錢花到哪裡去，這樣不公平、情何以堪，這是沒有必要的批評。但被挖出賴2018曾嗆「治水有無成效，住",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "224fc01818d4661a",
+        "title": "中國吉隆口岸洪災釀重大傷亡 陸委會：有51位國人在西藏",
+        "published_at": "2026-08-26T22:12:55+08:00",
+        "time": "22:12",
+        "url": "https://news.ltn.com.tw/news/politics/breakingnews/5553533",
+        "canonical_url": "https://news.ltn.com.tw/news/politics/breakingnews/5553533",
+        "summary": "尼泊爾與中國西藏的喜馬拉雅山邊境發生大規模暴洪，導致兩邊出現重大人員傷亡和失聯。尼泊爾方面初步統計，災害已造成至少16人死亡、384名遊客失聯。陸委會表示，今日上午10時30分尼泊爾一側發生土石流災害，造成西藏日喀則市吉隆縣吉隆口岸重大災情，吉隆口岸方向道路中斷。",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "33df00bc52e90493",
+        "title": "伊朗最高領袖至今神隱 川普：相信穆吉塔巴還活著",
+        "published_at": "2026-08-26T22:12:20+08:00",
+        "time": "22:12",
+        "url": "https://news.ltn.com.tw/news/world/breakingnews/5553547",
+        "canonical_url": "https://news.ltn.com.tw/news/world/breakingnews/5553547",
+        "summary": "在美國與伊朗談判結束戰爭陷入僵局之際，伊朗最高領袖穆吉塔巴（Mojtaba Khamenei）的生死或健康狀況，是另一個備受關注的焦點。美國總統川普26日表示，他相信這名伊朗最高領袖仍然活著。川普也表示，對伊朗的軍事和經濟施壓「即將取得重大勝利」。",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "25115887a6853a40",
+        "title": "沒吃甜食照樣糖分超標？8種「隱形糖」食物易忽略 果汁、醬料都上榜",
+        "published_at": "2026-08-26T22:12:00+08:00",
+        "time": "22:12",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004659-260405",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004659-260405",
+        "summary": "不少人以為自己平常沒有吃什麼甜食，糖分攝取應該不多，不過營養師蕭瑋霖提醒，有些食物吃起來不算特別甜，或常被認為較健康，實際上卻可能含有大量「隱形糖」，像是早餐飲品、果汁、果乾及各種醬料，都可能讓人不知",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "bf307dca72280c19",
+        "title": "房貸「天條」壓力鬆了 國銀不動產放款比率探近16年新低",
+        "published_at": "2026-08-26T22:10:00+08:00",
+        "time": "22:10",
+        "url": "https://udn.com/news/story/7239/9716341",
+        "canonical_url": "https://udn.com/news/story/7239/9716341",
+        "summary": "據金管會統計，7月底國銀不動產放款比率降到24.19%，已連續14個月下滑、寫近16年新低，銀行距離30%法定上限愈來愈遠，房貸承作水位壓力也明顯緩解。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "3d2aefb0e989487f",
+        "title": "馬幼興爆吻戲辛酸！女星開拍前車上「口X男友」還嚼檳榔",
+        "published_at": "2026-08-26T22:10:00+08:00",
+        "time": "22:10",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004622-260404",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004622-260404",
+        "summary": "本土劇知名男星馬幼興日前上節目，爆料過去拍戲時遇過荒唐的親密戲經歷。他透露，當時與一名資深女星一起出外景，當時要拍攝深情擁吻戲，馬幼興體貼地準備了漱口水給對方。怎料，開拍前女星竟自曝剛剛在車上幫男友口",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "7f26088e32d45224",
+        "title": "影》尼泊爾暴洪嚇壞直升機駕駛 河川揚塵瞬湧「6公尺高」濁流",
+        "published_at": "2026-08-26T22:10:00+08:00",
+        "time": "22:10",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004616-260408",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004616-260408",
+        "summary": "南亞山國尼泊爾中部與西藏交界喜馬拉雅山區域，今天（26日）傳出爆發恐怖山洪的重大災難，暴紅沖毀邊境沿線村落城鎮，橋梁崩壞，電廠工地人員受困失聯，已有多人死傷，約400名觀光客失蹤，印度北方的比哈省（Bihar）",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "d8ee011908186066",
+        "title": "遭停權3年怒轟黨剩無腦站隊 蕭敬嚴：考紀會自降格調變徐巧芯錦衣衛",
+        "published_at": "2026-08-26T22:09:00+08:00",
+        "time": "22:09",
+        "url": "https://udn.com/news/story/6656/9716339",
+        "canonical_url": "https://udn.com/news/story/6656/9716339",
+        "summary": "國民黨有黨代表不滿前青年部主任蕭敬嚴與不分區立委被提名人丁瑀多次公開批評黨中央與黨主席鄭麗文，日前在全代會串聯，提案要求將兩人移送考紀會，建議開除黨籍。黨中央考紀會今決議，蕭敬嚴合併前次停權1年處分，合計停權3年。蕭敬嚴今晚在臉書怒轟：考紀會自降格調變徐巧芯錦衣衛。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "1c26f3a2c560a1db",
+        "title": "正妹寫真集出包！乳溝「手繪感」太重破千萬觀看 舊作遭翻出檢視",
+        "published_at": "2026-08-26T22:09:00+08:00",
+        "time": "22:09",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004522-260404",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004522-260404",
+        "summary": "日本人氣女團FRUITS ZIPPER成員櫻井優衣，近日推出出道10周年紀念寫真集，封面曝光後卻意外掀起熱烈討論。原本應該充滿青春氣息的海灘泳裝照，卻因胸前出現極不自然的「手繪感」乳溝，讓不少日本網友看傻眼。這波疑",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "ae564d0d1b335f89",
+        "title": "城堡證券：美債空頭太擁擠恐有軋空潮 貝森特或如願以償",
+        "published_at": "2026-08-26T22:08:00+08:00",
+        "time": "22:08",
+        "url": "https://udn.com/news/story/6811/9716338",
+        "canonical_url": "https://udn.com/news/story/6811/9716338",
+        "summary": "美國財長貝森特示意要加碼回購美國長天期公債，來壓低美債殖利率。城堡證券認為，美債空頭部位太多，萬一情勢逆轉，會讓市場措手不及，貝森特或許將得償所望。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "da5a898819b62e69",
+        "title": "遭國民黨停權3年 蕭敬嚴最新回應：這個數學是不是有點問題",
+        "published_at": "2026-08-26T22:08:00+08:00",
+        "time": "22:08",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004541-260407",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004541-260407",
+        "summary": "國民黨前發言人蕭敬嚴於2024年12月3日公開發言不當，遭黨停權1年處分，2026年4月13日後再停權2年，併為停權3年。對此，蕭敬嚴回應表示，這個數學是不是有點問題。但如果他停權就可以讓國民黨大勝，他也沒有意見。針",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "d322bcf63953caea",
+        "title": "陳幸妤反問「為什麼要住5樓？」 李怡貞砲轟許芊芊：不要還想立牌坊",
+        "published_at": "2026-08-26T22:08:00+08:00",
+        "time": "22:08",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004586-260404",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004586-260404",
+        "summary": "前總統陳水扁女兒陳幸妤與前夫趙建銘的婚姻紛爭持續延燒，雙方近日隔空交火，牽涉已婚女護理師許芊芊的相關爭議也受到外界高度關注。趙建銘25日打破沉默回應事件後，許芊芊疑似透過IG摯友限時動態發聲，以「權力遊戲",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "4874b025da223b1f",
+        "title": "拉警報？房貸逾放飆5年新高 金管會急找銀行喝咖啡",
+        "published_at": "2026-08-26T22:06:00+08:00",
+        "time": "22:06",
+        "url": "https://udn.com/news/story/7239/9716334",
+        "canonical_url": "https://udn.com/news/story/7239/9716334",
+        "summary": "國銀房貸逾放拉警報，金管會出手了。據統計，7月底國銀房貸逾放一舉攀升到94.25億元，是睽違五年重返「9字頭」，單月暴增7.8億元、寫六年半最大增額。金管會將找一家逾放連續攀升的大型民營銀行「喝咖啡」。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "c3ed0db7d52d7e7b",
+        "title": "中尼災區衛星對比照曝！喜馬拉雅山萬年冰雪消融 引發最猛山洪",
+        "published_at": "2026-08-26T22:06:00+08:00",
+        "time": "22:06",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004605-260408",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004605-260408",
+        "summary": "26日，西藏與尼泊爾在數小時內接連發生嚴重山洪與土石流，多個城鎮遭到洪水與土石流衝擊，大陸與尼泊爾之間的重要吉隆口岸，也受到嚴重破壞，實際災情與經濟損失仍在持續統計。關於這場災害的直接原因，目前仍在調查",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "4ab3a02733b39fba",
+        "title": "雨下到南部人受不了！未來2天夜晨最有感 網崩潰：怎又是我們",
+        "published_at": "2026-08-26T22:04:00+08:00",
+        "time": "22:04",
+        "url": "https://udn.com/news/story/7266/9716282",
+        "canonical_url": "https://udn.com/news/story/7266/9716282",
+        "summary": "沙德爾颱風持續減弱，台灣天氣未因此完全穩定。「台灣颱風論壇｜天氣特急」今（26）日晚間9時多發文提醒，未來2天夜晚至清晨是降雨重點時段，海陸風交會、輻合容易形成雲雨帶，其中南部地區更要留意間歇性較大雨勢，戶外活動或工作最好隨身攜帶雨具。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "06068b338d05aff6",
+        "title": "中職》為先發放棄合照巴特勒 伍立辰好投「老天爺看到」",
+        "published_at": "2026-08-26T22:03:00+08:00",
+        "time": "22:03",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004559-260403",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004559-260403",
+        "summary": "中信兄弟、樂天桃猿26日在大巨蛋上演超精彩的本土投手戰，兄弟伍立辰7局無失分，生涯首度繳出優質先發，賽後就連樂天洋炮道威聖都大讚：「Nice Pitch」，另外賽前NBA巨星巴特勒（Jimmy Butler）現身球場，伍立辰坦言",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "5039208e4e552bef",
+        "title": "尼泊爾奪命土石流…西藏吉隆口岸重大災害 陸委會：51名國人在西藏",
+        "published_at": "2026-08-26T21:58:00+08:00",
+        "time": "21:58",
+        "url": "https://udn.com/news/story/7331/9716310",
+        "canonical_url": "https://udn.com/news/story/7331/9716310",
+        "summary": "西藏吉隆口岸遭逢尼泊爾一側的重大泥石流災害影響而發生重大人員傷亡與失聯，陸委會26日晚間表示慰問，提醒在陸國人留意自身安全。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "4b29cd1361f60488",
+        "title": "食藥署證實「首件自主通報麻油」苯駢芘超標 擴大抽驗658件油品結果曝",
+        "published_at": "2026-08-26T21:56:00+08:00",
+        "time": "21:56",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004606-260405",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004606-260405",
+        "summary": "致癌油風波未平，北市今天公布一批黑麻油也驗出苯駢芘超標。食藥署晚間證實，該批「麻油車頂級冷壓黑麻油」為首件業者自主通報麻油不合格案件，另公布各地方衛生局擴大抽驗結果，共計抽驗658件，其中14件苦茶油檢出",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "54f4f009e69ce725",
+        "title": "江啟臣率團赴日參與APPU大會 3項提案全數通過 簽署聯合公報",
+        "published_at": "2026-08-26T21:56:00+08:00",
+        "time": "21:56",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004565-260407",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004565-260407",
+        "summary": "立法院副院長江啟臣24日率跨黨派立委代表團赴日本東京，參加「亞洲太平洋國會議員聯合會」（APPU）第88屆理事會暨第54屆大會，26日晚搭乘華航CI105班機返抵桃園國際機場。江啟臣表示，此行代表團提出的3項提案全數獲",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "b36f77798adcd211",
+        "title": "南崁五大庄普渡傳承265年 獲授證無形文化資產",
+        "published_at": "2026-08-26T21:54:00+08:00",
+        "time": "21:54",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004496-260421",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004496-260421",
+        "summary": "南崁五大庄聯合中元普渡正式登錄桃園市無形文化資產，南崁五福宮27日舉行授證典禮，桃園市長張善政親自出席頒發文化資產證書，與地方信眾共同見證這項歷史性時刻。典禮同時結合中元公益捐贈，將信眾參與普渡的心意轉",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "92abc167b3e5d67f",
+        "title": "美PCE指數增幅持穩 Q2 GDP成長率與初估1.5%一致",
+        "published_at": "2026-08-26T21:53:00+08:00",
+        "time": "21:53",
+        "url": "https://udn.com/news/story/6811/9716302",
+        "canonical_url": "https://udn.com/news/story/6811/9716302",
+        "summary": "美國聯準會（Fed）偏愛的通膨指標7月意外持穩，加上消費者支出停滯，可望給Fed更多空間維持利率不變。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "102c10a47e339a21",
+        "title": "快訊》北市汽修廠「神桌起火」 消防到場破門搶救",
+        "published_at": "2026-08-26T21:53:00+08:00",
+        "time": "21:53",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004590-260402",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004590-260402",
+        "summary": "台北市健康路一處連棟式公寓一樓的汽車維修廠，今天（26日）晚間9時許驚傳火警，鄰居發現屋內出現火光後，立即撥打119報案。消防人員獲報迅速趕抵，確認汽修廠內有起火情形，隨即破壞鐵門進入，並佈設水線射水搶救。",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "728cb6b2bec2056a",
+        "title": "尼泊爾山區大規模暴洪及土石流 沿途沖毀房舍...至少22死384人失聯",
+        "published_at": "2026-08-26T21:52:00+08:00",
+        "time": "21:52",
+        "url": "https://udn.com/news/story/6809/9716291",
+        "canonical_url": "https://udn.com/news/story/6809/9716291",
+        "summary": "尼泊爾與西藏接壤的邊境山區今天發生大規模暴洪及土石流，沖毀當地村莊與道路。尼泊爾官員表示，目前至少造成22人死亡。當局表...",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "717b48aca3d59c7d",
+        "title": "靜待輝達財報 美股開盤走低 台指期夜盤小跌百點",
+        "published_at": "2026-08-26T21:51:00+08:00",
+        "time": "21:51",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004585-260410",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004585-260410",
+        "summary": "儘管圍繞荷莫茲海峽重新開放的樂觀情緒繼續明顯打壓油價，但最新公布的7月個人消費支出（PCE）物價指數年增3.7%，略高於市場預期，顯示美國通膨走勢仍具黏性，加上AI霸主輝達即將在盤後公布財報，周三（26日）美股一",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "88119bb5e348b74d",
+        "title": "家登創投參與AOI廠聯策私募 累計持股2,137張比率達5.57%",
+        "published_at": "2026-08-26T21:49:00+08:00",
+        "time": "21:49",
+        "url": "https://udn.com/news/story/7239/9716297",
+        "canonical_url": "https://udn.com/news/story/7239/9716297",
+        "summary": "AOI廠商聯策（6658）獲得家登創投長期投資，今日最新公告家登創投對該公司持股總額：2,137,000股，占公司已發行股份總額百分比：5.57%。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "9a65efc6b7121aa0",
+        "title": "跨國共謀詐日女近千萬？ 23歲台男落網全名曝光",
+        "published_at": "2026-08-26T21:49:00+08:00",
+        "time": "21:49",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004488-260402",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004488-260402",
+        "summary": "又有台灣人因涉嫌詐騙在日本被捕，而且這回日本媒體不忍了將涉案嫌犯全名完整公開！23歲台籍男子「陳品中」涉嫌與52歲南韓籍男子尹達雄聯手，冒充投資公司人員，鎖定三重縣鈴鹿市一名50多歲女上班族；女子先前已被「",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "8724c92339d3728a",
+        "title": "瓊斯盃／末節8比0攻勢奠定領先 中華藍開幕戰退韓國",
+        "published_at": "2026-08-26T21:48:00+08:00",
+        "time": "21:48",
+        "url": "https://udn.com/news/story/7003/9716295",
+        "canonical_url": "https://udn.com/news/story/7003/9716295",
+        "summary": "9月將出征名古屋亞運的中華女籃，今天以中華藍身份迎接瓊斯盃首戰，日籍新教頭前田顯藏的執教首戰碰韓國由WKBL職業隊KB之星，比賽一路拉鋸，中華藍靠第四節末一波8：0攻勢奠定勝基，最終以75：69收下勝利。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "7888c86383f15e1e",
+        "title": "台灣最強高中生直播又惹禍！遭賣場下達「驅逐令」再闖恐入獄",
+        "published_at": "2026-08-26T21:46:00+08:00",
+        "time": "21:46",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004518-260404",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004518-260404",
+        "summary": "台灣知名實況主Ray（本名許宸睿）因幸運結識美國頂級實況主Kai Cenat而爆紅，開啟了宛如「開掛人生」的冒險歷程，人氣與身價都不斷攀升，每次開播總是吸引大量網友觀看，成為現今世代最具影響力的KOL之一。但在日前",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "1cc272688d12ab0d",
+        "title": "綠營議員提案北市普發2萬一讀 楊植斗狠酸：空包彈、提爽的",
+        "published_at": "2026-08-26T21:40:00+08:00",
+        "time": "21:40",
+        "url": "https://www.chinatimes.com/realtimenews/20260826004534-260407",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004534-260407",
+        "summary": "賴清德總統宣布明年普發現金每人1萬元，台北市長蔣萬安則酸賴「應該要普發2萬元」，就如賴過去所說「買個菜就沒了」。對此，民進黨市議員提案，要求市府加碼北市每人普發2萬元，今下午在議會一讀會通過，將交付財建",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
         "id": "50661c24c63a8667",
-        "title": "尼泊爾一側山洪爆發！1分鐘就毀掉中國吉隆口岸 超衝擊空拍流出",
+        "title": "尼泊爾一側山洪爆發！1分鐘毀掉中國吉隆口岸 超衝擊空拍畫面流出",
         "published_at": "2026-08-26T21:27:24+08:00",
         "time": "21:27",
         "url": "https://news.ltn.com.tw/news/world/breakingnews/5553396",
         "canonical_url": "https://news.ltn.com.tw/news/world/breakingnews/5553396",
         "summary": "與尼泊爾接壤的中國西藏自治區日喀則市吉隆縣吉隆口岸，今天（26日）上午尼國一側突發土石流，吉隆口岸受到直接波及，瞬時間被摧毀，地面上逃竄的民眾也在頃刻間慘遭活埋，如同末日來臨般的影像在網上瘋傳，掀外界關注。稍早有空拍畫面流出，可以看到吉隆口岸已被夷為平地，場面慘不忍睹。",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "b3dccb81f0b4f43e",
-        "title": "田方倫上綠媒政論 竟遭主持人「訓斥」 謝曜州：大開眼界",
-        "published_at": "2026-08-26T21:27:00+08:00",
-        "time": "21:27",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004479-260407",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004479-260407",
-        "summary": "國民黨人士常上綠媒政論、言行逐漸受藍營支持者質疑者，近日發生蕭敬嚴被停權3年，丁瑀遭開除黨籍，突顯朝野涇渭分明。近日藍營青年田方倫在綠媒護航藍委翁曉玲、砲轟卓揆，卻被主持人王偊菁「訓斥」，媒體人謝曜州",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "2fdc72a3a8dbca9b",
-        "title": "政府出題、民間寫程式！4款防災工具年底成形 開放各縣市擴充",
-        "published_at": "2026-08-26T21:26:52+08:00",
-        "time": "21:26",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5553498",
-        "canonical_url": "https://ec.ltn.com.tw/article/breakingnews/5553498",
-        "summary": "〔記者邱巧貞／台北報導〕數發部昨（25）日舉行「115年全國公民科技試驗場域」團隊決選暨縣市合作啟動典禮，今年共有29組團隊通過資格審查，歷經提案書審、初選及現場決選後，最終選出4組獲選團隊。",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "b16248d8dd5640b7",
-        "title": "中國旅美藝術家高兟作品「辱毛」 15年後遭回溯定罪判刑3年",
-        "published_at": "2026-08-26T21:26:44+08:00",
-        "time": "21:26",
-        "url": "https://news.ltn.com.tw/news/world/breakingnews/5553500",
-        "canonical_url": "https://news.ltn.com.tw/news/world/breakingnews/5553500",
-        "summary": "擁有美國永久居留權的中國知名藝術家高兟，因創作一系列諷刺中國已故領導人毛澤東的作品，在被中國羈押2年後，25日遭法院判處3年徒刑。河北省三河市法院25日以「侵害英雄烈士名譽」罪，判處高兟3年有期徒刑。紐約時報報導，3年刑期是高兟可能面臨刑期的最高量刑，由於他已遭羈押兩年，還需在監獄服刑1年。",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "653a9f880e4ce6c1",
-        "title": "滙豐率外銀之先 推出臨櫃大額交易指定聯絡人防詐服務",
-        "published_at": "2026-08-26T21:24:23+08:00",
-        "time": "21:24",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5553482",
-        "canonical_url": "https://ec.ltn.com.tw/article/breakingnews/5553482",
-        "summary": "〔記者吳欣恬／台北報導〕滙豐（台灣）商業銀行率外銀之先，近期推出「臨櫃大額交易指定聯絡人服務」，當客戶在臨櫃辦理一定金額之匯款、提領現金或定存提前解約等交易後，銀行將以簡訊主動通知客戶預先指定的",
         "source": "自由時報・即時新聞",
         "source_url": "https://news.ltn.com.tw/list/breakingnews"
       },
@@ -851,336 +932,6 @@
         "source_url": "https://news.ltn.com.tw/list/breakingnews"
       },
       {
-        "id": "92dd21df9fe8edbe",
-        "title": "公館「狗籠吸菸區」默默拆除 趙曉慧酸：蔣萬安還能幹什麼大事？",
-        "published_at": "2026-08-26T21:17:31+08:00",
-        "time": "21:17",
-        "url": "https://news.ltn.com.tw/news/politics/breakingnews/5553457",
-        "canonical_url": "https://news.ltn.com.tw/news/politics/breakingnews/5553457",
-        "summary": "台北市大安區羅斯福路、新生南路口的吸菸區，被嘲諷是「狗籠」、「開放式監獄」，今（26日）遭無預警拆除。對此，作家趙曉慧表示，蔣萬安每次都第一時間不說明、不檢討，等到聲量完全翻車後，就默默下令拆除試圖止血，質疑蔣連一個戶外吸菸區都做不好，還能幹什麼大事？趙曉慧在臉書發文表示，當初號稱參考日本經驗…",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "e80d612a2d9bcb49",
-        "title": "開學季調查！72％家長擔憂孩子人際受傷 AI時代最看重「同理心」",
-        "published_at": "2026-08-26T21:17:10+08:00",
-        "time": "21:17",
-        "url": "https://news.ltn.com.tw/news/life/breakingnews/5553409",
-        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5553409",
-        "summary": "暑假即將過完，隨著開學日將至，台灣童心創意行動協會（DFC台灣）今（26日）發布2026《AI時代家長焦慮調查》，其中家長最擔憂孩子在學校人際關係受傷（複選達72.6％），AI時代下則最重視孩子「同理心」，其次才是「邏輯力」；另外也有高達6成家長認為學校提供的支持資源不足。",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "e0323468acca7a69",
-        "title": "影／桃機B9候機室電競特展開幕 為名古屋亞運代表隊加油",
-        "published_at": "2026-08-26T21:17:00+08:00",
-        "time": "21:17",
-        "url": "https://udn.com/news/story/124981/9716267",
-        "canonical_url": "https://udn.com/news/story/124981/9716267",
-        "summary": "2026亞洲運動會將於9月在日本名古屋點燃戰火，台灣將參與7個電子競技項目、派出33名選手參賽。財團法人昇恆昌基金會攜手中華民國電子競技運動協會，於桃機推出「讓世界看見台灣的專注」電競特展，展出歷屆國際賽事獎牌及台製電競設備，透過國門空間串聯體育、文化與國際交流，也為即將征戰2026名古屋亞運…",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "2f0d41de0201927a",
-        "title": "陸北斗導航橫掃市場 結合5G、AI、物聯網應用 驚人規模曝光",
-        "published_at": "2026-08-26T21:17:00+08:00",
-        "time": "21:17",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004476-260409",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004476-260409",
-        "summary": "大陸北斗衛星導航系統正從基礎定位服務加速走向交通、農業、公共安全及消費電子等多元場景。業界分析，北斗發展已由單純「導航定位」轉向提供數位經濟所需的時空資訊基礎設施。隨智慧城市、低空經濟、精準農業及車聯",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "fb0772ed5e7e7fa7",
-        "title": "北市知名牛排館暴力事件 員工鞠躬道歉遭辱罵毆打 業者怒：列入黑名單",
-        "published_at": "2026-08-26T21:16:00+08:00",
-        "time": "21:16",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004483-260405",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004483-260405",
-        "summary": "在北市即將屆滿25年歷史的知名「勞瑞斯牛肋排餐廳」傳出消費糾紛，一名身穿西裝的顧客暴怒朝工作人員大吼，雖然對方不斷鞠躬道歉，但仍無法制止，西裝男動手揮拳打人。對此業者發出聲明，強調力挺員工，並將這名客人",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "45d40849ad3a888a",
-        "title": "南山人壽上半年獲利309億 股東權益大增92％",
-        "published_at": "2026-08-26T21:15:54+08:00",
-        "time": "21:15",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5553474",
-        "canonical_url": "https://ec.ltn.com.tw/article/breakingnews/5553474",
-        "summary": "〔記者吳欣恬／台北報導〕南山人壽2026年上半年合併稅後盈餘約新台幣309億元，較2025年同期增加約157%；合併資產總值約新台幣5.8兆元；合併股東權益約新台幣5630億元，較2026年初增",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "714916c2ccedab01",
-        "title": "7月底房貸逾放餘額創5年新高 金管會：持續關注",
-        "published_at": "2026-08-26T21:12:00+08:00",
-        "time": "21:12",
-        "url": "https://udn.com/news/story/7239/9716250",
-        "canonical_url": "https://udn.com/news/story/7239/9716250",
-        "summary": "金管會統計顯示，截至今年7月底，36家本國銀行不動產放款比率為24.19%，月減0.18個百分點，創15年半新低。不過，...",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "82209f639b9f3006",
-        "title": "自用小船捕撈漁獲公然販售已違法 漁業署：只可攜回自用",
-        "published_at": "2026-08-26T21:12:00+08:00",
-        "time": "21:12",
-        "url": "https://udn.com/news/story/7266/9716259",
-        "canonical_url": "https://udn.com/news/story/7266/9716259",
-        "summary": "針對近期有自用小船未經許可進行漁撈，以及於社群平台販售漁獲物，漁業署今表示，依照「漁業法」第6條規定，從事海洋休閒釣魚者，若有販售漁獲物的行為，已違反「漁業法」規定，呼籲只可攜回自用。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "f3e2ebbc0e2c6fe9",
-        "title": "瓜分荷姆茲海峽？ 伊朗革命衛隊：已與阿曼達成分潤協議",
-        "published_at": "2026-08-26T21:11:34+08:00",
-        "time": "21:11",
-        "url": "https://news.ltn.com.tw/news/world/breakingnews/5553452",
-        "canonical_url": "https://news.ltn.com.tw/news/world/breakingnews/5553452",
-        "summary": "伊朗革命衛隊今（26日）宣布，伊朗已與阿曼達成關於荷姆茲海峽（Strait of ​Hormuz）收益分成的協議。《半島電視台》（Al Jazeera）引述伊朗半官方性質的塔斯尼姆通訊社（Tasnim）來源報導，革命衛隊發言人表示：「我們大約一個月前與阿曼展開談判，已達成雙方皆接受的結果。",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "00a38ed81130397e",
-        "title": "昕奇雲端攜手新創夥伴 探討AI時代轉型契機",
-        "published_at": "2026-08-26T21:11:00+08:00",
-        "time": "21:11",
-        "url": "https://udn.com/news/story/7240/9716257",
-        "canonical_url": "https://udn.com/news/story/7240/9716257",
-        "summary": "昕奇雲端（7747）26 日舉辦「新創的 AI Transformation 轉型與成長」論壇，邀集證券櫃檯買賣中心、H2U 永悅健康、Amazon Web Services（AWS），以及 KDAN 凱鈿（7737）、PRO360 達人網（7839）、USPACE 悠勢科技等企業代表，從新創…",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "e4888c113ef84044",
-        "title": "《奔跑吧》大陸男星驚傳婚變 遭狗仔曝「與紅髮女子深夜獨處7小時」",
-        "published_at": "2026-08-26T21:11:00+08:00",
-        "time": "21:11",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004460-260404",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004460-260404",
-        "summary": "大陸男星包貝爾主持《奔跑吧兄弟第二季》引起關注，與妻子包文婧結婚多年，兩人育有一女一子，夫妻互動也被外界視為恩愛。沒想到26日卻突然爆出婚變疑雲，大陸知名狗仔劉大錘在曝光一段影片，稱拍到包貝爾深夜與一名",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "4cb4a227ce45f622",
-        "title": "瓊斯盃／「不安於現狀」 徐詩涵下周展開旅外生涯",
-        "published_at": "2026-08-26T21:10:00+08:00",
-        "time": "21:10",
-        "url": "https://udn.com/news/story/7003/9716255",
-        "canonical_url": "https://udn.com/news/story/7003/9716255",
-        "summary": "杭州亞運3對3國手徐詩涵，結束今年瓊斯盃就要展開新旅程，她已和WCBA遼寧隊簽約，下月就要飛去新東家報到，瓊斯盃成為她短時間內和台灣球迷見面的舞台，也成自我的測試機會。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "226952481cc4a5ec",
-        "title": "擺脫對中國依賴！巴基斯坦尋求美國融資 重返國際市場",
-        "published_at": "2026-08-26T21:09:14+08:00",
-        "time": "21:09",
-        "url": "https://news.ltn.com.tw/news/world/breakingnews/5553487",
-        "canonical_url": "https://news.ltn.com.tw/news/world/breakingnews/5553487",
-        "summary": "巴基斯坦財政部長奧朗澤布（Muhammad Aurangzeb）表示，巴國正致力於爭取美國的融資，以為重返全球資本市場做準備。此舉象徵巴基斯坦在多年來，高度仰賴中國國家貸款後，政策上出現重大轉變。",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "977395423edc09a9",
-        "title": "中央災變中心0822豪雨統計 釀全台2死3失蹤202受傷",
-        "published_at": "2026-08-26T21:08:00+08:00",
-        "time": "21:08",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004470-260402",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004470-260402",
-        "summary": "中央災害應變中心今（26）日召開0822豪雨第7次工作會議，由行政院政務委員季連成主持，持續關注颱風最新動態，並視訊連線屏東縣副縣長黃國榮，瞭解「藍白1號」客船擱淺、脫困過程。依據中央災害應變中心統計至下午4",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "ed382bf0af129564",
-        "title": "PCE數據出爐 台指期夜盤上半場多空豬羊變色",
-        "published_at": "2026-08-26T21:04:00+08:00",
-        "time": "21:04",
-        "url": "https://udn.com/news/story/7255/9716249",
-        "canonical_url": "https://udn.com/news/story/7255/9716249",
-        "summary": "台指期夜盤26日開盤時，受美股電子盤於盤下遊走影響，以46,002點、一跌1點開出後，震盪擴大，雖一度翻紅，但隨後再次翻紅上漲，最高來到46,142點、上漲139點，不過，在晚間20點30分過後，美國最新公布7月個人消費支出（PCE）符合市場預期，但卻引發行情急殺、由紅翻黑，呈破底走勢，截至晚…",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "1675d936b7d32b45",
-        "title": "陳幸妤會從政嗎？王淺秋揪阿扁頻「丟哏」貓膩 曝政壇風聲",
-        "published_at": "2026-08-26T21:02:00+08:00",
-        "time": "21:02",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004411-260407",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004411-260407",
-        "summary": "前總統陳水扁女兒陳幸妤日前自爆離婚，開撕趙建銘，並扯出2300萬元教育基金爭議。前總統陳水扁近日更時常在Threads大玩AI圖片，他因將史努比誤生成為史酷比（Scooby-Doo），意外掀起一場「史努比、史酷比傻傻分不清",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "ad081d092b352f8f",
-        "title": "美中同時搶AI專案？華為投標埃及算力中心專案 華府擬競標抗衡",
-        "published_at": "2026-08-26T21:00:00+08:00",
-        "time": "21:00",
-        "url": "https://udn.com/news/story/7333/9716238",
-        "canonical_url": "https://udn.com/news/story/7333/9716238",
-        "summary": "華為已參加埃及政府的投標，在埃及建設大型的人工智慧（AI）算力中心。這顯示出華為在全球推廣自研晶片的雄心，然而也引發華盛頓警覺。美國官員目前正推動組建一個替代方案，與華為競標。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "f2221de694fc84e1",
-        "title": "桃園平東路239巷新闢路具指標意義 張善政：強化通行安全救災效率",
-        "published_at": "2026-08-26T20:58:00+08:00",
-        "time": "20:58",
-        "url": "https://udn.com/news/story/7324/9716235",
-        "canonical_url": "https://udn.com/news/story/7324/9716235",
-        "summary": "桃園市長張善政今日下午前往平鎮區，出席平東路239巷94弄至華安街道路新闢工程竣工典禮，並表示新闢工程由平鎮區公所投入約1262萬元辦理，規模雖不大，但因為同步改善排水、路燈等設施，並結合停車場及YouBike站點，進一步完善周邊交通與生活機能，直接關係居民日常通行與公共安全，市府將以此為指標…",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "d56923a1b89de70f",
-        "title": "彰化買房更好找！「預售屋地圖2.0」新上線 建案資訊1鍵掌握",
-        "published_at": "2026-08-26T20:57:00+08:00",
-        "time": "20:57",
-        "url": "https://udn.com/news/story/7325/9716234",
-        "canonical_url": "https://udn.com/news/story/7325/9716234",
-        "summary": "為了提升房市資訊透明化與搜尋便利性，彰化縣政府地政處將「彰化縣預售屋地圖」全面升級為「彰化縣預售屋地圖 2.0-預售屋建案公開資訊服務平台」，新增「關鍵字搜尋」與「多條件篩選」等多項智慧功能，提供縣民更精準、流暢且直覺的預售屋查詢體驗。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "a30797bac0167e97",
-        "title": "貿易戰使美加面臨通膨惡化 但兩國都已預留下台階",
-        "published_at": "2026-08-26T20:57:00+08:00",
-        "time": "20:57",
-        "url": "https://udn.com/news/story/6811/9716233",
-        "canonical_url": "https://udn.com/news/story/6811/9716233",
-        "summary": "美國與加拿大關稅戰開打，分析師認為，兩國都承受不起通膨惡化打擊經濟的後果。不過，「川普再度畏縮」（TACO）也許會再度重演。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "f063078b197eab56",
-        "title": "中職／彭政閔入選台灣棒球名人堂 期待朝古柏鎮規模發展",
-        "published_at": "2026-08-26T20:55:00+08:00",
-        "time": "20:55",
-        "url": "https://udn.com/news/story/7001/9716205",
-        "canonical_url": "https://udn.com/news/story/7001/9716205",
-        "summary": "台灣棒球名人堂今天在台北大巨蛋舉行頒證儀式，中華職棒球星「恰恰」彭政閔正式成為其中一員，他對此感到榮幸，也期待名人堂朝美...",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "865d87370d16b684",
-        "title": "癌逝好友寄來「全未拆模型」附1紙條 逼哭500萬人：這輩子的羈絆",
-        "published_at": "2026-08-26T20:54:00+08:00",
-        "time": "20:54",
-        "url": "https://udn.com/news/story/6810/9716182",
-        "canonical_url": "https://udn.com/news/story/6810/9716182",
-        "summary": "面對至親好友離世，留下的物品往往承載著最深的情感與回憶。日本輕小說作家「奈輝」日前分享一段催淚經歷，透露收到因癌症過世的好友遺留下的數個大紙箱，開箱後發現裡面全都是好友生前珍藏、尚未組裝的模型與鋼彈套件，箱內更附上一張短短的親筆信，這份沉重卻充滿男子漢浪漫的遺物，瞬間逼哭百萬網友，引發熱烈共鳴。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "f8efeb9514e5740b",
-        "title": "天氣》明2地雷雨開炸！沙德爾閃過北部 周五豪雨轟南台灣",
-        "published_at": "2026-08-26T20:52:00+08:00",
-        "time": "20:52",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004438-260405",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004438-260405",
-        "summary": "中度颱風沙德爾逐漸轉西移動，中央氣象署表示，預計明天（27日）晚間至周五（28日）清晨最接近台灣，最快明天清晨至上午針對北方海面發布海上颱風警報。天氣方面，明天南部有局部陣雨或雷雨，午後苗栗以南及東半部山",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "d63e0b6d0abc8ebd",
-        "title": "重現傳統辦桌盛宴！10道經典台菜齊上桌 1人也能入席品嚐",
-        "published_at": "2026-08-26T20:50:00+08:00",
-        "time": "20:50",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004449-260421",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004449-260421",
-        "summary": "隨著時代變遷，過去在廟埕、街邊搭棚設宴，與親朋好友圍坐圓桌、熱鬧吃辦桌的景象已逐漸少見。近期辦桌文化再度成為社群熱議話題，不少網友紛紛發文揪團，希望重溫與親友共享澎湃佳餚的熱鬧氛圍。為找回台灣傳統宴席",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "106de08706975c75",
-        "title": "遭爆陳幸妤新聞禁寫「趙建銘亂搞、兒子受傷」 華視回應了",
-        "published_at": "2026-08-26T20:48:00+08:00",
-        "time": "20:48",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004436-260407",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004436-260407",
-        "summary": "前第一千金陳幸妤日前自爆與趙建銘離婚，以及趙建銘和診所的已婚女護理師許芊芊等相關爭議各項感情風波，引發討論。國民黨立委王鴻薇今（26日）透露，有《華視》基層員工爆料，《華視新聞》要求不能報導民眾抱怨漢光",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "989cf9ab1fcc4ef2",
-        "title": "傳月之暗面與美國雲計算巨頭洽談K3託管 擬最高收入分成30%",
-        "published_at": "2026-08-26T20:47:00+08:00",
-        "time": "20:47",
-        "url": "https://udn.com/news/story/7333/9716227",
-        "canonical_url": "https://udn.com/news/story/7333/9716227",
-        "summary": "大陸人工智慧公司月之暗面，傳出正與微軟Azure、亞馬遜雲科技（AWS）和谷歌雲上，與K3相關服務產生的收入中獲得最高30%的分成。若達成協議，這可能成為大陸人工智慧企業，與美國主要雲計算公司之間首個大型收入分成協議。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "288191c448c1a7a5",
-        "title": "房市冷…上半年房地合一稅短期進出稅收比重寫新低 免稅占比創4年半高",
-        "published_at": "2026-08-26T20:44:00+08:00",
-        "time": "20:44",
-        "url": "https://udn.com/news/story/7241/9716220",
-        "canonical_url": "https://udn.com/news/story/7241/9716220",
-        "summary": "信義房屋統計財政部資料指出，今年上半年短期持有2年內房地合一稅45%的交易比重跌破10%，寫下統計以來新低；惟以中長期、持有5年以上繳納房地合一稅制占比則達43.2%新高紀錄，不用繳稅民眾則達26.8%、寫下四年半新高。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "55c7cc6140e9ac94",
-        "title": "人生進階開超商？日本神人把家裡變「全家」 連官方小編都來朝聖",
-        "published_at": "2026-08-26T20:42:00+08:00",
-        "time": "20:42",
-        "url": "https://udn.com/news/story/6810/9716150",
-        "canonical_url": "https://udn.com/news/story/6810/9716150",
-        "summary": "身邊朋友陸續步入結婚生子或升遷的人生階段，但這名網友的「人生新進度」卻讓全網直呼太羨慕！日本一名網友分享居家改造成果，透露自己直接在家中打造了一間「迷你便利商店」，將商用貨架塞滿各式經典零食、餅乾與泡麵，陳列手法專業到堪比正式超商。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "920678075732672e",
-        "title": "富達投信警示 通膨非短期循環 已成長期結構",
-        "published_at": "2026-08-26T20:41:00+08:00",
-        "time": "20:41",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004429-260410",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004429-260410",
-        "summary": "全球央行年會將登場，聯準會主席華許演說首秀將備受矚目；富達國際基金經理 Ian Samson指出，已開發市場已連續6年通膨高於央行目標，顯示通膨不再是短期循環現象，可能成為長期結構性因素，在全球主要經濟體面臨結構",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "32a4905ff3985956",
-        "title": "台灣投資人行為調查 9成看好AI榮景 7成實現資產增長",
-        "published_at": "2026-08-26T20:40:00+08:00",
-        "time": "20:40",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004423-260410",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004423-260410",
-        "summary": "AI與科技龍頭股帶動下，台股再度站穩4萬5千點大關； Yahoo股市26日公布「台灣投資人行為大調查」結果顯示，9成受訪者看好AI榮景、7成實現資產增長，而國人投資股市與ETF的比例雙雙創下新高，股票投資參與率從去年調",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
         "id": "422417c92bf10d3b",
         "title": "自由爆新聞》國共交流喊「統一」！突擊街訪台灣人犀利打臉",
         "published_at": "2026-08-26T20:39:17+08:00",
@@ -1190,94 +941,6 @@
         "summary": "全新的視界！新聞話題不漏接，快訂閱YouTube 【自由追新聞】 ，記得開啟小鈴鐺哦！",
         "source": "自由時報・即時新聞",
         "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "9cb7e9542943d287",
-        "title": "西藏邊境奪命山洪！尼泊爾滅村「宛如末日」31死384遊客失蹤",
-        "published_at": "2026-08-26T20:39:00+08:00",
-        "time": "20:39",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004396-260408",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004396-260408",
-        "summary": "（21:14更新--死亡人數增加）喜馬拉雅山區國家尼泊爾，26日發生大規模突發洪水，洶湧洪流夾帶大量泥沙、岩石席捲村莊、道路、橋梁與水力發電設施。災情仍在統計中，稍早已知17死，美國有線電視新聞網（CNN）報導，警",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "79d6d72a10e00d54",
-        "title": "華航宣布工作名牌刪除中文姓名 長榮星宇研議中",
-        "published_at": "2026-08-26T20:38:00+08:00",
-        "time": "20:38",
-        "url": "https://udn.com/news/story/7266/9716218",
-        "canonical_url": "https://udn.com/news/story/7266/9716218",
-        "summary": "為保障員工隱私與安全，台灣虎航今年初宣布工作證將移除中文姓氏，並輔以英文別名。中華航空及華信航空也表示，2027年3月起以中英文姓氏，以及英文名縮寫或外文別名擇一並列；長榮、星宇航空則持續研議。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "2f3f1e2af96653ac",
-        "title": "瓊斯盃／首戰碰黎巴嫩國家隊 女閃電俠坦言會緊張",
-        "published_at": "2026-08-26T20:37:00+08:00",
-        "time": "20:37",
-        "url": "https://udn.com/news/story/7003/9716215",
-        "canonical_url": "https://udn.com/news/story/7003/9716215",
-        "summary": "中華白今天在瓊斯盃女籃擔綱首戰主角，但三分球42投僅7中下以57：74敗給黎巴嫩國家隊，中華白教練林紀妏坦言球員經驗確實不夠好，今天是很好的經驗學習。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "c7f5c98873dd7eec",
-        "title": "林岱樺談治水跟賴唱反調？粉專揭貓膩：坐看他們互相撕咬",
-        "published_at": "2026-08-26T20:36:00+08:00",
-        "time": "20:36",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004405-260407",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004405-260407",
-        "summary": "高雄豪雨造成淹水，綠委林岱樺24日直指，這次水患暴露現行都市排水設計標準已跟不上人口成長、都市發展與氣候變遷速度。粉專對照總統賴清德勘災「不要質疑治水成效」說法，直言林岱樺唱反調，初選落馬3綠委利益合一",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "500dca52dc5ad676",
-        "title": "保護空服員隱私！華航跟進名牌刪中文全名 長榮、星宇研議中",
-        "published_at": "2026-08-26T20:31:00+08:00",
-        "time": "20:31",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004364-260405",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004364-260405",
-        "summary": "為保護員工隱私與安全，台灣虎航今年2月起移除空服員名牌中文姓氏，改以英文別名。中華航空規劃跟進，將於民國116年 3月起換發，以中英文姓氏，以及英文名縮寫或外文別名擇一並列。華航企業工會粉絲專頁今天指出，日",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "160fe342a1149919",
-        "title": "知本農路案火燒進縣議會！ 前祕書長吳慶榮今遭檢調約談",
-        "published_at": "2026-08-26T20:30:00+08:00",
-        "time": "20:30",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004416-260402",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004416-260402",
-        "summary": "台東知本建和農路改善工程涉圖利案傳新證人，檢調日前陸續借提縣府農業處長許家豪、前科長蔡明翰取得關鍵證詞，今（26）日再借提台東縣議長吳秀華服務處助理邱嘉平，同時以證人身分約談前議會祕書長、吳秀華競選團隊",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "60303ce62f132b38",
-        "title": "邱以太、劉育仁「殺蟑之吻」 情不自禁伸舌頭！被提醒要守分寸",
-        "published_at": "2026-08-26T20:24:00+08:00",
-        "time": "20:24",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004391-260404",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004391-260404",
-        "summary": "由邱以太、劉育仁主演的高人氣奇幻BL台劇《整個世界，只有你連上了我》，開播以來話題不斷， 本周迎來兩人情感發展的重要轉折，也是粉絲期待已久的重頭戲「殺蟑之吻」。劇中兩人上演甜度爆表的「殺蟑之吻」，是佳凱",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "b2d1f7a0a0e89965",
-        "title": "林佑威無懼影視寒冬！百萬餐廳落腳蘇州：台北肯定租不到",
-        "published_at": "2026-08-26T20:17:00+08:00",
-        "time": "20:17",
-        "url": "https://www.chinatimes.com/realtimenews/20260826004350-260404",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260826004350-260404",
-        "summary": "48歲台灣男星林佑威，近年將事業與生活重心移至大陸，更選在蘇州定居開啟新生活。日前，他也宣布轉戰餐飲業，與友人在金雞湖投資一家餐酒館，光是租金就和台北天差地遠，也讓一旁的友人直呼，在台北沒有6萬塊人民幣",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
         "id": "f9778851a4a83628",
@@ -1309,28 +972,6 @@
         "url": "https://news.ltn.com.tw/news/politics/breakingnews/5553336",
         "canonical_url": "https://news.ltn.com.tw/news/politics/breakingnews/5553336",
         "summary": "全新的視界！新聞話題不漏接，快訂閱YouTube 【自由追新聞】 ，記得開啟小鈴鐺哦！",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "68f9cf90e627ca2e",
-        "title": "曾經百億市值如今「1千萬」就賣！ 森崴董事會宣布：同意收購案",
-        "published_at": "2026-08-26T17:33:53+08:00",
-        "time": "17:33",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5553235",
-        "canonical_url": "https://ec.ltn.com.tw/article/breakingnews/5553235",
-        "summary": "〔記者張慧雯／台北報導〕森崴能源（6806）8月17日接獲胡正杰公開收購通知，今日於重大訊息公告「出席董事認為胡正杰公開收購條件尚符合公平性及合理性的原則，同意本公開收購案」；不過，曾經高達百億",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "9db11bf3978be54a",
-        "title": "外資大買365億狂掃「這檔」奪冠！力積電同步上榜 72萬股東嗨了",
-        "published_at": "2026-08-26T17:01:12+08:00",
-        "time": "17:01",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5553181",
-        "canonical_url": "https://ec.ltn.com.tw/article/breakingnews/5553181",
-        "summary": "〔財經頻道／綜合報導〕台股週三（26日）再度上演大V轉，早盤在半導體走弱下，指數跌244點，然在大立光、創意等高價股狂飆亮燈帶動，加上台積電也翻紅，指數急拉，終場上漲663點，收45832張，外",
         "source": "自由時報・即時新聞",
         "source_url": "https://news.ltn.com.tw/list/breakingnews"
       },
@@ -1370,6 +1011,116 @@
     ],
     "finance": [
       {
+        "id": "12c5ef8b9c274929",
+        "title": "房貸「天條」壓力鬆了！國銀不動產放款比率探近16年新低",
+        "published_at": "2026-08-26T22:10:00+08:00",
+        "time": "22:10",
+        "url": "https://money.udn.com/money/story/5613/9716341?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5613/9716341",
+        "summary": "據金管會統計，7月底國銀不動產放款比率降到24.19%，已連續14個月下滑、寫近16年新低，銀行距離30%法定上限愈來愈遠，房貸承作水位壓力也明顯緩解。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "dba5526faea9fe2c",
+        "title": "美股早盤／輝達財報在即 PCE 顯示通膨仍然棘手 三大指數平盤波動",
+        "published_at": "2026-08-26T22:10:00+08:00",
+        "time": "22:10",
+        "url": "https://money.udn.com/money/story/123398/9716348?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/123398/9716348",
+        "summary": "美股26日早盤在平盤附近波動，主因是通膨報告結果比預期火熱，提高市場對美國聯準會（Fed）9月升息的押注，同時市場投資人也在等待AI領頭羊輝達的盤後財報。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "52894036f757d18d",
+        "title": "房貸逾放飆5年新高 金管會急找銀行喝咖啡",
+        "published_at": "2026-08-26T22:10:00+08:00",
+        "time": "22:10",
+        "url": "https://money.udn.com/money/story/5613/9716334?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5613/9716334",
+        "summary": "國銀房貸逾放拉警報，金管會出手了。據統計，7月底國銀房貸逾放一舉攀升到94.25億元，是睽違五年重返「9字頭」，單月暴增7.8億元、寫六年半最大增額。金管會將找一家逾放連續攀升的大型民營銀行「喝咖啡」。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "158070b05c574532",
+        "title": "美 PCE 指數增幅持穩 第2季 GDP 成長率與初估1.5%一致",
+        "published_at": "2026-08-26T22:10:00+08:00",
+        "time": "22:10",
+        "url": "https://money.udn.com/money/story/5599/9716302?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9716302",
+        "summary": "美國聯準會（Fed）偏愛的通膨指標7月意外持穩，加上消費者支出停滯，可望給Fed更多空間維持利率不變。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "30ebabe537f5a4ee",
+        "title": "外資回頭股匯雙漲 新台幣收31.818元寫逾2個月新高",
+        "published_at": "2026-08-26T22:10:00+08:00",
+        "time": "22:10",
+        "url": "https://money.udn.com/money/story/5616/9715991?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5616/9715991",
+        "summary": "外資回頭買超台股，帶動股匯同步走揚，新台幣匯率早盤震盪，最低觸及31.887元，午後一路走升，收盤收31.818元，升值...",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "74919fe5b7c20fe3",
+        "title": "新台幣升5分 收31.818元",
+        "published_at": "2026-08-26T22:10:00+08:00",
+        "time": "22:10",
+        "url": "https://money.udn.com/money/story/5616/9715652?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5616/9715652",
+        "summary": "台北外匯市場新台幣兌美元今天收盤收31.818元，升5分，成交金額12.02億美元",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "7a86b018101fb3c5",
+        "title": "永豐金前七月賺贏去年全年 總座談股利政策 仍以現金為主",
+        "published_at": "2026-08-26T22:10:00+08:00",
+        "time": "22:10",
+        "url": "https://money.udn.com/money/story/5613/9714014?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5613/9714014",
+        "summary": "永豐金控昨（25）日舉行第2季法說會，受惠銀行、證券等核心業務表現亮眼，前七月稅後純益達289.32億元，年增89%，已超越2025年全年獲利，每股稅後純益達1.96元，獲利續創高峰。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "d79dd037c538b9de",
+        "title": "中華車導入日規進口車",
+        "published_at": "2026-08-26T22:10:00+08:00",
+        "time": "22:10",
+        "url": "https://money.udn.com/money/story/5710/9716090?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5710/9716090",
+        "summary": "中華車（2204）新車、轉投資雙引擎發威，第2季獲利優於第1季。展望下半年，日規進口Outlander將於9月下旬上市。另，旗下綠捷新產品機器狗預計明年初出貨，並規劃登錄興櫃。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "544b52cc5798c795",
+        "title": "南山人壽上半年股東權益達5630億元 較年初增92%",
+        "published_at": "2026-08-26T21:54:00+08:00",
+        "time": "21:54",
+        "url": "https://money.udn.com/money/story/5613/9716304?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5613/9716304",
+        "summary": "南山人壽今天發布第2季財報，南山人壽表示，受惠於國內股市上漲及負債折現率上升等有利影響，金融資產及保險合約負債未實現評價...",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "88119bb5e348b74d",
+        "title": "家登創投參與AOI廠聯策私募 累計持股2,137張比率達5.57%",
+        "published_at": "2026-08-26T21:49:00+08:00",
+        "time": "21:49",
+        "url": "https://udn.com/news/story/7239/9716297",
+        "canonical_url": "https://udn.com/news/story/7239/9716297",
+        "summary": "AOI廠商聯策（6658）獲得家登創投長期投資，今日最新公告家登創投對該公司持股總額：2,137,000股，占公司已發行股份總額百分比：5.57%。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
         "id": "f5b962ba21df90b6",
         "title": "一場馬拉松看懂渣打生意經 跑得久、跑得穩，才是真正贏家",
         "published_at": "2026-08-26T21:39:00+08:00",
@@ -1379,50 +1130,6 @@
         "summary": "2027渣打台北公益馬拉松賽事將於2027年1月10日登場，預計吸引超過2.6萬名跑者參與。對渣打銀行而言，這場長年冠名贊助的路跑賽事，不只是年度運動盛事，更像是一場企業經營理念的具體實踐：以長期主義累積品牌價值，以穩定配速推動業務成長，並透過公益行動將企業影響力延伸至社會。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "9aaf5d06cdd361f4",
-        "title": "有片／尼泊爾山洪近300外國客失聯 已找到55具屍首",
-        "published_at": "2026-08-26T21:21:36+08:00",
-        "time": "21:21",
-        "url": "https://www.taisounds.com/news/content/84/285360",
-        "canonical_url": "https://www.taisounds.com/news/content/84/285360",
-        "summary": "尼泊爾與中國邊境的喜馬拉雅山區週三（26日）發生大規模山洪爆發，數個村莊直接遭到夷平。根據週三傍晚的最新消息，災難現場已經找到55具屍首。此外，有近300名外國觀光客失聯。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "0435e00dae0e60f2",
-        "title": "教堂內處決、沿途屍體橫陳 海地幫派搶「戰略山城」釀47死",
-        "published_at": "2026-08-26T21:17:47+08:00",
-        "time": "21:17",
-        "url": "https://www.taisounds.com/news/content/84/285361",
-        "canonical_url": "https://www.taisounds.com/news/content/84/285361",
-        "summary": "海地首都太子港附近山城肯斯科夫，週日（8/23）遭幫派血洗，至少47死、逾50人遭綁架；城內道路屍體橫陳，倖存者「踩著屍體逃命」。專家指幫派覬覦此地是因其可鳥瞰通往首都道路、控制連接首都與海地南部道路，又可包圍臨時政府所在高檔社區，具高度戰略價值。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "50f8578b070da9a1",
-        "title": "彰化買房更好找！「預售屋地圖2.0」新上線 建案資訊1鍵掌握",
-        "published_at": "2026-08-26T21:12:00+08:00",
-        "time": "21:12",
-        "url": "https://house.udn.com/house/story/123590/9716234",
-        "canonical_url": "https://house.udn.com/house/story/123590/9716234",
-        "summary": "為了提升房市資訊透明化與搜尋便利性，彰化縣政府地政處將「彰化縣預售屋地圖」全面升級為「彰化縣預售屋地圖 2.0-預售屋建案公開資訊服務平台」，新增「關鍵字搜尋」與「多條件篩選」等多項智慧功能，提供縣民更精準、流暢且直覺的預售屋查詢體驗。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "028c725ee02bdb3c",
-        "title": "房市冷…上半年房地合一稅短期進出稅收比重寫新低 免稅占比創4年半高",
-        "published_at": "2026-08-26T21:12:00+08:00",
-        "time": "21:12",
-        "url": "https://house.udn.com/house/story/123589/9716220",
-        "canonical_url": "https://house.udn.com/house/story/123589/9716220",
-        "summary": "信義房屋統計財政部資料指出，今年上半年短期持有2年內房地合一稅45%的交易比重跌破10%，寫下統計以來新低；惟以中長期、持有5年以上繳納房地合一稅制占比則達43.2%新高紀錄，不用繳稅民眾則達26.8%、寫下四年半新高。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
         "id": "00a38ed81130397e",
@@ -1436,17 +1143,6 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "cdddcbb8d65cc420",
-        "title": "「台灣最強高中生」Ray出事了！超市直播「被警方攔下帶走」一度短暫拘留",
-        "published_at": "2026-08-26T21:08:58+08:00",
-        "time": "21:08",
-        "url": "https://www.taisounds.com/news/content/107/285362",
-        "canonical_url": "https://www.taisounds.com/news/content/107/285362",
-        "summary": "有「台灣最強高中生」之稱的實況主Ray，近日與友人RaKai等人前往美國連鎖賣場Walmart（沃爾瑪）開直播時，突然被到場的警方攔下，並被告知已遭店家正式列入禁止進入名單，若未來再踏入Walmart，恐構成刑事非法侵入（criminal trespass）。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
         "id": "73540d7447eb54fb",
         "title": "7月底房貸逾放餘額創5年新高 金管會：持續關注",
         "published_at": "2026-08-26T21:08:00+08:00",
@@ -1458,103 +1154,15 @@
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
       {
-        "id": "f044a93f5de07fa4",
-        "title": "政大高材生想當「女版小賈斯汀」 Ginger自嘲：不唱歌嘴巴會癢",
-        "published_at": "2026-08-26T21:03:47+08:00",
-        "time": "21:03",
-        "url": "https://www.taisounds.com/news/content/107/285359",
-        "canonical_url": "https://www.taisounds.com/news/content/107/285359",
-        "summary": "政大高材生、創作新人Ginger挾YT Music串流逾500萬次成績進攻歌壇，她還因清新率性的中性外型被網友封為「最帥女歌手」，把小賈斯汀（Justin Bieber）當成音樂啟蒙偶像的她許願當「台灣女版小賈斯汀」，「我從小就很喜歡他！除了很帥之外，他的歌曲也深深地影響我的創作風格，讓我愛上…",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "3b378b8d0453e9c5",
-        "title": "林安可重返一軍後連2場敲安、單場2度上壘 西武大比分敗給火腿",
-        "published_at": "2026-08-26T21:03:13+08:00",
-        "time": "21:03",
-        "url": "https://www.taisounds.com/news/content/102/285358",
-        "canonical_url": "https://www.taisounds.com/news/content/102/285358",
-        "summary": "效力日本職棒（NPB）琦玉西武獅的台灣野手林安可今天（26日）在交手北海道日本火腿鬥士的比賽擔任第4棒、左外野手，雖然3打數1安打1保送，重返一軍後連2場比賽敲安，可惜西武最終1：9輸球，中斷近期的4連勝。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "6a0f993c692f8bf0",
-        "title": "駭人命案！台中男全身傷被「活活打死」室友幹的 殺機曝光遭收押",
-        "published_at": "2026-08-26T20:59:51+08:00",
-        "time": "20:59",
-        "url": "https://www.taisounds.com/news/content/96/285357",
-        "canonical_url": "https://www.taisounds.com/news/content/96/285357",
-        "summary": "驚悚命案發生在台中市霧峰區一處民宅，8月25日下午，陳姓男子與同住的陳姓友人疑有債務糾紛，2人發生嚴重爭執，44歲陳男徒手猛毆46歲陳男，造成46歲陳男傷痕累累、失去意識，緊急送往送往中山附醫後仍宣告死亡。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "cce7df84eb8175c2",
-        "title": "公公併有譜？國票金授權董事長進行合併案評估",
-        "published_at": "2026-08-26T20:37:00+08:00",
-        "time": "20:37",
-        "url": "https://money.udn.com/money/story/5613/9716216?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5613/9716216",
-        "summary": "彰銀授權董事長成立專案小組啟動投資或整併的前期評估，外界關切彰銀、國票金是否有「公公併」可能。國票金今天召開董事會，通過...",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "26b45b1911942ac7",
-        "title": "輝達財報開獎倒數！分析師示警「C波大跌」 預言台股恐下探31117點",
-        "published_at": "2026-08-26T20:30:59+08:00",
-        "time": "20:30",
-        "url": "https://www.taisounds.com/news/content/80/285356",
-        "canonical_url": "https://www.taisounds.com/news/content/80/285356",
-        "summary": "備受市場注目的輝達（NVIDIA）財報即將公布，台股也出現提前押注財報行情的氣氛。不過，分析師陳嘉偉對後市提出警告，認為過去數月包括台北國際電腦展、美伊和平備忘錄、台積電法說會等市場高度期待的利多事件，消息公布後台股反而出現明顯修正。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "5a9286664a7827ff",
-        "title": "濟州吃案警有多誇張？ 涉家暴、女廁偷拍還連連獲得嘉獎",
-        "published_at": "2026-08-26T20:18:00+08:00",
-        "time": "20:18",
-        "url": "https://www.taisounds.com/news/content/84/285355",
-        "canonical_url": "https://www.taisounds.com/news/content/84/285355",
-        "summary": "南韓濟州島一名夫姓警察對失蹤人口報案進行謊報吃案的行為，之後被查出他「結案」的失蹤人口至少有2人死亡，包括震驚海外的「張美蘭案」，引起南韓軒然大波。週三（26日）新的報導指出，這名濟州島警察行徑荒唐，卻連年獲得南韓國家警察廳與濟州警署嘉獎授勳，凸顯出韓警內部的荒誕狀況。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "91247fb575e8423f",
-        "title": "中國新增台灣文旦果園、包裝廠註冊集中花蓮 陸委會：就是大禮包統戰宣傳",
-        "published_at": "2026-08-26T20:09:07+08:00",
-        "time": "20:09",
-        "url": "https://www.taisounds.com/news/content/71/285354",
-        "canonical_url": "https://www.taisounds.com/news/content/71/285354",
-        "summary": "中國海關總署網站日前公布新增一批台灣文旦柚包裝廠及果園註冊，國台辦發言人今天（8/26）被問到此事，表示符合大陸檢驗檢疫規定前提下，歡迎更多台灣優質產品銷往大陸。對此，陸委會也立刻回應表示，陸方這次作法與其公布前2批相同，「此種作法就只是包裝成『中秋大禮包』的統戰宣傳」。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "5ba8f00edb0d87e5",
-        "title": "南山人壽上半年合併股東權益達5,630億元 較年初增加92%",
-        "published_at": "2026-08-26T20:00:00+08:00",
-        "time": "20:00",
-        "url": "https://money.udn.com/money/story/5613/9716152?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5613/9716152",
-        "summary": "南山人壽保險本業表現穩健，2026年上半合併稅後純益約新台幣309億元，較2025年同期增加約157%；合併資產總值約新台幣5.8兆元；合併股東權益約新台幣5,630億元，較2026年初增加約92%；每股盈餘為2.10元。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "15e3f749588ac0f9",
-        "title": "從竹北市轉戰新竹市！生涯場均4.7分李家瑞轉戰PLG洋基工程",
-        "published_at": "2026-08-26T19:57:56+08:00",
-        "time": "19:57",
-        "url": "https://www.taisounds.com/news/content/103/285352",
-        "canonical_url": "https://www.taisounds.com/news/content/103/285352",
-        "summary": "洋基工程職業籃球隊今（26）日宣布，正式簽下前鋒李家瑞，期待透過他優異的機動性與豐富賽事經驗，有效提升本土鋒線深度。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
+        "id": "288191c448c1a7a5",
+        "title": "房市冷…上半年房地合一稅短期進出稅收比重寫新低 免稅占比創4年半高",
+        "published_at": "2026-08-26T20:44:00+08:00",
+        "time": "20:44",
+        "url": "https://udn.com/news/story/7241/9716220",
+        "canonical_url": "https://udn.com/news/story/7241/9716220",
+        "summary": "信義房屋統計財政部資料指出，今年上半年短期持有2年內房地合一稅45%的交易比重跌破10%，寫下統計以來新低；惟以中長期、持有5年以上繳納房地合一稅制占比則達43.2%新高紀錄，不用繳稅民眾則達26.8%、寫下四年半新高。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
         "id": "0bbe3c8f3df8971b",
@@ -1579,50 +1187,6 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "dc8d85b151b889d5",
-        "title": "彰銀併國票金成公股合併首選！ 路透：政策目標明年6月前見成果",
-        "published_at": "2026-08-26T19:34:00+08:00",
-        "time": "19:34",
-        "url": "https://www.taisounds.com/news/content/76/285350",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285350",
-        "summary": "政府積極推動公股金融機構整併態度轉向積極，市場矚目的「公公併」再傳重大進展。路透今天引述3名消息人士指出，彰化銀行（2801）併購國票金控（2889）有望成為政策推動的主要方向，政策目標是在2027年6月兩家公司股東會召開前，取得具體成果。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "27d59cda32242831",
-        "title": "芳香劑、刮鬍刀藏攝影機！「阡日咖啡」噁老闆8年偷拍20女 一審判關5年",
-        "published_at": "2026-08-26T19:26:08+08:00",
-        "time": "19:26",
-        "url": "https://www.taisounds.com/news/content/97/285348",
-        "canonical_url": "https://www.taisounds.com/news/content/97/285348",
-        "summary": "台北赤峰街知名文青咖啡店「阡日咖啡」去（2025）年爆出偷拍案，老闆徐維隆涉嫌利用偽裝成「芳香劑、電動刮鬍刀」的微型攝影機，偷拍員工、客人等至少20名女性如廁、洗澡或更衣的畫面，連去日本及韓國員工旅遊時都不放過。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "29dae7c820916979",
-        "title": "驚喜！NBA金州勇士球星巴特勒現身大巨蛋 中信兄弟曝光來台原因",
-        "published_at": "2026-08-26T19:23:44+08:00",
-        "time": "19:23",
-        "url": "https://www.taisounds.com/news/content/102/285347",
-        "canonical_url": "https://www.taisounds.com/news/content/102/285347",
-        "summary": "效力NBA金州勇士球星巴特勒（Jimmy Butler）今天（26日）突然驚喜現身台北大巨蛋的中信兄弟、樂天桃猿之戰引發一陣騷動，中信兄弟球團透露他抵台原因。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "c9c499263b68995a",
-        "title": "銅板價「每張50元」公開收購！森崴能源同意胡正杰提案 審議會：合理價值區間",
-        "published_at": "2026-08-26T19:18:00+08:00",
-        "time": "19:18",
-        "url": "https://www.taisounds.com/news/content/76/285346",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285346",
-        "summary": "再生能源系統廠森崴能源（6806）6月下市後，前總經理胡惠森之子胡正杰突然出手收購引發關注，森崴能源今（26）日公告，針對胡正杰公開收購森崴能源普通股案，審議委員會完成評估後，認定收購條件尚符合公平性及合理性原則，因此同意公開收購案，但也提醒股東應詳閱公開收購說明書，自行評估參與應賣或不參與應…",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
         "id": "cd94d4db2dea5919",
         "title": "汎銓矽光子光損偵測設備11月亮相 五大客戶排隊搶購",
         "published_at": "2026-08-26T19:02:00+08:00",
@@ -1632,28 +1196,6 @@
         "summary": "汎銓跨足矽光子光損偵測設備及CPO（共同封裝光學）量產檢測設備獲重大突破。經營團隊今（26）日舉行法說會時，釋放首部自製光損偵測設備已預定下月送交人工智慧（AI）客戶專區客戶驗證，並於9月SEMICON TAIWAN以實測影片先行亮相；",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "20270c5fde202101",
-        "title": "當股東大勝當員工！聯發科8月分紅傳打85折、平均較2月縮水降至80萬",
-        "published_at": "2026-08-26T18:58:00+08:00",
-        "time": "18:58",
-        "url": "https://www.taisounds.com/news/content/76/285344",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285344",
-        "summary": "IC設計龍頭聯發科今年8月分紅上周開獎，分紅跳水有感！疑似員工在decard爆料，當股東比當員工好！面對手機業務逆風，ASIC貢獻有限，聯發科今年上半年獲利年減約15.4%，外界估算分紅總金額恐跌破100億元，約97億元區間，以集團1.2萬名員工估算，平均每人約領80萬元，對比2月約95萬元…",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "93589118cded1f8d",
-        "title": "陳冠如提案告中視 國票金董事會10：3否決 4獨董反對：依法律意見適當處理即可",
-        "published_at": "2026-08-26T18:58:00+08:00",
-        "time": "18:58",
-        "url": "https://www.taisounds.com/news/content/76/285343",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285343",
-        "summary": "國票金（2889）董事會今（26）日除了討論整併及薪酬改革，也爆發是否對中視採取法律行動的攻防。國票金晚間發布重訊指出，針對董事陳冠如提案，主張中視未查證即播放惡意不實報導，要求公司研議檢舉、提告等法律行為，不過最終遭董事會10票反對、3票贊成否決，多數董事認為，由權責單位依實際情況判斷、適當…",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
       },
       {
         "id": "63167aff40c20eb4",
@@ -1667,105 +1209,6 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "c49f865508ef6782",
-        "title": "中國信託uniopen聯名卡破百萬卡量 12萬名新戶加入展現號召力",
-        "published_at": "2026-08-26T18:52:00+08:00",
-        "time": "18:52",
-        "url": "https://money.udn.com/money/story/5613/9715999?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5613/9715999",
-        "summary": "中國信託商業銀行攜手統一企業集團推出的「中國信託uniopen聯名卡」，上市滿一周年前正式突破百萬發卡，寫下零售場景金融合作重要里程碑，而且該卡的發行已經讓中國信託吸收超過12萬名新客戶，號召力由此可見。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "db778e1cc7dc69f9",
-        "title": "貿易戰使美加面臨通膨惡化 但兩國都已預留下台階",
-        "published_at": "2026-08-26T18:45:00+08:00",
-        "time": "18:45",
-        "url": "https://money.udn.com/money/story/5599/9716233?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5599/9716233",
-        "summary": "美國與加拿大關稅戰開打，分析師認為，兩國都承受不起通膨惡化打擊經濟的後果。不過，「川普再度畏縮」（TACO）也許會再度重演。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "8626ef5851bb671d",
-        "title": "今日最夯股／高端疫苗跳空量增漲停 外資大買有何題材？",
-        "published_at": "2026-08-26T18:45:00+08:00",
-        "time": "18:45",
-        "url": "https://money.udn.com/money/story/5607/9715998?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5607/9715998",
-        "summary": "иӮЎеёӮзһ¬жҒҜиҗ¬и®ҠпјҢжЁҷзҡ„дә”иҠұе…«й–ҖпјҢе“ӘдёҖжӘ”еҖӢиӮЎжҳҜжҜҸеӨ©еёӮе ҙжңҖй—ңжіЁзҡ„дәәж°ЈжҢҮжЁҷеҸҠи©ұйЎҢпјҢи«ӢзңӢз¶“жҝҹж—Ҙе ұжҜҸж—ҘзІҫйҒёзҡ„д»Ҡж—Ҙ…",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "0e13b1402e7751f0",
-        "title": "PCE 數據出爐 台指期夜盤上半場多空豬羊變色",
-        "published_at": "2026-08-26T18:45:00+08:00",
-        "time": "18:45",
-        "url": "https://money.udn.com/money/story/11112/9716249?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/11112/9716249",
-        "summary": "台指期夜盤26日開盤時，受美股電子盤於盤下遊走影響，以46,002點、一跌1點開出後，震盪擴大，雖一度翻紅，但隨後再次翻紅上漲，最高來到46,142點、上漲139點，不過，在晚間20點30分過後，美國最新公布7月個人消費支出（PCE）符合市場預期，但卻引發行情急殺、由紅翻黑，呈破底走勢，截至晚…",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "30ebabe537f5a4ee",
-        "title": "外資回頭股匯雙漲 新台幣收31.818元寫逾2個月新高",
-        "published_at": "2026-08-26T18:45:00+08:00",
-        "time": "18:45",
-        "url": "https://money.udn.com/money/story/5616/9715991?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5616/9715991",
-        "summary": "外資回頭買超台股，帶動股匯同步走揚，新台幣匯率早盤震盪，最低觸及31.887元，午後一路走升，收盤收31.818元，升值...",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "74919fe5b7c20fe3",
-        "title": "新台幣升5分 收31.818元",
-        "published_at": "2026-08-26T18:45:00+08:00",
-        "time": "18:45",
-        "url": "https://money.udn.com/money/story/5616/9715652?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5616/9715652",
-        "summary": "台北外匯市場新台幣兌美元今天收盤收31.818元，升5分，成交金額12.02億美元",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "7a86b018101fb3c5",
-        "title": "永豐金前七月賺贏去年全年 總座談股利政策 仍以現金為主",
-        "published_at": "2026-08-26T18:45:00+08:00",
-        "time": "18:45",
-        "url": "https://money.udn.com/money/story/5613/9714014?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5613/9714014",
-        "summary": "永豐金控昨（25）日舉行第2季法說會，受惠銀行、證券等核心業務表現亮眼，前七月稅後純益達289.32億元，年增89%，已超越2025年全年獲利，每股稅後純益達1.96元，獲利續創高峰。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "1a2e2308db704890",
-        "title": "搶搭青安2.0末班車、民俗月前交易需求湧現 7月房貸月增量寫一年半最大",
-        "published_at": "2026-08-26T18:45:00+08:00",
-        "time": "18:45",
-        "url": "https://money.udn.com/money/story/5613/9714019?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5613/9714019",
-        "summary": "中央銀行昨（25）日發布最新統計顯示，7月底購置住宅貸款餘額升至11兆8,896億元，單月增加769億元，年增4.52%，月增量創逾一年半最大，年增率為今年2月以來新高。央行官員強調，這波房貸增加主要受到短期政策與季節因素帶動，房市整體「量縮價穩」的盤整格局並未改變。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
-        "id": "96195cfc80367888",
-        "title": "彰銀、國票金公公併有影 將從市場點名跨進程序啟動",
-        "published_at": "2026-08-26T18:45:00+08:00",
-        "time": "18:45",
-        "url": "https://money.udn.com/money/story/5613/9714114?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5613/9714114",
-        "summary": "彰銀昨（25）日宣布，董事會24日授權董事長胡光華成立專案小組，25日再公開遴選財顧，正式啟動策略合作、投資及整併的前期評估。",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
-      },
-      {
         "id": "f6eb4f2b32fbe70f",
         "title": "直呼投入FOPLP是一生最大賭注 力成董座蔡篤恭：終於不怕沒客戶了",
         "published_at": "2026-08-26T18:44:00+08:00",
@@ -1775,83 +1218,6 @@
         "summary": "力成科技押注FOPLP（扇出型面板級封裝），獲重大斬獲，力成董事長蔡篤恭今日首度開放讓媒體參觀其核心產線受訪表示，力成投入FOPLP可說是「一生最大的賭注」。若加計廠房、工程及未來5000片產能所需設備，整體投資規模估計上看700億元。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "8474a2d6a74d0187",
-        "title": "台股反轉+外資回補！新台幣站穩31.8字頭、創兩個月新高",
-        "published_at": "2026-08-26T18:41:00+08:00",
-        "time": "18:41",
-        "url": "https://www.taisounds.com/news/content/76/285342",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285342",
-        "summary": "美國長天期公債殖利率連日下挫，美股全面收紅，激勵台股上漲，新台幣匯率今（8/26）日早盤反映國際美元，一度有意回測31.9字頭，在外資大舉匯入下，匯價最高觸及31.809元，但進口商有實質拋補，使得匯價漲勢收斂，終場收31.818元、升5分，不僅由黑翻紅，更創下兩個月來新高，總成交值量縮至17…",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "7b0793cf35d4ab21",
-        "title": "DRAM真的「金貴」 3.3公斤就可以買一戶房子",
-        "published_at": "2026-08-26T18:39:22+08:00",
-        "time": "18:39",
-        "url": "https://www.taisounds.com/news/content/78/285341",
-        "canonical_url": "https://www.taisounds.com/news/content/78/285341",
-        "summary": "根據南韓政府的最新統計數據，在人工智慧（AI）浪潮中飆漲的個人電腦用記憶體DRAM，價格已經直逼黃金，基準DRAM晶片每公斤（1000公克）的價格已經等同620公克的黃金。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "dd60e54af46c1823",
-        "title": "彰銀表態之後 國票金董事會拍板授權張兆順尋找標的 高層薪酬也將設天花板",
-        "published_at": "2026-08-26T18:36:00+08:00",
-        "time": "18:36",
-        "url": "https://www.taisounds.com/news/content/76/285340",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285340",
-        "summary": "國票金（2889）今（26）日召開董事會，正式通過啟動整併評估，並授權董事長張兆順洽尋整併標的，意味國票金正式從過去「提升身價、等待機會」，轉向主動尋找整併對象；",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "6b1d967107e78600",
-        "title": "韓國瑜出馬協商 無人載具條例仍無共識 8/27表決大戰見真章",
-        "published_at": "2026-08-26T18:34:42+08:00",
-        "time": "18:34",
-        "url": "https://www.taisounds.com/news/content/71/285339",
-        "canonical_url": "https://www.taisounds.com/news/content/71/285339",
-        "summary": "立法院長韓國瑜今天（8/26）下午主持朝野黨團協商，對經濟委員會協商保留的行政院版「國防自主無人載具採購特別條例草案」與在野黨版草案等13案進行協商，但經過1個多小時討論，雖然民眾黨對於無人載具條例可接受經濟部與國防部並列為主管機關，但藍白兩黨仍堅持以年度預算編列，國民黨團堅持2400億元、分…",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "37f2f760ca1f3a71",
-        "title": "瓊斯盃「地主保送4強」持續延燒！籃協曝光會議內容、時間表",
-        "published_at": "2026-08-26T18:05:46+08:00",
-        "time": "18:05",
-        "url": "https://www.taisounds.com/news/content/103/285336",
-        "canonical_url": "https://www.taisounds.com/news/content/103/285336",
-        "summary": "第45屆威廉瓊斯盃國際籃球邀請賽男子組日前落幕，賽制中「中華藍保送4強」特殊條款爭議持續延燒，菲律賓SGA隊更抱怨，球隊抵達台灣後才知這項規定，針對近期外界關心「參賽隊伍是否於賽前獲知本屆瓊斯盃賽制」一事，中華籃協重新整理 FIBA 往返信件，以及與各參賽隊伍之通訊紀錄，對外說明如下。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "5a2e11cafe3ac4d1",
-        "title": "擊破詐團變現不法所得 新北分署9/1拍賣保時捷名車、土城300坪賣場7800萬開標",
-        "published_at": "2026-08-26T18:02:35+08:00",
-        "time": "18:02",
-        "url": "https://www.taisounds.com/news/content/97/285335",
-        "canonical_url": "https://www.taisounds.com/news/content/97/285335",
-        "summary": "檢執聯手打擊黑幫與詐欺集團又有新動作！台灣新北地方檢察署偵辦犯嫌違反《組織犯罪防制條例》及詐欺等罪案件，為迅速剝奪犯罪所得、保障被害人權益並充裕國庫，特別囑託法務部行政執行署新北分署執行扣押物變價。新北分署定於9月1日舉辦聯合拍賣會，將查扣的幾近全新名車與位於精華地段的重磅不動產公開強勢釋出。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "062caa0ae1fd9fa4",
-        "title": "蘋果M6晶片問世！搭載於Mac Mini 採用台積電2奈米製程",
-        "published_at": "2026-08-26T17:57:00+08:00",
-        "time": "17:57",
-        "url": "https://www.taisounds.com/news/content/76/285334",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285334",
-        "summary": "蘋果於當地時間25日發表搭載於新款 Mac mini 的 M6晶片，以及搭載於新款 Mac Studio 的 M5 Ultra，帶來效能與 AI 能力的全面突破。M6是蘋果首款採用2奈米製程的頂尖晶片，全面提升各個運算單元，在各方面均帶來效能升級。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
       },
       {
         "id": "dfb10863ee487467",
@@ -1865,39 +1231,6 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "96da4c1e230af359",
-        "title": "數發部啟動公民科技試驗場域 民間團隊攜手地方政府投入防災",
-        "published_at": "2026-08-26T17:33:00+08:00",
-        "time": "17:33",
-        "url": "https://www.taisounds.com/news/content/76/285328",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285328",
-        "summary": "數位發展部「115年全國公民科技試驗場域」昨（8/25）日舉行團隊決選暨縣市合作啟動典禮，本年度活動聚焦「科技防災」，共計29組團隊通過資格審查進入評選，經提案書審、初選遴選、現場決選等多階段評選程序，最終由有備無患工程隊、睿鍶科技等4組團隊脫穎而出，將與地方政府攜手合作，以民間數位創新能量打…",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "9e49f17044d0f75d",
-        "title": "0050登社會版！2300萬教育基金引關注 陳幸妤兒點名買0050都翻倍、實際報酬更驚人",
-        "published_at": "2026-08-26T17:30:00+08:00",
-        "time": "17:30",
-        "url": "https://www.taisounds.com/news/content/76/285327",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285327",
-        "summary": "前總統陳水扁之女陳幸妤與趙建銘事件引發外界討論，2,300萬元教育基金去向備受關注，陳幸妤更點名「若拿去買0050都翻倍了」，意外讓「國民ETF」元大台灣50(0050)跨界紅到社會新聞版面，再次掀起投資人對ETF長期理財的討論。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "b5fb8705ea56ed7c",
-        "title": "首度導入「主權AI」辦案！法務部分署長交接 鄭銘謙宣示執法新藍圖",
-        "published_at": "2026-08-26T17:27:34+08:00",
-        "time": "17:27",
-        "url": "https://www.taisounds.com/news/content/97/285326",
-        "canonical_url": "https://www.taisounds.com/news/content/97/285326",
-        "summary": "法務部行政執行署今（8/26）日舉行卸、新任分署長聯合交接及宣誓典禮。法務部長鄭銘謙親自監交時首度揭示，未來將導入「台灣主權AI技術」，建構法務專屬大型語言模型輔助案件管理；同時重申，將以鐵腕貫徹「五打七安」政策，嚴打惡意滯欠大戶並徹底剝奪犯罪不法所得，帶領行政執行邁入科技與正義並重的新時代。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
         "id": "abb5448762c3954c",
         "title": "中鋼「電磁鋼捲 RC30」 獲經濟部資源再生綠色產品認證",
         "published_at": "2026-08-26T17:24:00+08:00",
@@ -1907,39 +1240,6 @@
         "summary": "中鋼（2002）「電磁鋼捲RC30」獲經濟部資源再生綠色產品認證。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "d54f549428e6e121",
-        "title": "台灣醫生在日本執業性侵 辯稱「採集細胞」遭到逮捕",
-        "published_at": "2026-08-26T17:22:50+08:00",
-        "time": "17:22",
-        "url": "https://www.taisounds.com/news/content/84/285324",
-        "canonical_url": "https://www.taisounds.com/news/content/84/285324",
-        "summary": "一名在日本東京的醫院執業的台灣籍婦產科醫師范育仁，因為涉嫌在診療時用性玩具對女患者進行性侵，週三（26日）已遭到日本警方逮捕。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "a3fa5f8151dc050d",
-        "title": "明年預算編列研究核融合 卓揆重申：重啟核電維持2必須、3原則",
-        "published_at": "2026-08-26T17:19:31+08:00",
-        "time": "17:19",
-        "url": "https://www.taisounds.com/news/content/71/285322",
-        "canonical_url": "https://www.taisounds.com/news/content/71/285322",
-        "summary": "行政院長卓榮泰今（8/26）日出席今周刊「第十屆新能源國際論壇」，他於會中提到，明（2027）則有部分經費關於核融合技術，盼能與國際接軌，但目前依照《核管法》修法，重啟核三仍需達到兩個必須、三個原則。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "5475abc4c36bc96e",
-        "title": "毒油！70年老牌「麻油車」黑麻油也中鏢 北市、嘉義市大稽查結果曝",
-        "published_at": "2026-08-26T17:16:28+08:00",
-        "time": "17:16",
-        "url": "https://www.taisounds.com/news/content/92/285321",
-        "canonical_url": "https://www.taisounds.com/news/content/92/285321",
-        "summary": "癌油風暴持續延燒，繼沙拉油、苦茶油接連被驗出致癌物苯駢芘超標後，如今黑麻油也出現不合格產品。台北市衛生局接獲統健實業有限公司自主通報，由嘉義市統購實業有限公司製造、透過聖德科斯門市販售的「麻油車冷壓黑麻油」，檢出苯駢芘3.2μg/kg，超過2.0μg/kg以下的限量標準。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
       },
       {
         "id": "dd70c973afbec984",
@@ -1953,28 +1253,6 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
-        "id": "ca22b8c8b567e0bb",
-        "title": "懷疑鄰居發出噪音！調查局專員連續17月「24小時偷錄音」 判賠25萬確定",
-        "published_at": "2026-08-26T16:53:45+08:00",
-        "time": "16:53",
-        "url": "https://www.taisounds.com/news/content/97/285315",
-        "canonical_url": "https://www.taisounds.com/news/content/97/285315",
-        "summary": "法務部調查局黃姓專員及其許姓妻子於2021年7月間，懷疑樓上鄰居薛男發出噪音，竟在自家天花板裝上「集音器」及錄音設備，幾乎24小時不間斷錄取各種生活聲響，一路持續到隔年11月底。薛男得知後憤而提告，主張兩人侵害隱私權並求償157萬餘元。一審判賠25萬，黃男、許女不服，提起上訴。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
-        "id": "7b91d4efe17d2962",
-        "title": "打房重傷建材業！訂單腰斬、百家磚廠慘剩19家 9公會呼救：傳產將湧倒閉潮",
-        "published_at": "2026-08-26T16:43:00+08:00",
-        "time": "16:43",
-        "url": "https://www.taisounds.com/news/content/76/285313",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285313",
-        "summary": "房市急凍，建材供應鏈也撐不住了！由室內裝修、預拌混凝土、廚具、防火門、木材、電器、陶瓷、磚瓦及石礦等9家公會組成的「建材大聯盟」，今（8/26）日赴立法院召開記者會，大嘆政府信用管制及打房政策讓建案、裝修需求同步萎縮，旗下產業接單量普遍大減，廚具櫥櫃接單、室內裝修接案面臨「腰斬」，紅磚產量剩不…",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
-      },
-      {
         "id": "17df864a5e26fefb",
         "title": "獨／國票金前董座、耐斯支持彰銀併國票 董座月薪以財長2倍為限",
         "published_at": "2026-08-26T16:42:00+08:00",
@@ -1984,17 +1262,6 @@
         "summary": "國票金今（26）日上午召開董事會，其中對於薪酬改革與公公併，已確定將分別在9月底、10月底驗收成果和進度，其中，薪酬改革的基調已確定，除了獎金不得超過12個月，公股董事長月薪將以財長2倍為限，總經理、副董的薪水以2倍打8折為限。",
         "source": "聯合新聞網・產經",
         "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "2275e08171be69db",
-        "title": "健康台灣委員會明宣布「健康幣」10月上線 健檢、癌篩、打疫苗可累積獎勵",
-        "published_at": "2026-08-26T16:30:31+08:00",
-        "time": "16:30",
-        "url": "https://www.taisounds.com/news/content/71/285311",
-        "canonical_url": "https://www.taisounds.com/news/content/71/285311",
-        "summary": "總統府健康台灣推動委員會明天（8/27）周四將召開會議，據了解，會中將宣布健康幣10月正式上線，透過正向獎勵機制，鼓勵民眾接受成人健康檢查、癌症篩檢及疫苗接種，並逐步納入運動、健康飲食與慢性病控制等項目，推動醫療政策由疾病治療向前延伸至健康促進與疾病預防。",
-        "source": "太報・財經焦點",
-        "source_url": "https://www.taisounds.com/news/section/76"
       },
       {
         "id": "957480fc3f02f62d",
@@ -2096,6 +1363,17 @@
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
       {
+        "id": "1a2e2308db704890",
+        "title": "搶搭青安2.0末班車、民俗月前交易需求湧現 7月房貸月增量寫一年半最大",
+        "published_at": "2026-08-26T01:16:00+08:00",
+        "time": "01:16",
+        "url": "https://money.udn.com/money/story/5613/9714019?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5613/9714019",
+        "summary": "中央銀行昨（25）日發布最新統計顯示，7月底購置住宅貸款餘額升至11兆8,896億元，單月增加769億元，年增4.52%，月增量創逾一年半最大，年增率為今年2月以來新高。央行官員強調，這波房貸增加主要受到短期政策與季節因素帶動，房市整體「量縮價穩」的盤整格局並未改變。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
         "id": "8e0fbdffeb5b52dd",
         "title": "借錢買美股 明年Q2上路",
         "published_at": "2026-08-26T01:12:00+08:00",
@@ -2107,8 +1385,19 @@
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
       },
       {
+        "id": "96195cfc80367888",
+        "title": "彰銀、國票金公公併有影 將從市場點名跨進程序啟動",
+        "published_at": "2026-08-26T01:10:00+08:00",
+        "time": "01:10",
+        "url": "https://money.udn.com/money/story/5613/9714114?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5613/9714114",
+        "summary": "彰銀昨（25）日宣布，董事會24日授權董事長胡光華成立專案小組，25日再公開遴選財顧，正式啟動策略合作、投資及整併的前期評估。",
+        "source": "經濟日報",
+        "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
         "id": "46d4581d640fdaa3",
-        "title": "美元保單 買氣強強滾",
+        "title": "外幣保單買氣升溫 全年保費挑戰5,000億元",
         "published_at": "2026-08-26T01:08:00+08:00",
         "time": "01:08",
         "url": "https://money.udn.com/money/story/122377/9714021?from=ednappsharing",
@@ -2186,15 +1475,26 @@
     ],
     "housing": [
       {
-        "id": "9aaf5d06cdd361f4",
-        "title": "有片／尼泊爾山洪近300外國客失聯 已找到55具屍首",
-        "published_at": "2026-08-26T21:21:36+08:00",
-        "time": "21:21",
-        "url": "https://www.taisounds.com/news/content/84/285360",
-        "canonical_url": "https://www.taisounds.com/news/content/84/285360",
-        "summary": "尼泊爾與中國邊境的喜馬拉雅山區週三（26日）發生大規模山洪爆發，數個村莊直接遭到夷平。根據週三傍晚的最新消息，災難現場已經找到55具屍首。此外，有近300名外國觀光客失聯。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
+        "id": "dd6fdaa30952fd46",
+        "title": "拉警報？房貸逾放飆5年新高 金管會急找銀行喝咖啡",
+        "published_at": "2026-08-26T22:06:12+08:00",
+        "time": "22:06",
+        "url": "https://house.udn.com/house/story/123589/9716334",
+        "canonical_url": "https://house.udn.com/house/story/123589/9716334",
+        "summary": "國銀房貸逾放拉警報，金管會出手了。據統計，7月底國銀房貸逾放一舉攀升到94.25億元，是睽違五年重返「9字頭」，單月暴增7.8億元、寫六年半最大增額。金管會將找一家逾放連續攀升的大型民營銀行「喝咖啡」。",
+        "source": "udn房地產",
+        "source_url": "https://house.udn.com/house/index"
+      },
+      {
+        "id": "6c88180c337e7bfd",
+        "title": "7月底房貸逾放餘額創5年新高 金管會：持續關注",
+        "published_at": "2026-08-26T21:12:41+08:00",
+        "time": "21:12",
+        "url": "https://house.udn.com/house/story/123589/9716250",
+        "canonical_url": "https://house.udn.com/house/story/123589/9716250",
+        "summary": "金管會統計顯示，截至今年7月底，36家本國銀行不動產放款比率為24.19%，月減0.18個百分點，創15年半新低。不過，...",
+        "source": "udn房地產",
+        "source_url": "https://house.udn.com/house/index"
       },
       {
         "id": "28920cd308b86828",
@@ -2208,17 +1508,6 @@
         "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
       },
       {
-        "id": "2dd8b202514663dc",
-        "title": "KKBOX母公司IPO捲土重來 承銷價「一回生二回熟」",
-        "published_at": "2026-08-26T21:00:00+08:00",
-        "time": "21:00",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5553389",
-        "canonical_url": "https://ec.ltn.com.tw/article/breakingnews/5553389",
-        "summary": "〔記者歐宇祥／台北報導〕推出KKBOX的軟體商科科科技-KY（6950）在2024年時上市掛牌失敗，歷經2年捲土重來，今日宣布將在本月31日登錄興櫃。董事長王献堂指出，第二次IPO時，AI時代的",
-        "source": "自由財經・房產資訊",
-        "source_url": "https://ec.ltn.com.tw/list/estate"
-      },
-      {
         "id": "7c2ac6c9f656f61b",
         "title": "房市冷 上半年房地合一稅短期進出稅收比重寫新低、免稅占比創4年半高",
         "published_at": "2026-08-26T20:44:00+08:00",
@@ -2228,28 +1517,6 @@
         "summary": "信義房屋統計財政部資料指出，今年上半年短期持有2年內房地合一稅45%的交易比重跌破10%，寫下統計以來新低；惟以中長期、持有5年以上繳納房地合一稅制占比則達43.2%新高紀錄，不用繳稅民眾則達26.8%、寫下四年半新高。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
-      },
-      {
-        "id": "5a9286664a7827ff",
-        "title": "濟州吃案警有多誇張？ 涉家暴、女廁偷拍還連連獲得嘉獎",
-        "published_at": "2026-08-26T20:18:00+08:00",
-        "time": "20:18",
-        "url": "https://www.taisounds.com/news/content/84/285355",
-        "canonical_url": "https://www.taisounds.com/news/content/84/285355",
-        "summary": "南韓濟州島一名夫姓警察對失蹤人口報案進行謊報吃案的行為，之後被查出他「結案」的失蹤人口至少有2人死亡，包括震驚海外的「張美蘭案」，引起南韓軒然大波。週三（26日）新的報導指出，這名濟州島警察行徑荒唐，卻連年獲得南韓國家警察廳與濟州警署嘉獎授勳，凸顯出韓警內部的荒誕狀況。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
-        "id": "91247fb575e8423f",
-        "title": "中國新增台灣文旦果園、包裝廠註冊集中花蓮 陸委會：就是大禮包統戰宣傳",
-        "published_at": "2026-08-26T20:09:07+08:00",
-        "time": "20:09",
-        "url": "https://www.taisounds.com/news/content/71/285354",
-        "canonical_url": "https://www.taisounds.com/news/content/71/285354",
-        "summary": "中國海關總署網站日前公布新增一批台灣文旦柚包裝廠及果園註冊，國台辦發言人今天（8/26）被問到此事，表示符合大陸檢驗檢疫規定前提下，歡迎更多台灣優質產品銷往大陸。對此，陸委會也立刻回應表示，陸方這次作法與其公布前2批相同，「此種作法就只是包裝成『中秋大禮包』的統戰宣傳」。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
       },
       {
         "id": "ab97de9c643d2588",
@@ -2274,61 +1541,6 @@
         "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
       },
       {
-        "id": "dc8d85b151b889d5",
-        "title": "彰銀併國票金成公股合併首選！ 路透：政策目標明年6月前見成果",
-        "published_at": "2026-08-26T19:34:32+08:00",
-        "time": "19:34",
-        "url": "https://www.taisounds.com/news/content/76/285350",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285350",
-        "summary": "政府積極推動公股金融機構整併態度轉向積極，市場矚目的「公公併」再傳重大進展。路透今天引述3名消息人士指出，彰化銀行（2801）併購國票金控（2889）有望成為政策推動的主要方向，政策目標是在2027年6月兩家公司股東會召開前，取得具體成果。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
-        "id": "27d59cda32242831",
-        "title": "芳香劑、刮鬍刀藏攝影機！「阡日咖啡」噁老闆8年偷拍20女 一審判關5年",
-        "published_at": "2026-08-26T19:26:08+08:00",
-        "time": "19:26",
-        "url": "https://www.taisounds.com/news/content/97/285348",
-        "canonical_url": "https://www.taisounds.com/news/content/97/285348",
-        "summary": "台北赤峰街知名文青咖啡店「阡日咖啡」去（2025）年爆出偷拍案，老闆徐維隆涉嫌利用偽裝成「芳香劑、電動刮鬍刀」的微型攝影機，偷拍員工、客人等至少20名女性如廁、洗澡或更衣的畫面，連去日本及韓國員工旅遊時都不放過。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
-        "id": "29dae7c820916979",
-        "title": "驚喜！NBA金州勇士球星巴特勒現身大巨蛋 中信兄弟曝光來台原因",
-        "published_at": "2026-08-26T19:23:44+08:00",
-        "time": "19:23",
-        "url": "https://www.taisounds.com/news/content/102/285347",
-        "canonical_url": "https://www.taisounds.com/news/content/102/285347",
-        "summary": "效力NBA金州勇士球星巴特勒（Jimmy Butler）今天（26日）突然驚喜現身台北大巨蛋的中信兄弟、樂天桃猿之戰引發一陣騷動，中信兄弟球團透露他抵台原因。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
-        "id": "20270c5fde202101",
-        "title": "當股東大勝當員工！聯發科8月分紅傳打85折、平均較2月縮水降至80萬",
-        "published_at": "2026-08-26T18:58:31+08:00",
-        "time": "18:58",
-        "url": "https://www.taisounds.com/news/content/76/285344",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285344",
-        "summary": "IC設計龍頭聯發科今年8月分紅上周開獎，分紅跳水有感！疑似員工在decard爆料，當股東比當員工好！面對手機業務逆風，ASIC貢獻有限，聯發科今年上半年獲利年減約15.4%，外界估算分紅總金額恐跌破100億元，約97億元區間，以集團1.2萬名員工估算，平均每人約領80萬元，對比2月約95萬元…",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
-        "id": "93589118cded1f8d",
-        "title": "陳冠如提案告中視 國票金董事會10：3否決 4獨董反對：依法律意見適當處理即可",
-        "published_at": "2026-08-26T18:58:06+08:00",
-        "time": "18:58",
-        "url": "https://www.taisounds.com/news/content/76/285343",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285343",
-        "summary": "國票金（2889）董事會今（26）日除了討論整併及薪酬改革，也爆發是否對中視採取法律行動的攻防。國票金晚間發布重訊指出，針對董事陳冠如提案，主張中視未查證即播放惡意不實報導，要求公司研議檢舉、提告等法律行為，不過最終遭董事會10票反對、3票贊成否決，多數董事認為，由權責單位依實際情況判斷、適當…",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
         "id": "bc23979343fcafba",
         "title": "央行連環拳奏效？「45%重稅交易」跌破1成創新低 專家揭炒房客退場真相",
         "published_at": "2026-08-26T18:46:30+08:00",
@@ -2338,61 +1550,6 @@
         "summary": "根據財政部統計，今年上半年房地合一稅申報中，2年內短期交易繳45%稅率者占比跌破1成，創統計以來新低，顯示短期炒房買賣被政策有效抑制；反觀免稅與繳20%稅率者合計逾7成，長期持有漸成主流。信義房屋不動產企研室專案經理曾敬德表示，房地合一稅在2016後買進，然",
         "source": "自由時報・地產天下",
         "source_url": "https://estate.ltn.com.tw/news"
-      },
-      {
-        "id": "7b0793cf35d4ab21",
-        "title": "DRAM真的「金貴」 3.3公斤就可以買一戶房子",
-        "published_at": "2026-08-26T18:39:22+08:00",
-        "time": "18:39",
-        "url": "https://www.taisounds.com/news/content/78/285341",
-        "canonical_url": "https://www.taisounds.com/news/content/78/285341",
-        "summary": "根據南韓政府的最新統計數據，在人工智慧（AI）浪潮中飆漲的個人電腦用記憶體DRAM，價格已經直逼黃金，基準DRAM晶片每公斤（1000公克）的價格已經等同620公克的黃金。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
-        "id": "dd60e54af46c1823",
-        "title": "彰銀表態之後 國票金董事會拍板授權張兆順尋找標的 高層薪酬也將設天花板",
-        "published_at": "2026-08-26T18:36:47+08:00",
-        "time": "18:36",
-        "url": "https://www.taisounds.com/news/content/76/285340",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285340",
-        "summary": "國票金（2889）今（26）日召開董事會，正式通過啟動整併評估，並授權董事長張兆順洽尋整併標的，意味國票金正式從過去「提升身價、等待機會」，轉向主動尋找整併對象；",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
-        "id": "6b1d967107e78600",
-        "title": "韓國瑜出馬協商 無人載具條例仍無共識 8/27表決大戰見真章",
-        "published_at": "2026-08-26T18:34:42+08:00",
-        "time": "18:34",
-        "url": "https://www.taisounds.com/news/content/71/285339",
-        "canonical_url": "https://www.taisounds.com/news/content/71/285339",
-        "summary": "立法院長韓國瑜今天（8/26）下午主持朝野黨團協商，對經濟委員會協商保留的行政院版「國防自主無人載具採購特別條例草案」與在野黨版草案等13案進行協商，但經過1個多小時討論，雖然民眾黨對於無人載具條例可接受經濟部與國防部並列為主管機關，但藍白兩黨仍堅持以年度預算編列，國民黨團堅持2400億元、分…",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
-        "id": "37f2f760ca1f3a71",
-        "title": "瓊斯盃「地主保送4強」持續延燒！籃協曝光會議內容、時間表",
-        "published_at": "2026-08-26T18:05:46+08:00",
-        "time": "18:05",
-        "url": "https://www.taisounds.com/news/content/103/285336",
-        "canonical_url": "https://www.taisounds.com/news/content/103/285336",
-        "summary": "第45屆威廉瓊斯盃國際籃球邀請賽男子組日前落幕，賽制中「中華藍保送4強」特殊條款爭議持續延燒，菲律賓SGA隊更抱怨，球隊抵達台灣後才知這項規定，針對近期外界關心「參賽隊伍是否於賽前獲知本屆瓊斯盃賽制」一事，中華籃協重新整理 FIBA 往返信件，以及與各參賽隊伍之通訊紀錄，對外說明如下。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
-        "id": "5a2e11cafe3ac4d1",
-        "title": "擊破詐團變現不法所得 新北分署9/1拍賣保時捷名車、土城300坪賣場7800萬開標",
-        "published_at": "2026-08-26T18:02:35+08:00",
-        "time": "18:02",
-        "url": "https://www.taisounds.com/news/content/97/285335",
-        "canonical_url": "https://www.taisounds.com/news/content/97/285335",
-        "summary": "檢執聯手打擊黑幫與詐欺集團又有新動作！台灣新北地方檢察署偵辦犯嫌違反《組織犯罪防制條例》及詐欺等罪案件，為迅速剝奪犯罪所得、保障被害人權益並充裕國庫，特別囑託法務部行政執行署新北分署執行扣押物變價。新北分署定於9月1日舉辦聯合拍賣會，將查扣的幾近全新名車與位於精華地段的重磅不動產公開強勢釋出。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
       },
       {
         "id": "9ece16c60dd20046",
@@ -2439,17 +1596,6 @@
         "source_url": "https://house.udn.com/house/index"
       },
       {
-        "id": "9e49f17044d0f75d",
-        "title": "0050登社會版！2300萬教育基金引關注 陳幸妤兒點名買0050都翻倍、實際報酬更驚人",
-        "published_at": "2026-08-26T17:30:37+08:00",
-        "time": "17:30",
-        "url": "https://www.taisounds.com/news/content/76/285327",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285327",
-        "summary": "前總統陳水扁之女陳幸妤與趙建銘事件引發外界討論，2,300萬元教育基金去向備受關注，陳幸妤更點名「若拿去買0050都翻倍了」，意外讓「國民ETF」元大台灣50(0050)跨界紅到社會新聞版面，再次掀起投資人對ETF長期理財的討論。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
         "id": "830cff407e4d2bcf",
         "title": "台股財富效果發酵！ 永慶房屋：台北豪宅占比連三升",
         "published_at": "2026-08-26T17:28:00+08:00",
@@ -2459,39 +1605,6 @@
         "summary": "近年房市受到央行信用管制、房貸緊縮及整體市場降溫影響，交易量明顯萎縮，但豪宅市場表現卻出現分化。永慶房產集團根據實價登錄資料，發現2026年上半年台北市豪宅交易占比達5.6%，不僅居七都之冠，也是唯一連三年持續增長的都會區；相較之下，全台豪宅交易占比則維持在1.5%左右不變。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
-      },
-      {
-        "id": "b5fb8705ea56ed7c",
-        "title": "首度導入「主權AI」辦案！法務部分署長交接 鄭銘謙宣示執法新藍圖",
-        "published_at": "2026-08-26T17:27:34+08:00",
-        "time": "17:27",
-        "url": "https://www.taisounds.com/news/content/97/285326",
-        "canonical_url": "https://www.taisounds.com/news/content/97/285326",
-        "summary": "法務部行政執行署今（8/26）日舉行卸、新任分署長聯合交接及宣誓典禮。法務部長鄭銘謙親自監交時首度揭示，未來將導入「台灣主權AI技術」，建構法務專屬大型語言模型輔助案件管理；同時重申，將以鐵腕貫徹「五打七安」政策，嚴打惡意滯欠大戶並徹底剝奪犯罪不法所得，帶領行政執行邁入科技與正義並重的新時代。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
-        "id": "d54f549428e6e121",
-        "title": "台灣醫生在日本執業性侵 辯稱「採集細胞」遭到逮捕",
-        "published_at": "2026-08-26T17:22:50+08:00",
-        "time": "17:22",
-        "url": "https://www.taisounds.com/news/content/84/285324",
-        "canonical_url": "https://www.taisounds.com/news/content/84/285324",
-        "summary": "一名在日本東京的醫院執業的台灣籍婦產科醫師范育仁，因為涉嫌在診療時用性玩具對女患者進行性侵，週三（26日）已遭到日本警方逮捕。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
-        "id": "a3fa5f8151dc050d",
-        "title": "明年預算編列研究核融合 卓揆重申：重啟核電維持2必須、3原則",
-        "published_at": "2026-08-26T17:19:31+08:00",
-        "time": "17:19",
-        "url": "https://www.taisounds.com/news/content/71/285322",
-        "canonical_url": "https://www.taisounds.com/news/content/71/285322",
-        "summary": "行政院長卓榮泰今（8/26）日出席今周刊「第十屆新能源國際論壇」，他於會中提到，明（2027）則有部分經費關於核融合技術，盼能與國際接軌，但目前依照《核管法》修法，重啟核三仍需達到兩個必須、三個原則。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
       },
       {
         "id": "358163685dca047d",
@@ -2516,28 +1629,6 @@
         "source_url": "https://house.chinatimes.com"
       },
       {
-        "id": "5475abc4c36bc96e",
-        "title": "毒油！70年老牌「麻油車」黑麻油也中鏢 北市、嘉義市大稽查結果曝",
-        "published_at": "2026-08-26T17:16:28+08:00",
-        "time": "17:16",
-        "url": "https://www.taisounds.com/news/content/92/285321",
-        "canonical_url": "https://www.taisounds.com/news/content/92/285321",
-        "summary": "癌油風暴持續延燒，繼沙拉油、苦茶油接連被驗出致癌物苯駢芘超標後，如今黑麻油也出現不合格產品。台北市衛生局接獲統健實業有限公司自主通報，由嘉義市統購實業有限公司製造、透過聖德科斯門市販售的「麻油車冷壓黑麻油」，檢出苯駢芘3.2μg/kg，超過2.0μg/kg以下的限量標準。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
-        "id": "cf2469182fc107ac",
-        "title": "台股財富效應助攻？台北豪宅交易占比5.6% 七都唯一連三年成長",
-        "published_at": "2026-08-26T17:15:00+08:00",
-        "time": "17:15",
-        "url": "https://www.taisounds.com/news/content/81/285319",
-        "canonical_url": "https://www.taisounds.com/news/content/81/285319",
-        "summary": "房市買氣降溫，台北豪宅卻逆勢變得更搶手！房仲業者統計實價登錄資料發現，2026年上半年台北市豪宅交易占整體住宅交易量達5.6%，不僅居七都之冠，也是唯一連續3年走升的都會區；",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
         "id": "83dd5ebdaca55a4e",
         "title": "總銷130億、717戶 台灣金聯自主都更首案登場 高雄河濱商城華麗轉身",
         "published_at": "2026-08-26T17:01:00+08:00",
@@ -2560,17 +1651,6 @@
         "source_url": "https://house.udn.com/house/index"
       },
       {
-        "id": "ca22b8c8b567e0bb",
-        "title": "懷疑鄰居發出噪音！調查局專員連續17月「24小時偷錄音」 判賠25萬確定",
-        "published_at": "2026-08-26T16:53:45+08:00",
-        "time": "16:53",
-        "url": "https://www.taisounds.com/news/content/97/285315",
-        "canonical_url": "https://www.taisounds.com/news/content/97/285315",
-        "summary": "法務部調查局黃姓專員及其許姓妻子於2021年7月間，懷疑樓上鄰居薛男發出噪音，竟在自家天花板裝上「集音器」及錄音設備，幾乎24小時不間斷錄取各種生活聲響，一路持續到隔年11月底。薛男得知後憤而提告，主張兩人侵害隱私權並求償157萬餘元。一審判賠25萬，黃男、許女不服，提起上訴。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
         "id": "0b28722589a279d3",
         "title": "「縣治遷虎尾」傳聞滿天飛 張麗善駁絕無此事：砸30億打造斗六第二核心",
         "published_at": "2026-08-26T16:50:00+08:00",
@@ -2580,17 +1660,6 @@
         "summary": "「雲林縣治要從斗六搬到虎尾？」選舉腳步逼近，地方耳語四起，甚至傳出縣府準備遷移縣治，引發縣民議論。對此雲林縣長張麗善24日回應「絕無此事，是有心人亂放風聲！」她強調斗六不僅是雲林首善之都，更是縣政核心，縣府將砸下約30億元推動複合式公共建設案，在縣府周邊打造斗六「第二都市核心發展區」。",
         "source": "中時房產",
         "source_url": "https://house.chinatimes.com"
-      },
-      {
-        "id": "7b91d4efe17d2962",
-        "title": "打房重傷建材業！訂單腰斬、百家磚廠慘剩19家 9公會呼救：傳產將湧倒閉潮",
-        "published_at": "2026-08-26T16:43:00+08:00",
-        "time": "16:43",
-        "url": "https://www.taisounds.com/news/content/76/285313",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285313",
-        "summary": "房市急凍，建材供應鏈也撐不住了！由室內裝修、預拌混凝土、廚具、防火門、木材、電器、陶瓷、磚瓦及石礦等9家公會組成的「建材大聯盟」，今（8/26）日赴立法院召開記者會，大嘆政府信用管制及打房政策讓建案、裝修需求同步萎縮，旗下產業接單量普遍大減，廚具櫥櫃接單、室內裝修接案面臨「腰斬」，紅磚產量剩不…",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
       },
       {
         "id": "5065b719d2d3db5f",
@@ -2613,17 +1682,6 @@
         "summary": "〔記者徐義平／台北報導〕北市總價7千萬元以上高價住宅買氣不但持穩，甚至占比連3年增長。根據房仲業者彙整2022年至2026年上半年六都加新竹縣市的高價住宅占比變化，今年上半年台北市高價住宅占比達",
         "source": "自由財經・房產資訊",
         "source_url": "https://ec.ltn.com.tw/list/estate"
-      },
-      {
-        "id": "2275e08171be69db",
-        "title": "健康台灣委員會明宣布「健康幣」10月上線 健檢、癌篩、打疫苗可累積獎勵",
-        "published_at": "2026-08-26T16:30:31+08:00",
-        "time": "16:30",
-        "url": "https://www.taisounds.com/news/content/71/285311",
-        "canonical_url": "https://www.taisounds.com/news/content/71/285311",
-        "summary": "總統府健康台灣推動委員會明天（8/27）周四將召開會議，據了解，會中將宣布健康幣10月正式上線，透過正向獎勵機制，鼓勵民眾接受成人健康檢查、癌症篩檢及疫苗接種，並逐步納入運動、健康飲食與慢性病控制等項目，推動醫療政策由疾病治療向前延伸至健康促進與疾病預防。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
       },
       {
         "id": "dd94535b37a64be9",
@@ -2655,17 +1713,6 @@
         "url": "https://house.udn.com/house/story/123589/9715502",
         "canonical_url": "https://house.udn.com/house/story/123589/9715502",
         "summary": "客浴洗手台設浴室外會不會很怪？一名Threads網友表示，近期與建築師討論室內格局時，建築師建議將公用廁所的洗手台設置在浴室外面。原PO上網查詢發現確實有此種設計方式，但因擔心實際使用會顯得奇怪或不方便，便發文尋求專業人士或有經驗網友的建議。",
-        "source": "udn房地產",
-        "source_url": "https://house.udn.com/house/index"
-      },
-      {
-        "id": "7ec7bd49e64d1e20",
-        "title": "台股財富效應來了 上半年台北市豪宅交易占比連三年攀升",
-        "published_at": "2026-08-26T15:57:10+08:00",
-        "time": "15:57",
-        "url": "https://house.udn.com/house/story/123589/9715595",
-        "canonical_url": "https://house.udn.com/house/story/123589/9715595",
-        "summary": "永慶房產集團根據實價登錄資料，統計2022年至2026年上半年全國與六都、新竹縣市豪宅交易占比變化，發現2026年上半年台北市豪宅交易占比達5.6%，不僅居六都、新竹縣市之冠，也是唯一連三年持續增長的都會區。",
         "source": "udn房地產",
         "source_url": "https://house.udn.com/house/index"
       },
@@ -2714,17 +1761,6 @@
         "source_url": "https://house.ettoday.net/focus/房產新聞"
       },
       {
-        "id": "370e0bafabc1a8a1",
-        "title": "以房養老淪口號？吳淡如批「長者窮到只剩房」：全台3成核貸月領不到1萬",
-        "published_at": "2026-08-26T14:39:43+08:00",
-        "time": "14:39",
-        "url": "https://house.udn.com/house/story/123589/9715358",
-        "canonical_url": "https://house.udn.com/house/story/123589/9715358",
-        "summary": "台灣自2015年底推動「以房養老」至今已逾十年，原意是協助長者活化不動產以支應晚年生活，但實際推行成效卻面臨嚴重的結構性失衡。 作家兼知名理財專家吳淡如引述《商業周刊》最新調查數據指出，目前全台以房養老市場呈現「給付偏低、區域失衡、公股獨撐」三大發展困境，讓許多長者原本美好的退休期待落空。",
-        "source": "udn房地產",
-        "source_url": "https://house.udn.com/house/index"
-      },
-      {
         "id": "71268011527315c0",
         "title": "桃園社宅財政壓力大 張善政喊話：可負擔住宅年底拚過關",
         "published_at": "2026-08-26T14:27:00+08:00",
@@ -2743,17 +1779,6 @@
         "url": "https://house.udn.com/house/story/123589/9715293",
         "canonical_url": "https://house.udn.com/house/story/123589/9715293",
         "summary": "台灣邁入超高齡社會，不少長者希望透過「以房養老」將房產轉化為退休現金流。",
-        "source": "udn房地產",
-        "source_url": "https://house.udn.com/house/index"
-      },
-      {
-        "id": "c6a22b33adcf0623",
-        "title": "自主都更大利多 台灣金聯開辦全案管理及墊付前期資金",
-        "published_at": "2026-08-26T14:13:22+08:00",
-        "time": "14:13",
-        "url": "https://house.udn.com/house/story/123589/9715321",
-        "canonical_url": "https://house.udn.com/house/story/123589/9715321",
-        "summary": "自主都更常卡在前期資金與專業整合，台灣金聯26日宣布開辦「自主都更全案管理」業務，並首創提供前期資金墊付，協助地主從前期規劃、融資、信託到營建管理一條龍推動，降低自主更新門檻。",
         "source": "udn房地產",
         "source_url": "https://house.udn.com/house/index"
       },
@@ -2791,17 +1816,6 @@
         "source_url": "https://www.fbs168.com/"
       },
       {
-        "id": "664b6eea6d5a7df7",
-        "title": "六都購屋頻率降至十年低點！家戶購屋比僅1.4% 兩大熱區同步創新低",
-        "published_at": "2026-08-26T13:22:00+08:00",
-        "time": "13:22",
-        "url": "https://www.taisounds.com/news/content/81/285252",
-        "canonical_url": "https://www.taisounds.com/news/content/81/285252",
-        "summary": "房市買氣持續降溫，連昔日熱區也撐不住！房仲業者盤整六都買賣移轉棟數及家戶數發現，2026年上半年六都合計家戶購屋比僅約1.4%，與去年同期持平，續創2016年以來同期新低；",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
         "id": "7f9e5e585767ca3c",
         "title": "拆後4年等不到重建 「高雄最大..",
         "published_at": "2026-08-26T13:15:00+08:00",
@@ -2811,17 +1825,6 @@
         "summary": "被稱為「高雄最大海砂屋」的「河濱商城」單元一已拆除，但都更延宕。如今迎來新轉機，該社區單元一與單元二合計基地2530坪，共計約300位所有權人，自主更新會同意比達4成多，並與台灣金聯簽MOU，預計走全..",
         "source": "ETtoday房產雲",
         "source_url": "https://house.ettoday.net/focus/房產新聞"
-      },
-      {
-        "id": "6696d0d201fde8b6",
-        "title": "台北小宅貴到新高！2千萬買不到14坪 預售單價衝上「200萬俱樂部」",
-        "published_at": "2026-08-26T13:02:00+08:00",
-        "time": "13:02",
-        "url": "https://www.taisounds.com/news/content/79/285247",
-        "canonical_url": "https://www.taisounds.com/news/content/79/285247",
-        "summary": "台北房價有多貴？2,000萬元連14坪都買不到！台北地政雲最新實價資料顯示，大安區青田街「青田618」一戶總面積僅13.9坪的小套房，今年8月以2,632萬元成交，換算每坪189.9萬元，躍居今年台北市成屋套房交易單價第2名；",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
       },
       {
         "id": "31cf96c3f5d775c9",
@@ -2879,17 +1882,6 @@
         "source_url": "https://www.fbs168.com/"
       },
       {
-        "id": "b4d26abf6d8f4e50",
-        "title": "台灣金聯搶進自主都更！首推全案管理、前期資金墊付 與河濱商城簽MOU",
-        "published_at": "2026-08-26T11:40:00+08:00",
-        "time": "11:40",
-        "url": "https://www.taisounds.com/news/content/76/285225",
-        "canonical_url": "https://www.taisounds.com/news/content/76/285225",
-        "summary": "為了配合政府推動自主都更政策，台灣金聯資產管理公司今（8/26）日宣布開辦自主都更全案管理及前期資金墊付服務，董事長宮文萍並於啟航記者會上，與高雄市鼓山區河濱商城更新會理事長周重曉交換自主都更全案管理合作意向書，成為台灣金聯宣布開辦全案管理業務後，首件簽訂合作備忘錄（MOU）的更新會。",
-        "source": "太報・房市",
-        "source_url": "https://www.taisounds.com/news/section/81"
-      },
-      {
         "id": "69019375817b4960",
         "title": "高雄「最好吃司康」沒了！ 熄燈..",
         "published_at": "2026-08-26T11:39:00+08:00",
@@ -2923,46 +1915,35 @@
         "source_url": "https://house.chinatimes.com"
       },
       {
-        "id": "db778e1cc7dc69f9",
-        "title": "貿易戰使美加面臨通膨惡化 但兩國都已預留下台階",
+        "id": "12c5ef8b9c274929",
+        "title": "房貸「天條」壓力鬆了！國銀不動產放款比率探近16年新低",
         "published_at": "2026-08-26T11:16:00+08:00",
         "time": "11:16",
-        "url": "https://money.udn.com/money/story/5599/9716233?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5599/9716233",
-        "summary": "美國與加拿大關稅戰開打，分析師認為，兩國都承受不起通膨惡化打擊經濟的後果。不過，「川普再度畏縮」（TACO）也許會再度重演。",
+        "url": "https://money.udn.com/money/story/5613/9716341?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5613/9716341",
+        "summary": "據金管會統計，7月底國銀不動產放款比率降到24.19%，已連續14個月下滑、寫近16年新低，銀行距離30%法定上限愈來愈遠，房貸承作水位壓力也明顯緩解。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
       },
       {
-        "id": "8626ef5851bb671d",
-        "title": "今日最夯股／高端疫苗跳空量增漲停 外資大買有何題材？",
+        "id": "dba5526faea9fe2c",
+        "title": "美股早盤／輝達財報在即 PCE 顯示通膨仍然棘手 三大指數平盤波動",
         "published_at": "2026-08-26T11:16:00+08:00",
         "time": "11:16",
-        "url": "https://money.udn.com/money/story/5607/9715998?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5607/9715998",
-        "summary": "иӮЎеёӮзһ¬жҒҜиҗ¬и®ҠпјҢжЁҷзҡ„дә”иҠұе…«й–ҖпјҢе“ӘдёҖжӘ”еҖӢиӮЎжҳҜжҜҸеӨ©еёӮе ҙжңҖй—ңжіЁзҡ„дәәж°ЈжҢҮжЁҷеҸҠи©ұйЎҢпјҢи«ӢзңӢз¶“жҝҹж—Ҙе ұжҜҸж—ҘзІҫйҒёзҡ„д»Ҡж—Ҙ…",
+        "url": "https://money.udn.com/money/story/123398/9716348?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/123398/9716348",
+        "summary": "美股26日早盤在平盤附近波動，主因是通膨報告結果比預期火熱，提高市場對美國聯準會（Fed）9月升息的押注，同時市場投資人也在等待AI領頭羊輝達的盤後財報。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
       },
       {
-        "id": "0e13b1402e7751f0",
-        "title": "PCE 數據出爐 台指期夜盤上半場多空豬羊變色",
+        "id": "158070b05c574532",
+        "title": "美 PCE 指數增幅持穩 第2季 GDP 成長率與初估1.5%一致",
         "published_at": "2026-08-26T11:16:00+08:00",
         "time": "11:16",
-        "url": "https://money.udn.com/money/story/11112/9716249?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/11112/9716249",
-        "summary": "台指期夜盤26日開盤時，受美股電子盤於盤下遊走影響，以46,002點、一跌1點開出後，震盪擴大，雖一度翻紅，但隨後再次翻紅上漲，最高來到46,142點、上漲139點，不過，在晚間20點30分過後，美國最新公布7月個人消費支出（PCE）符合市場預期，但卻引發行情急殺、由紅翻黑，呈破底走勢，截至晚…",
-        "source": "經濟日報",
-        "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
-      },
-      {
-        "id": "30ebabe537f5a4ee",
-        "title": "外資回頭股匯雙漲 新台幣收31.818元寫逾2個月新高",
-        "published_at": "2026-08-26T11:16:00+08:00",
-        "time": "11:16",
-        "url": "https://money.udn.com/money/story/5616/9715991?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/5616/9715991",
-        "summary": "外資回頭買超台股，帶動股匯同步走揚，新台幣匯率早盤震盪，最低觸及31.887元，午後一路走升，收盤收31.818元，升值...",
+        "url": "https://money.udn.com/money/story/5599/9716302?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/5599/9716302",
+        "summary": "美國聯準會（Fed）偏愛的通膨指標7月意外持穩，加上消費者支出停滯，可望給Fed更多空間維持利率不變。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/5593?from=edn_navibar"
       },
