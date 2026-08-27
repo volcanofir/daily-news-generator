@@ -1,16 +1,22 @@
-name: News worker and deploy Pages
+name: Update news and deploy Pages
 
 on:
   push:
     branches: [main]
   schedule:
-    # Taiwan time: 06:00-12:59, 15:00-15:59, 18:00-18:59, 21:00-21:59.
-    # Check every 5 minutes; should_refresh.py only performs a full refresh when needed.
-    - cron: "*/5 0-4,7,10,13,22-23 * * *"
+    # GitHub Actions cron uses UTC. Taiwan is UTC+8.
+    # 06:00, 07:00 Asia/Taipei
+    - cron: "0 22,23 * * *"
+    # 08:00-11:45 every 15 minutes Asia/Taipei
+    - cron: "*/15 0-3 * * *"
+    # 12:00 Asia/Taipei
+    - cron: "0 4 * * *"
+    # 15:00, 18:00, 21:00 Asia/Taipei
+    - cron: "0 7,10,13 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -19,28 +25,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  gate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 2
-    outputs:
-      run: ${{ steps.refresh_gate.outputs.run }}
-      reason: ${{ steps.refresh_gate.outputs.reason }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Check whether refresh is needed
-        id: refresh_gate
-        run: python3 scripts/should_refresh.py
-
-      - name: Gate decision
-        run: echo "Refresh=${{ steps.refresh_gate.outputs.run }} — ${{ steps.refresh_gate.outputs.reason }}"
-
   update-and-deploy:
-    needs: gate
-    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 12
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -58,47 +44,35 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Seed scraper from current live news
-        continue-on-error: true
-        run: |
-          CACHE_URL="https://volcanofir.github.io/daily-news-generator/news.json?seed=$(date +%s)"
-          if curl --fail --silent --show-error --location --max-time 15 "$CACHE_URL" -o news.live.json; then
-            python - <<'PY'
-          import json
-          from pathlib import Path
-          src = Path("news.live.json")
-          payload = json.loads(src.read_text(encoding="utf-8"))
-          if not isinstance(payload.get("categories"), dict):
-              raise SystemExit("live cache has no categories")
-          Path("news.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-          print("[cache] seeded news.json from live site")
-          PY
-          fi
-
-      - name: Fetch today's core news
-        run: timeout 240s python scripts/fetch_news.py
+      - name: Fetch today's news
+        run: python scripts/fetch_news.py
 
       - name: Add MyHousing and dedupe similar headlines
-        continue-on-error: true
-        run: timeout 90s python scripts/augment_myhousing.py
+        run: python scripts/augment_myhousing.py
 
       - name: Add Liberty Times sources
-        continue-on-error: true
-        run: timeout 90s python scripts/augment_ltn.py
+        run: python scripts/augment_ltn.py
 
       - name: Add ETtoday housing source
-        continue-on-error: true
-        run: timeout 90s python scripts/augment_ettoday.py
+        run: python scripts/augment_ettoday.py
 
       - name: Add FBS housing source
-        continue-on-error: true
-        run: timeout 90s python scripts/augment_fbs.py
+        run: python scripts/augment_fbs.py
 
       - name: Remove malformed news
         run: python scripts/sanitize_news.py
 
-      - name: Validate generated news before publishing
-        run: python scripts/validate_news.py
+      - name: Save refreshed news data
+        run: |
+          if ! git diff --quiet -- news.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add news.json
+            git commit -m "chore: refresh today's news"
+            git push
+          else
+            echo "No news.json change"
+          fi
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -114,7 +88,17 @@ jobs:
           cp _site/news-icon-v2.png _site/apple-touch-icon.png
           cp _site/news-icon-v2.png _site/apple-touch-icon-precomposed.png
           cp _site/news-icon-v2.png _site/favicon.png
-          python scripts/build_og.py _site/news-icon-v2.png _site/og-preview-v6.jpg
+
+          # LINE link previews are more reliable with a large landscape OG image.
+          if command -v magick >/dev/null 2>&1; then
+            magick _site/news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 _site/og-preview-v6.jpg
+          elif command -v convert >/dev/null 2>&1; then
+            convert _site/news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 _site/og-preview-v6.jpg
+          else
+            sudo apt-get update -qq
+            sudo apt-get install -y imagemagick
+            convert _site/news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 _site/og-preview-v6.jpg
+          fi
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -123,13 +107,4 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
-        continue-on-error: true
-        uses: actions/deploy-pages@v4
-
-      - name: Wait before retrying Pages deployment
-        if: steps.deployment.outcome == 'failure'
-        run: sleep 60
-
-      - name: Retry GitHub Pages deployment
-        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
