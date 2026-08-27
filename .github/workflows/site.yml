@@ -1,8 +1,6 @@
-name: Update news and deploy Pages
+name: Update news
 
 on:
-  push:
-    branches: [main]
   schedule:
     # GitHub Actions cron uses UTC. Taiwan is UTC+8.
     # 06:00, 07:00 Asia/Taipei
@@ -15,25 +13,22 @@ on:
     - cron: "0 7,10,13 * * *"
     # TEMP TEST: 22:00-22:45 every 15 minutes Asia/Taipei
     - cron: "*/15 14 * * *"
-    # TEMP TEST: 23:00 Asia/Taipei
-    - cron: "0 15 * * *"
+    # TEMP TEST: 23:00-23:45 every 15 minutes Asia/Taipei
+    - cron: "*/15 15 * * *"
+    # TEMP TEST: 24:00 Asia/Taipei
+    - cron: "0 16 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: daily-news-pages
+  group: daily-news-update
   cancel-in-progress: false
 
 jobs:
-  update-and-deploy:
+  update-news:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout
@@ -66,49 +61,32 @@ jobs:
       - name: Remove malformed news
         run: python scripts/sanitize_news.py
 
-      - name: Save refreshed news data
+      - name: Generate static assets
         run: |
-          if ! git diff --quiet -- news.json; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add news.json
-            git commit -m "chore: refresh today's news"
-            git push
-          else
-            echo "No news.json change"
-          fi
+          base64 --decode news-icon-v2.png.b64 > news-icon-v2.png
+          cp news-icon-v2.png apple-touch-icon.png
+          cp news-icon-v2.png apple-touch-icon-precomposed.png
+          cp news-icon-v2.png favicon.png
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
-      - name: Prepare site
-        run: |
-          rm -rf _site
-          mkdir _site
-          cp index.html app.js styles.css news.json manifest.webmanifest .nojekyll _site/
-          base64 --decode news-icon-v2.png.b64 > _site/news-icon-v2.png
-          cp _site/news-icon-v2.png _site/apple-touch-icon.png
-          cp _site/news-icon-v2.png _site/apple-touch-icon-precomposed.png
-          cp _site/news-icon-v2.png _site/favicon.png
-
-          # LINE link previews are more reliable with a large landscape OG image.
           if command -v magick >/dev/null 2>&1; then
-            magick _site/news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 _site/og-preview-v6.jpg
+            magick news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 og-preview-v6.jpg
           elif command -v convert >/dev/null 2>&1; then
-            convert _site/news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 _site/og-preview-v6.jpg
+            convert news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 og-preview-v6.jpg
           else
             sudo apt-get update -qq
             sudo apt-get install -y imagemagick
-            convert _site/news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 _site/og-preview-v6.jpg
+            convert news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 og-preview-v6.jpg
           fi
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
+      - name: Save refreshed site data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news.json news-icon-v2.png apple-touch-icon.png apple-touch-icon-precomposed.png favicon.png og-preview-v6.jpg
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh today's news"
+            git push
+          else
+            echo "No site data change"
+          fi
