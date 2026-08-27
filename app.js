@@ -47,18 +47,16 @@ function updateNextUpdateNotice() {
   const card = $("statusCard");
   if (!wrap || !text || !card) return;
 
-  const { hour, minute } = taipeiClockParts();
-  const beforeMorningStart = hour < 6 || (hour === 6 && minute < 7);
-  const afterFinalRun = hour > 21 || (hour === 21 && minute >= 7);
-  const overnightPause = beforeMorningStart || afterFinalRun;
+  const { hour } = taipeiClockParts();
+  const overnightPause = hour >= 21 || hour < 6;
 
   wrap.hidden = !overnightPause;
   card.classList.toggle("has-next-update", overnightPause);
 
   if (!overnightPause) return;
-  text.textContent = afterFinalRun
-    ? "明日 06:07 開始更新"
-    : "今日 06:07 開始更新";
+  text.textContent = hour >= 21
+    ? "明日 06:00 開始更新"
+    : "今日 06:00 開始更新";
 }
 
 function displayDate(isoDate) {
