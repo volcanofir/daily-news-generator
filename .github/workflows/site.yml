@@ -55,6 +55,23 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Seed scraper from current live news
+        continue-on-error: true
+        run: |
+          CACHE_URL="https://volcanofir.github.io/daily-news-generator/news.json?seed=$(date +%s)"
+          if curl --fail --silent --show-error --location --max-time 15 "$CACHE_URL" -o news.live.json; then
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          src = Path("news.live.json")
+          payload = json.loads(src.read_text(encoding="utf-8"))
+          if not isinstance(payload.get("categories"), dict):
+              raise SystemExit("live cache has no categories")
+          Path("news.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print("[cache] seeded news.json from live site")
+          PY
+          fi
+
       - name: Fetch today's core news
         run: timeout 240s python scripts/fetch_news.py
 
