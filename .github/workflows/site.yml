@@ -13,6 +13,10 @@ on:
     - cron: "0 4 * * *"
     # 15:00, 18:00, 21:00 Asia/Taipei
     - cron: "0 7,10,13 * * *"
+    # TEMP TEST: 22:00-22:45 every 15 minutes Asia/Taipei
+    - cron: "*/15 14 * * *"
+    # TEMP TEST: 23:00 Asia/Taipei
+    - cron: "0 15 * * *"
   workflow_dispatch:
 
 permissions:
