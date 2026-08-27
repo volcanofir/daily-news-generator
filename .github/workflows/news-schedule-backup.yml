@@ -1,0 +1,16 @@
+name: News schedule backup
+
+on:
+  schedule:
+    # Taiwan time: 06-12, 15, 18, 21. Backup heartbeat fills the 5-minute gaps.
+    - cron: "10,20,30,40,50 0-4,7,10,13,22-23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  refresh:
+    uses: ./.github/workflows/site.yml
