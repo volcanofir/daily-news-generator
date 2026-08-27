@@ -1,18 +1,12 @@
 #!/usr/bin/env python3
-"""Decide whether a scheduled workflow should perform a full news refresh.
-
-GitHub Actions scheduled events are best-effort and can be delayed or dropped.
-This gate lets us schedule a lightweight check every 5 minutes, while only doing
-expensive scraping when the live site is stale enough or within a one-shot
-refresh window.
-"""
+"""Decide whether a scheduled workflow should perform a full news refresh."""
 
 from __future__ import annotations
 
 import json
 import os
 import sys
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
@@ -21,7 +15,6 @@ LIVE_NEWS_URL = "https://volcanofir.github.io/daily-news-generator/news.json"
 FRESH_FOR_MINUTES = 13
 SINGLE_RUN_HOURS = {6, 7, 12, 15, 18, 21}
 CONTINUOUS_HOURS = {8, 9, 10, 11}
-SINGLE_RUN_WINDOW_MINUTES = 25
 
 
 def output(value: bool, reason: str) -> None:
@@ -47,12 +40,12 @@ def live_updated_at() -> datetime | None:
     try:
         req = Request(
             f"{LIVE_NEWS_URL}?gate={int(datetime.now().timestamp())}",
-            headers={"User-Agent": "daily-news-generator-refresh-gate/1.0"},
+            headers={"User-Agent": "daily-news-generator-refresh-gate/2.0"},
         )
         with urlopen(req, timeout=8) as response:
             payload = json.load(response)
         return parse_updated_at(payload.get("updated_at", ""))
-    except Exception as exc:  # Network failure should fail open and refresh.
+    except Exception as exc:
         print(f"Could not read live news timestamp: {exc}", file=sys.stderr)
         return None
 
@@ -64,12 +57,8 @@ def main() -> None:
         return
 
     now = datetime.now(TAIPEI)
-
-    if now.hour in SINGLE_RUN_HOURS:
-        if now.minute >= SINGLE_RUN_WINDOW_MINUTES:
-            output(False, f"outside {now.hour:02d}:00 one-shot refresh window")
-            return
-    elif now.hour not in CONTINUOUS_HOURS:
+    active = now.hour in SINGLE_RUN_HOURS or now.hour in CONTINUOUS_HOURS
+    if not active:
         output(False, f"outside active refresh hours ({now:%H:%M})")
         return
 
@@ -84,6 +73,13 @@ def main() -> None:
 
     if updated.date() != now.date():
         output(True, f"live data is from {updated.date()}, not today")
+        return
+
+    if now.hour in SINGLE_RUN_HOURS:
+        if updated.hour == now.hour:
+            output(False, f"{now.hour:02d}:00 refresh already completed at {updated:%H:%M}")
+            return
+        output(True, f"{now.hour:02d}:00 refresh has not completed yet")
         return
 
     age = now - updated
