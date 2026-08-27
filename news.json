@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updated_at": "2026-08-27T21:51:57.767905+08:00",
+  "updated_at": "2026-08-27T21:59:23.886873+08:00",
   "timezone": "Asia/Taipei",
   "sources": {
     "weather": {
@@ -327,6 +327,83 @@
     ],
     "instant": [
       {
+        "id": "34488f4d483417e4",
+        "title": "10月起健檢、打疫苗賺「健康幣」 超商賣場規劃1點換1元",
+        "published_at": "2026-08-27T21:55:30+08:00",
+        "time": "21:55",
+        "url": "https://news.ltn.com.tw/news/life/breakingnews/5554832",
+        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5554832",
+        "summary": "衛福部將於10月正式推出「健康幣」政策，獎勵國人主動進行健檢、癌症篩檢與健康管理。衛福部長石崇良今晚在總統府「健康台灣推動委員會」會議後說明，「健康幣」搭配10月1日流感疫苗開打起跑、沒有回溯機制，初步洽談超商、賣場以「1點兌換1元」折抵兌換，亦可至藥局、醫院兌換部分自費健檢或自費疫苗，詳細清…",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "327474ff832ef100",
+        "title": "陽明交大火箭「雙發」固態、液態推進雙雙寫紀錄",
+        "published_at": "2026-08-27T21:55:13+08:00",
+        "time": "21:55",
+        "url": "https://news.ltn.com.tw/news/life/breakingnews/5554787",
+        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5554787",
+        "summary": "由iSSE-國立陽明交通大學太空系統工程研究所與ARRC前瞻火箭研究中心共同主導的團隊，8月24完成SST3固態火箭與FARCX-1液態火箭發射任務，一次寫下兩項重要里程碑。",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
+        "id": "5bdedd2a4ba417e4",
+        "title": "小心越賺越窮？財經專家示警1鐵則守住退休金 踩雷身家恐秒歸零",
+        "published_at": "2026-08-27T21:54:00+08:00",
+        "time": "21:54",
+        "url": "https://udn.com/news/story/6812/9718544",
+        "canonical_url": "https://udn.com/news/story/6812/9718544",
+        "summary": "隨著企業推動工作方式改革與工時縮減，許多50歲以上的上班族為了補足收入缺口或為退休生活鋪路，紛紛開始尋找副業。日本知名經濟專欄作家荻原博子指出，退休前的職涯發展確實是保障未來的關鍵，早一點布局能為往後養老生活拉開顯著差距。",
+        "source": "聯合新聞網",
+        "source_url": "https://udn.com/news/breaknews/1"
+      },
+      {
+        "id": "2ce8a76837bd6bc6",
+        "title": "《都更男女》高雄巡演遇淹水！范瑞君見到這一幕超心疼",
+        "published_at": "2026-08-27T21:54:00+08:00",
+        "time": "21:54",
+        "url": "https://www.chinatimes.com/realtimenews/20260827003427-260404",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260827003427-260404",
+        "summary": "范瑞君最近一邊拍八點檔，一邊忙著北中南巡迴演出全新舞台劇《都更男女》，上周末到巡演時，因天公不作美連日大雨還淹水，她表示，演員們一方面心疼災民受災情況嚴重，希望受損地區可以快快復原，另一方面，也希望天",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "76f7ab4a64d1985c",
+        "title": "啦啦隊女神穿比基尼「18秒辣舞片」萬人暴動：確定可以免費看",
+        "published_at": "2026-08-27T21:54:00+08:00",
+        "time": "21:54",
+        "url": "https://www.chinatimes.com/realtimenews/20260827005036-260404",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260827005036-260404",
+        "summary": "啦啦隊女孩Wendy（林宛璇）憑藉174公分高䠷身材與亮眼氣質圈粉無數，Instagram擁有超過32萬粉絲追蹤，平時經常透過社群分享生活點滴。今（27）日她突曬出一段比基尼辣舞影片，隨著音樂對著鏡頭扭腰擺動，短短時間便",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "37100831f702c922",
+        "title": "輝達財報重燃科技股信心 費半開漲2％ 台指期夜盤上攻300點",
+        "published_at": "2026-08-27T21:53:00+08:00",
+        "time": "21:53",
+        "url": "https://www.chinatimes.com/realtimenews/20260827005055-260410",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260827005055-260410",
+        "summary": "輝達發布強勁財季業績及樂觀前景展望，提振了市場對於AI投資高速擴張仍將持續更長時間的信心。周四（27日）美股一開盤，以科技股為主的那斯達克指數跳漲逾200點，與台股連動密切的費城半導體指數大漲逾2%。台指期夜",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
+      },
+      {
+        "id": "378ef8b92492a09e",
+        "title": "加密貨幣也被法拍！12萬顆泰達幣、以太幣9月開拍 觀音透天同步競標",
+        "published_at": "2026-08-27T21:52:07+08:00",
+        "time": "21:52",
+        "url": "https://estate.ltn.com.tw/article/28722",
+        "canonical_url": "https://estate.ltn.com.tw/article/28722",
+        "summary": "法務部行政執行署桃園分署將於9月1日舉辦「123 聯合拍賣會」，此次推出車輛、虛擬貨幣、不動產及動產等多元標的，其中包括 2010 年 HYUNDAI 汽車、逾12萬顆泰達幣及 0.21 顆以太幣，以及5層樓電梯透天，另有店面、土地、廠房、股票及商標權等標的",
+        "source": "自由時報・即時新聞",
+        "source_url": "https://news.ltn.com.tw/list/breakingnews"
+      },
+      {
         "id": "bebf48e644e74d1f",
         "title": "西藏土石流災前後對比畫面曝光 海關、民房全慘遭掩埋",
         "published_at": "2026-08-27T21:51:00+08:00",
@@ -338,15 +415,15 @@
         "source_url": "https://udn.com/news/breaknews/1"
       },
       {
-        "id": "894ff3261f98b53d",
-        "title": "無人機條例三讀 總統府：尋求一切方式建立所需戰力",
-        "published_at": "2026-08-27T21:49:00+08:00",
-        "time": "21:49",
-        "url": "https://udn.com/news/story/7240/9718658",
-        "canonical_url": "https://udn.com/news/story/7240/9718658",
-        "summary": "立法院會27日三讀通過國民黨團版「無人機條例」，主管機關納入「國防部」，但仍保持「年度預算六年2,400億元」不變。對此，總統府發言人郭雅慧表示，國際對於無人機發展都在踩油門，我政府的下一步也不會慢下來，會在憲法跟法律框架之下，尋求一切方式，建立所需戰力。",
-        "source": "聯合新聞網",
-        "source_url": "https://udn.com/news/breaknews/1"
+        "id": "5c69821ae365198f",
+        "title": "《冬季戀歌》神曲重現！韓選秀亞軍Haru宣布以台灣為起點進軍亞洲",
+        "published_at": "2026-08-27T21:50:00+08:00",
+        "time": "21:50",
+        "url": "https://www.chinatimes.com/realtimenews/20260827004970-260404",
+        "canonical_url": "https://www.chinatimes.com/realtimenews/20260827004970-260404",
+        "summary": "由裴勇俊、崔智友主演的韓劇《冬季戀歌》至今仍是經典，劇中代表性OST〈從開始到現在〉也成為承載著韓流記憶的歌曲，最近也將迎來全新版本，在歌唱選秀節目《無名傳說》獲得亞軍的新生代韓國Trot歌手Haru，將重新演",
+        "source": "中時新聞網・即時",
+        "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
         "id": "51e389aba270d6bf",
@@ -635,28 +712,6 @@
         "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
-        "id": "275a343a89f2efd3",
-        "title": "驚險！彰化外送機車與貨車碰撞 手搖飲噴飛灑落一地",
-        "published_at": "2026-08-27T21:20:51+08:00",
-        "time": "21:20",
-        "url": "https://news.ltn.com.tw/news/society/breakingnews/5554795",
-        "canonical_url": "https://news.ltn.com.tw/news/society/breakingnews/5554795",
-        "summary": "彰化縣和美鎮和線路26日發生碰撞意外，18歲手搖杯蘇姓外送員騎機車直行，與迴轉的小貨車發生碰撞，蘇男顱內出血，幸已恢復意識，而撞擊瞬間影像也曝光，只見機車外送箱手搖杯，在撞擊中在天空飛舞，飲料灑落一地。",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
-        "id": "068e22c79aec89a1",
-        "title": "留住偏鄉醫事人員 石崇良：相關補助、津貼獎勵10年免稅",
-        "published_at": "2026-08-27T21:18:04+08:00",
-        "time": "21:18",
-        "url": "https://news.ltn.com.tw/news/life/breakingnews/5554778",
-        "canonical_url": "https://news.ltn.com.tw/news/life/breakingnews/5554778",
-        "summary": "偏鄉醫療人力不足問題長年難解，政府再祭新誘因！衛福部長石崇良今（27日）表示，立法院本週二已三讀通過「醫療法」第88條修正案，未來醫事人員前往醫療資源不足地區、偏遠地區或原住民族地區，執行政府推動的醫療計畫，所領取的補貼、補助、津貼及獎勵金，均可免納所得稅，為期10年，盼提高醫事人員投入偏鄉服…",
-        "source": "自由時報・即時新聞",
-        "source_url": "https://news.ltn.com.tw/list/breakingnews"
-      },
-      {
         "id": "d32063d00965800c",
         "title": "3車朝聖2車墜谷沖走！她爬車外逃命 尼泊爾山洪已359死",
         "published_at": "2026-08-27T21:18:00+08:00",
@@ -778,28 +833,6 @@
         "source_url": "https://udn.com/news/breaknews/1"
       },
       {
-        "id": "d2690df661e910bb",
-        "title": "瓊斯盃女籃》太殘忍！ 中華藍95分之差欺負泰國 創本屆最大分差",
-        "published_at": "2026-08-27T21:00:00+08:00",
-        "time": "21:00",
-        "url": "https://www.chinatimes.com/realtimenews/20260827004879-260403",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260827004879-260403",
-        "summary": "2026年第45屆雙北威廉瓊斯盃國際籃球邀請賽女子組，27日中華藍面對泰國打出比稍早日本痛宰黎巴嫩更殘酷的差距，中華藍全隊12人都有得分紀錄、8人得分雙位數，終場中華藍120比25大勝泰國多達95分，以2連勝鎖定本屆瓊",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "d5eb2441b6d5298e",
-        "title": "韓國瑜批不副署武器化 政院：兩院應依照憲法行使職權",
-        "published_at": "2026-08-27T21:00:00+08:00",
-        "time": "21:00",
-        "url": "https://www.chinatimes.com/realtimenews/20260827004852-260407",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260827004852-260407",
-        "summary": "立法院本會期最後一次院會，立法院長韓國瑜痛批，行政院將不副署武器化，架空行政對立法負責的制度，破壞憲政體制，呼籲行政院應該懇切向立院各黨團進行溝通。行政院發言人李慧芝表示，行政、立法兩院都是《憲法》所",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
         "id": "bab136849792952d",
         "title": "他餐點吃一半驚見「蝸牛在爬」嚇喊真的要吐 摩斯漢堡回應了",
         "published_at": "2026-08-27T20:56:00+08:00",
@@ -809,28 +842,6 @@
         "summary": "近日有網友於網上反應，自己在品嚐摩斯漢堡的餐點時，驚見「活蝸牛」在爬行，隨著畫面流出，立刻在網路引發熱議。對此，摩斯也表示，已進行深入調查，並加強改善作業流程。",
         "source": "聯合新聞網",
         "source_url": "https://udn.com/news/breaknews/1"
-      },
-      {
-        "id": "03d2080cb7e8f345",
-        "title": "慘遭五熊抹油！「佛足石」修復進度出爐 藥師寺無奈拉寬柵欄",
-        "published_at": "2026-08-27T20:56:00+08:00",
-        "time": "20:56",
-        "url": "https://www.chinatimes.com/realtimenews/20260827004860-260404",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260827004860-260404",
-        "summary": "台灣藝人「五熊」蔡宜臻日前驚傳涉嫌對日本奈良國寶級文物「佛足石」抹油祈禱，遭到日本警方逮捕，震驚台日兩地。今（27日）受害的藥師寺寺方與奈良縣府廳透露了文物的最新復原狀況，並無奈表示已擴大柵欄與國寶的距",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
-      },
-      {
-        "id": "1e2ed78a839ca8d8",
-        "title": "天氣》嘉義以南防豪雨！這天改北部降雨 一周天氣不穩",
-        "published_at": "2026-08-27T20:53:00+08:00",
-        "time": "20:53",
-        "url": "https://www.chinatimes.com/realtimenews/20260827004823-260405",
-        "canonical_url": "https://www.chinatimes.com/realtimenews/20260827004823-260405",
-        "summary": "中度颱風沙德爾正在通過台灣北部海面，但颱風外圍雲系及西南風影響，明（28）日嘉義以南留意豪大雨，中部山區防大雨，沿海風浪偏大，下周颱風遠離，天氣受低壓帶影響，天氣仍較不穩定，直到下周三（9月2日）降雨才會",
-        "source": "中時新聞網・即時",
-        "source_url": "https://www.chinatimes.com/realtimenews/"
       },
       {
         "id": "13d5b11604048bd5",
@@ -956,39 +967,6 @@
     ],
     "finance": [
       {
-        "id": "9c75e0de65451b40",
-        "title": "回家、像走進日本的一間小屋！12坪日系宅開箱",
-        "published_at": "2026-08-27T21:49:00+08:00",
-        "time": "21:49",
-        "url": "https://house.udn.com/house/story/123592/9716798",
-        "canonical_url": "https://house.udn.com/house/story/123592/9716798",
-        "summary": "對這對夫妻來說，這是他們的第一個家。既然是第一個家，就想把它弄得舒服一點、弄成自己真心喜歡的樣子。 「我們兩個都很喜歡日本，所以就想把整個家弄得日系一點，這樣每次回到家，都會有種好像稍微出國了一下的感覺。」屋主笑著說。於是，一間位在新北板橋、實際設計12坪的新成屋，成了他們把「日本」搬回家的起點。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "3b2d51d7833515c6",
-        "title": "瑋傑科技率先取得SRF新代碼許可 強化源頭管理搶攻循環能源商機",
-        "published_at": "2026-08-27T21:49:00+08:00",
-        "time": "21:49",
-        "url": "https://money.udn.com/money/story/6722/9715971?from=ednappsharing",
-        "canonical_url": "https://money.udn.com/money/story/6722/9715971",
-        "summary": "固體再生燃料（SRF）產業迎來重要里程碑。瑋傑科技高雄路竹廠率先通過環境部最新法規審查，取得針對固體再生燃料原料R0221、R0621的專用代碼許可，成為目前全台率先取得該新代碼許可的業者，展現公司在SRF品質控管、源頭管理及再生燃料技術上的實力，也呼應政府推動資源循環與能源轉型政策。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
-        "id": "894ff3261f98b53d",
-        "title": "無人機條例三讀 總統府：尋求一切方式建立所需戰力",
-        "published_at": "2026-08-27T21:49:00+08:00",
-        "time": "21:49",
-        "url": "https://udn.com/news/story/7240/9718658",
-        "canonical_url": "https://udn.com/news/story/7240/9718658",
-        "summary": "立法院會27日三讀通過國民黨團版「無人機條例」，主管機關納入「國防部」，但仍保持「年度預算六年2,400億元」不變。對此，總統府發言人郭雅慧表示，國際對於無人機發展都在踩油門，我政府的下一步也不會慢下來，會在憲法跟法律框架之下，尋求一切方式，建立所需戰力。",
-        "source": "聯合新聞網・產經",
-        "source_url": "https://udn.com/news/cate/2/6644"
-      },
-      {
         "id": "40ac2b25f2f5fabc",
         "title": "券商授信倍數不放寬 金管會：市場距離上限仍有空間",
         "published_at": "2026-08-27T21:45:00+08:00",
@@ -1075,6 +1053,39 @@
         "summary": "AI需求持續暢旺，帶動台灣出口及經濟成長動能強勁，也推升金融業獲利表現。華南金控（2880）今年前7月稅後純益達206.52億元、年增38%，每股純益（EPS）1.48元，累計獲利及EPS雙創歷年同期新高。",
         "source": "經濟日報",
         "source_url": "https://money.udn.com/money/cate/12017?from=edn_navibar"
+      },
+      {
+        "id": "9c75e0de65451b40",
+        "title": "回家、像走進日本的一間小屋！12坪日系宅開箱",
+        "published_at": "2026-08-27T21:27:00+08:00",
+        "time": "21:27",
+        "url": "https://house.udn.com/house/story/123592/9716798",
+        "canonical_url": "https://house.udn.com/house/story/123592/9716798",
+        "summary": "對這對夫妻來說，這是他們的第一個家。既然是第一個家，就想把它弄得舒服一點、弄成自己真心喜歡的樣子。 「我們兩個都很喜歡日本，所以就想把整個家弄得日系一點，這樣每次回到家，都會有種好像稍微出國了一下的感覺。」屋主笑著說。於是，一間位在新北板橋、實際設計12坪的新成屋，成了他們把「日本」搬回家的起點。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "3b2d51d7833515c6",
+        "title": "瑋傑科技率先取得SRF新代碼許可 強化源頭管理搶攻循環能源商機",
+        "published_at": "2026-08-27T21:27:00+08:00",
+        "time": "21:27",
+        "url": "https://money.udn.com/money/story/6722/9715971?from=ednappsharing",
+        "canonical_url": "https://money.udn.com/money/story/6722/9715971",
+        "summary": "固體再生燃料（SRF）產業迎來重要里程碑。瑋傑科技高雄路竹廠率先通過環境部最新法規審查，取得針對固體再生燃料原料R0221、R0621的專用代碼許可，成為目前全台率先取得該新代碼許可的業者，展現公司在SRF品質控管、源頭管理及再生燃料技術上的實力，也呼應政府推動資源循環與能源轉型政策。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
+        "id": "bab136849792952d",
+        "title": "他餐點吃一半驚見「蝸牛在爬」嚇喊真的要吐 摩斯漢堡回應了",
+        "published_at": "2026-08-27T20:56:00+08:00",
+        "time": "20:56",
+        "url": "https://udn.com/news/story/7270/9718565",
+        "canonical_url": "https://udn.com/news/story/7270/9718565",
+        "summary": "近日有網友於網上反應，自己在品嚐摩斯漢堡的餐點時，驚見「活蝸牛」在爬行，隨著畫面流出，立刻在網路引發熱議。對此，摩斯也表示，已進行深入調查，並加強改善作業流程。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
         "id": "88e9d95861a0bfe1",
@@ -1374,6 +1385,17 @@
         "source_url": "https://udn.com/news/cate/2/6644"
       },
       {
+        "id": "d955d3ddc3232d74",
+        "title": "元太以電子紙科技實踐教育平權與低碳藝文場域 連三年獲永續行動獎",
+        "published_at": "2026-08-27T14:30:00+08:00",
+        "time": "14:30",
+        "url": "https://udn.com/news/story/7240/9717735",
+        "canonical_url": "https://udn.com/news/story/7240/9717735",
+        "summary": "全球電子紙領導廠商E Ink元太（8069）科技27日宣布，「e 啟讀出未來」公益專案榮獲第五屆「亞太永續行動獎（APSAA）」銀獎，電子紙導入台北市立美術館（北美館）的低碳顯示應用則獲第六屆「台灣永續行動獎（TSAA）」銀獎，展現元太科技運用核心電子紙技術回應教育平權與低碳轉型的具體成果。",
+        "source": "聯合新聞網・產經",
+        "source_url": "https://udn.com/news/cate/2/6644"
+      },
+      {
         "id": "e4f2a72de0d4593a",
         "title": "股匯雙漲！熱錢湧入助攻新台幣走升 市場緊盯 Fed 主席華許態度",
         "published_at": "2026-08-27T11:41:00+08:00",
@@ -1496,6 +1518,17 @@
       }
     ],
     "housing": [
+      {
+        "id": "378ef8b92492a09e",
+        "title": "加密貨幣也被法拍！12萬顆泰達幣、以太幣9月開拍 觀音透天同步競標",
+        "published_at": "2026-08-27T21:52:07+08:00",
+        "time": "21:52",
+        "url": "https://estate.ltn.com.tw/article/28722",
+        "canonical_url": "https://estate.ltn.com.tw/article/28722",
+        "summary": "法務部行政執行署桃園分署將於9月1日舉辦「123 聯合拍賣會」，此次推出車輛、虛擬貨幣、不動產及動產等多元標的，其中包括 2010 年 HYUNDAI 汽車、逾12萬顆泰達幣及 0.21 顆以太幣，以及5層樓電梯透天，另有店面、土地、廠房、股票及商標權等標的",
+        "source": "自由時報・地產天下",
+        "source_url": "https://estate.ltn.com.tw/news"
+      },
       {
         "id": "8bf89b1e4d27e9f3",
         "title": "1.12億遺產誰在接手？721件曝光 男性竟是女性2倍",
@@ -1849,6 +1882,17 @@
         "source_url": "https://house.udn.com/house/index"
       },
       {
+        "id": "2f4df86621b8e2c4",
+        "title": "看屋筆記：新竹縣湖口鄉佳群城真(個案＋價格分析)",
+        "published_at": "2026-08-27T14:00:00+08:00",
+        "time": "14:00",
+        "url": "https://house.chinatimes.com/20241020000018-264405",
+        "canonical_url": "https://house.chinatimes.com/20241020000018-264405",
+        "summary": "新竹湖口近期推案要聚集在湖口車站及王爺壟重劃區，生活機能方面除了湖口車站原有舊市區，王爺壟重劃區目前也有許多品牌餐廳、大型連鎖店進駐，商圈發展成熟活絡。而鄰近的湖口老街生活圈則呈現截然不同的生活氛圍，區域內有湖口老街、湖口國小，讓整體富有人文書香氣息。",
+        "source": "中時房產",
+        "source_url": "https://house.chinatimes.com"
+      },
+      {
         "id": "12ac6f6f8d572444",
         "title": "梓官豪雨成災！家具泡水全毀 居民徹夜未眠淚訴：每年都在清",
         "published_at": "2026-08-27T13:54:00+08:00",
@@ -1882,17 +1926,6 @@
         "source_url": "https://house.chinatimes.com"
       },
       {
-        "id": "ba6b30d3d0616190",
-        "title": "廚房耐用也要耐看！永不過時 7 種廚房經典配色示範",
-        "published_at": "2026-08-27T13:54:00+08:00",
-        "time": "13:54",
-        "url": "https://house.chinatimes.com/20230624000008-264419",
-        "canonical_url": "https://house.chinatimes.com/20230624000008-264419",
-        "summary": "找設計師前，廚房配色你想好了嗎？大家有發現，老屋翻新的設計案中，廚房 Before / After 的色彩風格對比，通常都會讓屋主強烈感受到色彩對於廚房的重要性！無論是新建房屋還是翻新廚房，選擇合適的配色，不僅是廚房風格、空間感的關鍵，也會直接影響烹飪者下廚時的心情。",
-        "source": "中時房產",
-        "source_url": "https://house.chinatimes.com"
-      },
-      {
         "id": "5e5d8b77c548165b",
         "title": "看屋筆記：新竹市北區竹慶筑光(個案＋價格分析)",
         "published_at": "2026-08-27T13:54:00+08:00",
@@ -1904,6 +1937,17 @@
         "source_url": "https://house.chinatimes.com"
       },
       {
+        "id": "ba6b30d3d0616190",
+        "title": "廚房耐用也要耐看！永不過時 7 種廚房經典配色示範",
+        "published_at": "2026-08-27T13:54:00+08:00",
+        "time": "13:54",
+        "url": "https://house.chinatimes.com/20230624000008-264419",
+        "canonical_url": "https://house.chinatimes.com/20230624000008-264419",
+        "summary": "找設計師前，廚房配色你想好了嗎？大家有發現，老屋翻新的設計案中，廚房 Before / After 的色彩風格對比，通常都會讓屋主強烈感受到色彩對於廚房的重要性！無論是新建房屋還是翻新廚房，選擇合適的配色，不僅是廚房風格、空間感的關鍵，也會直接影響烹飪者下廚時的心情。",
+        "source": "中時房產",
+        "source_url": "https://house.chinatimes.com"
+      },
+      {
         "id": "65e31e12dd3e0216",
         "title": "家中蟑螂小蟲不斷？晚上「6個習慣」快改掉：紙箱別放玄關過夜",
         "published_at": "2026-08-27T13:54:00+08:00",
@@ -1911,17 +1955,6 @@
         "url": "https://house.chinatimes.com/20260821003421-264401",
         "canonical_url": "https://house.chinatimes.com/20260821003421-264401",
         "summary": "夏天氣溫升高，蟑螂、小飛蟲等也開始變得活躍，若入夜後沒收拾好廚房、地板留有食物殘渣，甚至將紙箱堆在玄關，都可能增加蟲子入侵機會。許多害蟲具有夜行性，想降低家中蟲子出沒的機率，除了使用殺蟲劑，更重要的是改變夜間生活習慣，避免留下食物氣味及適合蟲子棲身的環境。",
-        "source": "中時房產",
-        "source_url": "https://house.chinatimes.com"
-      },
-      {
-        "id": "7a220d9011bb553a",
-        "title": "2026年度住宅補貼9月1日起受理申請",
-        "published_at": "2026-08-27T13:54:00+08:00",
-        "time": "13:54",
-        "url": "https://house.chinatimes.com/20260827001765-264417",
-        "canonical_url": "https://house.chinatimes.com/20260827001765-264417",
-        "summary": "為協助有購屋及住宅修繕需求的民眾減輕居住負擔，苗栗縣政府配合內政部辦理2026年度住宅補貼計畫，將自2026年9月1日上午9時起至9月30日下午5時止受理申請，受理項目包括「自購住宅貸款利息補貼」及「修繕住宅貸款利息補貼」，歡迎符合資格民眾把握機會提出申請。",
         "source": "中時房產",
         "source_url": "https://house.chinatimes.com"
       },
