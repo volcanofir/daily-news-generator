@@ -1,13 +1,9 @@
-name: Update news and deploy Pages
+name: News worker and deploy Pages
 
 on:
   push:
     branches: [main]
-  schedule:
-    # Keep one simple heartbeat. GitHub scheduled events are best-effort, so a
-    # 5-minute heartbeat gives the gate repeated chances to recover from a
-    # delayed or dropped event. The gate prevents scraping outside update hours.
-    - cron: "*/5 * * * *"
+  workflow_call:
   workflow_dispatch:
 
 permissions:
@@ -59,27 +55,31 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch today's news
-        run: python scripts/fetch_news.py
+      - name: Fetch today's core news
+        run: timeout 240s python scripts/fetch_news.py
 
       - name: Add MyHousing and dedupe similar headlines
-        run: python scripts/augment_myhousing.py
+        continue-on-error: true
+        run: timeout 90s python scripts/augment_myhousing.py
 
       - name: Add Liberty Times sources
-        run: python scripts/augment_ltn.py
+        continue-on-error: true
+        run: timeout 90s python scripts/augment_ltn.py
 
       - name: Add ETtoday housing source
-        run: python scripts/augment_ettoday.py
+        continue-on-error: true
+        run: timeout 90s python scripts/augment_ettoday.py
 
       - name: Add FBS housing source
-        run: python scripts/augment_fbs.py
+        continue-on-error: true
+        run: timeout 90s python scripts/augment_fbs.py
 
       - name: Remove malformed news
         run: python scripts/sanitize_news.py
 
-      # Deploy the freshly generated news.json directly from the artifact.
-      # Do not commit generated data back to main; that would start GitHub's
-      # branch-based Pages deployment and can race this custom deployment.
+      - name: Validate generated news before publishing
+        run: python scripts/validate_news.py
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
@@ -94,17 +94,7 @@ jobs:
           cp _site/news-icon-v2.png _site/apple-touch-icon.png
           cp _site/news-icon-v2.png _site/apple-touch-icon-precomposed.png
           cp _site/news-icon-v2.png _site/favicon.png
-
-          # LINE link previews are more reliable with a large landscape OG image.
-          if command -v magick >/dev/null 2>&1; then
-            magick _site/news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 _site/og-preview-v6.jpg
-          elif command -v convert >/dev/null 2>&1; then
-            convert _site/news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 _site/og-preview-v6.jpg
-          else
-            sudo apt-get update -qq
-            sudo apt-get install -y imagemagick
-            convert _site/news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 _site/og-preview-v6.jpg
-          fi
+          python scripts/build_og.py _site/news-icon-v2.png _site/og-preview-v6.jpg
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
