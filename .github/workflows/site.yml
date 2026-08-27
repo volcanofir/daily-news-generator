@@ -4,16 +4,11 @@ on:
   push:
     branches: [main]
   schedule:
-    # GitHub Actions cron uses UTC. Taiwan is UTC+8.
-    # Keep the real runs off common boundaries; the UI can still show rounded times.
-    # Morning start: 06:05 / 07:05, with a backup attempt 7 minutes later.
-    - cron: "5,12 22,23 * * *"
-    # 08:05-11:55 every 10 minutes for resilience if one cron is delayed/skipped.
-    - cron: "5,15,25,35,45,55 0-3 * * *"
-    # 12:05, with a backup attempt at 12:12.
-    - cron: "5,12 4 * * *"
-    # 15:05 / 18:05 / 21:05, with backup attempts at :12.
-    - cron: "5,12 7,10,13 * * *"
+    # GitHub scheduled events are best-effort and can be delayed/dropped.
+    # Check every 5 minutes during active Taiwan-time hours; a lightweight gate
+    # only allows a full scrape when the live site is stale enough.
+    # UTC hours below = TW 06-12, 15, 18, 21.
+    - cron: "*/5 0-4,7,10,13,22-23 * * *"
   workflow_dispatch:
 
 permissions:
@@ -26,11 +21,31 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    outputs:
+      run: ${{ steps.refresh_gate.outputs.run }}
+      reason: ${{ steps.refresh_gate.outputs.reason }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check whether refresh is needed
+        id: refresh_gate
+        run: python3 scripts/should_refresh.py
+
+      - name: Gate decision
+        run: echo "Refresh=${{ steps.refresh_gate.outputs.run }} — ${{ steps.refresh_gate.outputs.reason }}"
+
   update-and-deploy:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 12
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout
@@ -63,10 +78,9 @@ jobs:
       - name: Remove malformed news
         run: python scripts/sanitize_news.py
 
-      # Do not commit generated news.json back to main here.
-      # A data commit starts GitHub's branch-based Pages deployment and can race this
-      # custom Pages deployment. The freshly generated file is deployed directly below.
-
+      # Deploy the freshly generated news.json directly from the artifact.
+      # Do not commit generated data back to main; that would start GitHub's
+      # branch-based Pages deployment and can race this custom deployment.
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
