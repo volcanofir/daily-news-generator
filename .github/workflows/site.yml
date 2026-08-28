@@ -47,9 +47,6 @@ jobs:
       - name: Fetch today's news
         run: python scripts/fetch_news.py
 
-      - name: Add NOWnews weather source
-        run: python scripts/augment_nownews.py
-
       - name: Add MyHousing and dedupe similar headlines
         run: python scripts/augment_myhousing.py
 
