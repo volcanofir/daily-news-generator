@@ -462,7 +462,12 @@ function buildMessage() {
   }
 
   const isoDate = state.payload?.date || taipeiToday();
+  const todayIso = taipeiToday();
   const date = displayDate(isoDate);
+  const todayDate = taipeiDateFromIso(todayIso);
+  const yesterdayParts = dateParts(addTaipeiDays(todayDate, -1));
+  const yesterdayIso = `${yesterdayParts.year}-${String(yesterdayParts.month).padStart(2, "0")}-${String(yesterdayParts.day).padStart(2, "0")}`;
+  const newsDayLabel = isoDate === todayIso ? "今日" : (isoDate === yesterdayIso ? "昨日" : "近期");
   const divider = "━━━━━━━━━━━━━━";
 
   const intro = [
@@ -472,7 +477,7 @@ function buildMessage() {
     "",
     "🏆 雙北展店目標邁向350店！展店目標將以「更貼近社區、更快速回應客戶需求」為核心，持續提供更優質、更即時的房產服務。",
     "",
-    `跟您分享幾則今日（${date}）重點新聞📰`,
+    `跟您分享幾則${newsDayLabel}（${date}）重點新聞📰`,
     "",
     divider,
   ];
@@ -496,7 +501,7 @@ function buildMessage() {
 
   const ending = [
     "",
-    dailyGreeting(isoDate),
+    dailyGreeting(todayIso),
   ].join("\n");
 
   return `${intro.join("\n")}${sections.join("")}${ending}`;
