@@ -77,6 +77,127 @@ function displayUpdated(isoDateTime) {
   }
 }
 
+function taipeiDateFromIso(isoDate) {
+  const value = /^\d{4}-\d{2}-\d{2}$/.test(isoDate || "") ? isoDate : taipeiToday();
+  return new Date(`${value}T12:00:00+08:00`);
+}
+
+function dateParts(date) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Taipei",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    weekday: "short",
+  }).formatToParts(date);
+  const get = (type) => parts.find((part) => part.type === type)?.value || "";
+  return {
+    year: Number(get("year")),
+    month: Number(get("month")),
+    day: Number(get("day")),
+    weekday: get("weekday"),
+  };
+}
+
+function chineseCalendarParts(date) {
+  try {
+    const parts = new Intl.DateTimeFormat("en-u-ca-chinese", {
+      timeZone: "Asia/Taipei",
+      month: "numeric",
+      day: "numeric",
+    }).formatToParts(date);
+    const monthRaw = parts.find((part) => part.type === "month")?.value || "";
+    const dayRaw = parts.find((part) => part.type === "day")?.value || "";
+    const leap = /bis|leap/i.test(monthRaw);
+    const month = Number.parseInt(monthRaw, 10);
+    const day = Number.parseInt(dayRaw, 10);
+    if (!Number.isFinite(month) || !Number.isFinite(day)) return null;
+    return { month, day, leap };
+  } catch {
+    return null;
+  }
+}
+
+function addTaipeiDays(date, days) {
+  return new Date(date.getTime() + days * 24 * 60 * 60 * 1000);
+}
+
+function lunarGreeting(date) {
+  const lunar = chineseCalendarParts(date);
+  if (!lunar || lunar.leap) return null;
+
+  const tomorrow = chineseCalendarParts(addTaipeiDays(date, 1));
+  if (tomorrow && !tomorrow.leap && tomorrow.month === 1 && tomorrow.day === 1) {
+    return "🧧 除夕團圓夜，永慶房屋祝福您闔家平安、幸福團圓，新的一年順心如意！";
+  }
+
+  if (lunar.month === 1 && lunar.day >= 1 && lunar.day <= 5) {
+    return "🧧 新春愉快！永慶房屋祝福您新的一年平安順遂、闔家幸福、好運連連！";
+  }
+  if (lunar.month === 1 && lunar.day === 15) {
+    return "🏮 元宵佳節愉快！永慶房屋祝福您闔家團圓、平安喜樂、事事圓滿！";
+  }
+  if (lunar.month === 5 && lunar.day === 5) {
+    return "🐲 端午安康！永慶房屋祝福您闔家平安、順心如意、健康幸福！";
+  }
+  if (lunar.month === 7 && lunar.day === 7) {
+    return "💞 七夕愉快！永慶房屋祝福您珍惜美好相伴，生活甜蜜、幸福常在！";
+  }
+  if (lunar.month === 8 && lunar.day === 15) {
+    return "🌕 中秋佳節愉快！永慶房屋祝福您闔家團圓、平安喜樂、事事圓滿！";
+  }
+  if (lunar.month === 9 && lunar.day === 9) {
+    return "🌼 重陽佳節安康！永慶房屋祝福您與家人健康平安、福氣長久！";
+  }
+
+  return null;
+}
+
+function fixedDateGreeting(date) {
+  const { month, day, weekday } = dateParts(date);
+  const key = `${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+
+  if (key === "01-01") {
+    return "🎊 元旦愉快！永慶房屋祝福您新的一年平安順心、好運常伴、萬事如意！";
+  }
+  if (month === 5 && weekday === "Sun" && day >= 8 && day <= 14) {
+    return "🌷 母親節快樂！永慶房屋祝福天下媽媽健康平安、幸福美滿，也祝您闔家溫馨愉快！";
+  }
+  if (key === "08-08") {
+    return "💙 父親節快樂！永慶房屋祝福天下爸爸健康平安、幸福常伴，也祝您闔家順心愉快！";
+  }
+  if (key === "09-28") {
+    return "📚 教師節愉快！永慶房屋向每一位用心付出的老師致上敬意，祝福您平安順心！";
+  }
+  if (key === "10-10") {
+    return "🇹🇼 國慶日愉快！永慶房屋祝福您假期平安順心、闔家愉快！";
+  }
+  if (key === "12-24") {
+    return "🎄 平安夜愉快！永慶房屋祝福您平安喜樂、幸福相伴，享受溫馨美好的夜晚！";
+  }
+  if (key === "12-25") {
+    return "🎄 聖誕佳節愉快！永慶房屋祝福您平安喜樂、幸福滿滿、好事連連！";
+  }
+  if (key === "12-31") {
+    return "🎆 歲末愉快！永慶房屋祝福您為今年畫下美好句點，迎接嶄新一年、平安順遂！";
+  }
+
+  return null;
+}
+
+function dailyGreeting(isoDate) {
+  const date = taipeiDateFromIso(isoDate);
+  const specialGreeting = fixedDateGreeting(date) || lunarGreeting(date);
+  if (specialGreeting) return specialGreeting;
+
+  const { weekday } = dateParts(date);
+  if (weekday === "Sat" || weekday === "Sun") {
+    return "🌿 週末愉快！永慶房屋祝福您放鬆心情、享受美好時光，平安健康、事事順心！";
+  }
+
+  return "😊 永慶房屋祝福您今天工作順利、平安健康、萬事如意！";
+}
+
 function escapeHtml(value = "") {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -220,7 +341,8 @@ function buildMessage() {
     return "";
   }
 
-  const date = displayDate(state.payload?.date || taipeiToday());
+  const isoDate = state.payload?.date || taipeiToday();
+  const date = displayDate(isoDate);
   const divider = "━━━━━━━━━━━━━━";
 
   const intro = [
@@ -254,7 +376,7 @@ function buildMessage() {
 
   const ending = [
     "",
-    "😊 永慶房屋祝福您今天工作順利、平安健康、萬事如意！",
+    dailyGreeting(isoDate),
   ].join("\n");
 
   return `${intro.join("\n")}${sections.join("")}${ending}`;
