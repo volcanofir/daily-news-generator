@@ -1,12 +1,8 @@
-name: Update news
+name: Update news and deploy Pages
 
 on:
-  # A workflow-file edit also runs one immediate update, so we can verify
-  # the updater itself without creating a news.json self-trigger loop.
   push:
     branches: [main]
-    paths:
-      - ".github/workflows/site.yml"
   schedule:
     # GitHub Actions cron uses UTC. Taiwan is UTC+8.
     # 06:00, 07:00 Asia/Taipei
@@ -17,22 +13,23 @@ on:
     - cron: "0 4 * * *"
     # 15:00, 18:00, 21:00 Asia/Taipei
     - cron: "0 7,10,13 * * *"
-    # TEMP TEST: 23:00-23:45 every 15 minutes Asia/Taipei
-    - cron: "*/15 15 * * *"
-    # TEMP TEST: 24:00 Asia/Taipei
-    - cron: "0 16 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
-  group: daily-news-update
+  group: daily-news-pages
   cancel-in-progress: false
 
 jobs:
-  update-news:
+  update-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout
@@ -65,32 +62,36 @@ jobs:
       - name: Remove malformed news
         run: python scripts/sanitize_news.py
 
-      - name: Generate static assets
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Prepare site
         run: |
-          base64 --decode news-icon-v2.png.b64 > news-icon-v2.png
-          cp news-icon-v2.png apple-touch-icon.png
-          cp news-icon-v2.png apple-touch-icon-precomposed.png
-          cp news-icon-v2.png favicon.png
+          rm -rf _site
+          mkdir _site
+          cp index.html app.js styles.css news.json manifest.webmanifest .nojekyll _site/
+          base64 --decode news-icon-v2.png.b64 > _site/news-icon-v2.png
+          cp _site/news-icon-v2.png _site/apple-touch-icon.png
+          cp _site/news-icon-v2.png _site/apple-touch-icon-precomposed.png
+          cp _site/news-icon-v2.png _site/favicon.png
 
           if command -v magick >/dev/null 2>&1; then
-            magick news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 og-preview-v6.jpg
+            magick _site/news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 _site/og-preview-v6.jpg
           elif command -v convert >/dev/null 2>&1; then
-            convert news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 og-preview-v6.jpg
+            convert _site/news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 _site/og-preview-v6.jpg
           else
             sudo apt-get update -qq
             sudo apt-get install -y imagemagick
-            convert news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 og-preview-v6.jpg
+            convert _site/news-icon-v2.png -resize 520x520 -background "#f4d230" -gravity center -extent 1200x630 -quality 88 _site/og-preview-v6.jpg
           fi
 
-      - name: Save refreshed site data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.json news-icon-v2.png apple-touch-icon.png apple-touch-icon-precomposed.png favicon.png og-preview-v6.jpg
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
 
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: refresh today's news"
-            git push
-          else
-            echo "No site data change"
-          fi
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
