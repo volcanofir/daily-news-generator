@@ -122,6 +122,54 @@ function addTaipeiDays(date, days) {
   return new Date(date.getTime() + days * 24 * 60 * 60 * 1000);
 }
 
+function qingmingDay(year) {
+  if (year >= 2000 && year <= 2099) {
+    const y = year % 100;
+    return Math.floor(y * 0.2422 + 4.81) - Math.floor(y / 4);
+  }
+  return 4;
+}
+
+function lunarHolidayName(date) {
+  const lunar = chineseCalendarParts(date);
+  if (!lunar || lunar.leap) return null;
+
+  const tomorrow = chineseCalendarParts(addTaipeiDays(date, 1));
+  if (tomorrow && !tomorrow.leap && tomorrow.month === 1 && tomorrow.day === 1) {
+    return "除夕";
+  }
+  if (lunar.month === 1 && lunar.day === 1) return "春節";
+  if (lunar.month === 1 && lunar.day === 15) return "元宵節";
+  if (lunar.month === 5 && lunar.day === 5) return "端午節";
+  if (lunar.month === 7 && lunar.day === 7) return "七夕";
+  if (lunar.month === 8 && lunar.day === 15) return "中秋節";
+  if (lunar.month === 9 && lunar.day === 9) return "重陽節";
+  return null;
+}
+
+function fixedDateName(date) {
+  const { year, month, day, weekday } = dateParts(date);
+  const key = `${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+  const qingming = qingmingDay(year);
+
+  if (key === "01-01") return "元旦";
+  if (key === "02-14") return "情人節";
+  if (key === "02-28") return "和平紀念日";
+  if (key === "04-04" && day === qingming) return "兒童節暨清明節";
+  if (key === "04-04") return "兒童節";
+  if (month === 4 && day === qingming) return "清明節";
+  if (key === "05-01") return "勞動節";
+  if (month === 5 && weekday === "Sun" && day >= 8 && day <= 14) return "母親節";
+  if (key === "08-08") return "父親節";
+  if (key === "09-28") return "教師節";
+  if (key === "10-10") return "國慶日";
+  if (key === "10-25") return "光復節";
+  if (key === "12-24") return "平安夜";
+  if (key === "12-25") return "聖誕節";
+  if (key === "12-31") return "跨年夜";
+  return null;
+}
+
 function lunarGreeting(date) {
   const lunar = chineseCalendarParts(date);
   if (!lunar || lunar.leap) return null;
@@ -154,11 +202,30 @@ function lunarGreeting(date) {
 }
 
 function fixedDateGreeting(date) {
-  const { month, day, weekday } = dateParts(date);
+  const { year, month, day, weekday } = dateParts(date);
   const key = `${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+  const qingming = qingmingDay(year);
 
   if (key === "01-01") {
     return "🎊 元旦愉快！永慶房屋祝福您新的一年平安順心、好運常伴、萬事如意！";
+  }
+  if (key === "02-14") {
+    return "💝 情人節愉快！永慶房屋祝福您與珍惜的人共享美好時光，生活甜蜜、幸福常在！";
+  }
+  if (key === "02-28") {
+    return "🕊️ 和平紀念日，永慶房屋祝福您平安順心、珍惜美好生活，與家人共享安穩時光！";
+  }
+  if (key === "04-04" && day === qingming) {
+    return "🧒🌿 兒童節暨清明假期，永慶房屋祝福您闔家平安、溫馨相聚，也祝孩子們健康快樂成長！";
+  }
+  if (key === "04-04") {
+    return "🧒 兒童節快樂！永慶房屋祝福每個家庭充滿歡笑，也祝孩子們健康成長、天天開心！";
+  }
+  if (month === 4 && day === qingming) {
+    return "🌿 清明時節，永慶房屋祝福您慎終追遠、闔家平安，假期出行順心平安！";
+  }
+  if (key === "05-01") {
+    return "🛠️ 勞動節愉快！永慶房屋向每一位努力生活、認真工作的您致意，祝福假期平安順心！";
   }
   if (month === 5 && weekday === "Sun" && day >= 8 && day <= 14) {
     return "🌷 母親節快樂！永慶房屋祝福天下媽媽健康平安、幸福美滿，也祝您闔家溫馨愉快！";
@@ -171,6 +238,9 @@ function fixedDateGreeting(date) {
   }
   if (key === "10-10") {
     return "🇹🇼 國慶日愉快！永慶房屋祝福您假期平安順心、闔家愉快！";
+  }
+  if (key === "10-25") {
+    return "🇹🇼 光復節愉快！永慶房屋祝福您假期平安順心、闔家愉快、萬事如意！";
   }
   if (key === "12-24") {
     return "🎄 平安夜愉快！永慶房屋祝福您平安喜樂、幸福相伴，享受溫馨美好的夜晚！";
@@ -185,10 +255,33 @@ function fixedDateGreeting(date) {
   return null;
 }
 
+function holidayEveGreeting(date) {
+  const tomorrow = addTaipeiDays(date, 1);
+  const name = fixedDateName(tomorrow) || lunarHolidayName(tomorrow);
+  if (!name) return null;
+
+  const publicHolidays = new Set([
+    "元旦", "和平紀念日", "兒童節", "清明節", "兒童節暨清明節",
+    "勞動節", "春節", "端午節", "中秋節", "國慶日", "光復節"
+  ]);
+  const tomorrowWeekday = dateParts(tomorrow).weekday;
+  const isLongWeekendEve = publicHolidays.has(name)
+    && (tomorrowWeekday === "Fri" || tomorrowWeekday === "Mon");
+
+  if (isLongWeekendEve) {
+    return `🌿 連假前夕，明天就是${name}，提前祝福您假期平安順心、闔家愉快，出遊一路平安！`;
+  }
+
+  return `✨ ${name}將至，提前祝福您平安順心、闔家愉快，度過美好的一天！`;
+}
+
 function dailyGreeting(isoDate) {
   const date = taipeiDateFromIso(isoDate);
   const specialGreeting = fixedDateGreeting(date) || lunarGreeting(date);
   if (specialGreeting) return specialGreeting;
+
+  const eveGreeting = holidayEveGreeting(date);
+  if (eveGreeting) return eveGreeting;
 
   const { weekday } = dateParts(date);
   if (weekday === "Sat" || weekday === "Sun") {
