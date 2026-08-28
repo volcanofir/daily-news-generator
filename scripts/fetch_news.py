@@ -32,6 +32,12 @@ SOURCES = {
                 "resolve_missing_dates": True,
                 "max_candidates": 30,
             },
+            {
+                "name": "NOWnews・天氣",
+                "url": "https://www.nownews.com/cat/life/weatherforecast/",
+                "resolve_missing_dates": True,
+                "max_candidates": 35,
+            },
         ],
     },
     "instant": {
@@ -100,6 +106,7 @@ TVBS_PATH_RE = re.compile(r"^/[A-Za-z0-9_-]+/\d+/?$")
 CHINATIMES_REALTIME_RE = re.compile(r"^/realtimenews/\d{14}-\d+/?$")
 CHINATIMES_HOUSE_RE = re.compile(r"^/\d{14}-\d+/?$")
 STORM_RE = re.compile(r"^/(?:article|lifestyle)/\d+/?$")
+NOWNEWS_RE = re.compile(r"^/news/\d+/?$")
 
 DATE_RE = re.compile(
     r"(20\d{2})[/-](\d{1,2})[/-](\d{1,2})\s+(\d{1,2}):(\d{2})(?::(\d{2}))?"
@@ -111,7 +118,8 @@ TIME_DATE_RE = re.compile(
 GENERIC_TEXT = {
     "上一篇", "下一篇", "看更多", "更多", "即時", "金融", "房市", "產經", "天氣",
     "經濟日報", "聯合新聞網", "udn房地產", "風傳媒", "TVBS", "中時新聞網",
-    "中時房產", "首頁", "最新新聞", "熱門新聞",
+    "中時房產", "NOWnews", "NOWNEWS今日新聞", "NOWnews今日新聞", "今日新聞",
+    "首頁", "最新新聞", "熱門新聞", "看更多新聞", "天氣預報",
 }
 
 session = requests.Session()
@@ -164,6 +172,9 @@ def canonical_story_url(href: str, base_url: str) -> str | None:
     elif host == "storm.mg":
         valid = bool(STORM_RE.match(path))
         canonical_host = "www.storm.mg"
+    elif host == "nownews.com":
+        valid = bool(NOWNEWS_RE.match(path))
+        canonical_host = "www.nownews.com"
 
     if not valid:
         return None
@@ -279,9 +290,10 @@ def extract_candidates(html: str, source_url: str) -> list[dict]:
 def clean_summary(text: str, title: str) -> str:
     text = re.sub(r"\s+", " ", text or "").strip()
     text = re.sub(
-        r"^(?:經濟日報|聯合新聞網|udn房地產|風傳媒|TVBS|中時新聞網)\s*[|｜\-—]\s*",
+        r"^(?:經濟日報|聯合新聞網|udn房地產|風傳媒|TVBS|中時新聞網|NOWnews今日新聞|NOWNEWS今日新聞|NOWnews)\s*[|｜\-—]\s*",
         "",
         text,
+        flags=re.IGNORECASE,
     )
     if title and text.startswith(title):
         text = text[len(title):].lstrip(" ｜|—-：:")
