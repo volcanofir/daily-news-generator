@@ -53,6 +53,15 @@ CATEGORY_KEYWORDS = {
     ),
 }
 
+# Strong enough to identify a weather story from its headline. These are kept
+# intentionally specific so a passing weather reference in another topic does
+# not move an unrelated story into the weather section.
+WEATHER_HEADLINE_KEYWORDS = (
+    "豪雨", "大雨", "雷雨", "強降雨", "降雨", "雨勢", "雨彈", "雷雨胞",
+    "颱風", "熱帶性低氣壓", "氣象署", "氣象", "天氣", "冷氣團", "寒流",
+    "鋒面", "東北季風", "東北風", "高溫", "低溫", "熱浪", "氣溫",
+)
+
 
 def looks_mojibake(value: str) -> bool:
     text = str(value or "").strip()
@@ -70,8 +79,6 @@ def looks_mojibake(value: str) -> bool:
         if unicodedata.category(ch) in {"Cc", "Cs"} and ch not in "\n\r\t"
     )
 
-    # The sources in this project are Traditional-Chinese news sites. A cluster
-    # of Arabic/extended mojibake characters is a reliable sign of a bad decode.
     if arabic >= 3:
         return True
     if replacement or control:
@@ -79,8 +86,6 @@ def looks_mojibake(value: str) -> bool:
     if odd >= 5 and odd / max(len(text), 1) >= 0.04:
         return True
 
-    # Typical UTF-8 bytes decoded with the wrong legacy encoding often create
-    # many Latin-1 supplement characters mixed with punctuation.
     latin1_weird = sum(1 for ch in text if 0x00C0 <= ord(ch) <= 0x00FF)
     if latin1_weird >= 6 and latin1_weird / max(len(text), 1) >= 0.05:
         return True
@@ -94,8 +99,6 @@ def bad_title(title: str) -> bool:
 
 
 def series_marker(title: str) -> str | None:
-    # Protect numbered series such as 「醫院大股東3》」 and 「醫院大股東4》」
-    # from being treated as the same story merely because most words overlap.
     match = re.search(r"(?<!\d)(\d{1,2})\s*[》〉／/]", str(title or ""))
     return match.group(1) if match else None
 
@@ -136,8 +139,6 @@ def item_quality(item: dict) -> int:
 def duplicate_preference(category: str, item: dict) -> tuple[int, int, int, str]:
     relevance = category_relevance(category, item)
 
-    # A topic-specific category wins only when the story itself contains clear
-    # signals for that category. Otherwise "instant" is the safer fallback.
     if category != "instant" and relevance > 0:
         bucket = 2
     elif category == "instant":
@@ -153,6 +154,44 @@ def duplicate_preference(category: str, item: dict) -> tuple[int, int, int, str]
     )
 
 
+def should_be_weather(item: dict) -> bool:
+    title = str(item.get("title", "")).lower()
+    summary = str(item.get("summary", "")).lower()
+
+    title_hits = sum(1 for keyword in WEATHER_HEADLINE_KEYWORDS if keyword in title)
+    if title_hits >= 1:
+        return True
+
+    summary_hits = sum(1 for keyword in WEATHER_HEADLINE_KEYWORDS if keyword in summary)
+    return summary_hits >= 2
+
+
+def reclassify_weather(payload: dict) -> int:
+    categories = payload.setdefault("categories", {})
+    weather_items = categories.setdefault("weather", [])
+    moved = 0
+
+    for category in list(categories.keys()):
+        if category == "weather":
+            continue
+
+        remaining: list[dict] = []
+        for item in categories.get(category, []):
+            if should_be_weather(item):
+                print(
+                    f"[reclassify] {category} -> weather: "
+                    f"{item.get('title', '')[:100]}"
+                )
+                weather_items.append(item)
+                moved += 1
+            else:
+                remaining.append(item)
+
+        categories[category] = remaining
+
+    return moved
+
+
 def dedupe_across_categories(payload: dict) -> int:
     categories = payload.setdefault("categories", {})
     records: list[tuple[str, dict]] = []
@@ -160,9 +199,6 @@ def dedupe_across_categories(payload: dict) -> int:
         for item in items:
             records.append((category, item))
 
-    # Newer rows are considered first, while duplicate_preference decides which
-    # category should own a story when the same/near-identical headline appears
-    # in more than one section.
     records.sort(key=lambda pair: str(pair[1].get("published_at", "")), reverse=True)
 
     kept: list[tuple[str, dict]] = []
@@ -231,6 +267,7 @@ def main() -> None:
 
         payload["categories"][category] = clean_items
 
+    weather_moved = reclassify_weather(payload)
     duplicate_removed = dedupe_across_categories(payload)
 
     NEWS_FILE.write_text(
@@ -239,7 +276,8 @@ def main() -> None:
     )
     print(
         f"[sanitize] removed {malformed_removed} malformed item(s), "
-        f"{duplicate_removed} cross-category duplicate(s)"
+        f"moved {weather_moved} weather item(s), "
+        f"{duplicate_removed} duplicate(s)"
     )
 
 
