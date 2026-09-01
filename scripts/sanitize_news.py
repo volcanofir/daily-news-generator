@@ -50,6 +50,7 @@ CATEGORY_KEYWORDS = {
         "房價", "房市", "房屋", "房地產", "房產", "地產", "不動產", "住宅",
         "建案", "建商", "預售", "成屋", "買房", "購屋", "售屋", "租屋",
         "房貸", "土地", "都更", "危老", "重劃", "社宅", "容積", "房仲",
+        "建物買賣移轉", "買賣移轉", "移轉棟數", "交易量",
     ),
 }
 
@@ -60,6 +61,16 @@ WEATHER_HEADLINE_KEYWORDS = (
     "豪雨", "大雨", "雷雨", "強降雨", "降雨", "雨勢", "雨彈", "雷雨胞",
     "颱風", "熱帶性低氣壓", "氣象署", "氣象", "天氣", "冷氣團", "寒流",
     "鋒面", "東北季風", "東北風", "高溫", "低溫", "熱浪", "氣溫",
+)
+
+# Strong housing-market phrases. These represent the actual subject of a story,
+# rather than a passing mention of a house/building. They take precedence over
+# incidental weather words such as 「颱風」 in a housing-market headline.
+HOUSING_HEADLINE_KEYWORDS = (
+    "建物買賣移轉", "買賣移轉量", "買賣移轉", "移轉棟數", "房市交易量",
+    "住宅交易量", "房價", "房市", "房地產", "房產", "不動產", "預售屋",
+    "預售市場", "成屋市場", "買房", "購屋", "房貸", "都更", "危老",
+    "建案", "建商", "重劃區", "社宅", "房仲",
 )
 
 
@@ -154,7 +165,24 @@ def duplicate_preference(category: str, item: dict) -> tuple[int, int, int, str]
     )
 
 
+def should_be_housing(item: dict) -> bool:
+    title = str(item.get("title", "")).lower()
+    summary = str(item.get("summary", "")).lower()
+
+    title_hits = sum(1 for keyword in HOUSING_HEADLINE_KEYWORDS if keyword in title)
+    if title_hits >= 1:
+        return True
+
+    summary_hits = sum(1 for keyword in HOUSING_HEADLINE_KEYWORDS if keyword in summary)
+    return summary_hits >= 2
+
+
 def should_be_weather(item: dict) -> bool:
+    # When the headline clearly describes the housing market, an incidental
+    # weather word must not hijack the story into the weather category.
+    if should_be_housing(item):
+        return False
+
     title = str(item.get("title", "")).lower()
     summary = str(item.get("summary", "")).lower()
 
@@ -166,16 +194,39 @@ def should_be_weather(item: dict) -> bool:
     return summary_hits >= 2
 
 
-def reclassify_weather(payload: dict) -> int:
+def reclassify_topics(payload: dict) -> tuple[int, int]:
     categories = payload.setdefault("categories", {})
     weather_items = categories.setdefault("weather", [])
-    moved = 0
+    housing_items = categories.setdefault("housing", [])
+    weather_moved = 0
+    housing_moved = 0
 
+    # First move strong housing-market stories. This ensures that a headline
+    # such as 「颱風效應！六都建物買賣移轉量月減...」 remains a housing story.
     for category in list(categories.keys()):
-        if category == "weather":
+        if category == "housing":
             continue
 
         remaining: list[dict] = []
+        for item in categories.get(category, []):
+            if should_be_housing(item):
+                print(
+                    f"[reclassify] {category} -> housing: "
+                    f"{item.get('title', '')[:100]}"
+                )
+                housing_items.append(item)
+                housing_moved += 1
+            else:
+                remaining.append(item)
+
+        categories[category] = remaining
+
+    # Then classify weather among the remaining stories.
+    for category in list(categories.keys()):
+        if category in {"weather", "housing"}:
+            continue
+
+        remaining = []
         for item in categories.get(category, []):
             if should_be_weather(item):
                 print(
@@ -183,13 +234,28 @@ def reclassify_weather(payload: dict) -> int:
                     f"{item.get('title', '')[:100]}"
                 )
                 weather_items.append(item)
-                moved += 1
+                weather_moved += 1
             else:
                 remaining.append(item)
 
         categories[category] = remaining
 
-    return moved
+    # A previously source-classified weather item can also turn out to be an
+    # unmistakable housing-market story; move it back to housing if necessary.
+    remaining_weather: list[dict] = []
+    for item in categories.get("weather", []):
+        if should_be_housing(item):
+            print(
+                f"[reclassify] weather -> housing: "
+                f"{item.get('title', '')[:100]}"
+            )
+            housing_items.append(item)
+            housing_moved += 1
+        else:
+            remaining_weather.append(item)
+    categories["weather"] = remaining_weather
+
+    return weather_moved, housing_moved
 
 
 def dedupe_across_categories(payload: dict) -> int:
@@ -267,7 +333,7 @@ def main() -> None:
 
         payload["categories"][category] = clean_items
 
-    weather_moved = reclassify_weather(payload)
+    weather_moved, housing_moved = reclassify_topics(payload)
     duplicate_removed = dedupe_across_categories(payload)
 
     NEWS_FILE.write_text(
@@ -277,6 +343,7 @@ def main() -> None:
     print(
         f"[sanitize] removed {malformed_removed} malformed item(s), "
         f"moved {weather_moved} weather item(s), "
+        f"moved {housing_moved} housing item(s), "
         f"{duplicate_removed} duplicate(s)"
     )
 
