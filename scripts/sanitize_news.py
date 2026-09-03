@@ -73,6 +73,14 @@ HOUSING_HEADLINE_KEYWORDS = (
     "建案", "建商", "重劃區", "社宅", "房仲",
 )
 
+# Some weather-source pages also surface health/lifestyle stories that merely
+# mention hot or cold weather in the summary. These headline signals identify
+# a clearly non-meteorological subject so those stories can fall back to instant.
+NON_WEATHER_HEADLINE_KEYWORDS = (
+    "中醫", "茶飲", "穴位", "養生", "保健", "食療", "營養", "失眠", "嘴破",
+    "睡眠", "減肥", "瘦身", "醫師", "疾病", "症狀", "血壓", "血糖", "膽固醇",
+)
+
 
 def looks_mojibake(value: str) -> bool:
     text = str(value or "").strip()
@@ -177,6 +185,11 @@ def should_be_housing(item: dict) -> bool:
     return summary_hits >= 2
 
 
+def has_non_weather_headline(item: dict) -> bool:
+    title = str(item.get("title", "")).lower()
+    return any(keyword in title for keyword in NON_WEATHER_HEADLINE_KEYWORDS)
+
+
 def should_be_weather(item: dict) -> bool:
     # When the headline clearly describes the housing market, an incidental
     # weather word must not hijack the story into the weather category.
@@ -187,6 +200,12 @@ def should_be_weather(item: dict) -> bool:
     summary = str(item.get("summary", "")).lower()
 
     title_hits = sum(1 for keyword in WEATHER_HEADLINE_KEYWORDS if keyword in title)
+
+    # Health/lifestyle headlines need stronger meteorological evidence in the
+    # headline itself. A summary such as 「白天高溫的天氣」 is not enough.
+    if has_non_weather_headline(item):
+        return title_hits >= 2
+
     if title_hits >= 1:
         return True
 
@@ -194,12 +213,14 @@ def should_be_weather(item: dict) -> bool:
     return summary_hits >= 2
 
 
-def reclassify_topics(payload: dict) -> tuple[int, int]:
+def reclassify_topics(payload: dict) -> tuple[int, int, int]:
     categories = payload.setdefault("categories", {})
     weather_items = categories.setdefault("weather", [])
     housing_items = categories.setdefault("housing", [])
+    instant_items = categories.setdefault("instant", [])
     weather_moved = 0
     housing_moved = 0
+    instant_moved = 0
 
     # First move strong housing-market stories. This ensures that a headline
     # such as 「颱風效應！六都建物買賣移轉量月減...」 remains a housing story.
@@ -221,7 +242,7 @@ def reclassify_topics(payload: dict) -> tuple[int, int]:
 
         categories[category] = remaining
 
-    # Then classify weather among the remaining stories.
+    # Then classify weather among the remaining non-weather stories.
     for category in list(categories.keys()):
         if category in {"weather", "housing"}:
             continue
@@ -240,8 +261,8 @@ def reclassify_topics(payload: dict) -> tuple[int, int]:
 
         categories[category] = remaining
 
-    # A previously source-classified weather item can also turn out to be an
-    # unmistakable housing-market story; move it back to housing if necessary.
+    # Re-check items that came from a weather source. If the headline clearly
+    # describes health/lifestyle rather than meteorology, fall back to instant.
     remaining_weather: list[dict] = []
     for item in categories.get("weather", []):
         if should_be_housing(item):
@@ -251,11 +272,18 @@ def reclassify_topics(payload: dict) -> tuple[int, int]:
             )
             housing_items.append(item)
             housing_moved += 1
+        elif has_non_weather_headline(item) and not should_be_weather(item):
+            print(
+                f"[reclassify] weather -> instant: "
+                f"{item.get('title', '')[:100]}"
+            )
+            instant_items.append(item)
+            instant_moved += 1
         else:
             remaining_weather.append(item)
     categories["weather"] = remaining_weather
 
-    return weather_moved, housing_moved
+    return weather_moved, housing_moved, instant_moved
 
 
 def dedupe_across_categories(payload: dict) -> int:
@@ -333,7 +361,7 @@ def main() -> None:
 
         payload["categories"][category] = clean_items
 
-    weather_moved, housing_moved = reclassify_topics(payload)
+    weather_moved, housing_moved, instant_moved = reclassify_topics(payload)
     duplicate_removed = dedupe_across_categories(payload)
 
     NEWS_FILE.write_text(
@@ -344,6 +372,7 @@ def main() -> None:
         f"[sanitize] removed {malformed_removed} malformed item(s), "
         f"moved {weather_moved} weather item(s), "
         f"moved {housing_moved} housing item(s), "
+        f"moved {instant_moved} non-weather item(s) to instant, "
         f"{duplicate_removed} duplicate(s)"
     )
 
