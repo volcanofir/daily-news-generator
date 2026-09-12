@@ -36,55 +36,60 @@ COMMON_MOJIBAKE = (
 
 ODD_SYMBOLS = set("¼½¾¿ŒœŠšŽž€™¤¦¨¬®¯±²³´µ¶·¸¹º»")
 
-CATEGORY_KEYWORDS = {
+SPECIALIZED_CATEGORIES = ("weather", "finance", "housing")
+CATEGORY_PRIORITY = {
+    "weather": 1,
+    "finance": 2,
+    "housing": 3,
+}
+MIN_TOPIC_SCORE = 4
+
+TOPIC_STRONG_KEYWORDS = {
     "weather": (
-        "天氣", "氣象", "颱風", "豪雨", "大雨", "雷雨", "降雨", "雨勢",
-        "高溫", "低溫", "冷氣團", "鋒面", "季風", "東北風", "熱浪", "氣溫",
-        "暴雨", "土石流", "山洪", "洪水", "淹水", "水災", "積淹水",
+        "天氣", "氣象署", "氣象", "颱風", "熱帶性低氣壓", "豪雨", "大雨", "暴雨",
+        "強降雨", "降雨", "雨勢", "雨彈", "雷雨", "雷雨胞", "陣雨", "下雨", "有雨",
+        "鋒面", "東北季風", "冷氣團", "寒流", "高溫", "低溫", "熱浪", "氣溫",
+        "土石流", "山洪", "洪水", "淹水", "水災", "積淹水", "梅雨",
     ),
     "finance": (
-        "台股", "美股", "股價", "股東", "股票", "證券", "上市", "上櫃",
-        "營收", "財報", "eps", "獲利", "金融", "銀行", "利率", "匯率",
-        "投資", "基金", "債券", "控股", "央行", "經濟", "景氣",
+        "台股", "美股", "股市", "股價", "股票", "證券", "etf", "基金", "債券",
+        "匯率", "利率", "央行", "財報", "eps", "營收", "獲利", "法說會", "除權息",
+        "大盤", "外資", "投信", "自營商", "金控", "金融股", "新台幣", "美元",
+        "殖利率", "通膨", "cpi", "gdp", "經濟成長", "關稅", "出口", "進口", "pmi",
     ),
     "housing": (
-        "房價", "房市", "房屋", "房地產", "房產", "地產", "不動產", "住宅",
-        "建案", "建商", "預售", "成屋", "買房", "購屋", "售屋", "租屋",
-        "房貸", "土地", "都更", "危老", "重劃", "社宅", "容積", "房仲",
-        "建物買賣移轉", "買賣移轉", "移轉棟數", "交易量",
+        "建物買賣移轉", "買賣移轉量", "買賣移轉", "移轉棟數", "房市交易量",
+        "住宅交易量", "房價", "房市", "房地產", "房產", "不動產", "預售屋",
+        "預售市場", "成屋市場", "買房", "購屋", "售屋", "租屋", "房貸", "都更",
+        "危老", "建案", "建商", "重劃區", "社宅", "房仲", "實價登錄", "租金",
+        "房租", "囤房稅", "房屋稅", "地價", "容積率", "容積獎勵", "推案量",
     ),
 }
 
-WEATHER_HEADLINE_KEYWORDS = (
-    "豪雨", "大雨", "雷雨", "強降雨", "降雨", "雨勢", "雨彈", "雷雨胞",
-    "颱風", "熱帶性低氣壓", "氣象署", "氣象", "天氣", "冷氣團", "寒流",
-    "鋒面", "東北季風", "東北風", "高溫", "低溫", "熱浪", "氣溫",
-    "暴雨", "土石流", "山洪", "洪水", "淹水", "水災", "積淹水",
-)
-
-HOUSING_HEADLINE_KEYWORDS = (
-    "建物買賣移轉", "買賣移轉量", "買賣移轉", "移轉棟數", "房市交易量",
-    "住宅交易量", "房價", "房市", "房地產", "房產", "不動產", "預售屋",
-    "預售市場", "成屋市場", "買房", "購屋", "房貸", "都更", "危老",
-    "建案", "建商", "重劃區", "社宅", "房仲",
-)
-
-# Health/lifestyle headlines can mention weather incidentally. They need stronger
-# weather evidence before being accepted as meteorological stories.
-NON_WEATHER_HEADLINE_KEYWORDS = (
-    "中醫", "茶飲", "穴位", "養生", "保健", "食療", "營養", "失眠", "嘴破",
-    "睡眠", "減肥", "瘦身", "醫師", "疾病", "症狀", "血壓", "血糖", "膽固醇",
-)
+TOPIC_SUPPORT_KEYWORDS = {
+    "weather": (
+        "東北風", "季風", "低壓", "雲系", "水氣", "對流", "降溫", "升溫", "濕冷",
+        "乾冷", "紫外線", "體感", "風雨", "雨區", "焚風", "天候",
+    ),
+    "finance": (
+        "股東", "上市", "上櫃", "市值", "投資", "法人", "銀行", "金融", "經濟",
+        "景氣", "企業", "產業", "半導體", "ai晶片", "台積電", "融資", "融券",
+        "存款", "放款", "失業率", "薪資", "控股", "訂單", "大單", "採購合約",
+        "併購", "收購",
+    ),
+    "housing": (
+        "住宅", "房屋", "土地", "建築", "推案", "買氣", "成交", "坪價", "單價",
+        "地政", "地價稅", "交易量", "移轉", "餘屋", "空屋", "交屋", "房型",
+    ),
+}
 
 
 def looks_mojibake(value: str) -> bool:
     text = str(value or "").strip()
     if not text:
         return False
-
     if any(token in text for token in COMMON_MOJIBAKE):
         return True
-
     arabic = sum(1 for ch in text if "ARABIC" in unicodedata.name(ch, ""))
     odd = sum(1 for ch in text if ch in ODD_SYMBOLS)
     replacement = text.count("\ufffd")
@@ -92,18 +97,15 @@ def looks_mojibake(value: str) -> bool:
         1 for ch in text
         if unicodedata.category(ch) in {"Cc", "Cs"} and ch not in "\n\r\t"
     )
-
     if arabic >= 3:
         return True
     if replacement or control:
         return True
     if odd >= 5 and odd / max(len(text), 1) >= 0.04:
         return True
-
     latin1_weird = sum(1 for ch in text if 0x00C0 <= ord(ch) <= 0x00FF)
     if latin1_weird >= 6 and latin1_weird / max(len(text), 1) >= 0.05:
         return True
-
     return False
 
 
@@ -136,12 +138,69 @@ def same_story(left: dict, right: dict) -> bool:
     )
 
 
-def category_relevance(category: str, item: dict) -> int:
-    keywords = CATEGORY_KEYWORDS.get(category, ())
-    if not keywords:
+def keyword_hits(text: str, keywords: tuple[str, ...]) -> int:
+    lowered = str(text or "").lower()
+    return sum(1 for keyword in keywords if keyword in lowered)
+
+
+def topic_features(category: str, item: dict) -> tuple[int, int, int, int]:
+    title = str(item.get("title", ""))
+    summary = str(item.get("summary", ""))
+    strong = TOPIC_STRONG_KEYWORDS[category]
+    support = TOPIC_SUPPORT_KEYWORDS[category]
+    return (
+        keyword_hits(title, strong),
+        keyword_hits(title, support),
+        keyword_hits(summary, strong),
+        keyword_hits(summary, support),
+    )
+
+
+def has_enough_topic_evidence(category: str, features: tuple[int, int, int, int]) -> bool:
+    title_strong, title_support, summary_strong, _ = features
+    if category == "weather":
+        return (
+            title_strong >= 1
+            or title_support >= 2
+            or summary_strong >= 3
+            or (title_support >= 1 and summary_strong >= 1)
+        )
+    return (
+        title_strong >= 1
+        or title_support >= 2
+        or summary_strong >= 2
+        or (title_support >= 1 and summary_strong >= 1)
+    )
+
+
+def topic_score(category: str, item: dict, current_category: str | None = None) -> int:
+    features = topic_features(category, item)
+    if not has_enough_topic_evidence(category, features):
         return 0
-    text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
-    return sum(1 for keyword in keywords if keyword in text)
+    title_strong, title_support, summary_strong, summary_support = features
+    score = (
+        title_strong * 4
+        + title_support * 2
+        + summary_strong * 2
+        + summary_support
+    )
+    if current_category == category:
+        score += 1
+    return score
+
+
+def classify_item(current_category: str, item: dict) -> tuple[str, dict[str, int]]:
+    scores = {
+        category: topic_score(category, item, current_category)
+        for category in SPECIALIZED_CATEGORIES
+    }
+    best_category = max(
+        SPECIALIZED_CATEGORIES,
+        key=lambda category: (scores[category], CATEGORY_PRIORITY[category]),
+    )
+    if scores[best_category] < MIN_TOPIC_SCORE:
+        return "instant", scores
+    return best_category, scores
 
 
 def item_quality(item: dict) -> int:
@@ -150,159 +209,68 @@ def item_quality(item: dict) -> int:
     return len(summary) + len(title)
 
 
-def duplicate_preference(category: str, item: dict) -> tuple[int, int, int, str]:
-    relevance = category_relevance(category, item)
-
-    if category != "instant" and relevance > 0:
-        bucket = 2
+def duplicate_preference(category: str, item: dict) -> tuple[int, int, int, int, str]:
+    if category in SPECIALIZED_CATEGORIES:
+        relevance = topic_score(category, item)
+        bucket = 2 if relevance >= MIN_TOPIC_SCORE else 0
+        priority = CATEGORY_PRIORITY[category]
     elif category == "instant":
+        relevance = 0
         bucket = 1
+        priority = 0
     else:
+        relevance = 0
         bucket = 0
-
+        priority = 0
     return (
         bucket,
         relevance,
+        priority,
         item_quality(item),
         str(item.get("published_at", "")),
     )
 
 
-def should_be_housing(item: dict) -> bool:
-    title = str(item.get("title", "")).lower()
-    summary = str(item.get("summary", "")).lower()
-
-    title_hits = sum(1 for keyword in HOUSING_HEADLINE_KEYWORDS if keyword in title)
-    if title_hits >= 1:
-        return True
-
-    summary_hits = sum(1 for keyword in HOUSING_HEADLINE_KEYWORDS if keyword in summary)
-    return summary_hits >= 2
-
-
-def has_non_weather_headline(item: dict) -> bool:
-    title = str(item.get("title", "")).lower()
-    return any(keyword in title for keyword in NON_WEATHER_HEADLINE_KEYWORDS)
-
-
-def weather_signal_counts(item: dict) -> tuple[int, int]:
-    title = str(item.get("title", "")).lower()
-    summary = str(item.get("summary", "")).lower()
-    title_hits = sum(1 for keyword in WEATHER_HEADLINE_KEYWORDS if keyword in title)
-    summary_hits = sum(1 for keyword in WEATHER_HEADLINE_KEYWORDS if keyword in summary)
-    return title_hits, summary_hits
-
-
-def should_be_weather(item: dict) -> bool:
-    # Clear housing-market stories stay housing even if they mention a typhoon
-    # or other weather event as a market factor.
-    if should_be_housing(item):
-        return False
-
-    title_hits, summary_hits = weather_signal_counts(item)
-
-    # Health/lifestyle headlines require stronger evidence in the headline.
-    if has_non_weather_headline(item):
-        return title_hits >= 2
-
-    if title_hits >= 1:
-        return True
-
-    return summary_hits >= 2
-
-
-def verified_weather_source_item(item: dict) -> bool:
-    """Positive validation for stories originally collected from weather feeds."""
-    if should_be_housing(item):
-        return False
-
-    title_hits, summary_hits = weather_signal_counts(item)
-
-    # A weather-feed row should normally say something meteorological in its
-    # headline. If it does not, require stronger supporting evidence in summary.
-    # This removes unrelated politics/entertainment rows surfaced by broad tag
-    # or search pages, while preserving genuine weather stories.
-    if has_non_weather_headline(item):
-        return title_hits >= 2
-
-    if title_hits >= 1:
-        return True
-
-    return summary_hits >= 3
-
-
-def reclassify_topics(payload: dict) -> tuple[int, int, int]:
+def reclassify_topics(payload: dict) -> dict[str, int]:
     categories = payload.setdefault("categories", {})
-    weather_items = categories.setdefault("weather", [])
-    housing_items = categories.setdefault("housing", [])
-    instant_items = categories.setdefault("instant", [])
-    weather_moved = 0
-    housing_moved = 0
-    instant_moved = 0
+    for category in ("weather", "instant", "finance", "housing"):
+        categories.setdefault(category, [])
 
-    # First move strong housing-market stories. This ensures that a headline
-    # such as 「颱風效應！六都建物買賣移轉量月減...」 remains a housing story.
-    for category in list(categories.keys()):
-        if category == "housing":
-            continue
+    rebuilt = {
+        "weather": [],
+        "instant": [],
+        "finance": [],
+        "housing": [],
+    }
+    moved = {
+        "weather": 0,
+        "instant": 0,
+        "finance": 0,
+        "housing": 0,
+    }
 
-        remaining: list[dict] = []
-        for item in categories.get(category, []):
-            if should_be_housing(item):
+    for current_category, items in list(categories.items()):
+        for item in items:
+            target_category, scores = classify_item(current_category, item)
+            rebuilt[target_category].append(item)
+
+            if target_category != current_category:
+                moved[target_category] += 1
                 print(
-                    f"[reclassify] {category} -> housing: "
-                    f"{item.get('title', '')[:100]}"
+                    f"[reclassify] {current_category} -> {target_category}: "
+                    f"{item.get('title', '')[:100]} "
+                    f"(weather={scores['weather']}, "
+                    f"finance={scores['finance']}, housing={scores['housing']})"
                 )
-                housing_items.append(item)
-                housing_moved += 1
-            else:
-                remaining.append(item)
 
-        categories[category] = remaining
+    for category, items in rebuilt.items():
+        items.sort(
+            key=lambda item: str(item.get("published_at", "")),
+            reverse=True,
+        )
+        categories[category] = items
 
-    # Then classify weather among the remaining non-weather stories.
-    for category in list(categories.keys()):
-        if category in {"weather", "housing"}:
-            continue
-
-        remaining = []
-        for item in categories.get(category, []):
-            if should_be_weather(item):
-                print(
-                    f"[reclassify] {category} -> weather: "
-                    f"{item.get('title', '')[:100]}"
-                )
-                weather_items.append(item)
-                weather_moved += 1
-            else:
-                remaining.append(item)
-
-        categories[category] = remaining
-
-    # Weather-feed pages are not trusted blindly. Every item already in weather
-    # must pass positive meteorological validation; otherwise it falls back to
-    # instant. Clear housing-market items still go to housing first.
-    remaining_weather: list[dict] = []
-    for item in categories.get("weather", []):
-        if should_be_housing(item):
-            print(
-                f"[reclassify] weather -> housing: "
-                f"{item.get('title', '')[:100]}"
-            )
-            housing_items.append(item)
-            housing_moved += 1
-        elif not verified_weather_source_item(item):
-            print(
-                f"[reclassify] weather -> instant: "
-                f"{item.get('title', '')[:100]}"
-            )
-            instant_items.append(item)
-            instant_moved += 1
-        else:
-            remaining_weather.append(item)
-    categories["weather"] = remaining_weather
-
-    return weather_moved, housing_moved, instant_moved
+    return moved
 
 
 def dedupe_across_categories(payload: dict) -> int:
@@ -312,7 +280,10 @@ def dedupe_across_categories(payload: dict) -> int:
         for item in items:
             records.append((category, item))
 
-    records.sort(key=lambda pair: str(pair[1].get("published_at", "")), reverse=True)
+    records.sort(
+        key=lambda pair: str(pair[1].get("published_at", "")),
+        reverse=True,
+    )
 
     kept: list[tuple[str, dict]] = []
     removed = 0
@@ -330,7 +301,8 @@ def dedupe_across_categories(payload: dict) -> int:
 
         existing_category, existing_item = kept[duplicate_index]
         if duplicate_preference(category, item) > duplicate_preference(
-            existing_category, existing_item
+            existing_category,
+            existing_item,
         ):
             print(
                 f"[cross-dedupe] replace {existing_category} -> {category}: "
@@ -349,7 +321,10 @@ def dedupe_across_categories(payload: dict) -> int:
         rebuilt.setdefault(category, []).append(item)
 
     for category, items in rebuilt.items():
-        items.sort(key=lambda item: str(item.get("published_at", "")), reverse=True)
+        items.sort(
+            key=lambda item: str(item.get("published_at", "")),
+            reverse=True,
+        )
         categories[category] = items
 
     return removed
@@ -380,7 +355,7 @@ def main() -> None:
 
         payload["categories"][category] = clean_items
 
-    weather_moved, housing_moved, instant_moved = reclassify_topics(payload)
+    moved = reclassify_topics(payload)
     duplicate_removed = dedupe_across_categories(payload)
 
     NEWS_FILE.write_text(
@@ -389,9 +364,10 @@ def main() -> None:
     )
     print(
         f"[sanitize] removed {malformed_removed} malformed item(s), "
-        f"moved {weather_moved} weather item(s), "
-        f"moved {housing_moved} housing item(s), "
-        f"moved {instant_moved} non-weather item(s) to instant, "
+        f"moved to weather={moved['weather']}, "
+        f"finance={moved['finance']}, "
+        f"housing={moved['housing']}, "
+        f"instant={moved['instant']}, "
         f"{duplicate_removed} duplicate(s)"
     )
 
