@@ -54,18 +54,12 @@ CATEGORY_KEYWORDS = {
     ),
 }
 
-# Strong enough to identify a weather story from its headline. These are kept
-# intentionally specific so a passing weather reference in another topic does
-# not move an unrelated story into the weather section.
 WEATHER_HEADLINE_KEYWORDS = (
     "豪雨", "大雨", "雷雨", "強降雨", "降雨", "雨勢", "雨彈", "雷雨胞",
     "颱風", "熱帶性低氣壓", "氣象署", "氣象", "天氣", "冷氣團", "寒流",
     "鋒面", "東北季風", "東北風", "高溫", "低溫", "熱浪", "氣溫",
 )
 
-# Strong housing-market phrases. These represent the actual subject of a story,
-# rather than a passing mention of a house/building. They take precedence over
-# incidental weather words such as 「颱風」 in a housing-market headline.
 HOUSING_HEADLINE_KEYWORDS = (
     "建物買賣移轉", "買賣移轉量", "買賣移轉", "移轉棟數", "房市交易量",
     "住宅交易量", "房價", "房市", "房地產", "房產", "不動產", "預售屋",
@@ -73,9 +67,8 @@ HOUSING_HEADLINE_KEYWORDS = (
     "建案", "建商", "重劃區", "社宅", "房仲",
 )
 
-# Some weather-source pages also surface health/lifestyle stories that merely
-# mention hot or cold weather in the summary. These headline signals identify
-# a clearly non-meteorological subject so those stories can fall back to instant.
+# Health/lifestyle headlines can mention weather incidentally. They need stronger
+# weather evidence before being accepted as meteorological stories.
 NON_WEATHER_HEADLINE_KEYWORDS = (
     "中醫", "茶飲", "穴位", "養生", "保健", "食療", "營養", "失眠", "嘴破",
     "睡眠", "減肥", "瘦身", "醫師", "疾病", "症狀", "血壓", "血糖", "膽固醇",
@@ -190,27 +183,50 @@ def has_non_weather_headline(item: dict) -> bool:
     return any(keyword in title for keyword in NON_WEATHER_HEADLINE_KEYWORDS)
 
 
+def weather_signal_counts(item: dict) -> tuple[int, int]:
+    title = str(item.get("title", "")).lower()
+    summary = str(item.get("summary", "")).lower()
+    title_hits = sum(1 for keyword in WEATHER_HEADLINE_KEYWORDS if keyword in title)
+    summary_hits = sum(1 for keyword in WEATHER_HEADLINE_KEYWORDS if keyword in summary)
+    return title_hits, summary_hits
+
+
 def should_be_weather(item: dict) -> bool:
-    # When the headline clearly describes the housing market, an incidental
-    # weather word must not hijack the story into the weather category.
+    # Clear housing-market stories stay housing even if they mention a typhoon
+    # or other weather event as a market factor.
     if should_be_housing(item):
         return False
 
-    title = str(item.get("title", "")).lower()
-    summary = str(item.get("summary", "")).lower()
+    title_hits, summary_hits = weather_signal_counts(item)
 
-    title_hits = sum(1 for keyword in WEATHER_HEADLINE_KEYWORDS if keyword in title)
-
-    # Health/lifestyle headlines need stronger meteorological evidence in the
-    # headline itself. A summary such as 「白天高溫的天氣」 is not enough.
+    # Health/lifestyle headlines require stronger evidence in the headline.
     if has_non_weather_headline(item):
         return title_hits >= 2
 
     if title_hits >= 1:
         return True
 
-    summary_hits = sum(1 for keyword in WEATHER_HEADLINE_KEYWORDS if keyword in summary)
     return summary_hits >= 2
+
+
+def verified_weather_source_item(item: dict) -> bool:
+    """Positive validation for stories originally collected from weather feeds."""
+    if should_be_housing(item):
+        return False
+
+    title_hits, summary_hits = weather_signal_counts(item)
+
+    # A weather-feed row should normally say something meteorological in its
+    # headline. If it does not, require stronger supporting evidence in summary.
+    # This removes unrelated politics/entertainment rows surfaced by broad tag
+    # or search pages, while preserving genuine weather stories.
+    if has_non_weather_headline(item):
+        return title_hits >= 2
+
+    if title_hits >= 1:
+        return True
+
+    return summary_hits >= 3
 
 
 def reclassify_topics(payload: dict) -> tuple[int, int, int]:
@@ -261,8 +277,9 @@ def reclassify_topics(payload: dict) -> tuple[int, int, int]:
 
         categories[category] = remaining
 
-    # Re-check items that came from a weather source. If the headline clearly
-    # describes health/lifestyle rather than meteorology, fall back to instant.
+    # Weather-feed pages are not trusted blindly. Every item already in weather
+    # must pass positive meteorological validation; otherwise it falls back to
+    # instant. Clear housing-market items still go to housing first.
     remaining_weather: list[dict] = []
     for item in categories.get("weather", []):
         if should_be_housing(item):
@@ -272,7 +289,7 @@ def reclassify_topics(payload: dict) -> tuple[int, int, int]:
             )
             housing_items.append(item)
             housing_moved += 1
-        elif has_non_weather_headline(item) and not should_be_weather(item):
+        elif not verified_weather_source_item(item):
             print(
                 f"[reclassify] weather -> instant: "
                 f"{item.get('title', '')[:100]}"
