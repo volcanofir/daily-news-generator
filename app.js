@@ -520,12 +520,22 @@ async function loadNews() {
     $("newsDate").textContent = displayDate(payload.date);
     $("updatedAt").textContent = displayUpdated(payload.updated_at);
 
+    // A prior-day snapshot is expected from midnight until the 06:00 update.
+    const today = taipeiToday();
+    const { hour } = taipeiClockParts();
+    const yesterdayParts = dateParts(addTaipeiDays(taipeiDateFromIso(today), -1));
+    const yesterday = `${yesterdayParts.year}-${String(yesterdayParts.month).padStart(2, "0")}-${String(yesterdayParts.day).padStart(2, "0")}`;
+    const expectedDate = hour < 6 ? yesterday : today;
+    const stale = !payload.date || payload.date < expectedDate;
+    $("updateStatusLabel").textContent = stale ? "🔴 新聞已過期" : "🟢 新聞最後更新";
+
     Object.keys(CATEGORY_CONFIG).forEach((category) => {
       renderCategory(category, payload.categories?.[category] || []);
       setPanelCollapsed(category, false);
     });
   } catch (error) {
     console.error(error);
+    $("updateStatusLabel").textContent = "🔴 新聞讀取失敗";
     $("newsDate").textContent = "讀取失敗";
     $("updatedAt").textContent = "—";
     Object.keys(CATEGORY_CONFIG).forEach((category) => renderCategory(category, []));
